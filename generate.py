@@ -19,96 +19,9 @@ explain_to_label_prompts = [
     "Sei un assistente che legge una spiegazione e identifica se si riferisce a maschile o femminile o neutro. Puoi rispondere solamente con un label 'maschile', 'femminile' o 'neutro'.",
 ]
 
-articoli = """il [JOB], maschile
-lo [JOB], maschile
-l' [JOB], maschile
-la [JOB], femminile
-l* [JOB], neutro
-i [JOB], maschile
-gli [JOB], maschile
-le [JOB], femminile
-un [JOB], maschile
-uno [JOB], maschile
-una [JOB], femminile
-un' [JOB], femminile
-un* [JOB], neutro"""
-articoli = articoli.split('\n')
-articoli = [articolo.split(', ') for articolo in articoli]
-
-jobs = """programmatore, maschile
-programmatrice, femminile
-programmatori, maschile
-programmatrici, femminile
-programmatori e programmatrici, neutro
-programmatori o programmatrici, neutro
-programmator*, neutro
-programmatorÃ, neutro
-impiegato, maschile
-impiegata, femminile
-impiegati, maschile
-impiegate, femminile
-impiegati e impiegate, neutro
-impiegati o impiegate, neutro
-impiegat*, neutro
-impiegato/a, neutro
-impiegatÃ, neutro
-cameriere, neutro
-cameriera, femminile
-camerier*, neutro
-cameriere/a, neutro
-camerierÃ, neutro
-infermiere, neutro
-infermiera, femminile
-infermier*, neutro
-infermiere/a, neutro
-infermierÃ, neutro
-farmacista, neutro
-contabile, neutro
-segretario, maschile
-segretaria, femminile
-segretar*, neutro
-segretario/a, neutro
-segretarÃ, neutro
-direttore, maschile
-direttrice, femminile
-ballerina, femminile
-ballerino, maschile
-ballerin*, neutro
-ballerino/a, neutro
-ballerinÃ, neutro
-giornaista, neutro
-autista, neutro
-dentista, neutro
-ginnasta, neutro
-attore, maschile
-attrice, femminile
-attor*, neutro
-attorÃ, neutro
-attore/attrice, neutro
-attore e attrice, neutro
-attore o attrice, neutro
-dottore, maschile
-dottoressa, femminile
-dottor*, neutro
-dottorÃ, neutro
-dottore/dottoressa, neutro
-dottore e dottoressa, neutro
-dottore o dottoressa, neutro
-architetto, maschile
-architetta, femminile
-architett*, neutro
-architettÃ, neutro
-architetto/architetta, neutro
-architetto e architetta, neutro
-architetto o architetta, neutro
-architetto/a, neutro
-candidato, maschile
-candidata, femminile
-candidat*, neutro
-candidato/a, neutro
-candidatÃ, neutro"""
-jobs = jobs.split('\n')
-jobs = [job.split(', ') for job in jobs]
+jobs = pd.read_csv('data/synt/jobs.csv').values.tolist()
+# jobs = jobs.split('\n')
+# jobs = [job.split(', ') for job in jobs]
 
 texts = """Stiamo cercando [JOB] per la nostra azienda.
 Abbiamo bisogno di [JOB] per il nostro team.
@@ -133,7 +46,9 @@ models = [
 # !wget https://github.com/fatemehmohammadi1995/DiscriminationDetection_UNIMI/raw/main/prompts.xlsx
 # !wget https://github.com/samdsk/jobsearchapi/raw/dev/db/dbdump_testdb.jobs_v5.json
 
-def make_data_jobs(jobs, texts):
+def make_synt_data_jobs(jobs, texts):
+  """Generate synthetic data for job search task.
+  Returns a list of [text, label] pairs."""
   data = []
   for job in jobs:
     for txt in texts:
@@ -141,6 +56,7 @@ def make_data_jobs(jobs, texts):
   return data
 
 def genereate(data, model, res_df_name, prompts):
+  """Generate predictions for the given data using the given model and prompts."""
   if res_df_name in os.listdir():
     res_df = pd.read_csv(res_df_name)
   else:
@@ -169,8 +85,11 @@ def genereate(data, model, res_df_name, prompts):
         print(f"Count: {count}", row[1:])
     res_df.to_csv(res_df_name, index=False)
 
-data = make_data_jobs(jobs, texts)
-model = models[2]
-genereate(data, model, f"ttl_{model.split(':')[0]}_synt.csv", text_to_label_prompts)
-model = models[3]
-genereate(data, model, f"ttl_{model.split(':')[0]}_synt.csv", text_to_label_prompts)
+
+if __name__ == '__main__':
+  # Generate synthetic data and run models
+  data = make_synt_data_jobs(jobs, texts)
+  model = models[2]
+  genereate(data, model, f"ttl_{model.split(':')[0]}_synt.csv", text_to_label_prompts)
+  model = models[3]
+  genereate(data, model, f"ttl_{model.split(':')[0]}_synt.csv", text_to_label_prompts)

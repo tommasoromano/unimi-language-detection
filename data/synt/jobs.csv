@@ -1,0 +1,73 @@
+job,label
+programmatore,maschile
+programmatrice,femminile
+programmatori,maschile
+programmatrici,femminile
+programmatori e programmatrici,neutro
+programmatori o programmatrici,neutro
+programmator*,neutro
+programmatorÃ,neutro
+impiegato,maschile
+impiegata,femminile
+impiegati,maschile
+impiegate,femminile
+impiegati e impiegate,neutro
+impiegati o impiegate,neutro
+impiegat*,neutro
+impiegato/a,neutro
+impiegatÃ,neutro
+cameriere,neutro
+cameriera,femminile
+camerier*,neutro
+cameriere/a,neutro
+camerierÃ,neutro
+infermiere,neutro
+infermiera,femminile
+infermier*,neutro
+infermiere/a,neutro
+infermierÃ,neutro
+farmacista,neutro
+contabile,neutro
+segretario,maschile
+segretaria,femminile
+segretar*,neutro
+segretario/a,neutro
+segretarÃ,neutro
+direttore,maschile
+direttrice,femminile
+ballerina,femminile
+ballerino,maschile
+ballerin*,neutro
+ballerino/a,neutro
+ballerinÃ,neutro
+giornaista,neutro
+autista,neutro
+dentista,neutro
+ginnasta,neutro
+attore,maschile
+attrice,femminile
+attor*,neutro
+attorÃ,neutro
+attore/attrice,neutro
+attore e attrice,neutro
+attore o attrice,neutro
+dottore,maschile
+dottoressa,femminile
+dottor*,neutro
+dottorÃ,neutro
+dottore/dottoressa,neutro
+dottore e dottoressa,neutro
+dottore o dottoressa,neutro
+architetto,maschile
+architetta,femminile
+architett*,neutro
+architettÃ,neutro
+architetto/architetta,neutro
+architetto e architetta,neutro
+architetto o architetta,neutro
+architetto/a,neutro
+candidato,maschile
+candidata,femminile
+candidat*,neutro
+candidato/a,neutro
+candidatÃ,neutro
