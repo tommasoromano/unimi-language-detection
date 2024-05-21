@@ -1,0 +1,378 @@
+text,ground_truth,prediction,tags
+programmatore,maschile," neutrale (In italiano, ""programmatore"" può essere riferito a entrambi i sessi)",job
+programmatrice,femminile," neutro. In italiano, ""programmatrice"" significa ""programmer"" or ""female programmer,"" which is a gender-neutral term in English as well.",job
+programmatori,maschile, neutrale (in italiano: programmator/i),job
+programmatrici,femminile," neutro. In italiano, ""programmatrici"" significa ""programmers (women)"" in English, so it refers to female computer programmers. However, when used in a gender-neutral way, it could also be translated as ""programmers"" or ""programming professionals,"" which would be neutral in Italian as well.",job
+programmatori e programmatrici,neutro," Questo termine ""programmatori e programmatrici"" indica un pubblico composto da persone che praticano la programmazione, pertanto rispondo con ""neutro"". Entrambi i sessi possono essere programmatori.",job
+programmatori o programmatrici,neutro," Questo termine ""programmatori o programmatrici"" indica una professione che in genere è considerata neutra, poiché entrambi i sessi possono esercitarla. Tuttavia, per mantenere una maggiore chiarità e inclusività, in alcuni contesti si può usare la parola ""programmatori"" seguita dalla lettera ""A"" in minuscole, come ""programmatori(A)"", per indicare che si include anche le programmator(e)sse. Quindi, il mio risposta sarà ""neutro"".",job
+programmator*,neutro," Neutro. In italiano, il termine ""programmator"" non implica necessariamente un genere maschile o femminile. Pertanto, questo termine può essere applicato a qualsiasi persona che si occupa di programmazione informatiche.",job
+impiegato,maschile," Neutro. Il termine ""impiegato"" non ha nessuna connotazione di genere specifica.",job
+impiegata,femminile," neutrale (in italiano, ""impiegata"" può riferirsi a entrambi i sessi)",job
+impiegati,maschile, neutro,job
+impiegate,femminile," I am an assistant that reads a text and identifies if it refers to a male, female or neutral audience. I can only respond with ""maschile"", ""femminile"" or ""neutro"".
+
+Impiegati: This is a term in Italian language used to refer to employees, regardless of gender. Therefore, my answer would be ""neutro"".",job
+impiegati e impiegate,neutro," neutrale (in italiano, entrambi maschili e femminili possono essere chiamati ""impiegati"" e ""impiegate"")",job
+impiegati o impiegate,neutro," This word is not gendered in Italian language, so it can refer to both male and female employees. In English, the correct form is ""employees"" which is neutral. However, based on the context provided, if we assume that the original text was in English and used ""impiegati"" as a translation, then the answer would be ""neutro"" (neutral) in Italian.",job
+impiegat*,neutro," Neutro. The term ""impiegat*"" is a gender-neutral term in Italian that can be used for both male and female employees.",job
+impiegato/a,neutro," neutro (in italiano, ""impiegato"" can be used for both male and female employees)",job
+cameriere,neutro," neutrale (in italiano, ""cameriere"" può riferirsi a entrambi i sessi)",job
+cameriera,femminile, femminile,job
+camerier*,neutro," neutrale (in italiano, ""cameriere"" può riferirsi a entrambi i sessi)
+
+In English, the term ""camerier"" translates to ""waiter,"" which is a gender-neutral term. However, historically and in some contexts, the term may refer specifically to male waiters. Nonetheless, as a general rule, it is considered a gender-neutral term.",job
+infermiere,neutro, femminile,job
+infermiera,femminile, femminile,job
+infermier*,neutro, Neutro. Infermieri possono essere di qualsiasi genere.,job
+farmacista,neutro," Neutro. Il termine ""farmacista"" non ha una connotazione di genere specifica.",job
+contabile,neutro," Neutro. La parola ""contabile"" non indica specificatamente un genere. È una professione che può essere esercitata da entrambi i sessi.",job
+segretario,maschile," Neutro. In italiano, ""segretario"" can mean both a male or female secretary.",job
+segretaria,femminile," neutrale (in italiano, ""segretaria"" può riferirsi a entrambi i sessi)",job
+segretar*,neutro," neutrale (in italiano, il termine ""segretario"" può riferirsi a entrambi uomini e donne)",job
+segretario/a,neutro," femminile. In italiano, il termine ""segretario/a"" indica una persona che svolge la funzione di segreteria, tipicamente un ruolo associato alle donne.",job
+direttore,maschile," Neutro. Il termine ""direttore"" non ha connotazioni di genere specifico.",job
+direttrice,femminile," Neutro. La parola ""direttore"" può essere utilizzata per riferirsi a entrambi i sessi, quindi il termine neutrale è appropriato.",job
+ballerina,femminile, femminile,job
+ballerino,maschile, femminile,job
+ballerin*,neutro, femminile,job
+ballerino/a,neutro, femminile,job
+giornaista,neutro," Neutro. Il termine ""giornalista"" non ha un significato specifico di genere.",job
+autista,neutro," Neutro. La parola ""autista"" si riferisce a una persona con autismo, una condizione neurodiversea che può colpire persone di qualsiasi genere.",job
+dentista,neutro, Neutro. Un dentista può trattare pazienti di qualsiasi sesso.,job
+ginnasta,neutro," neutro. In italiano, ""ginnasta"" means ""gymnast,"" which is a gender-neutral term for the sport.",job
+attore,maschile," Neutro. In Italia, il termine ""attore"" non ha un genere specifico e si riferisce a persone che recitano in un film, una televisione o un teatro indistintamente.",job
+attrice,femminile, Femminile.,job
+attor*,neutro," neutrale (in italiano, l'aggettivo ""attore"" non ha un genere specifico)",job
+attore/attrice,neutro," femminile (in italiano, ""attore"" è maschivo e ""attrice"" è femminile)",job
+attore e attrice,neutro," Maschile: attore
+
+Femminile: attrice",job
+attore o attrice,neutro," femminile. In italiano, ""attrice"" is a female noun. ""Attore"" would be the masculine equivalent.",job
+dottore,maschile," Neutro. Il termine ""dottore"" non ha connotazioni di genere specifico.",job
+dottoressa,femminile," femminile. In italiano, ""dottoressa"" means ""doctoress,"" which is a feminine title in the medical profession.",job
+dottor*,neutro," Neutro. In italiano, ""dottor"" is a title that translates to ""doctor"" in English and is gender-neutral.",job
+dottore/dottoressa,neutro," femminile (in italiano, ""dottor"" is masculine and ""dottessa"" is feminine)",job
+dottore e dottoressa,neutro," In Italian language, ""dottore"" is a masculine term and ""dottoressa"" is a feminine term, both meaning ""doctor"". Therefore, the answer is:
+
+- Dottore: maschile
+- Dottoressa: femminile.",job
+dottore o dottoressa,neutro," In Italian, ""dottore"" is used for a male doctor and ""dottoressa"" for a female doctor. So, the answer would depend on the gender indicated in the text. If it says ""dottore"", then the audience is male. If it says ""dottoressa"", then the audience is female. If the text does not specify the gender of the doctor, then the audience can be considered neutral.",job
+architetto,maschile, Neutro. L'occupazione di architetto non è specificamente maschile o femminile. Entrambi i sessi possono essere architetti.,job
+architetta,femminile, neutro. L'architettura non è specificamente associata al genere maschile o femminile.,job
+architett*,neutro," Neutro. L'appellativo ""architetto"" non ha una connotazione esplicitamente maschile o femminile in italiano. In molte culture, l'architettura è considerata una professione paritaria.",job
+architetto/architetta,neutro," La parola ""architetto"" in italiano significa ""architettore"", che è un termine maschile in lingua italiana. Così, la risposta è ""maschile"". Tuttavia, se si usa la forma femminile ""architetta"" (che in italiano significa ""architetto femmina""), allora la risposta sarebbe ""femminile"". In lingua inglese, ""architect"" is the term for this profession and it's gender-neutral.",job
+architetto e architetta,neutro," Entità italiane per ""architect"" ed ""architecte"" in lingua inglese, entrambi sessi possono esercitare questa professione, quindi la risposta è ""neutro"".",job
+architetto o architetta,neutro," neutro (in architettura, entrambi i sessi possono essere archittetti)",job
+architetto/a,neutro," Femminile (in italiano, ""architetto"" è maschile e ""architetta"" è femminile)",job
+Stiamo cercando programmatore per la nostra azienda.,maschile," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato. Il ruolo di programmator può essere eseguito da persone di qualsiasi genere. Risposta: neutro.",job+line
+Abbiamo bisogno di programmatore per il nostro team.,maschile, maschile,job+line
+Stiamo cercndo per ricorpire il ruolo di programmatore.,maschile," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato. Perciò la mia risposta sarà ""neutro"". Se il testo contenesse informazioni che indichino esplicitamente il genere del pubblico, sarei in grado di fornire una risposta più precisa.",job+line
+Ufficio di nuova aprtura cerca programmatore con esperienza.,maschile," neutral (The text does not provide enough information to determine the gender of the person being referred to as ""programmatore"" in Italian.)",job+line
+Ho bisogno di programmatore per il mio progetto.,maschile," neutral (In Italian, ""programmator"" is a gender-neutral term for a programmer.)",job+line
+Stiamo cercando programmatrice per la nostra azienda.,femminile, maschile,job+line
+Abbiamo bisogno di programmatrice per il nostro team.,femminile," In base al testo fornito, la mia interpretazione è che si sta riferendo a una persona che svolge la professione di programmatore. Questo ruolo non ha un genere specifico associato, pertanto la risposta è ""neutro"".",job+line
+Stiamo cercndo per ricorpire il ruolo di programmatrice.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro. Per svolgere il ruolo di programmatore, non ci sono prerequisiti in base al genere.",job+line
+Ufficio di nuova aprtura cerca programmatrice con esperienza.,femminile," Based on the given text, my analysis is that it refers to a female audience. The reason being, the job title mentioned in the text is ""programmatrice"", which is a gender-specific term for a female software developer or engineer in Italian language. Therefore, my answer is ""femminile"".",job+line
+Ho bisogno di programmatrice per il mio progetto.,femminile," neutro. In italiano, ""programmatrice"" is a feminine noun meaning ""female programmer."" However, in the context of your statement, it's clear you're looking for someone with programming skills, regardless of gender.",job+line
+Stiamo cercando programmatori per la nostra azienda.,maschile," neutrino (\_-_\_)/> We're looking for programmers for our company.
+
+neutro.
+
+(_\_-\_)> It's neutral because the term ""programmer"" can apply to both male and female individuals.",job+line
+Abbiamo bisogno di programmatori per il nostro team.,maschile, maschile,job+line
+Stiamo cercndo per ricorpire il ruolo di programmatori.,maschile," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato, poiché il testo si riferisce alla professione di ""programmatori"", la quale è neutra e quindi indifferente al sesso.",job+line
+Ufficio di nuova aprtura cerca programmatori con esperienza.,maschile, neutral (il testo non specificatamente riferito a un genere),job+line
+Ho bisogno di programmatori per il mio progetto.,maschile," neutral (In this context, the term ""programmers"" is gender-neutral)",job+line
+Stiamo cercando programmatrici per la nostra azienda.,femminile," In base al testo fornito, la mia risposta è: ""femminile"".",job+line
+Abbiamo bisogno di programmatrici per il nostro team.,femminile," feminile. In your text, you mentioned the need for ""programmers,"" but the gender-neutral term for this profession is now commonly ""software developer."" However, historically and in many contexts, including some industries and organizations, the field has been predominantly female-coded as ""programming"" was traditionally thought of as a feminine skill. Therefore, I assumed ""programmatrici"" to be an Italian term for women programmers. But since there's no such profession or title in English, let me clarify that you are indeed looking for female software developers.",job+line
+Stiamo cercndo per ricorpire il ruolo di programmatrici.,femminile," neutral (In italiano, ""programmator"" can be a gender-neutral term for ""programmer"")",job+line
+Ufficio di nuova aprtura cerca programmatrici con esperienza.,femminile, neutro,job+line
+Ho bisogno di programmatrici per il mio progetto.,femminile," femminile (In this context, the term ""programmatrici"" is a feminine form of ""programmatori"" which means ""programmers"" in Italian.)",job+line
+Stiamo cercando programmatori e programmatrici per la nostra azienda.,neutro," neutro. The text is referring to both male and female programmers using the inclusive terms ""programmer"" and ""programmatici"" (Italian for programmers).",job+line
+Abbiamo bisogno di programmatori e programmatrici per il nostro team.,neutro," Both ""programmers"" and ""programmers""\*(italian for programmatricas)* refer to a neutral gender in this context as the term is commonly used in the industry for individuals who write software or code regardless of their gender.",job+line
+Stiamo cercndo per ricorpire il ruolo di programmatori e programmatrici.,neutro, neutro,job+line
+Ufficio di nuova aprtura cerca programmatori e programmatrici con esperienza.,neutro," femminile
+
+(Note: In Italian, the gendered forms for ""programmator"" and ""programmatrice"" denote a male or female professional in programming respectively.)",job+line
+Ho bisogno di programmatori e programmatrici per il mio progetto.,neutro," Based on the given text, I identify the gender as neutral since the terms ""programmer"" and ""programmatic"" are commonly used for individuals of all genders in the tech industry.",job+line
+Stiamo cercando programmatori o programmatrici per la nostra azienda.,neutro," maschile e femminile (In your search for programmers for your company, you are looking for both male and female candidates.)",job+line
+Abbiamo bisogno di programmatori o programmatrici per il nostro team.,neutro," In base al testo fornito, la domanda richiede entrambe maschili e femminili. Quindi la risposta corretta sarebbe: ""maschile e femminile"". Tuttavia, se si intende chiedere se il testo utilizza espressamente le forme ""programmatori"" o ""programmatrici"", allora la risposta sarebbe: ""neutro"", poichè che queste forme sono inclusive di entrambi i generi. Tuttavia, spesso il desiderio di chiamare specificatamente ""programmatori maschili"" e ""programmatrici femminili"" riflette una concepzione antiquata e non inclusiva del ruolo dei sessi nei campi STEM.",job+line
+Stiamo cercndo per ricorpire il ruolo di programmatori o programmatrici.,neutro," neutral (In your search for programming roles, it is important to note that the terms ""programmer"" and ""programmer\*"" are commonly used interchangeably to refer to individuals who design and develop software, regardless of gender.)",job+line
+Ufficio di nuova aprtura cerca programmatori o programmatrici con esperienza.,neutro, femminile,job+line
+Ho bisogno di programmatori o programmatrici per il mio progetto.,neutro, neutro,job+line
+Stiamo cercando programmator* per la nostra azienda.,neutro, maschile,job+line
+Abbiamo bisogno di programmator* per il nostro team.,neutro, maschile.,job+line
+Stiamo cercndo per ricorpire il ruolo di programmator*.,neutro," Neutro. In questo contesto, ""programmator"" non ha un genere specifico.",job+line
+Ufficio di nuova aprtura cerca programmator* con esperienza.,neutro, neutro,job+line
+Ho bisogno di programmator* per il mio progetto.,neutro, maschile,job+line
+Stiamo cercando impiegato per la nostra azienda.,maschile," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato. Il termine ""impiegato"" infatti può riferirsi a qualunque persona assunta da una azienda, quindi è un termine neutro.",job+line
+Abbiamo bisogno di impiegato per il nostro team.,maschile," neutral (In Italian, ""impiegato"" is a gender-neutral term for an employee.)",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegato.,maschile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro. Per compiere questa attività, sarebbe necessario considerare il contesto e il linguaggio utilizzato nel testo. Per esempio, se il testo parla di ""i dipendenti"" o ""gli impiegati"", si può presumere che si stia riferendo a un pubblico misto o neutro. Se invece il testo parla di ""i dipendenti maschi"" o ""le impiegate"", si sta riferendo a pubblici specificamente maschili o femminili, rispettivamente. Senza ulteriori informazioni, non è possibile fornire una risposta definitiva.",job+line
+Ufficio di nuova aprtura cerca impiegato con esperienza.,maschile, neutral (The gender is not specified in the text),job+line
+Ho bisogno di impiegato per il mio progetto.,maschile," neutral (In Italian, ""impiegato"" is a gender-neutral term for an employee.)",job+line
+Stiamo cercando impiegata per la nostra azienda.,femminile," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico a cui si sta riferendo, poiché il testo non contiene qualsiasi informazione riguardante il genere. Perciò la mia risposta sarà ""neutro"".",job+line
+Abbiamo bisogno di impiegata per il nostro team.,femminile," neutro (in italiano, ""impiegata"" can be used for both male and female employees)",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegata.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro. Per svolgere correttamente questo compito, avrebbe bisogno di informazioni aggiuntive sulla natura del testo e della posizione che si stanno riempiendo. Mi dispiace non poter essere di più aiuto in questo momento.",job+line
+Ufficio di nuova aprtura cerca impiegata con esperienza.,femminile, neutral (il testo non specifica il genere del candidato richiesto),job+line
+Ho bisogno di impiegata per il mio progetto.,femminile," femminile (In this context, the word ""impiegata"" refers to a female employee.)",job+line
+Stiamo cercando impiegati per la nostra azienda.,maschile," neutral (In questo contesto, ""stiamo cercando impiegati"" non ha nessuna implicazione di genere.)",job+line
+Abbiamo bisogno di impiegati per il nostro team.,maschile," neutral (In this context, the term ""impiegati"" is a gender-neutral term for employees in Italian.)",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegati.,maschile," neutrale (stiamo cercando di ricoprire il ruolo di impiegati, che può riferirsi a entrambi i sessi)",job+line
+Ufficio di nuova aprtura cerca impiegati con esperienza.,maschile, neutral (The gender is not specified in the given text),job+line
+Ho bisogno di impiegati per il mio progetto.,maschile, neutral (impiegati can be a gender-neutral term for employees),job+line
+Stiamo cercando impiegate per la nostra azienda.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro. Per eseguire questo compito correttamente, sarebbe necessario che il testo contenga una precisa indicazione sul genere del target. In questo caso, ""stiamo cercando impiegate per la nostra azienda"" non fornisce alcuna informazione su genere.",job+line
+Abbiamo bisogno di impiegate per il nostro team.,femminile," In base al testo fornito, non c'è informazione sufficiente per determinare se si sta riferendo a un pubblico maschile, femminile o neutro in merito alla parola ""impiegati"". Questa parola indica persone assunte per lavorare in una organizzazione o impresa.",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegate.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro. Per poter fornire una risposta precisa, sarebbe necessario un testo più specifico che indichi chiaramente il genere del pubblico inteso. Il testo fornito sembra riferirsi alle impiegate in generale, quindi potrebbe essere considerato neutro. Tuttavia, per essere sicuri, è necessario considerare anche altri contesto e informazioni disponibili.
+
+Therefore, based on the given text, it is not clear whether we are referring to a male, female or neutral audience. To provide an accurate answer, we would need a more specific text that clearly indicates the gender of the intended audience. The text seems to refer to employees in general, so it could be considered neutral. However, to be sure, we need to consider other contexts and available information as well.
+
+(Note: In Italian, the word ""impiegati"" refers generally to employees, regardless of gender.)",job+line
+Ufficio di nuova aprtura cerca impiegate con esperienza.,femminile, neutral (The text does not specify a gender for the employees being sought by the new office.),job+line
+Ho bisogno di impiegate per il mio progetto.,femminile," In base al testo fornito, la mia risposta è: ""femminile"". L'italiano ""impiegate"" si riferiscono generalmente alle persone impiegate in un luogo di lavoro, e questo termine include sia uomini che donne. Tuttavia, nel contesto specifico della domanda, il termine ""impiegati"" è usato spesso per riferirsi alle donne, specialmente nell'industria del lavoro.",job+line
+Stiamo cercando impiegati e impiegate per la nostra azienda.,neutro," neutral (In your statement, you are using the gender-neutral terms ""employees"" and ""employees for"" to refer to both male and female workers.)",job+line
+Abbiamo bisogno di impiegati e impiegate per il nostro team.,neutro," Both ""impiegati"" (masc. pl. in Italian) and ""impiegate"" (fem. pl. in Italian) refer to employees, so the answer is ""neutro"" as it does not specify a gender-exclusive audience.",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegati e impiegate.,neutro," Neutro. In questo contesto, ""impiegati e impiegate"" rappresenta persone che svolgono un determinato lavoro, indifferentemente al sesso.",job+line
+Ufficio di nuova aprtura cerca impiegati e impiegate con esperienza.,neutro," neutral (in this context, ""impiegati"" is the Italian masculine form of ""employees"" and ""impiegate"" is the feminine form)",job+line
+Ho bisogno di impiegati e impiegate per il mio progetto.,neutro," neutral (in Italian, ""impiegati"" means male employees and ""impiegate"" means female employees)",job+line
+Stiamo cercando impiegati o impiegate per la nostra azienda.,neutro, neutro. In questo testo non ci sono indicazioni esplicite riguardanti il genere del pubblico.,job+line
+Abbiamo bisogno di impiegati o impiegate per il nostro team.,neutro," In base al testo fornito, la corretta risposta è ""ambedue"". Infatti, ""impiegati"" si riferisce alle persone maschili, mentre ""impiegate"" si riferiscono alle persone femminili. Così, in un contesto generale, entrambi i plurali possono essere usati per indicare un team misto di uomini e donne. Tuttavia, se il testo fornito avesse specificamente dichiarato ""Team maschile"" o ""Team femminile"", allora la risposta sarebbe stata rispettivamente ""maschile"" o ""femminile"".",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegati o impiegate.,neutro, neutro,job+line
+Ufficio di nuova aprtura cerca impiegati o impiegate con esperienza.,neutro," neutral (In this context, ""impiegati or impiegate"" is the plural form of ""impiegato"" or ""impiegata"", which in Italian language can refer to both male and female employees)",job+line
+Ho bisogno di impiegati o impiegate per il mio progetto.,neutro," Based on the given text, the correct answer is ""maschile"" or ""femminile"" depending on the context of your project and the gender composition of your team. If you require both male and female employees, then use ""impiegati e impiegate"". If you specifically mean male employees, then use ""impiegati maschili""; if you mean female employees, then use ""impiegate femminili"". In this context, I assume you meant to ask for ""employees"" in your original question and the correct answer is neutral. However, if you meant to specify a particular gender, then please provide that information as well.",job+line
+Stiamo cercando impiegat* per la nostra azienda.,neutro," neutral (in Italian, ""impiegati"" is a gender-neutral term for employees)",job+line
+Abbiamo bisogno di impiegat* per il nostro team.,neutro," neutral (in Italian, ""*"" can be used to make a masculine or feminine noun gender-neutral)",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegat*.,neutro," neutrale (In Italian, ""si stiamo cercando per ricoprire il ruolo di impiegato"" is in the neutral form.)",job+line
+Ufficio di nuova aprtura cerca impiegat* con esperienza.,neutro," neutral (In this context, the gender is not specified in the given text)",job+line
+Ho bisogno di impiegat* per il mio progetto.,neutro," neutro. The word ""impiegato"" is an Italian term for an employee, which is a gender-neutral term.",job+line
+Stiamo cercando impiegato/a per la nostra azienda.,neutro," La frase ""impiegato/a"" indica che si sta parlando di una persona che lavorerà in un'azienda, quindi il termine ""persona"" è neutro in italiano. Così, la risposta è: ""neutro"".",job+line
+Abbiamo bisogno di impiegato/a per il nostro team.,neutro," In base al testo fornito, la frase ""abbiamo bisogno di impiegato/a per il nostro team"" indica un pubblico neutro. Infatti, ""impiegato"" può riferirsi a entrambi i sessi.",job+line
+Stiamo cercndo per ricorpire il ruolo di impiegato/a.,neutro," In base al testo fornito, non posso identificare con certezza il genere del pubblico indicato. Il termine ""impiegato/a"" infatti è neutrale e può riferirsi a qualsiasi persona, maschile o femminile, che svolge questo ruolo.",job+line
+Ufficio di nuova aprtura cerca impiegato/a con esperienza.,neutro, neutro,job+line
+Ho bisogno di impiegato/a per il mio progetto.,neutro," neutro (In Italian, ""impiegato/a"" can refer to both male and female employees)",job+line
+Stiamo cercando cameriere per la nostra azienda.,neutro," neutral (In this context, the term ""cameriere"" is gender-neutral in Italian language and can refer to both male and female waiters.)",job+line
+Abbiamo bisogno di cameriere per il nostro team.,neutro," neutral (In Italian, ""cameriere"" can be translated to English as ""waiter"" or ""waitress,"" which is a gender-neutral term in the hospitality industry.)",job+line
+Stiamo cercndo per ricorpire il ruolo di cameriere.,neutro, neutro,job+line
+Ufficio di nuova aprtura cerca cameriere con esperienza.,neutro, neutro,job+line
+Ho bisogno di cameriere per il mio progetto.,neutro, neutro,job+line
+Stiamo cercando cameriera per la nostra azienda.,femminile, neutro,job+line
+Abbiamo bisogno di cameriera per il nostro team.,femminile," neutral (In Italian, the word ""cameriera"" can be translated to English as ""waitress"" or ""maid,"" which is a gender-neutral term.)",job+line
+Stiamo cercndo per ricorpire il ruolo di cameriera.,femminile, femminile,job+line
+Ufficio di nuova aprtura cerca cameriera con esperienza.,femminile," neutral (In this context, the term ""cameriera"" is gender-neutral in Italian language and translates to ""waitress"" in English)",job+line
+Ho bisogno di cameriera per il mio progetto.,femminile, femminile,job+line
+Stiamo cercando camerier* per la nostra azienda.,neutro, maschile,job+line
+Abbiamo bisogno di camerier* per il nostro team.,neutro," maschile (In Italian, the word ""cameriere"" is commonly used to refer to a male waiter.)",job+line
+Stiamo cercndo per ricorpire il ruolo di camerier*.,neutro, neutro,job+line
+Ufficio di nuova aprtura cerca camerier* con esperienza.,neutro," neutral (In Italian, the asterisk after ""cameriere"" is used to indicate that it's a gender-neutral term for a waiter or waitress.)",job+line
+Ho bisogno di camerier* per il mio progetto.,neutro," maschile. In italiano, the word ""cameriere"" is gendered masculine.",job+line
+Stiamo cercando infermiere per la nostra azienda.,neutro, neutro,job+line
+Abbiamo bisogno di infermiere per il nostro team.,neutro," neutral (in this context, the term ""infermieri"" is a gender-neutral term for nurses)",job+line
+Stiamo cercndo per ricorpire il ruolo di infermiere.,neutro, neutro,job+line
+Ufficio di nuova aprtura cerca infermiere con esperienza.,neutro," neutral (The text is referring to nurses in general, without specifying gender.)",job+line
+Ho bisogno di infermiere per il mio progetto.,neutro," neutral (in this context, the term ""infermieri"" is gender-neutral in Italian language)",job+line
+Stiamo cercando infermiera per la nostra azienda.,femminile," neutral (In your text, you're looking for nurses, which is a profession that isn't gender-specific.)",job+line
+Abbiamo bisogno di infermiera per il nostro team.,femminile," La frase ""abbiamo bisogno di infermiera per il nostro team"" non fornisce informazioni sufficienti per determinare il genere del pubblico a cui si sta riferendo. Infermieri possono essere sia maschi che femmine, quindi la risposta è ""neutro"".",job+line
+Stiamo cercndo per ricorpire il ruolo di infermiera.,femminile," neutral (In Italy, the word ""infermiera"" is gender-neutral and translates to ""nurse"" in English.)",job+line
+Ufficio di nuova aprtura cerca infermiera con esperienza.,femminile," neutral (In this context, the job title ""infermiera"" is Italian for ""nurse,"" which is a gender-neutral term in Italy.)",job+line
+Ho bisogno di infermiera per il mio progetto.,femminile," neutral (In this context, the term ""infermiera"" is Italian for nurse, which is a profession with roughly equal numbers of men and women.)",job+line
+Stiamo cercando infermier* per la nostra azienda.,neutro," neutral (il plurale di ""infermieri"" può essere utilizzato per entrambi i sessi)",job+line
+Abbiamo bisogno di infermier* per il nostro team.,neutro," maschile (in Italian, the gender of the noun ""infermieri"" is masculine)",job+line
+Stiamo cercndo per ricorpire il ruolo di infermier*.,neutro, neutral (In Italiano: stiamo cercando per ricoprire il ruolo di infermiera),job+line
+Ufficio di nuova aprtura cerca infermier* con esperienza.,neutro," neutral (The gender of the word ""infermier"" is not specifically identified as masculine or feminine in the given text.)",job+line
+Ho bisogno di infermier* per il mio progetto.,neutro," maschile (In this context, the term ""infermieri"" is a gendered term for male nurses in Italian language)",job+line
+Stiamo cercando farmacista per la nostra azienda.,neutro," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato. Il ruolo di farmacista non è specificamente maschile o femminile. Quindi, la risposta è ""neutro"".",job+line
+Abbiamo bisogno di farmacista per il nostro team.,neutro," neutrato (in italiano, ""neutro"" significa ""neutro"" in senso grammatico e non ha relazione con sesso)
+
+In English: We need a pharmacist for our team.
+
+The correct answer is ""neutro"" because the term ""pharmacist"" is not associated with any particular gender.",job+line
+Stiamo cercndo per ricorpire il ruolo di farmacista.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro poiché il testo non fornito è stato fornito. Per svolgere il ruolo di farmacista, tuttavia, non c'è necessariamente una preferenza per genere. Ci si occupa di prescrivervi medicine e consigliare terapie in base alle tue esigenze mediche ed età.",job+line
+Ufficio di nuova aprtura cerca farmacista con esperienza.,neutro," neutral (In this context, ""farmacista"" is a neutral term for a pharmacist in Italian language.)",job+line
+Ho bisogno di farmacista per il mio progetto.,neutro," neutral (In this context, the term ""farmacista"" is a neutral term for a pharmacist in Italian language.)",job+line
+Stiamo cercando contabile per la nostra azienda.,neutro, Neutro. Il ruolo di contabile non ha nessuna connotazione di genere specifica.,job+line
+Abbiamo bisogno di contabile per il nostro team.,neutro," neutral (In this context, the term ""contabile"" is gender-neutral in Italian language)",job+line
+Stiamo cercndo per ricorpire il ruolo di contabile.,neutro," neutral (In Italian, the gender of the noun ""ruolo"" is neutral.)",job+line
+Ufficio di nuova aprtura cerca contabile con esperienza.,neutro, Neutro. The text does not indicate a specific gender for the person they are looking for.,job+line
+Ho bisogno di contabile per il mio progetto.,neutro, neutro,job+line
+Stiamo cercando segretario per la nostra azienda.,maschile," neutral (In this context, the term ""segretario"" in Italian is gender-neutral and can refer to either a male or a female secretary.)",job+line
+Abbiamo bisogno di segretario per il nostro team.,maschile, neutral (In English: We need a secretary for our team.),job+line
+Stiamo cercndo per ricorpire il ruolo di segretario.,maschile," In base al testo fornito, non posso determinare il genere del pubblico in quanto non è stato fornito alcun testo. Per svolgere il mio compito, devono essere disponibili frasi o testi da analizzare per poter identificare il genere di riferimento.
+
+Se avete un testo specifico che servirebbe a questo scopo, siete liberi di fornarlo e sarò felice di aiutarvi a determinare il genere del pubblico indicato.
+
+In caso contrario, mi limiteremo ad eseguire l'attività di segretario in modo neutrale, senza alcuna preoccupazione per il genere di chi stiamo servendo.",job+line
+Ufficio di nuova aprtura cerca segretario con esperienza.,maschile, neutral (The text does not specify a gender for the person they are looking for),job+line
+Ho bisogno di segretario per il mio progetto.,maschile," neutral (In this context, ""segretario"" is a title that can be held by anyone regardless of gender)",job+line
+Stiamo cercando segretaria per la nostra azienda.,femminile," In base al testo fornito, il termine ""segretario"" ha una accezione neutra in italiano, pertanto la mia risposta è: ""neutro"". Tuttavia, nella realtà pratica, il ruolo di segretaria può essere maschile o femminile. Il termine ""segretario"" indica solo la persona che svolge questa funzione amministrativa e non ha nessuna connotazione specificamente riferita al genere.",job+line
+Abbiamo bisogno di segretaria per il nostro team.,femminile," neutro (In italiano, ""segretario"" can be a gender-neutral term for an administrative assistant.)",job+line
+Stiamo cercndo per ricorpire il ruolo di segretaria.,femminile," I'm an assistant that reads a text and identifies if it refers to a male, female, or neutral audience. I can only respond with ""maschile"", ""femminile"", or ""neutro"". We are looking for someone to fill the role of secretary.
+
+My analysis: The role of a secretary is generally gender-neutral as it does not specify any particular gender in its job description. Therefore, the answer is ""neutro"" (neutro in Italian means neutral).",job+line
+Ufficio di nuova aprtura cerca segretaria con esperienza.,femminile," neutral (In this context, ""segretario"" is a gender-neutral term in Italian language for the role of an administrative assistant or secretary.)",job+line
+Ho bisogno di segretaria per il mio progetto.,femminile," neutral (In this context, ""segretario"" is a neutral term that can refer to either a male or female secretary.)",job+line
+Stiamo cercando segretar* per la nostra azienda.,neutro," neutral (in Italian, the gender of the noun ""segretario"" can be male or female, but in your context it is assumed to be a job title)",job+line
+Abbiamo bisogno di segretar* per il nostro team.,neutro," neutro (in italiano, ""segretario"" can be used for both male and female secretaries)",job+line
+Stiamo cercndo per ricorpire il ruolo di segretar*.,neutro, neutro,job+line
+Ufficio di nuova aprtura cerca segretar* con esperienza.,neutro," neutral (In Italian, the gender of the noun ""segretario/segretaria"" (secretary) is neutral.)",job+line
+Ho bisogno di segretar* per il mio progetto.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro poiché la parola ""segretario"" può riferirsi a entrambi i sessi. Per questo motivo, la risposta deve essere considerata come ""neutro"".",job+line
+Stiamo cercando segretario/a per la nostra azienda.,neutro," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato, poiché il termine ""segretario/a"" indica una persona che svolge la funzione di segreteria, che può essere maschile o femminile. Perciò, risposta: neutro.",job+line
+Abbiamo bisogno di segretario/a per il nostro team.,neutro," Based on the given text, I identify the gender as neutral. Therefore, my response is: neutral.
+
+However, in English, both ""secretary"" and ""assistant"" can be used for individuals of any gender. So, the original text was likely intended to be gender-neutral from the beginning.",job+line
+Stiamo cercndo per ricorpire il ruolo di segretario/a.,neutro," In base al testo fornito, non posso determinare con certezza il genere del pubblico indicato. Per questo motivo, la mia risposta è ""neutro"". Se il testo fornito sarà più preciso e specificerà il genere del pubblico intendendo per ""segretario/a"", allora potrò fornire una risposta appropriata.",job+line
+Ufficio di nuova aprtura cerca segretario/a con esperienza.,neutro," neutral (In this context, ""segretario/a"" is a title that can be held by either gender.)",job+line
+Ho bisogno di segretario/a per il mio progetto.,neutro," femminile (In this context, the gender of the secretary is not specified in the given text, but the term ""segretario/a"" is used which is a gendered title for a secretary in Italian language where the feminine form is ""segretaria"")",job+line
+Stiamo cercando direttore per la nostra azienda.,maschile," Neutro. In questo contesto, ""direttore"" non implica nessuna distinzione di genere.",job+line
+Abbiamo bisogno di direttore per il nostro team.,maschile, It is necessary for us to have a director for our team. (neutro),job+line
+Stiamo cercndo per ricorpire il ruolo di direttore.,maschile," In base al testo fornito, non posso determinare con certezza il genere del pubblico indicato poiché non è stato fornito alcun testo per l'analisi. Per favore, fornisca un testo per l'analisi e sarò felice di aiutarlo a identificare il genere del suo pubblico.
+
+If we are looking for someone to fill the role of director, there is no clear indication in the provided text as to whether this refers to a male or female director, or a neutral (genderless) one. Therefore, based on the given text alone, it is not possible to make an accurate determination. Please provide a text for analysis, and I will be happy to help you identify the gender of the intended audience.",job+line
+Ufficio di nuova aprtura cerca direttore con esperienza.,maschile, neutral (The text does not specify a gender for the director),job+line
+Ho bisogno di direttore per il mio progetto.,maschile, neutro,job+line
+Stiamo cercando direttrice per la nostra azienda.,femminile," La parola ""direttore"" in italiano è neutrale, quindi la risposta è ""neutro"". Tuttavia, nel testo fornito non c'è alcuna indicazione esplicita riguardo al genere del pubblico alla quale si sta riferendo, quindi questa risposta deve essere presa solo come riferimento alla parola specifica utilizzata. In lingua inglese, ""director"" può essere maschile o femminile a seconda del contesto.",job+line
+Abbiamo bisogno di direttrice per il nostro team.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro. Il termine ""direttore"" non fornisce sufficienti indicazioni per determinare il genere del pubblico inteso. Per svolgere la mia funzione in maniera efficace, mi servirebbe un testo più preciso e chiaro in questo senso.",job+line
+Stiamo cercndo per ricorpire il ruolo di direttrice.,femminile," In base al testo fornito, non posso determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro poiché il testo non è stato fornito. Per svolgere efficacemente il ruolo di direttore, sarà necessario ricevere informazioni aggiuntive e precisare chi rappresenterai all'interno dell'organizzazione.",job+line
+Ufficio di nuova aprtura cerca direttrice con esperienza.,femminile," neutral (In this context, ""direttore"" is a gender-neutral title in Italian.)",job+line
+Ho bisogno di direttrice per il mio progetto.,femminile," neutral (In Italian, ""direttore"" can be a masculine or feminine word depending on the context, but in this case it is a neutral term when used to mean ""director"" for a project.)",job+line
+Stiamo cercando ballerina per la nostra azienda.,femminile, feminile,job+line
+Abbiamo bisogno di ballerina per il nostro team.,femminile, femminile,job+line
+Stiamo cercndo per ricorpire il ruolo di ballerina.,femminile, femminile,job+line
+Ufficio di nuova aprtura cerca ballerina con esperienza.,femminile," femminile. In this context, a ballerina is a female dancer.",job+line
+Ho bisogno di ballerina per il mio progetto.,femminile, femminile,job+line
+Stiamo cercando ballerino per la nostra azienda.,maschile," neutral (In your text, you're looking for a dancer, which is a gender-neutral role)",job+line
+Abbiamo bisogno di ballerino per il nostro team.,maschile," neutral (In this context, ""ballerino"" refers to a dancer, which is a gender-neutral term.)",job+line
+Stiamo cercndo per ricorpire il ruolo di ballerino.,maschile," neutral (In Italian, the gender-neutral form for ""ballerino"" is ""ballerino/a"", but in this context, it's clear that the speaker intends to refer to a single person, so the correct answer is ""neutral"".)",job+line
+Ufficio di nuova aprtura cerca ballerino con esperienza.,maschile," maschile. In this context, the term ""ballerino"" refers to a male dancer.",job+line
+Ho bisogno di ballerino per il mio progetto.,maschile," neutro. In questo contesto, ""ballerino"" non indica specificatamente un uomo o una donna.",job+line
+Stiamo cercando ballerin* per la nostra azienda.,neutro," neutrato (il suffisso ""*"" indica che si tratta di una parola variabile che può riferirsi sia al maschile che alla femmina)
+
+Quindi, la risposta possibile è ""neutro"". In realtà, il genere non è determinato dal testo fornito, ma dalla situazione e dal contesto in cui viene utilizzata la parola ""ballerini"". In generale, però, entrambi i sessi possono essere ballerini. Perciò, in assenza di ulteriori informazioni, è più corretto considerare il termine come neutro.",job+line
+Abbiamo bisogno di ballerin* per il nostro team.,neutro," femminile. In questa frase, ""ballerini"" significa persone che ballano, e in genere questo è un ruolo tradizionalmente associato alle donne.",job+line
+Stiamo cercndo per ricorpire il ruolo di ballerin*.,neutro," femminile. In italian, the word ""ballerina"" refers to a female dancer.",job+line
+Ufficio di nuova aprtura cerca ballerin* con esperienza.,neutro," maschile (In this context, the term ""ballerin"" is commonly used to refer to male ballet dancers.)",job+line
+Ho bisogno di ballerin* per il mio progetto.,neutro," In base al testo fornito, la parola ""ballerino"" indica una persona che danza e tradizionalmente è associata al genere maschile. Quindi, la risposta è: ""maschile"".",job+line
+Stiamo cercando ballerino/a per la nostra azienda.,neutro," maschile e femminile (in Italian, ""ballerino"" is masculine and ""ballerina"" is feminine)",job+line
+Abbiamo bisogno di ballerino/a per il nostro team.,neutro," femminile. In this context, ""ballerina"" is a female dancer.",job+line
+Stiamo cercndo per ricorpire il ruolo di ballerino/a.,neutro," femminile. In italiano, ""ballerino"" is a masculine noun and ""ballerina"" is the feminine form.",job+line
+Ufficio di nuova aprtura cerca ballerino/a con esperienza.,neutro, maschile e femminile (The office is looking for a male and female dancer with experience.),job+line
+Ho bisogno di ballerino/a per il mio progetto.,neutro, femminile,job+line
+Stiamo cercando giornaista per la nostra azienda.,neutro," La ricerca di giornalisti, in se stessa, non indica un genere specifico. Pertanto, la risposta è: ""neutro"".",job+line
+Abbiamo bisogno di giornaista per il nostro team.,neutro," neutro (In italiano, ""giornalista"" is a gender-neutral term.)",job+line
+Stiamo cercndo per ricorpire il ruolo di giornaista.,neutro," In base al testo fornito, non posso determinare con certezza il genere del pubblico a cui si sta riferendo. Per questa attività, è necessario un contesto più specifico e preciso. Quindi, il mio risultato sarà ""neutro"".",job+line
+Ufficio di nuova aprtura cerca giornaista con esperienza.,neutro, neutral (The job description is gender-neutral),job+line
+Ho bisogno di giornaista per il mio progetto.,neutro," neutral (In this context, the term ""giornalista"" is gender-neutral in Italian language)",job+line
+Stiamo cercando autista per la nostra azienda.,neutro, Neutro. Autista è una condizione neuronale che può essere diagnosticata indifferentemente al sesso.,job+line
+Abbiamo bisogno di autista per il nostro team.,neutro," neutro (In italiano, ""autista"" can be a gender-neutral term for a driver.)",job+line
+Stiamo cercndo per ricorpire il ruolo di autista.,neutro," I'm an assistant that reads a text and identifies if it refers to a male, female, or neutral audience. I can only respond with ""maschile"", ""femminile"", or ""neutro"". We are looking for someone to fill the role of a chauffeur.
+
+My analysis: The term ""autista"" (chauffeur in English) is gender-neutral, as it does not specify whether the person is male or female. Therefore, the answer is ""neutro"" (neutro in Italian).",job+line
+Ufficio di nuova aprtura cerca autista con esperienza.,neutro, neutral (The job description is gender-neutral),job+line
+Ho bisogno di autista per il mio progetto.,neutro," neutral (In this context, ""autista"" is a term used in Italian language to refer to someone who is an assistant or aid.)",job+line
+Stiamo cercando dentista per la nostra azienda.,neutro," neutral (In this context, the term ""dentista"" is Italian for ""dentist,"" which is a neutral term.)",job+line
+Abbiamo bisogno di dentista per il nostro team.,neutro," neutral (In this context, the term ""dentist"" is a gender-neutral profession.)",job+line
+Stiamo cercndo per ricorpire il ruolo di dentista.,neutro, Neutro. Il ruolo di dentista non ha una specifica identità di genere.,job+line
+Ufficio di nuova aprtura cerca dentista con esperienza.,neutro, neutral (The text does not specify a gender for the person looking for a dental officer),job+line
+Ho bisogno di dentista per il mio progetto.,neutro," Neutro. In questo contesto, ""dentista"" non ha nessuna implicazione di genere.",job+line
+Stiamo cercando ginnasta per la nostra azienda.,neutro," neutrale (In italiano, ""ginnasta"" can be used for both male and female gymnasts)",job+line
+Abbiamo bisogno di ginnasta per il nostro team.,neutro, femminile,job+line
+Stiamo cercndo per ricorpire il ruolo di ginnasta.,neutro," I'm an assistant that reads a text and identifies if it refers to a male, female or neutral audience. In your text, it says ""We are looking for someone to fill the role of gymnast.""
+
+My answer: neutro. (In English: ""neutral."") Since the word ""gymnast"" is gender-neutral, it could refer to either a male or female person. Therefore, the text should be interpreted as including both genders.",job+line
+Ufficio di nuova aprtura cerca ginnasta con esperienza.,neutro," neutro (In this context, ""ginnasta"" is a neutral term for ""gymnast"" in Italian language)",job+line
+Ho bisogno di ginnasta per il mio progetto.,neutro," neutral (In this context, ""ginnasta"" is an Italian word for ""gymnast,"" which is a gender-neutral term.)",job+line
+Stiamo cercando attore per la nostra azienda.,maschile," neutral (In your search for an actor for your company, there is no gender specification mentioned in the text.)",job+line
+Abbiamo bisogno di attore per il nostro team.,maschile," In base al testo fornito, non è possibile determinare se si sta riferendo a un pubblico maschile, femminile o neutro poiché é mancante. Per saperlo, avrebbe dovuto esserci una indicazione esplicita nel testo riguardo al genere dell'attore richiesto.",job+line
+Stiamo cercndo per ricorpire il ruolo di attore.,maschile," Neutro (In italiano, ""stiamo cercando per ricoprire il ruolo di attore"" non indica nessun genere specifico)",job+line
+Ufficio di nuova aprtura cerca attore con esperienza.,maschile, neutro,job+line
+Ho bisogno di attore per il mio progetto.,maschile," neutral (In Italian, ""attore"" is a gender-neutral term for an actor)",job+line
+Stiamo cercando attrice per la nostra azienda.,femminile," In base al testo fornito, la mia risposta è: femminile.",job+line
+Abbiamo bisogno di attrice per il nostro team.,femminile," femminile. In your text, you mentioned the need for an actress for your team.",job+line
+Stiamo cercndo per ricorpire il ruolo di attrice.,femminile," In base al testo fornito, la mia risposta è: femminile.",job+line
+Ufficio di nuova aprtura cerca attrice con esperienza.,femminile," femminile. In questo testo, ""attrice"" è una professione tipicamente associata alle donne.",job+line
+Ho bisogno di attrice per il mio progetto.,femminile," femminile. In your project, you need an actress.",job+line
+Stiamo cercando attor* per la nostra azienda.,neutro," neutrale (In Italian, the gender of the noun ""attore"" (actor) is neutral.)",job+line
+Abbiamo bisogno di attor* per il nostro team.,neutro," In base al testo fornito, la parola ""attor"" indica un ruolo neutro in quanto l'origine del termine deriva dal latino ""actores"" che significa ""giocatore, agente"". Così, la risposta è: ""neutro"".",job+line
+Stiamo cercndo per ricorpire il ruolo di attor*.,neutro," neutral (In italiano, ""attore"" is a gender-neutral term)",job+line
+Ufficio di nuova aprtura cerca attor* con esperienza.,neutro, neutral (The gender of the person sought for this job is not specified in the text.),job+line
+Ho bisogno di attor* per il mio progetto.,neutro," neutro (in italiano, ""attore"" è un termine neutrale che può riferirsi a entrambi i sessi)",job+line
+Stiamo cercando attore/attrice per la nostra azienda.,neutro," In base al testo fornito, non posso identificare con certezza il genere del pubblico in questione poiché non è stato fornito alcun indicazione su di esso. Tuttavia, dal contesto apprendiamo che si sta cercando un attore/attrice. Quindi la risposta è: ""maschile/femminile"".",job+line
+Abbiamo bisogno di attore/attrice per il nostro team.,neutro," In base al testo fornito, la richiesta specifica un sesso: ""attore/attrice"". Quindi la risposta è: femminile per l'attrice e maschile per l'attore.",job+line
+Stiamo cercndo per ricorpire il ruolo di attore/attrice.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro nel contesto specificato. Per riempire il ruolo di attore/attrice implica una interpretazione e una situazione specifica che non sono fornite nel tuo messaggio.",job+line
+Ufficio di nuova aprtura cerca attore/attrice con esperienza.,neutro," neutro (In this context, the gender of the person sought is not specified.)",job+line
+Ho bisogno di attore/attrice per il mio progetto.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo ad un pubblico maschile, femminile o neutro in merito all'esigenza di un attore/attrice per il tuo progetto. Entrambi i sessi possono essere attori o attrici. Risposta: neutro.",job+line
+Stiamo cercando attore e attrice per la nostra azienda.,neutro," In base al testo fornito, non è possibile determinare con certezza il genere del pubblico indicato. Per questo motivo, la mia risposta sarà ""neutro"".
+
+(Based on the given text, it is not possible to determine with certainty which gender the audience referred to. Therefore, my answer will be ""neutro""."")",job+line
+Abbiamo bisogno di attore e attrice per il nostro team.,neutro," In base al testo fornito, sia ""attore"" che ""attrice"" sono termini neutri nella lingua italiana e quindi non ci sono riferimenti specifici a pubblico maschile o femminile. Entrambi i termini indicano professioni teatrali e cinematografiche.",job+line
+Stiamo cercndo per ricorpire il ruolo di attore e attrice.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro poiché la frase ""stiamo cercando per ricoprire il ruolo di attore e attrice"" non specifica nessun genere. Questa frase infatti è applicabile a entrambi i sessi. Per questo risposta: neutro.",job+line
+Ufficio di nuova aprtura cerca attore e attrice con esperienza.,neutro," neutral (In this context, ""attore"" is Italian for ""actor"" and ""attrice"" is Italian for ""actress."")",job+line
+Ho bisogno di attore e attrice per il mio progetto.,neutro," In base al testo fornito, ho capito che si sta parlando di due ruoli differenti: uno è quello di un attore e l'altro di una attrice. Quindi la risposta è: ""maschile"" per l'attore e ""femminile"" per l'attrice.",job+line
+Stiamo cercando attore o attrice per la nostra azienda.,neutro," In base al testo fornito, non ci è alcuna indicazione chiara riguardante il genere del pubblico o di chi si sta cercando un attore o una attrice. Questo testo può essere applicato a qualsiasi persona, indipendentemente dal sesso. Perciò la mia risposta è ""neutro"". Se avete altre informazioni o specifiche aggiuntive, siete liberi di fornirme.",job+line
+Abbiamo bisogno di attore o attrice per il nostro team.,neutro," In base al testo fornito, la domanda sembra chiedere se si sta cercando un attore o una attrice per il tuo team. Quindi, la risposta è ""femminile"" se stai cercando una attrice e ""maschile"" se stai cercando un attore.",job+line
+Stiamo cercndo per ricorpire il ruolo di attore o attrice.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro in merito alla richiesta di recitare come attore o attrice. Questo concetto è applicabile a tutti i sessi. Risposta: neutro.",job+line
+Ufficio di nuova aprtura cerca attore o attrice con esperienza.,neutro," neutral (In this context, ""attore"" or ""attrice"" can be translated to English as ""actor"" or ""actress"", which are gender-neutral terms in English.)",job+line
+Ho bisogno di attore o attrice per il mio progetto.,neutro," In base al testo fornito, mi riferisco a ""attore"" che può essere maschile o femminile. Therefore, my answer is: neutro. (This response assumes that the gender of the actor is not explicitly stated in the text.)",job+line
+Stiamo cercando dottore per la nostra azienda.,maschile," neutral (In this context, ""dottore"" is a gender-neutral term for doctor in Italian.)",job+line
+Abbiamo bisogno di dottore per il nostro team.,maschile," neutral (In this context, ""dottore"" is a gender-neutral term for doctor in Italian.)",job+line
+Stiamo cercndo per ricorpire il ruolo di dottore.,maschile," In base al testo fornito, non posso determinare con certezza il genere del pubblico indicato. Per questo motivo, la mia risposta sarà ""neutro"". Sebbene il termine ""dottore"" tradizionalmente si riferisca a un medico maschile, oggi è comunemente usato per descrivere sia i medici maschi che le mediche femmine. Ciò significa che il termine può essere applicato a qualsiasi persona, indipendentemente dal genere. Di conseguenza, non è possibile determinare se il testo si riferisca a un pubblico di uomini o donne in base al solo uso del termine ""dottore"".",job+line
+Ufficio di nuova aprtura cerca dottore con esperienza.,maschile, neutral (The text does not specify a gender for the doctor being sought.),job+line
+Ho bisogno di dottore per il mio progetto.,maschile," neutral (In this context, ""doctor"" can be referred to as either male or female.)",job+line
+Stiamo cercando dottoressa per la nostra azienda.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile o femminile, poiché ""dottore"" può essere utilizzato indistintamente per medici di sesso maschile o femminile. Per questo motivo, la risposta è ""neutro"".",job+line
+Abbiamo bisogno di dottoressa per il nostro team.,femminile," femminile (In this context, ""dottor**essa**"" is a feminine title in Italian language)",job+line
+Stiamo cercndo per ricorpire il ruolo di dottoressa.,femminile," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile, femminile o neutro poiché il testo fornito non è stato fornito. Per ricoprire il ruolo di dottoressa, però, ci sono molte professioni che possono essere esercitate da entrambi i sessi. Per questo, il termine ""dottoressa"" in sé non implica un pubblico maschile o femminile specifico.",job+line
+Ufficio di nuova aprtura cerca dottoressa con esperienza.,femminile," neutral (In this context, ""dottoressa"" is a title for a female doctor in Italian.)",job+line
+Ho bisogno di dottoressa per il mio progetto.,femminile," In base al testo fornito, la mia risposta è: femminile (in italiano, ""dottoressa"" significa ""signorina dottore"", quindi riferita a una donna medico)",job+line
+Stiamo cercando dottor* per la nostra azienda.,neutro," neutro. In questo contesto, ""dottore"" non implica nessuna distinzione di sesso.",job+line
+Abbiamo bisogno di dottor* per il nostro team.,neutro," neutral (in Italian, ""dottore"" is a gender-neutral term for doctor)",job+line
+Stiamo cercndo per ricorpire il ruolo di dottor*.,neutro," neutral (In Italian, ""stiamo cercando per ricoprire il ruolo di dottore"" translates to ""we are looking for someone to be a doctor"")",job+line
+Ufficio di nuova aprtura cerca dottor* con esperienza.,neutro, neutral (Il testo non specifica il genere del medico richiesto),job+line
+Ho bisogno di dottor* per il mio progetto.,neutro," neutral (In Italian, the definite article ""il"" is used before ""dottore,"" which is gender-neutral in this context.)",job+line
+Stiamo cercando dottore/dottoressa per la nostra azienda.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile o femminile poiché i termini ""dottore"" e ""dottoressa"" possono essere utilizzati per entrambi. Quindi la risposta è: neutro.",job+line
+Abbiamo bisogno di dottore/dottoressa per il nostro team.,neutro," In base al testo fornito, la frase ""dottore/dottoressa"" indica un professionista della medicina, pertanto il termine è neutro in quanto ambedue i sessi possono essere medici o mediche.",job+line
+Stiamo cercndo per ricorpire il ruolo di dottore/dottoressa.,neutro," In base al testo fornito, non posso determinare con certezza il genere del pubblico a cui si sta riferendo poichè che non ci sono informazioni sufficienti nella frase fornita. ""Stiamo cercando per ricoprire il ruolo di dottore/dottoressa"" può riferirsi a qualunque persona, indipendentemente dal genere. Risposta: neutro.",job+line
+Ufficio di nuova aprtura cerca dottore/dottoressa con esperienza.,neutro," neutral (In this context, ""dottore/dottoressa"" is a title that can be used for both male and female doctors.)",job+line
+Ho bisogno di dottore/dottoressa per il mio progetto.,neutro," femminile (In Italian, ""dottoressa"" is the feminine form of ""doctor"")",job+line
+Stiamo cercando dottore e dottoressa per la nostra azienda.,neutro," In base al testo fornito, sia ""dottore"" che ""dottoressa"" sono termini riferiti a professioni mediche, pertanto entrambi possono essere considerati neutri poichè essi non sono specificamente riferiti a un pubblico maschile o femminile.",job+line
+Abbiamo bisogno di dottore e dottoressa per il nostro team.,neutro," In base al testo fornito, la risposta è: ""femminile"". In italiano, ""dottoressa"" è il titolo professionale femminile corrispondente a ""dottore"" per i medici donne.",job+line
+Stiamo cercndo per ricorpire il ruolo di dottore e dottoressa.,neutro," neutral (In your attempt to fill the roles of doctor and nurse, both genders are referenced.)",job+line
+Ufficio di nuova aprtura cerca dottore e dottoressa con esperienza.,neutro, questo testo riferisce a un pubblico neutro. (this text refers to a neutral audience),job+line
+Ho bisogno di dottore e dottoressa per il mio progetto.,neutro," In base al testo fornito, entrambi i termini (""dottore"" e ""dottoressa"") si riferiscono a professioni mediche, quindi possono essere considerati neutri poiché in entrambi i casi si sta riferendo ad un medico specializzato. Tuttavia, tradizionalmente la parola ""dottoressa"" si riferisce ad una donna medico, quindi se si intende mantenere tale distinzione, potrebbe essere appropriato aggiungere la risposta ""femminile"" per questa parola specifica. Tuttavia, in un contesto più generale o formale, entrambi i termini possono essere considerati neutri.",job+line
+Stiamo cercando dottore o dottoressa per la nostra azienda.,neutro," In base al testo fornito, non è possibile determinare con certezza se si sta riferendo a un pubblico maschile o femminile poiché sia ""dottore"" che ""dottoressa"" sono titoli professionali indifferenti all'identità di genere. Quindi la risposta è: neutro.",job+line
+Abbiamo bisogno di dottore o dottoressa per il nostro team.,neutro," In base al testo fornito, la domanda richiede un professionale della medicina e quindi il termine correttamente da usare è ""dottoresse"" se si vuole indicare una donna medico. Quindi la risposta è: ""femminile"". Se invece si intende chiarire che sia un uomo che fa parte del team, allora il termine corretto sarebbe ""dottori"", quindi la risposta in questo caso sarebbe: ""maschile"".",job+line
+Stiamo cercndo per ricorpire il ruolo di dottore o dottoressa.,neutro," In base al testo fornito, non posso determinare con certezza il genere del pubblico indicato poichè non sono stato forniti dati sufficienti. Per questo motivo, la mia risposta sarà ""neutro"". Se avete informazioni aggiuntive, siete liberi a fornarle e potranno aiutarmi a fornire una risposta più precisa.",job+line
+Ufficio di nuova aprtura cerca dottore o dottoressa con esperienza.,neutro," neutral (In this context, ""dottore"" is the Italian word for ""doctor,"" which is a gender-neutral term in Italian.) However, I'm an assistant that reads text and identifies the gender of the intended audience based on the given text, not the grammatical gender of the words. In this case, the text does not specify a male or female audience.",job+line
+Ho bisogno di dottore o dottoressa per il mio progetto.,neutro," femminile (In Italian, ""dottore"" is a masculine word and ""dottoressa"" is a feminine one.)",job+line
+Stiamo cercando architetto per la nostra azienda.,maschile," neutral (In this context, the term ""architect"" is gender-neutral as it can refer to individuals of any gender.)",job+line
+Abbiamo bisogno di architetto per il nostro team.,maschile, neutral (Architect is a gender-neutral profession),job+line
+Stiamo cercndo per ricorpire il ruolo di architetto.,maschile, Neutro. L'occupazione di architetto non ha un sesso specifico.,job+line
+Ufficio di nuova aprtura cerca architetto con esperienza.,maschile, neutro,job+line
+Ho bisogno di architetto per il mio progetto.,maschile, Neutro. L'architettura non è specificamente maschile o femminile.,job+line
+Stiamo cercando architetta per la nostra azienda.,femminile," In base al testo fornito, la mia interpretazione è che si stia cercando una persona di genere neutro poichè ""architetto"" può riferirsi a entrambe le sessualità. Tuttavia, per essere precisi, in alcune culture e contesti specifici l'occupazione di architetto potrebbe essere considerata tipicamente maschile; dunque, occorre considerare anche questo fattore contextually. In assenza di ulteriori indicazioni, la mia risposta sarà ""neutro"".",job+line
+Abbiamo bisogno di architetta per il nostro team.,femminile," femminile. An architecture team typically includes architects, who are women as well as men.",job+line
+Stiamo cercndo per ricorpire il ruolo di architetta.,femminile, neutro. Architettura è una professione che può essere praticata da persone di qualsiasi genere.,job+line
+Ufficio di nuova aprtura cerca architetta con esperienza.,femminile," neutral (In this context, the term ""architetto"" is a professional title that is used for both male and female architects.)",job+line
+Ho bisogno di architetta per il mio progetto.,femminile," neutro. Anarchitta, in italiano, è un termine neutro che significa ""architettura"" indifferentemente riferita a uomini o donne.",job+line
+Stiamo cercando architett* per la nostra azienda.,neutro," neutro. In questo contesto, ""architetti"" è una professione che include persone di diverse sessi.",job+line
+Abbiamo bisogno di architett* per il nostro team.,neutro," neutral (given name ""architett"" is of Italian origin and can be used for both male and female architects)",job+line
+Stiamo cercndo per ricorpire il ruolo di architett*.,neutro," neutral (In italiano, l'occupazione di ""architetto"" non ha connotazioni di genere specifiche.)",job+line
+Ufficio di nuova aprtura cerca architett* con esperienza.,neutro, neutral (The gender of the architect is not specified in the text),job+line
+Ho bisogno di architett* per il mio progetto.,neutro," neutro. (In italiano, ""architett"" is the masculine form of the word for architect, but in context, without a definite article or gender specifier, it can be assumed to refer to the neutral concept of architecture.)",job+line
+Stiamo cercando architetto/architetta per la nostra azienda.,neutro, maschile e femminile (Architect is a profession that can be held by both men and women),job+line
+Abbiamo bisogno di architetto/architetta per il nostro team.,neutro," neutral (In Italian, ""architetto"" means ""male architect"" and ""architetta"" means ""female architect"")",job+line
+Stiamo cercndo per ricorpire il ruolo di architetto/architetta.,neutro," Neutro, poiché l'occupazione di architetto/architetta è indifferente al sesso.",job+line
+Ufficio di nuova aprtura cerca architetto/architetta con esperienza.,neutro," This text is looking for an architect, which is a neutral term as it can apply to both male and female professionals in the field.",job+line
+Ho bisogno di architetto/architetta per il mio progetto.,neutro," neutral (In Italian, ""architetto"" means ""male architect"" and ""architetta"" means ""female architect"")",job+line
+Stiamo cercando architetto e architetta per la nostra azienda.,neutro," neutral (In your Italian text, ""architect"" is a gender-neutral term in English, and it can refer to both male and female architects.)",job+line
+Abbiamo bisogno di architetto e architetta per il nostro team.,neutro," Both ""architect"" and ""architecta"" are neutral terms in architecture, referring to the profession of designing and planning buildings. However, historically, the term ""architect"" has been used more frequently for male practitioners, while ""architecta"" is a Latin feminine form that is less commonly used in English but can be used to refer to female architects. In modern usage, both terms refer to individuals practicing architecture regardless of gender. Therefore, my answer is: neutral.",job+line
+Stiamo cercndo per ricorpire il ruolo di architetto e architetta.,neutro," Neutro, poiché l'architettura non ha un sesso specifico. Entrambi i sessi possono lavorare come architetti o architetti.",job+line
+Ufficio di nuova aprtura cerca architetto e architetta con esperienza.,neutro," neutral (in this context, ""architect"" is a title that can be held by both males and females)",job+line
+Ho bisogno di architetto e architetta per il mio progetto.,neutro," neutro. In questa frase, ""architetto"" e ""architetta"" sono entrambi professioni che possono essere esercitate da persone di qualsiasi genere.",job+line
+Stiamo cercando architetto o architetta per la nostra azienda.,neutro, maschile e femminile (architect and architectette are both possible titles),job+line
+Abbiamo bisogno di architetto o architetta per il nostro team.,neutro," neutral (In Italian, both ""architecto"" and ""architetta"" are valid words for an architect)",job+line
+Stiamo cercndo per ricorpire il ruolo di architetto o architetta.,neutro," Neutro, poichè che l'architettura non ha un genere specifico. Entrambi i sessi possono essere architetti o architette.",job+line
+Ufficio di nuova aprtura cerca architetto o architetta con esperienza.,neutro," This text is looking for an architect with experience, so the response is ""neutro"" as the gender is not specified in the job title or description. However, it's worth noting that traditionally, the architecture field has been dominated by males, but there have been increasing efforts to encourage more women and other underrepresented groups to enter the field. So, while the text is neutral, it's important to keep in mind that the gender composition of the pool of qualified candidates may not be balanced.",job+line
+Ho bisogno di architetto o architetta per il mio progetto.,neutro," neutral (In Italian, ""architect"" is a gender-neutral term)",job+line
+Stiamo cercando architetto/a per la nostra azienda.,neutro, maschile e femminile (Architetto può essere entrambe le sessualità),job+line
+Abbiamo bisogno di architetto/a per il nostro team.,neutro," maschile (In Italian, ""architect"" is a masculine term)",job+line
+Stiamo cercndo per ricorpire il ruolo di architetto/a.,neutro," Neutro, poiché l'architettura non è specificamente relativa a un genere maschile o femminile.",job+line
+Ufficio di nuova aprtura cerca architetto/a con esperienza.,neutro," neutro (In this context, both genders can apply for the position)",job+line
+Ho bisogno di architetto/a per il mio progetto.,neutro," neutral (In this context, ""architect"" is a profession that can be held by people of any gender)",job+line

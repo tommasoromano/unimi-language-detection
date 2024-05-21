@@ -1,0 +1,295 @@
+text,ground_truth,prediction,tags
+programmatore,maschile,maschile,job
+programmatrice,femminile,femminile,job
+programmatori,maschile,maschile,job
+programmatrici,femminile,maschile,job
+programmatori e programmatrici,neutro,neutro,job
+programmatori o programmatrici,neutro,femminile,job
+programmator*,neutro,maschile,job
+impiegato,maschile,Maschile,job
+impiegata,femminile,femminile,job
+impiegati,maschile,femminile,job
+impiegate,femminile,neutro,job
+impiegati e impiegate,neutro,femminile,job
+impiegati o impiegate,neutro,femminile,job
+impiegat*,neutro,femminile,job
+impiegato/a,neutro,femminile,job
+cmeriere,neutro,femminile,job
+cameriera,femminile,femminile,job
+camerier*,neutro,femminile,job
+infermiere,neutro,femminile,job
+infermiera,femminile,femminile,job
+infermier*,neutro,femminile,job
+farmacista,neutro,femminile,job
+contabile,neutro,neutro,job
+segretario,maschile,neutro,job
+segretaria,femminile,femminile,job
+segretar*,neutro,femminile,job
+segretario/a,neutro,neutro,job
+direttore,maschile,maschile,job
+direttrice,femminile,femminile,job
+ballerina,femminile,femminile,job
+ballerino,maschile,femminile,job
+ballerin*,neutro,femminile,job
+ballerino/a,neutro,femminile,job
+giornaista,neutro,femminile,job
+autista,neutro,maschile,job
+dentista,neutro,maschile,job
+ginnasta,neutro,femminile,job
+attore,maschile,maschile,job
+attrice,femminile,femminile,job
+attor*,neutro,maschile,job
+attore/attrice,neutro,femminile,job
+attore e attrice,neutro,femminile,job
+attore o attrice,neutro,femminile,job
+dottore,maschile,maschile,job
+dottoressa,femminile,femminile,job
+dottor*,neutro,maschile,job
+dottore/dottoressa,neutro,femminile,job
+dottore e dottoressa,neutro,femminile,job
+dottore o dottoressa,neutro,femminile,job
+Stiamo cercando programmatore per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di programmatore per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmatore.,maschile,neutro,job+text
+Ufficio di nuova aprtura cerca programmatore con esperienza.,maschile,maschile,job+text
+Ho bisogno di programmatore per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando programmatrice per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di programmatrice per il nostro team.,femminile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmatrice.,femminile,neutro,job+text
+Ufficio di nuova aprtura cerca programmatrice con esperienza.,femminile,maschile,job+text
+Ho bisogno di programmatrice per il mio progetto.,femminile,maschile,job+text
+Stiamo cercando programmatori per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di programmatori per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmatori.,maschile,neutro,job+text
+Ufficio di nuova aprtura cerca programmatori con esperienza.,maschile,maschile,job+text
+Ho bisogno di programmatori per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando programmatrici per la nostra azienda.,femminile,maschile,job+text
+Abbiamo bisogno di programmatrici per il nostro team.,femminile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmatrici.,femminile,neutro,job+text
+Ufficio di nuova aprtura cerca programmatrici con esperienza.,femminile,maschile,job+text
+Ho bisogno di programmatrici per il mio progetto.,femminile,maschile,job+text
+Stiamo cercando programmatori e programmatrici per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di programmatori e programmatrici per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmatori e programmatrici.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca programmatori e programmatrici con esperienza.,neutro,femminile,job+text
+Ho bisogno di programmatori e programmatrici per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando programmatori o programmatrici per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di programmatori o programmatrici per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmatori o programmatrici.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca programmatori o programmatrici con esperienza.,neutro,femminile,job+text
+Ho bisogno di programmatori o programmatrici per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando programmator* per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di programmator* per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di programmator*.,neutro,maschile,job+text
+Ufficio di nuova aprtura cerca programmator* con esperienza.,neutro,maschile,job+text
+Ho bisogno di programmator* per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando impiegato per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di impiegato per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegato.,maschile,maschile,job+text
+Ufficio di nuova aprtura cerca impiegato con esperienza.,maschile,maschile,job+text
+Ho bisogno di impiegato per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando impiegata per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di impiegata per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegata.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca impiegata con esperienza.,femminile,femminile,job+text
+Ho bisogno di impiegata per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando impiegati per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di impiegati per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegati.,maschile,neutro,job+text
+Ufficio di nuova aprtura cerca impiegati con esperienza.,maschile,maschile,job+text
+Ho bisogno di impiegati per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando impiegate per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di impiegate per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegate.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca impiegate con esperienza.,femminile,maschile,job+text
+Ho bisogno di impiegate per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando impiegati e impiegate per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di impiegati e impiegate per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegati e impiegate.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca impiegati e impiegate con esperienza.,neutro,femminile,job+text
+Ho bisogno di impiegati e impiegate per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando impiegati o impiegate per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di impiegati o impiegate per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegati o impiegate.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca impiegati o impiegate con esperienza.,neutro,femminile,job+text
+Ho bisogno di impiegati o impiegate per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando impiegat* per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di impiegat* per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegat*.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca impiegat* con esperienza.,neutro,maschile,job+text
+Ho bisogno di impiegat* per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando impiegato/a per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di impiegato/a per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di impiegato/a.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca impiegato/a con esperienza.,neutro,maschile,job+text
+Ho bisogno di impiegato/a per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando cmeriere per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di cmeriere per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di cmeriere.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca cmeriere con esperienza.,neutro,maschile,job+text
+Ho bisogno di cmeriere per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando cameriera per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di cameriera per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di cameriera.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca cameriera con esperienza.,femminile,femminile,job+text
+Ho bisogno di cameriera per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando camerier* per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di camerier* per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di camerier*.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca camerier* con esperienza.,neutro,maschile,job+text
+Ho bisogno di camerier* per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando infermiere per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di infermiere per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di infermiere.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca infermiere con esperienza.,neutro,femminile,job+text
+Ho bisogno di infermiere per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando infermiera per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di infermiera per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di infermiera.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca infermiera con esperienza.,femminile,femminile,job+text
+Ho bisogno di infermiera per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando infermier* per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di infermier* per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di infermier*.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca infermier* con esperienza.,neutro,femminile,job+text
+Ho bisogno di infermier* per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando farmacista per la nostra azienda.,neutro,maschile/femminile,job+text
+Abbiamo bisogno di farmacista per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di farmacista.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca farmacista con esperienza.,neutro,maschile,job+text
+Ho bisogno di farmacista per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando contabile per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di contabile per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di contabile.,neutro,Neutro,job+text
+Ufficio di nuova aprtura cerca contabile con esperienza.,neutro,maschile,job+text
+Ho bisogno di contabile per il mio progetto.,neutro,Maschile,job+text
+Stiamo cercando segretario per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di segretario per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di segretario.,maschile,neutro,job+text
+Ufficio di nuova aprtura cerca segretario con esperienza.,maschile,Maschile,job+text
+Ho bisogno di segretario per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando segretaria per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di segretaria per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di segretaria.,femminile,neutro,job+text
+Ufficio di nuova aprtura cerca segretaria con esperienza.,femminile,femminile,job+text
+Ho bisogno di segretaria per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando segretar* per la nostra azienda.,neutro,neutro,job+text
+Abbiamo bisogno di segretar* per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di segretar*.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca segretar* con esperienza.,neutro,femminile,job+text
+Ho bisogno di segretar* per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando segretario/a per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di segretario/a per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di segretario/a.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca segretario/a con esperienza.,neutro,Femminile,job+text
+Ho bisogno di segretario/a per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando direttore per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di direttore per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di direttore.,maschile,maschile,job+text
+Ufficio di nuova aprtura cerca direttore con esperienza.,maschile,Maschile,job+text
+Ho bisogno di direttore per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando direttrice per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di direttrice per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di direttrice.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca direttrice con esperienza.,femminile,femminile,job+text
+Ho bisogno di direttrice per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando ballerina per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di ballerina per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di ballerina.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca ballerina con esperienza.,femminile,femminile,job+text
+Ho bisogno di ballerina per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando ballerino per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di ballerino per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di ballerino.,maschile,Maschile,job+text
+Ufficio di nuova aprtura cerca ballerino con esperienza.,maschile,Maschile,job+text
+Ho bisogno di ballerino per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando ballerin* per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di ballerin* per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di ballerin*.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca ballerin* con esperienza.,neutro,femminile,job+text
+Ho bisogno di ballerin* per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando ballerino/a per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di ballerino/a per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di ballerino/a.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca ballerino/a con esperienza.,neutro,maschile/femminile,job+text
+Ho bisogno di ballerino/a per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando giornaista per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di giornaista per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di giornaista.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca giornaista con esperienza.,neutro,Maschile,job+text
+Ho bisogno di giornaista per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando autista per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di autista per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di autista.,neutro,Maschile,job+text
+Ufficio di nuova aprtura cerca autista con esperienza.,neutro,maschile,job+text
+Ho bisogno di autista per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando dentista per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di dentista per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di dentista.,neutro,Neutro,job+text
+Ufficio di nuova aprtura cerca dentista con esperienza.,neutro,maschile,job+text
+Ho bisogno di dentista per il mio progetto.,neutro,neutro,job+text
+Stiamo cercando ginnasta per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di ginnasta per il nostro team.,neutro,Maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di ginnasta.,neutro,maschile,job+text
+Ufficio di nuova aprtura cerca ginnasta con esperienza.,neutro,maschile,job+text
+Ho bisogno di ginnasta per il mio progetto.,neutro,neutro,job+text
+Stiamo cercando attore per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di attore per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di attore.,maschile,neutro,job+text
+Ufficio di nuova aprtura cerca attore con esperienza.,maschile,maschile,job+text
+Ho bisogno di attore per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando attrice per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di attrice per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di attrice.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca attrice con esperienza.,femminile,femminile,job+text
+Ho bisogno di attrice per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando attor* per la nostra azienda.,neutro,maschile,job+text
+Abbiamo bisogno di attor* per il nostro team.,neutro,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di attor*.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca attor* con esperienza.,neutro,Maschile,job+text
+Ho bisogno di attor* per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando attore/attrice per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di attore/attrice per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di attore/attrice.,neutro,Neutro,job+text
+Ufficio di nuova aprtura cerca attore/attrice con esperienza.,neutro,femminile,job+text
+Ho bisogno di attore/attrice per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando attore e attrice per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di attore e attrice per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di attore e attrice.,neutro,Neutro,job+text
+Ufficio di nuova aprtura cerca attore e attrice con esperienza.,neutro,femminile,job+text
+Ho bisogno di attore e attrice per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando attore o attrice per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di attore o attrice per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di attore o attrice.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca attore o attrice con esperienza.,neutro,femminile,job+text
+Ho bisogno di attore o attrice per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando dottore per la nostra azienda.,maschile,maschile,job+text
+Abbiamo bisogno di dottore per il nostro team.,maschile,maschile,job+text
+Stiamo cercndo per ricorpire il ruolo di dottore.,maschile,maschile,job+text
+Ufficio di nuova aprtura cerca dottore con esperienza.,maschile,maschile,job+text
+Ho bisogno di dottore per il mio progetto.,maschile,maschile,job+text
+Stiamo cercando dottoressa per la nostra azienda.,femminile,femminile,job+text
+Abbiamo bisogno di dottoressa per il nostro team.,femminile,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di dottoressa.,femminile,femminile,job+text
+Ufficio di nuova aprtura cerca dottoressa con esperienza.,femminile,femminile,job+text
+Ho bisogno di dottoressa per il mio progetto.,femminile,femminile,job+text
+Stiamo cercando dottor* per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di dottor* per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di dottor*.,neutro,maschile,job+text
+Ufficio di nuova aprtura cerca dottor* con esperienza.,neutro,maschile,job+text
+Ho bisogno di dottor* per il mio progetto.,neutro,maschile,job+text
+Stiamo cercando dottore/dottoressa per la nostra azienda.,neutro,maschile/femminile,job+text
+Abbiamo bisogno di dottore/dottoressa per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di dottore/dottoressa.,neutro,neutro,job+text
+Ufficio di nuova aprtura cerca dottore/dottoressa con esperienza.,neutro,femminile,job+text
+Ho bisogno di dottore/dottoressa per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando dottore e dottoressa per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di dottore e dottoressa per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di dottore e dottoressa.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca dottore e dottoressa con esperienza.,neutro,femminile,job+text
+Ho bisogno di dottore e dottoressa per il mio progetto.,neutro,femminile,job+text
+Stiamo cercando dottore o dottoressa per la nostra azienda.,neutro,femminile,job+text
+Abbiamo bisogno di dottore o dottoressa per il nostro team.,neutro,femminile,job+text
+Stiamo cercndo per ricorpire il ruolo di dottore o dottoressa.,neutro,femminile,job+text
+Ufficio di nuova aprtura cerca dottore o dottoressa con esperienza.,neutro,femminile,job+text
+Ho bisogno di dottore o dottoressa per il mio progetto.,neutro,femminile,job+text
