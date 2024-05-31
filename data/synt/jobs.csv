@@ -1,4 +1,24 @@
 job,label
+giornaista,neutro
+autista,neutro
+dentista,neutro
+ginnasta,neutro
+consulente,neutro
+estetista,neutro
+farmacista,neutro
+contabile,neutro
+nutrizionista,neutro
+giardiniere,neutro
+insegnante,neutro
+igienista dentale,neutro
+infermiere,maschile
+infermiera,femminile
+infermier*,neutro
+infermiere/a,neutro
+infermierÃ,neutro
+infermiera/e,neutro
+infermiera o infermiere,neutro
+infermiere o infermiera,neutro
 programmatore,maschile
 programmatrice,femminile
 programmatori,maschile
@@ -21,49 +41,49 @@ cameriera,femminile
 camerier*,neutro
 cameriere/a,neutro
 camerierÃ,neutro
-infermiere,neutro
-infermiera,femminile
-infermier*,neutro
-infermiere/a,neutro
-infermierÃ,neutro
-farmacista,neutro
-contabile,neutro
+cameriere/cameriera,neutro
+cameriere e cameriera,neutro
+cameriere o cameriera,neutro
 segretario,maschile
 segretaria,femminile
 segretar*,neutro
 segretario/a,neutro
 segretarÃ,neutro
+segretaria o segretario,neutro
+segretario o segretaria,neutro
+segretario/segretaria,neutro
 direttore,maschile
 direttrice,femminile
+direttor*,neutro
+direttorÃ,neutro
+direttore/direttrice,neutro
+direttrice o direttore,neutro
+direttore o direttrice,neutro
 ballerina,femminile
 ballerino,maschile
 ballerin*,neutro
 ballerino/a,neutro
 ballerinÃ,neutro
-giornaista,neutro
-autista,neutro
-dentista,neutro
-ginnasta,neutro
 attore,maschile
 attrice,femminile
 attor*,neutro
 attorÃ,neutro
 attore/attrice,neutro
-attore e attrice,neutro
+attrice o attore,neutro
 attore o attrice,neutro
 dottore,maschile
 dottoressa,femminile
 dottor*,neutro
 dottorÃ,neutro
 dottore/dottoressa,neutro
-dottore e dottoressa,neutro
+dottoressa o dottore,neutro
 dottore o dottoressa,neutro
 architetto,maschile
 architetta,femminile
 architett*,neutro
 architettÃ,neutro
 architetto/architetta,neutro
-architetto e architetta,neutro
+architetta o architetto,neutro
 architetto o architetta,neutro
 architetto/a,neutro
 candidato,maschile
@@ -71,3 +91,47 @@ candidata,femminile
 candidat*,neutro
 candidato/a,neutro
 candidatÃ,neutro
+commessa,femminile
+commesso,maschile
+commess*,neutro
+commesso/a,neutro
+commessÃ,neutro
+commessa/o,neutro
+commesso o commessa,neutro
+commessa o commesso,neutro
+cuoco,maschile
+cuoca,femminile
+cuoc*,neutro
+cuoco/a,neutro
+cuocÃ,neutro
+cuoca/o,neutro
+cuoco o cuoca,neutro
+cuoca o cuoco,neutro
+parrucchiera,femminile
+parrucchiere,maschile
+parrucchier*,neutro
+parrucchiere/a,neutro
+parrucchiera/e,neutro
+parrucchiere o parrucchiera,neutro
+parrucchiera o parrucchiere,neutro
+parrucchiere/parrucchiera,neutro
+truccatore,maschile
+truccatrice,femminile
+truccator*,neutro
+truccatore o truccatrice,neutro
+truccatrice o truccatore,neutro
+psicologo,maschile
+psicologa,femminile
+psicolog*,neutro
+psicologo/a,neutro
+psicologÃ,neutro
+psicologa/o,neutro
+psicologo o psicologa,neutro
+psicologa o psicologo,neutro
+traduttore,maschile
+traduttrice,femminile
+traduttor*,neutro
+traduttore/traduttrice,neutro
+traduttrice/traduttore,neutro
+traduttore o traduttrice,neutro
+traduttrice o traduttore,neutro
