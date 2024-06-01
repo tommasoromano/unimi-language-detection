@@ -26,6 +26,7 @@ t_prompts = [
   'Rispondi con un singolo label "maschile", "femminile" o "neutro" per il genere dei presenti nomi di professioni, altrimenti mettere "neutro".',
   'Classifica il testo in base al genere maschile o femminile o neutro.',
   'Rispondi tenendo la struttura "genere" + "spiegazione"'
+  'Classifica il testo in base al genere maschile o femminile o neutro con struttura "genere" + "spiegazione".',
 ]
 
 zsl_ttl_prompts = [
@@ -33,6 +34,7 @@ zsl_ttl_prompts = [
     'Sei un assistente che legge un testo e identifica se i nomi di professioni si riferiscono a maschile o femminile o neutro. Puoi rispondere solamente con un label "maschile", "femminile" o "neutro".',
     'Sei un assistente che legge un testo e risponde con un singolo label "maschile", "femminile" o "neutro" per il genere dei presenti nomi di professioni, altrimenti mettere "neutro".',
     'Classifica il testo in base al genere maschile o femminile o neutro.',
+    'Classifica il testo in base al genere maschile o femminile o neutro con struttura "genere" + "spiegazione".',
 ]
 zsl_ttl_prompts = [[f"zsl-ttl-{i}",p] for i,p in enumerate(zsl_ttl_prompts)]
 
