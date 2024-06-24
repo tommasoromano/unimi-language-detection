@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" modified="2024-06-12T17:46:41.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pX3DkWEPQRTbbSDBTgRB" version="24.4.4" type="device">
+  <diagram name="Page-1" id="uklqEMUbE8ebxVYhm41M">
+    <mxGraphModel dx="1218" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iub9MYZztiOdf3UBr4kM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-1" target="iub9MYZztiOdf3UBr4kM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="80" />
+              <mxPoint x="190" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-1" value="context prompts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-2" target="iub9MYZztiOdf3UBr4kM-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="643.4990909090909" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-2" value="&lt;div&gt;DataFrame of &amp;lt; text, tag &amp;gt;&lt;/div&gt;&lt;div&gt;(e.g. job_title, genre)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="646.18" y="40" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-3" target="iub9MYZztiOdf3UBr4kM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="79" />
+              <mxPoint x="380" y="220" />
+              <mxPoint x="279" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-3" value="parameters&lt;div&gt;(e.g. prompt_formats:&amp;nbsp;&lt;/div&gt;&lt;div&gt;cieq, ciet, cieqt, ...)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="67" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-9" target="iub9MYZztiOdf3UBr4kM-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="877" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-9" value="synthesized data generation&lt;div&gt;&amp;lt; text, label, target &amp;gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#000000;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.checklist_cost;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-11" target="iub9MYZztiOdf3UBr4kM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="200" />
+              <mxPoint x="170" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-11" value="instruction prompts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-12" target="iub9MYZztiOdf3UBr4kM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-12" value="example prompts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-13" target="iub9MYZztiOdf3UBr4kM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="440" />
+              <mxPoint x="170" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-13" value="question prompts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-14" target="iub9MYZztiOdf3UBr4kM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="560" />
+              <mxPoint x="190" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-14" value="task prompts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-16" target="iub9MYZztiOdf3UBr4kM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-16" value="&lt;div&gt;few-shot learning&lt;/div&gt;&lt;div&gt;prompts and ids&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;generator&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.source_code;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="58.46" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-24" target="iub9MYZztiOdf3UBr4kM-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="440" />
+              <mxPoint x="580" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-24" value="FSL prompts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="444.36" y="400" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-26" target="iub9MYZztiOdf3UBr4kM-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="560" />
+              <mxPoint x="578" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-26" value="zero-shot learning&lt;div&gt;prompts&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="444.36" y="520" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-27" target="iub9MYZztiOdf3UBr4kM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-27" value="texts with tokens&lt;div&gt;for substitution&lt;/div&gt;&lt;div&gt;(e.g. [JOB])&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="850" y="38" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-28" target="iub9MYZztiOdf3UBr4kM-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="70" />
+              <mxPoint x="960" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-28" value="real texts" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="40" width="65.64" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-30" value="LLM" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#000000;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
+          <mxGeometry x="837.64" y="400" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sourcePerimeterSpacing=10;targetPerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-31" target="iub9MYZztiOdf3UBr4kM-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="200" />
+              <mxPoint x="980" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-31" value="Operator" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="iub9MYZztiOdf3UBr4kM-32" target="iub9MYZztiOdf3UBr4kM-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="520" />
+              <mxPoint x="780" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iub9MYZztiOdf3UBr4kM-32" value="final prompt list&lt;div&gt;&amp;lt; id, prompt &amp;gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;" vertex="1" parent="1">
+          <mxGeometry x="646.1800000000001" y="480" width="65.64" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
