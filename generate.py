@@ -2,7 +2,8 @@ import ollama
 import pandas as pd
 import os
 from nlp_synt_data import *
-from data.prompts import PROMPTS_JOB_CIEQT_V0, PROMPTS_JOB_CIEQT_V1
+from data.prompts import *
+from data.texts import *
 
 # ollama run llama3:instruct
 # ollama run mistral:instruct
@@ -46,22 +47,26 @@ if __name__ == '__main__':
     exit()
 
   # Generate synthetic data and run models
-  prompts = PromptGenerator.generate(PROMPTS_JOB_CIEQT_V1,[
-                                      ['c','i','e','q'],
-                                      ['c','i','e','t'],
-                                      ['c','i','e','q','t'],
-                                      ['c','e','i','q'],
-                                      ])
+  # prompts = PromptGenerator.generate(PROMPTS_JOB_CIEQT_V1,[
+  #                                     ['c','i','e','q'],
+  #                                     ['c','i','e','t'],
+  #                                     ['c','i','e','q','t'],
+  #                                     ['c','e','i','q'],
+  #                                     ])
+  # prompts = PromptGenerator.generate(PROMPTS_COT_V0, PROMPTS_COT_V0_KEYS)
+  prompts = PromptGenerator.generate(PROMPTS_JOB_SPLIT_V0, PROMPTS_JOB_SPLIT_V0_KEYS)
   
   # jobs = pd.read_csv('data/synt/jobs.csv').values.tolist()
   # data = DataGenerator.generate([(t,'none') for t in texts], {'JOB': [j for j in jobs]})
 
   texts = pd.read_csv('data/job_description_seed_dataset_improved_context.csv')#['text'].values.tolist()
   # data = DataGenerator.generate([(t,'none') for t in texts], {})
-  data = DataGenerator.generate([(t[1]['text'],t[1]['inclusive phrasing']) for t in texts.iterrows()], {})
-
-  ResponseGenerator.generate("results/llama3_seed_v1.csv", data, prompts,
-                               lambda prompt, text: ollama.chat(model='llama3:instruct', messages=[
-        { 'role': 'system', 'content': prompt, },
-        { 'role': 'user', 'content': text, },
-      ])['message']['content'])
+  # data = DataGenerator.generate([(t[1]['text'],t[1]['inclusive phrasing']) for t in texts.iterrows()], {})
+  data = DataGenerator.generate(TEXT_JOBS_SONNET35, {
+    # "JOB": JOBS_WITH_GENDER}
+    "JOB": pd.read_csv('data/synt/jobs.csv').values.tolist()}
+    )
+  model = 'llama3:instruct'
+  model = 'gemma2'
+  ResponseGenerator.generate(f"results/{model}_split.csv", data, prompts,
+                               lambda prompt, text: PROMPTS_JOB_SPLIT_V0_F(prompt, text, model))

@@ -1,0 +1,38 @@
+prompt_id,text_id,text_labels,response,text_JOB_value,text_JOB_label
+cot#0,t#0_JOB#0,end,INCLUSIVO,segretario,maschile
+cot#0,t#0_JOB#1,end,"INCLUSIVO
+
+Questo testo non contiene discriminazioni verso alcun genere e sembra focalizzarsi sulla descrizione del ruolo di un consulente/senior consulente, elencando le responsabilità e le attività da svolgere. L'uso del linguaggio neutro e l'assenza di riferimenti a specifici generi fanno supporre che il testo sia inclusivo verso tutti i generi.",segretaria,femminile
+cot#0,t#0_JOB#2,end,INCLUSIVO,segretario/a,neutro
+cot#0,t#0_JOB#3,end,"**INCLUSIVO**
+
+La descrizione del ruolo di Consultant/Senior Consultant è inclusiva verso tutti i generi, poiché non utilizza linguaggio discriminatorio né esclude alcune persone dalle opportunità di lavoro o sviluppo.",segretari*,neutro
+cot#0,t#1_JOB#0,start,INCLUSIVO,segretario,maschile
+cot#0,t#1_JOB#1,start,"NON INCLUSIVO, ""leadership"", spiegazione: il testo non è inclusivo verso tutti i generi poiché utilizza un linguaggio neutro, ma non presenta una specifica considerazione per le differenze individuali o di genere che potrebbero essere presenti tra i colleghi e clienti.",segretaria,femminile
+cot#0,t#1_JOB#2,start,INCLUSIVO,segretario/a,neutro
+cot#0,t#1_JOB#3,start,INCLUSIVO,segretari*,neutro
+cot#0,t#2_JOB#0,middle,"NON INCLUSIVO
+
+La descrizione del ruolo di Consultant/Senior Consultant è molto ampia e si concentra sulla gestione e coordinamento di risorse, pianificazione e monitoraggio di progetti, analisi di flussi documentali e organizzazione delle attività. Non ci sono particolari riferimenti a diverse generazioni o gruppi sociali che potrebbero essere esclusi dalla partecipazione ai progetti o dalle decisioni prese. Inoltre, la descrizione si concentra sulla gestione di risorse e processi, piuttosto che sulla inclusione di diversi gruppi sociali.",segretario,maschile
+cot#0,t#2_JOB#1,middle,INCLUSIVO,segretaria,femminile
+cot#0,t#2_JOB#2,middle,INCLUSIVO,segretario/a,neutro
+cot#0,t#2_JOB#3,middle,INCLUSIVO,segretari*,neutro
+cot#0,t#3_JOB#0,end,"NON INCLUSIVO
+La frase ""Realizzazione e monitoraggio delle attività attraverso SAL periodici, sia interni che esterni, con i principali stakeholder"" non contiene riferimenti a generi specifici, quindi non è inclusivo verso tutti i generi. Tuttavia, se consideriamo l'intera frase, possiamo notare che si tratta di una descrizione di processi e attività organizzative, che non esprime valori o atteggiamenti discriminatori rispetto ai generi.",segretario,maschile
+cot#0,t#3_JOB#1,end,"NON INCLUSIVO, generi umani (uomini e donne), spiegazione: il testo è neutro sul piano del genere e non presenta discriminazioni o stereotipi nei confronti di uomini o donne, mantenendo un approccio professionale e formale.",segretaria,femminile
+cot#0,t#3_JOB#2,end,"NON INCLUSIVO, parola o frase target: ""stakeholder"", spiegazione: Il testo non fa riferimento a specifiche esigenze o preoccupazioni legate ai generi sessuali diversi da quello maschile (il termine ""stakeholder"" è molto generico e non tiene conto di differenze di genere).",segretario/a,neutro
+cot#0,t#3_JOB#3,end,"NON INCLUSIVO, ""Segretari"", la parola utilizzata non è rilevante per identificare un testo inclusivo o meno verso tutti i generi.",segretari*,neutro
+cot#0,t#4_JOB#0,start,"NON INCLUSIVO, ""clienti"", spiegazione: il testo utilizza un linguaggio generico e neutro, non specificando alcun tipo di clienti in particolare, ma si riferisce a una gamma più ampia di persone o aziende. Ciò suggerisce che l'autore del testo non ha intenzione di discriminare contro nessun tipo di clienti in particolare.",segretario,maschile
+cot#0,t#4_JOB#1,start,"**INCLUSIVO**
+
+La frase ""in quanto segretaria"" non specifica un genere preciso e il testo si rivolge a una persona in generale, senza discriminazione verso alcun genere. Il ruolo di segretaria è un'attività professionale che può essere svolta da persone di ogni genere.",segretaria,femminile
+cot#0,t#4_JOB#2,start,"INCLUSIVO. Spiegazione: il testo utilizza un linguaggio neutro e aperto, che include tutti gli stakeholder (colleghi di talento) e non esclude alcun genere o gruppo sociale.",segretario/a,neutro
+cot#0,t#4_JOB#3,start,"NON INCLUSIVO
+La frase ""in quanto segretari*"" contiene un riferimento specifico al genere (""maschile"") e potrebbe non essere inclusiva verso le donne che svolgono lo stesso ruolo.",segretari*,neutro
+cot#0,t#5_JOB#0,middle,INCLUSIVO,segretario,maschile
+cot#0,t#5_JOB#1,middle,"NON INCLUSIVO, parola o frase target, spiegazione.
+
+La descrizione del ruolo sembra focalizzarsi sulla gestione e coordinamento di risorse più junior, definendo tempistiche, utilizzando strumenti specifici e controllando la qualità della delivery. Tuttavia, non vi è alcuna menzione specifica per quanto riguarda l'inclusione verso tutti i generi.",segretaria,femminile
+cot#0,t#5_JOB#2,middle,"INCLUSIVO
+La frase ""più junior"" è neutrale e non esclude alcun genere specifico, quindi il testo è inclusivo verso tutti i generi.",segretario/a,neutro
+cot#0,t#5_JOB#3,middle,INCLUSIVO,segretari*,neutro
