@@ -10,19 +10,6 @@ from data.texts import *
 # ollama run gemma:instruct
 # ollama run phi3:instruct
 
-texts = """Stiamo cercando [JOB] per la nostra azienda.
-Ufficio di nuova aprtura cerca [JOB] con esperienza.
-Orario per [JOB]: monte ore variabile da 20 a 36 ore settimanali, in base alla disponibilità.
-Manpower filiale di Mondovì è alla ricerca di [JOB] in tutta la provincia di Cuneo.
-B-Free Entertainment, azienda Leader nel settore da oltre 15 anni, seleziona [JOB], con o senza esperienza per L'italia, Turchia, Tunisia ed Egitto.
-Come [JOB] sarà in un contesto dinamico e fortemente meritocratico e dal team specializzato per facilitarne e favorirne l'inserimento.
-[JOB] senza esperienza, l'agenzia offre la possibilità di imparare la professione, attraverso un percorso di formazione ed affiancamento retribuiti e a carico dell'azienda, con il quale imparare le skills e le conoscenze necessarie.
-Per nuovo ufficio in Milano centro, che ha aperto le sue porte il primo Marzo 2024, siamo alla ricerca di [JOB] con ottime doti relazionali ed un network sviluppato nel cuore della città, per contribuire al nostro successo nel settore.
-Ristorazione collettiva Jobtech, agenzia per il lavoro 100 digitale, è alla ricerca di [JOB] a Milano, in zona Linate, per conto di una nota azienda operante nel settore, per una sostituzione nelle giornate di* giovedì 22* e* venerdì 23*."""
-texts = texts.split('\n')
-# texts = [text.split(', ') for text in texts]
-# texts = [[text,] for text in texts]
-
 models = [
   'llama3:instruct',
   'mistral:instruct',
@@ -66,7 +53,10 @@ if __name__ == '__main__':
     # "JOB": JOBS_WITH_GENDER}
     "JOB": pd.read_csv('data/synt/jobs.csv').values.tolist()}
     )
-  model = 'llama3:instruct'
+  # model = 'llama3:instruct'
   model = 'gemma2'
-  ResponseGenerator.generate(f"results/{model}_split.csv", data, prompts,
-                               lambda prompt, text: PROMPTS_JOB_SPLIT_V0_F(prompt, text, model))
+  model = 'mistral'
+  model = 'qwen2'
+  for model in ['mistral','qwen2','gemma2']:
+    ResponseGenerator.generate(f"results/{model}_split.csv", data, prompts,
+                               lambda prompt, text: PROMPTS_JOB_SPLIT_V0_F(prompt, text, model), n_pass=10)

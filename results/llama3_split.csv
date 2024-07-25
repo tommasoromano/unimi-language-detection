@@ -1,5 +1,0 @@
-prompt_id,text_id,text_labels,response,text_JOB_value,text_JOB_label
-a#0,t#0_JOB#0,none,split,segretario,maschile
-a#0,t#0_JOB#1,none,split,segretaria,femminile
-a#0,t#0_JOB#2,none,split,segretario/a,neutro
-a#0,t#0_JOB#3,none,split,segretari*,neutro

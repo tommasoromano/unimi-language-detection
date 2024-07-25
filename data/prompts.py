@@ -3,36 +3,32 @@ import ollama
 
 PROMPTS_JOB_SPLIT_V0 = {
   'zsl': [
-    # """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni o parole inclusive per entrambi i generi. La frase può essere anche generica e non rilevante. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".""",
     """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO".""",
-#     """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni o parole inclusive per entrambi i generi. La frase può essere anche generica e non rilevante. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-
-# Frase: Requisiti:
-# Q: Rispondi con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-# A: NON RILEVANTE
-
-# Frase: Studio Legale Rossi & Associati cerca programmatrice Legale
-# Q: Rispondi con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-# A: NON INCLUSIVO
-
-# Frase: Archiviazione e gestione della documentazione fisica e digitale
-# Q: Rispondi con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-# A: NON RILEVANTE
-
-# Frase: programmatrice svolgerà un ruolo chiave nel supportare le attività quotidiane dello studio, 
-# Q: Rispondi con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-# A: NON INCLUSIVO
-
-# Frase: garantendo un'efficiente gestione amministrativa e contribuendo al successo complessivo del team legale.
-# Q: Rispondi con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-# A: NON RILEVANTE
-
-# Frase: Organizzazione di viaggi e trasferte per i professionisti dello studio
-# Q: Rispondi con il label "NON INCLUSIVO" o "INCLUSIVO" o "NON RILEVANTE".
-# A: NON INCLUSIVO"""
-  ]
+  ],
+  'fsl': [
+    '''Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO". Esempi:
+    Frase: Requisiti:
+    Risposta: INCLUSIVO
+    
+    Frase: Studio Legale Rossi & Associati cerca programmatrice
+    Risposta: NON INCLUSIVO
+    
+    Frase: Archiviazione e gestione della documentazione fisica e digitale
+    Risposta: INCLUSIVO
+    
+    Frase: Cerchiamo un programmatore
+    Risposta: NON INCLUSIVO
+    
+    Frase: Cerchiamo un programmatore/programmatrice
+    Risposta: INCLUSIVO
+    
+    Frase: Offriamo:
+    Risposta: INCLUSIVO
+    
+    Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO"''',
+  ],
 }
-PROMPTS_JOB_SPLIT_V0_KEYS = [['zsl',],]
+PROMPTS_JOB_SPLIT_V0_KEYS = [['zsl',],['fsl',],]
 def PROMPTS_JOB_SPLIT_V0_F(prompt, text, model):
   messages = [
     { 'role': 'system', 'content': prompt, },
