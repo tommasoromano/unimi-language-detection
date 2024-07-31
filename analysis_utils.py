@@ -4,14 +4,24 @@ import seaborn as sns
 import sklearn.metrics as skm
 LABELS = ['INCLUSIVO', 'NON INCLUSIVO']
 
-def fix_df(df:pd.DataFrame, model):
+def fix_df(df:pd.DataFrame, model, show_plot=False):
     df['text_JOB_value'] = df.apply(lambda x: x['text_JOB_value'] if isinstance(x['text_JOB_value'],str) else "", axis=1)
 
     df['true'] = df.apply(lambda x: ('INCLUSIVO' if x['text_JOB_label'] == 'neutro' else 'NON INCLUSIVO') if x['text_labels'] == 'TODO' else x['text_labels'], axis=1)
 
+    def fix_cot(x):
+        r:str = x['response'].upper()
+        if r.endswith('NON INCLUSIVO'):
+            return 'NON INCLUSIVO'
+        elif r.endswith('INCLUSIVO'):
+            return 'INCLUSIVO'
+        return None
+    
     def fix_gemma2(df):
         fdf = df.copy()
         def _f(x):
+            if 'cot' in x['prompt_id']:
+                return fix_cot(x)
             r = x['response'].upper()
             if r.startswith('NON INCLUSIVO'):
                 return 'NON INCLUSIVO'
@@ -24,6 +34,8 @@ def fix_df(df:pd.DataFrame, model):
     def fix_mistral(df):
         fdf = df.copy()
         def _f(x):
+            if 'cot' in x['prompt_id']:
+                return fix_cot(x)
             r = x['response'].upper()
             r = r[1:]
             if r.startswith('NON INCLUSIVO'):
@@ -37,6 +49,8 @@ def fix_df(df:pd.DataFrame, model):
     def fix_qwen2(df):
         fdf = df.copy()
         def _f(x):
+            if 'cot' in x['prompt_id']:
+                return fix_cot(x)
             r = x['response'].upper()
             if r == 'NON INCLUSIVO':
                 return 'NON INCLUSIVO'
@@ -68,9 +82,11 @@ def fix_df(df:pd.DataFrame, model):
             res = pd.concat([res,pd.DataFrame({'count':[r],'%':[round(r/r,2)],'df':'raw','prompt_id':[p],'true':[t]})])
             res = pd.concat([res,pd.DataFrame({'count':[d],'%':[round(d/r,2)],'df':'fixed','prompt_id':[p],'true':[t]})])
 
-    print(res)
-    sns.barplot(data=res, x='prompt_id', y='%', hue='df')
-    plt.show()
+    if show_plot:
+        print(res)
+        sns.barplot(data=res, x='prompt_id', y='%', hue='df')
+        plt.title(f"Raw vs Fixed - {model}")
+        plt.show()
     
     return df_fix
 
@@ -158,3 +174,27 @@ def metrics(df):
         'f1': f1,
         'negative_predictive_value': negative_predictive_value
     }
+
+def plot_metrics(res_df, title):
+
+    res_df_melt = res_df.melt(id_vars=['name'], var_name='metric', value_name='value')
+    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'true_positives',
+        'true_negatives',
+        'false_positives',
+        'false_negatives',
+    ])], x='metric', y='value', hue='name')
+    plt.title(f"Confusion Matrix{title}")
+    plt.show()
+
+    ax = sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'sensitivity',
+        'specificity',
+        'accuracy',
+        'precision',
+        'f1',
+        # 'negative_predictive_value',
+    ])], x='metric', y='value', hue='name')
+    sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+    plt.title(f"Metrics{title}")
+    plt.show()

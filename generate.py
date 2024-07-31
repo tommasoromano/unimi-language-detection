@@ -34,29 +34,20 @@ if __name__ == '__main__':
     exit()
 
   # Generate synthetic data and run models
-  # prompts = PromptGenerator.generate(PROMPTS_JOB_CIEQT_V1,[
-  #                                     ['c','i','e','q'],
-  #                                     ['c','i','e','t'],
-  #                                     ['c','i','e','q','t'],
-  #                                     ['c','e','i','q'],
-  #                                     ])
-  # prompts = PromptGenerator.generate(PROMPTS_COT_V0, PROMPTS_COT_V0_KEYS)
-  prompts = PromptGenerator.generate(PROMPTS_JOB_SPLIT_V0, PROMPTS_JOB_SPLIT_V0_KEYS)
-  
-  # jobs = pd.read_csv('data/synt/jobs.csv').values.tolist()
-  # data = DataGenerator.generate([(t,'none') for t in texts], {'JOB': [j for j in jobs]})
+  prompts = PromptGenerator.generate(PROMPTS_JOB_V0, PROMPTS_JOB_V0_KEYS)
 
-  texts = pd.read_csv('data/job_description_seed_dataset_improved_context.csv')#['text'].values.tolist()
-  # data = DataGenerator.generate([(t,'none') for t in texts], {})
-  # data = DataGenerator.generate([(t[1]['text'],t[1]['inclusive phrasing']) for t in texts.iterrows()], {})
-  data = DataGenerator.generate(TEXT_JOBS_SONNET35, {
-    # "JOB": JOBS_WITH_GENDER}
-    "JOB": pd.read_csv('data/synt/jobs.csv').values.tolist()}
+  data = DataGenerator.generate(TEXT_JOBS_v0, {
+    "JOB": JOBS_V0}
     )
   # model = 'llama3:instruct'
+  n_pass = 2
   model = 'gemma2'
   model = 'mistral'
   model = 'qwen2'
-  for model in ['mistral','qwen2','gemma2']:
+  model = 'llama3.1'
+  model = 'phi3'
+  models = ['phi3','gemma2']
+  for model in models:
+    print(model)
     ResponseGenerator.generate(f"results/{model}_split.csv", data, prompts,
-                               lambda prompt, text: PROMPTS_JOB_SPLIT_V0_F(prompt, text, model), n_pass=10)
+                               lambda prompt, text: PROMPTS_JOB_V0_F(prompt, text, model), n_pass=n_pass)

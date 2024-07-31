@@ -1,4 +1,6 @@
-TEXT_JOBS_SONNET35 = [
+import pandas as pd
+
+TEXT_JOBS_v0 = [
 ('Studio Legale Rossi & Associati cerca [JOB] Legale',"TODO"),
 ('Lo Studio Legale Rossi & Associati, rinomato studio con sede nel centro di Milano specializzato in diritto societario e commerciale, è alla ricerca di una [JOB] Legale per unirsi al nostro team dinamico e in crescita.',"TODO"),
 ('Descrizione del ruolo:',"INCLUSIVO"),
@@ -81,6 +83,8 @@ TEXT_JOBS_SONNET35 = [
 ("Si richiede disponibilità a turni spezzati.","INCLUSIVO"),
 ("Inserimento iniziale a tempo determinato, scopo assuntivo. CCNL Turismo Pubblici esercizi VI Livello da commisurare in base all'esperienza.","INCLUSIVO"),
 ]
+
+JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()
 
 TEXTS_JOBS_FROM_SEED = [
     ("""Il tuo ruolo, in quanto Consultant / Senior Consultant, ti darà la possibilità di concretizzare in prima persona iniziative per progetti strategici, condividendo la tua esperienza e le tue conoscenze con colleghi di talento, iniziando a sviluppare capacità di leadership, e individuando la migliore soluzione per i clienti, occupandoti di: Gestione e coordinamento delle risorse più junior, in termini di definizione delle tempistiche, utilizzo di specifici tool, controllo di qualità della delivery; Definizione delle metodologie ed approcci innovativi per la pianificazione e il monitoraggio delle iniziative in termini di Project Management e/o Program Management; Realizzazione e monitoraggio delle attività attraverso SAL periodici, sia interni che esterni, con i principali stakeholder; Definizione di attività di analisi del flusso documentale di progetto in termini di data entry e archiviazione; Gestione e controllo della qualità della delivery progettuale; Organizzazione delle attività di reportistica e analisi dei KPI in termini di [JOB].""", "end"),
