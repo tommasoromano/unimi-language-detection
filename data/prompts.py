@@ -95,6 +95,7 @@ PROMPTS_JOB_V0 = {
 }
 
 PROMPTS_JOB_V0_KEYS = [['zsl',],['fsl',],['cot',],]
+PROMPTS_JOB_V0_KEYS_FINETUNING = [['zsl',],]
 def PROMPTS_JOB_V0_F(prompt, text, model):
   messages = [
     { 'role': 'system', 'content': prompt, },
