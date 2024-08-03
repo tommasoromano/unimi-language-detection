@@ -44,9 +44,9 @@ if __name__ == '__main__':
     split_dataset = dataset.train_test_split(test_size=0.2, seed=42)
 
     dataset_dict = DatasetDict({
-        'train': dataset,
-        # 'train': split_dataset['train'],
-        # 'test': split_dataset['test']
+        # 'train': dataset,
+        'train': split_dataset['train'],
+        'test': split_dataset['test']
     })
 
     print(dataset_dict)

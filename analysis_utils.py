@@ -139,6 +139,10 @@ def contains(df, ls:list[str], invert=False):
 
 def metrics(df):
     total = len(df)
+    gt_pos = len(df[df['true'] == 'INCLUSIVO'])
+    gt_neg = len(df[df['true'] == 'NON INCLUSIVO'])
+    pred_pos = len(df[df['response'] == 'INCLUSIVO'])
+    pred_neg = len(df[df['response'] == 'NON INCLUSIVO'])
     true_positives = len(df[(df['true'] == 'INCLUSIVO') & (df['response'] == 'INCLUSIVO')])
     true_negatives = len(df[(df['true'] == 'NON INCLUSIVO') & (df['response'] == 'NON INCLUSIVO')])
     false_positives = len(df[(df['true'] == 'NON INCLUSIVO') & (df['response'] == 'INCLUSIVO')])
@@ -179,6 +183,10 @@ def metrics(df):
     # print(f"Negative Predictive Value: {negative_predictive_value}")
     return {
         'total': total,
+        'gt_pos': gt_pos,
+        'gt_neg': gt_neg,
+        'pred_pos': pred_pos,
+        'pred_neg': pred_neg,
         'true_positives': true_positives/total,
         'true_negatives': true_negatives/total,
         'false_positives': false_positives/total,
@@ -194,6 +202,16 @@ def metrics(df):
 def plot_metrics(res_df, title):
 
     res_df_melt = res_df.melt(id_vars=['name'], var_name='metric', value_name='value')
+
+    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'gt_pos',
+        'gt_neg',
+        'pred_pos',
+        'pred_neg',
+    ])], x='metric', y='value', hue='name')
+    plt.title(f"Groud Truth vs Pred{title}")
+    plt.show()
+
     sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
         'true_positives',
         'true_negatives',
