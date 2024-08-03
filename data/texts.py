@@ -82,6 +82,41 @@ TEXT_JOBS_v0 = [
 ("Part Time, 20 ore settimanali, dal lunedì alla domenica con un giorno di riposo su turnazione.","INCLUSIVO"),
 ("Si richiede disponibilità a turni spezzati.","INCLUSIVO"),
 ("Inserimento iniziale a tempo determinato, scopo assuntivo. CCNL Turismo Pubblici esercizi VI Livello da commisurare in base all'esperienza.","INCLUSIVO"),
+# FROM SEED
+("#YourRole Il tuo ruolo, in quanto [JOB], ti darà la possibilità di concretizzare in prima persona iniziative per progetti strategici, condividendo la tua esperienza e le tue conoscenze con colleghi di talento, iniziando a sviluppare capacità di leadership, e individuando la migliore soluzione per i clienti, occupandoti di: ","TODO"),
+("Gestione e coordinamento delle risorse più junior, in termini di definizione delle tempistiche, utilizzo di specifici tool, controllo di qualità della delivery; ","INCLUSIVO"),
+("Definizione delle metodologie ed approcci innovativi per la pianificazione e il monitoraggio delle iniziative in termini di Project Management e/o Program Management; ","INCLUSIVO"),
+("Realizzazione e monitoraggio delle attività attraverso SAL periodici, sia interni che esterni, con i principali stakeholder; ","INCLUSIVO"),
+("Definizione di attività di analisi del flusso documentale di progetto in termini di data entry e archiviazione; ","INCLUSIVO"),
+("Gestione e controllo della qualità della delivery progettuale; ","INCLUSIVO"),
+("Organizzazione delle attività di reportistica e analisi dei KPI in termini di Risk Management e Quality Management.","INCLUSIVO"),
+#
+("Il profilo ideale è [JOB] che: ","TODO"),
+("Ha conseguito una laurea magistrale in ingegneria gestionale o in ambito economico/manageriale ","INCLUSIVO"),
+("Ha un’esperienza pregressa maturata in società di consulenza strategico/organizzativa di almeno 3 anni, in modo particolare su clienti del mercato Retail e Fast Moving Consumer Goods ","INCLUSIVO"),
+("È stato coinvolto in progettualità di redazioni di piani industriali e strategici ","NON INCLUSIVO"),
+("È stata coinvolta in progettualità di redazioni di piani industriali e strategici ","NON INCLUSIVO"),
+("Possiede comprovata esperienza (almeno 3 anni) in progetti di Due Diligence e Data Strategy ","INCLUSIVO"),
+("Possiede comprovata esperienza (almeno 3 anni) su tematiche afferenti all’analisi dei processi aziendali ","INCLUSIVO"),
+("Possiede comprovata esperienza nel relazionarsi in modo autonomo direttamente con i referenti lato cliente, interagendo con i C-Level tanto nelle fasi di ricerca quanto nell’acquisizione delle informazioni necessarie per il disegno del progetto e la gestione dei SAL ","INCLUSIVO"),
+("Ha esperienza di almeno 2 anni di gestione, coordinamento e sviluppo di risorse junior ","INCLUSIVO"),
+("Ha ottima conoscenza/competenze con pacchetto office, in modo particolare Excel e PPT ","INCLUSIVO"),
+("Ha ottima conoscenza della lingua inglese","INCLUSIVO"),
+#
+("La risorsa inserita si occuperà delle seguenti attività: ","INCLUSIVO"),
+("Gestione e smistamento corrispondenza generale: mail, telefono, chat; ","INCLUSIVO"),
+("Gestione sale riunioni: prenotazioni e cura dell’ordine delle sale; ","INCLUSIVO"),
+("Gestione attività di segreteria generale: a supporto di colleghi e responsabili; ","INCLUSIVO"),
+("Monitoraggio sistemi di sicurezza; ","INCLUSIVO"),
+("Gestione trasferte e viaggi; ","INCLUSIVO"),
+("Coordinamento eventi interni: riunioni interne, meeting, formazione, piccoli eventi interni; ","INCLUSIVO"),
+("Attività varie a supporto dell'area Marketing.","INCLUSIVO"),
+# ("I candidati interessati possono inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "NON INCLUSIVO")
+# ("Le candidate interessate possono inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "NON INCLUSIVO")
+("il candidato ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD. Deve avere una buona conoscenza anche della lingua inglese ed attitudine al rapporto con il cliente interno e con i consulenti esterni.","NON INCLUSIVO"),
+("la candidata ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD. Deve avere una buona conoscenza anche della lingua inglese ed attitudine al rapporto con il cliente interno e con i consulenti esterni.","NON INCLUSIVO"),
+("Sei pronta a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","NON INCLUSIVO"),
+("Sei pronto a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","NON INCLUSIVO"),
 ]
 
 JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()

@@ -59,14 +59,30 @@ def fix_df(df:pd.DataFrame, model, show_plot=False):
             return None
         fdf['response'] = fdf.apply(lambda x: _f(x), axis=1)
         return fdf
+    
+    def fix_phi3_finetuned(df):
+        fdf = df.copy()
+        def _f(x):
+            r = x['response'].upper()
+            if 'NON INCLUSIVO' in r:
+                return 'NON INCLUSIVO'
+            elif 'INCLUSIVO' in r:
+                return 'INCLUSIVO'
+            return None
+        fdf['response'] = fdf.apply(lambda x: _f(x), axis=1)
+        return fdf
 
     df_fix = df.copy()
     if model == 'gemma2':
         df_fix = fix_gemma2(df)
-    if model == 'mistral':
+    elif model == 'mistral':
         df_fix = fix_mistral(df)
-    if model == 'qwen2':
+    elif model == 'qwen2':
         df_fix = fix_qwen2(df)
+    elif model == 'phi3-finetuned':
+        df_fix = fix_phi3_finetuned(df)
+    else:
+        raise ValueError(f"Model {model} not supported")
 
     df_fix.dropna(subset=['response'], inplace=True)
 

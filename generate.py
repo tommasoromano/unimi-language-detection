@@ -49,5 +49,6 @@ if __name__ == '__main__':
   models = ['phi3','gemma2']
   for model in models:
     print(model)
+    model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
     ResponseGenerator.generate(f"results/{model}_split.csv", data, prompts,
-                               lambda prompt, text: PROMPTS_JOB_V0_F(prompt, text, model), n_pass=n_pass)
+                               lambda prompt, text: PROMPTS_JOB_V0_F(prompt, text, model_f), n_pass=n_pass)

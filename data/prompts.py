@@ -1,5 +1,4 @@
 import pandas as pd
-import ollama
 
 PROMPTS_JOB_V0 = {
   'zsl': [
@@ -96,7 +95,7 @@ PROMPTS_JOB_V0 = {
 
 PROMPTS_JOB_V0_KEYS = [['zsl',],['fsl',],['cot',],]
 PROMPTS_JOB_V0_KEYS_FINETUNING = [['zsl',],]
-def PROMPTS_JOB_V0_F(prompt, text, model):
+def PROMPTS_JOB_V0_F(prompt, text, model_func):
   messages = [
     { 'role': 'system', 'content': prompt, },
     { 'role': 'user', 'content': text }
@@ -106,7 +105,7 @@ def PROMPTS_JOB_V0_F(prompt, text, model):
       { 'role': 'user', 'content': prompt.replace('[FRASE]',text), },
     ]
   # print(messages)
-  res = ollama.chat(model=model, messages=messages)['message']['content']
+  res = model_func(messages)
   return res
 
 
