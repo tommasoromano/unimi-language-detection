@@ -1158,3 +1158,303 @@ zsl#0,t#75,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la
 zsl#0,t#76,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
 zsl#0,t#77,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
 zsl#0,t#78,INCLUSIVO," la frase contiene la parola ""commisurare"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",,
+zsl#0,t#79_JOB#0,TODO," la frase contiene la parola ""giornaista"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",giornaista,neutro
+zsl#0,t#79_JOB#1,TODO," la frase contiene la parola ""autista"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",autista,neutro
+zsl#0,t#79_JOB#2,TODO, INCLUSIVO,dentista,neutro
+zsl#0,t#79_JOB#3,TODO," la frase contiene la parola ""ginnasta"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",ginnasta,neutro
+zsl#0,t#79_JOB#4,TODO, INCLUSIVO,consulente,neutro
+zsl#0,t#79_JOB#5,TODO," la frase contiene la parola ""estetista"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",estetista,neutro
+zsl#0,t#79_JOB#6,TODO, INCLUSIVO,farmacista,neutro
+zsl#0,t#79_JOB#7,TODO," la frase contiene la parola ""contabile"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",contabile,neutro
+zsl#0,t#79_JOB#8,TODO," la frase contiene la parola ""nutrizionista"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",nutrizionista,neutro
+zsl#0,t#79_JOB#9,TODO," la frase contiene la parola ""giardiniere"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",giardiniere,neutro
+zsl#0,t#79_JOB#10,TODO," la frase contiene la parola ""insegnante"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",insegnante,neutro
+zsl#0,t#79_JOB#11,TODO," la frase contiene la parola ""igienista dentale"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",igienista dentale,neutro
+zsl#0,t#79_JOB#12,TODO," la frase contiene la parola ""infermiere"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",infermiere,maschile
+zsl#0,t#79_JOB#13,TODO," la frase contiene la parola ""infermiera"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",infermiera,femminile
+zsl#0,t#79_JOB#14,TODO, INCLUSIVO,infermier*,neutro
+zsl#0,t#79_JOB#15,TODO, INCLUSIVO,infermiere/a,neutro
+zsl#0,t#79_JOB#16,TODO, INCLUSIVO,infermierÃ,neutro
+zsl#0,t#79_JOB#17,TODO, INCLUSIVO,infermiera/e,neutro
+zsl#0,t#79_JOB#18,TODO, INCLUSIVO,infermiera o infermiere,neutro
+zsl#0,t#79_JOB#19,TODO, INCLUSIVO,infermiere o infermiera,neutro
+zsl#0,t#79_JOB#20,TODO, INCLUSIVO,programmatore,maschile
+zsl#0,t#79_JOB#21,TODO," la frase contiene la parola ""programmatrice"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",programmatrice,femminile
+zsl#0,t#79_JOB#22,TODO, INCLUSIVO,programmatori,maschile
+zsl#0,t#79_JOB#23,TODO," la frase contiene la parola ""programmatrici"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",programmatrici,femminile
+zsl#0,t#79_JOB#24,TODO, INCLUSIVO,programmatori e programmatrici,neutro
+zsl#0,t#79_JOB#25,TODO, INCLUSIVO,programmatori o programmatrici,neutro
+zsl#0,t#79_JOB#26,TODO, INCLUSIVO,programmator*,neutro
+zsl#0,t#79_JOB#27,TODO, INCLUSIVO,programmatorÃ,neutro
+zsl#0,t#79_JOB#28,TODO, INCLUSIVO,impiegato,maschile
+zsl#0,t#79_JOB#29,TODO, INCLUSIVO,impiegata,femminile
+zsl#0,t#79_JOB#30,TODO, INCLUSIVO,impiegati,maschile
+zsl#0,t#79_JOB#31,TODO, INCLUSIVO,impiegate,femminile
+zsl#0,t#79_JOB#32,TODO, INCLUSIVO,impiegati e impiegate,neutro
+zsl#0,t#79_JOB#33,TODO, INCLUSIVO,impiegati o impiegate,neutro
+zsl#0,t#79_JOB#34,TODO, INCLUSIVO,impiegat*,neutro
+zsl#0,t#79_JOB#35,TODO, INCLUSIVO,impiegato/a,neutro
+zsl#0,t#79_JOB#36,TODO, INCLUSIVO,impiegatÃ,neutro
+zsl#0,t#79_JOB#37,TODO," la frase contiene la parola ""cameriere"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",cameriere,neutro
+zsl#0,t#79_JOB#38,TODO," la frase contiene la parola ""cameriera"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",cameriera,femminile
+zsl#0,t#79_JOB#39,TODO, INCLUSIVO,camerier*,neutro
+zsl#0,t#79_JOB#40,TODO, INCLUSIVO,cameriere/a,neutro
+zsl#0,t#79_JOB#41,TODO, INCLUSIVO,camerierÃ,neutro
+zsl#0,t#79_JOB#42,TODO, INCLUSIVO,cameriere/cameriera,neutro
+zsl#0,t#79_JOB#43,TODO," la frase contiene la parola ""cameriere e cameriera"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",cameriere e cameriera,neutro
+zsl#0,t#79_JOB#44,TODO, INCLUSIVO,cameriere o cameriera,neutro
+zsl#0,t#79_JOB#45,TODO," la frase contiene la parola ""segretario"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",segretario,maschile
+zsl#0,t#79_JOB#46,TODO," la frase contiene la parola ""segretaria"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",segretaria,femminile
+zsl#0,t#79_JOB#47,TODO, INCLUSIVO,segretar*,neutro
+zsl#0,t#79_JOB#48,TODO, INCLUSIVO,segretario/a,neutro
+zsl#0,t#79_JOB#49,TODO," la frase contiene la parola ""segretarÃ"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",segretarÃ,neutro
+zsl#0,t#79_JOB#50,TODO, INCLUSIVO,segretaria o segretario,neutro
+zsl#0,t#79_JOB#51,TODO, INCLUSIVO,segretario o segretaria,neutro
+zsl#0,t#79_JOB#52,TODO, INCLUSIVO,segretario/segretaria,neutro
+zsl#0,t#79_JOB#53,TODO," la frase contiene la parola ""direttore"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",direttore,maschile
+zsl#0,t#79_JOB#54,TODO," la frase contiene la parola ""direttrice"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",direttrice,femminile
+zsl#0,t#79_JOB#55,TODO, INCLUSIVO,direttor*,neutro
+zsl#0,t#79_JOB#56,TODO," la frase contiene la parola ""direttorÃ"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",direttorÃ,neutro
+zsl#0,t#79_JOB#57,TODO, INCLUSIVO,direttore/direttrice,neutro
+zsl#0,t#79_JOB#58,TODO," la frase contiene la parola ""direttrice o direttore"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",direttrice o direttore,neutro
+zsl#0,t#79_JOB#59,TODO, INCLUSIVO,direttore o direttrice,neutro
+zsl#0,t#79_JOB#60,TODO," la frase contiene la parola ""ballerina"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",ballerina,femminile
+zsl#0,t#79_JOB#61,TODO," la frase contiene la parola ""ballerino"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",ballerino,maschile
+zsl#0,t#79_JOB#62,TODO, INCLUSIVO,ballerin*,neutro
+zsl#0,t#79_JOB#63,TODO, INCLUSIVO,ballerino/a,neutro
+zsl#0,t#79_JOB#64,TODO," la frase contiene la parola ""ballerinÃ"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",ballerinÃ,neutro
+zsl#0,t#79_JOB#65,TODO," la frase contiene la parola ""attore"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",attore,maschile
+zsl#0,t#79_JOB#66,TODO," la frase contiene la parola ""attrice"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",attrice,femminile
+zsl#0,t#79_JOB#67,TODO, INCLUSIVO,attor*,neutro
+zsl#0,t#79_JOB#68,TODO, INCLUSIVO,attorÃ,neutro
+zsl#0,t#79_JOB#69,TODO, INCLUSIVO,attore/attrice,neutro
+zsl#0,t#79_JOB#70,TODO," la frase contiene la parola ""attrice o attore"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",attrice o attore,neutro
+zsl#0,t#79_JOB#71,TODO," la frase contiene la parola ""attore o attrice"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",attore o attrice,neutro
+zsl#0,t#79_JOB#72,TODO," la frase contiene la parola ""dottore"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",dottore,maschile
+zsl#0,t#79_JOB#73,TODO," la frase contiene la parola ""dottoressa"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",dottoressa,femminile
+zsl#0,t#79_JOB#74,TODO, INCLUSIVO,dottor*,neutro
+zsl#0,t#79_JOB#75,TODO, INCLUSIVO,dottorÃ,neutro
+zsl#0,t#79_JOB#76,TODO, INCLUSIVO,dottore/dottoressa,neutro
+zsl#0,t#79_JOB#77,TODO, INCLUSIVO,dottoressa o dottore,neutro
+zsl#0,t#79_JOB#78,TODO, INCLUSIVO,dottore o dottoressa,neutro
+zsl#0,t#79_JOB#79,TODO," la frase contiene la parola ""architetto"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",architetto,maschile
+zsl#0,t#79_JOB#80,TODO," la frase contiene la parola ""architetta"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",architetta,femminile
+zsl#0,t#79_JOB#81,TODO, INCLUSIVO,architett*,neutro
+zsl#0,t#79_JOB#82,TODO," la frase contiene la parola ""architettÃ"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",architettÃ,neutro
+zsl#0,t#79_JOB#83,TODO, INCLUSIVO,architetto/architetta,neutro
+zsl#0,t#79_JOB#84,TODO, INCLUSIVO,architetta o architetto,neutro
+zsl#0,t#79_JOB#85,TODO, INCLUSIVO,architetto o architetta,neutro
+zsl#0,t#79_JOB#86,TODO, INCLUSIVO,architetto/a,neutro
+zsl#0,t#79_JOB#87,TODO, INCLUSIVO,candidato,maschile
+zsl#0,t#79_JOB#88,TODO, INCLUSIVO,candidata,femminile
+zsl#0,t#79_JOB#89,TODO, INCLUSIVO,candidat*,neutro
+zsl#0,t#79_JOB#90,TODO, INCLUSIVO,candidato/a,neutro
+zsl#0,t#79_JOB#91,TODO, INCLUSIVO,candidatÃ,neutro
+zsl#0,t#79_JOB#92,TODO," la frase contiene la parola ""commessa"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",commessa,femminile
+zsl#0,t#79_JOB#93,TODO, INCLUSIVO,commesso,maschile
+zsl#0,t#79_JOB#94,TODO, INCLUSIVO,commess*,neutro
+zsl#0,t#79_JOB#95,TODO, INCLUSIVO,commesso/a,neutro
+zsl#0,t#79_JOB#96,TODO," la frase contiene la parola ""commessÃ"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",commessÃ,neutro
+zsl#0,t#79_JOB#97,TODO, INCLUSIVO,commessa/o,neutro
+zsl#0,t#79_JOB#98,TODO, INCLUSIVO,commesso o commessa,neutro
+zsl#0,t#79_JOB#99,TODO, INCLUSIVO,commessa o commesso,neutro
+zsl#0,t#79_JOB#100,TODO," la frase contiene la parola ""cuoco"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",cuoco,maschile
+zsl#0,t#79_JOB#101,TODO," la frase contiene la parola ""cuoca"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",cuoca,femminile
+zsl#0,t#79_JOB#102,TODO, INCLUSIVO,cuoc*,neutro
+zsl#0,t#79_JOB#103,TODO, INCLUSIVO,cuoco/a,neutro
+zsl#0,t#79_JOB#104,TODO," la frase contiene la parola ""cuocÃ"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",cuocÃ,neutro
+zsl#0,t#79_JOB#105,TODO, INCLUSIVO,cuoca/o,neutro
+zsl#0,t#79_JOB#106,TODO, INCLUSIVO,cuoco o cuoca,neutro
+zsl#0,t#79_JOB#107,TODO, INCLUSIVO,cuoca o cuoco,neutro
+zsl#0,t#79_JOB#108,TODO," la frase contiene la parola ""parrucchiera"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",parrucchiera,femminile
+zsl#0,t#79_JOB#109,TODO," la frase contiene la parola ""parrucchiere"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",parrucchiere,maschile
+zsl#0,t#79_JOB#110,TODO, INCLUSIVO,parrucchier*,neutro
+zsl#0,t#79_JOB#111,TODO, INCLUSIVO,parrucchiere/a,neutro
+zsl#0,t#79_JOB#112,TODO, INCLUSIVO,parrucchiera/e,neutro
+zsl#0,t#79_JOB#113,TODO, INCLUSIVO,parrucchiere o parrucchiera,neutro
+zsl#0,t#79_JOB#114,TODO, INCLUSIVO,parrucchiera o parrucchiere,neutro
+zsl#0,t#79_JOB#115,TODO, INCLUSIVO,parrucchiere/parrucchiera,neutro
+zsl#0,t#79_JOB#116,TODO," la frase contiene la parola ""truccatore"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",truccatore,maschile
+zsl#0,t#79_JOB#117,TODO," la frase contiene la parola ""truccatrice"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",truccatrice,femminile
+zsl#0,t#79_JOB#118,TODO, INCLUSIVO,truccator*,neutro
+zsl#0,t#79_JOB#119,TODO," la frase contiene la parola ""truccatore o truccatrice"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",truccatore o truccatrice,neutro
+zsl#0,t#79_JOB#120,TODO, INCLUSIVO,truccatrice o truccatore,neutro
+zsl#0,t#79_JOB#121,TODO," la frase contiene la parola ""psicologo"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",psicologo,maschile
+zsl#0,t#79_JOB#122,TODO," la frase contiene la parola ""psicologa"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",psicologa,femminile
+zsl#0,t#79_JOB#123,TODO, INCLUSIVO,psicolog*,neutro
+zsl#0,t#79_JOB#124,TODO, INCLUSIVO,psicologo/a,neutro
+zsl#0,t#79_JOB#125,TODO, INCLUSIVO,psicologÃ,neutro
+zsl#0,t#79_JOB#126,TODO, INCLUSIVO,psicologa/o,neutro
+zsl#0,t#79_JOB#127,TODO, INCLUSIVO,psicologo o psicologa,neutro
+zsl#0,t#79_JOB#128,TODO, INCLUSIVO,psicologa o psicologo,neutro
+zsl#0,t#79_JOB#129,TODO, INCLUSIVO,traduttore,maschile
+zsl#0,t#79_JOB#130,TODO," la frase contiene la parola ""traduttrice"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",traduttrice,femminile
+zsl#0,t#79_JOB#131,TODO, INCLUSIVO,traduttor*,neutro
+zsl#0,t#79_JOB#132,TODO, INCLUSIVO,traduttore/traduttrice,neutro
+zsl#0,t#79_JOB#133,TODO, INCLUSIVO,traduttrice/traduttore,neutro
+zsl#0,t#79_JOB#134,TODO, INCLUSIVO,traduttore o traduttrice,neutro
+zsl#0,t#79_JOB#135,TODO, INCLUSIVO,traduttrice o traduttore,neutro
+zsl#0,t#80,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#81,INCLUSIVO, INCLUSIVO,,
+zsl#0,t#82,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#83,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#84,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#85,INCLUSIVO, INCLUSIVO,,
+zsl#0,t#86_JOB#0,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",giornaista,neutro
+zsl#0,t#86_JOB#1,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",autista,neutro
+zsl#0,t#86_JOB#2,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",dentista,neutro
+zsl#0,t#86_JOB#3,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",ginnasta,neutro
+zsl#0,t#86_JOB#4,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",consulente,neutro
+zsl#0,t#86_JOB#5,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",estetista,neutro
+zsl#0,t#86_JOB#6,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",farmacista,neutro
+zsl#0,t#86_JOB#7,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",contabile,neutro
+zsl#0,t#86_JOB#8,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",nutrizionista,neutro
+zsl#0,t#86_JOB#9,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",giardiniere,neutro
+zsl#0,t#86_JOB#10,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",insegnante,neutro
+zsl#0,t#86_JOB#11,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",igienista dentale,neutro
+zsl#0,t#86_JOB#12,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermiere,maschile
+zsl#0,t#86_JOB#13,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermiera,femminile
+zsl#0,t#86_JOB#14,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermier*,neutro
+zsl#0,t#86_JOB#15,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermiere/a,neutro
+zsl#0,t#86_JOB#16,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermierÃ,neutro
+zsl#0,t#86_JOB#17,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermiera/e,neutro
+zsl#0,t#86_JOB#18,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermiera o infermiere,neutro
+zsl#0,t#86_JOB#19,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",infermiere o infermiera,neutro
+zsl#0,t#86_JOB#20,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatore,maschile
+zsl#0,t#86_JOB#21,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatrice,femminile
+zsl#0,t#86_JOB#22,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatori,maschile
+zsl#0,t#86_JOB#23,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatrici,femminile
+zsl#0,t#86_JOB#24,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatori e programmatrici,neutro
+zsl#0,t#86_JOB#25,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatori o programmatrici,neutro
+zsl#0,t#86_JOB#26,TODO, INCLUSIVO,programmator*,neutro
+zsl#0,t#86_JOB#27,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",programmatorÃ,neutro
+zsl#0,t#86_JOB#28,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegato,maschile
+zsl#0,t#86_JOB#29,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegata,femminile
+zsl#0,t#86_JOB#30,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegati,maschile
+zsl#0,t#86_JOB#31,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegate,femminile
+zsl#0,t#86_JOB#32,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegati e impiegate,neutro
+zsl#0,t#86_JOB#33,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegati o impiegate,neutro
+zsl#0,t#86_JOB#34,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegat*,neutro
+zsl#0,t#86_JOB#35,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegato/a,neutro
+zsl#0,t#86_JOB#36,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",impiegatÃ,neutro
+zsl#0,t#86_JOB#37,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cameriere,neutro
+zsl#0,t#86_JOB#38,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cameriera,femminile
+zsl#0,t#86_JOB#39,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",camerier*,neutro
+zsl#0,t#86_JOB#40,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cameriere/a,neutro
+zsl#0,t#86_JOB#41,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",camerierÃ,neutro
+zsl#0,t#86_JOB#42,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cameriere/cameriera,neutro
+zsl#0,t#86_JOB#43,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cameriere e cameriera,neutro
+zsl#0,t#86_JOB#44,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cameriere o cameriera,neutro
+zsl#0,t#86_JOB#45,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretario,maschile
+zsl#0,t#86_JOB#46,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretaria,femminile
+zsl#0,t#86_JOB#47,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretar*,neutro
+zsl#0,t#86_JOB#48,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretario/a,neutro
+zsl#0,t#86_JOB#49,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretarÃ,neutro
+zsl#0,t#86_JOB#50,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretaria o segretario,neutro
+zsl#0,t#86_JOB#51,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretario o segretaria,neutro
+zsl#0,t#86_JOB#52,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",segretario/segretaria,neutro
+zsl#0,t#86_JOB#53,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttore,maschile
+zsl#0,t#86_JOB#54,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttrice,femminile
+zsl#0,t#86_JOB#55,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttor*,neutro
+zsl#0,t#86_JOB#56,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttorÃ,neutro
+zsl#0,t#86_JOB#57,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttore/direttrice,neutro
+zsl#0,t#86_JOB#58,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttrice o direttore,neutro
+zsl#0,t#86_JOB#59,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",direttore o direttrice,neutro
+zsl#0,t#86_JOB#60,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",ballerina,femminile
+zsl#0,t#86_JOB#61,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",ballerino,maschile
+zsl#0,t#86_JOB#62,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",ballerin*,neutro
+zsl#0,t#86_JOB#63,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",ballerino/a,neutro
+zsl#0,t#86_JOB#64,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",ballerinÃ,neutro
+zsl#0,t#86_JOB#65,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",attore,maschile
+zsl#0,t#86_JOB#66,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",attrice,femminile
+zsl#0,t#86_JOB#67,TODO, INCLUSIVO,attor*,neutro
+zsl#0,t#86_JOB#68,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",attorÃ,neutro
+zsl#0,t#86_JOB#69,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",attore/attrice,neutro
+zsl#0,t#86_JOB#70,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",attrice o attore,neutro
+zsl#0,t#86_JOB#71,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",attore o attrice,neutro
+zsl#0,t#86_JOB#72,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",dottore,maschile
+zsl#0,t#86_JOB#73,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",dottoressa,femminile
+zsl#0,t#86_JOB#74,TODO, INCLUSIVO,dottor*,neutro
+zsl#0,t#86_JOB#75,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",dottorÃ,neutro
+zsl#0,t#86_JOB#76,TODO, INCLUSIVO,dottore/dottoressa,neutro
+zsl#0,t#86_JOB#77,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",dottoressa o dottore,neutro
+zsl#0,t#86_JOB#78,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",dottore o dottoressa,neutro
+zsl#0,t#86_JOB#79,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architetto,maschile
+zsl#0,t#86_JOB#80,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architetta,femminile
+zsl#0,t#86_JOB#81,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architett*,neutro
+zsl#0,t#86_JOB#82,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architettÃ,neutro
+zsl#0,t#86_JOB#83,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architetto/architetta,neutro
+zsl#0,t#86_JOB#84,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architetta o architetto,neutro
+zsl#0,t#86_JOB#85,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architetto o architetta,neutro
+zsl#0,t#86_JOB#86,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",architetto/a,neutro
+zsl#0,t#86_JOB#87,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",candidato,maschile
+zsl#0,t#86_JOB#88,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",candidata,femminile
+zsl#0,t#86_JOB#89,TODO, INCLUSIVO,candidat*,neutro
+zsl#0,t#86_JOB#90,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",candidato/a,neutro
+zsl#0,t#86_JOB#91,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",candidatÃ,neutro
+zsl#0,t#86_JOB#92,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commessa,femminile
+zsl#0,t#86_JOB#93,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commesso,maschile
+zsl#0,t#86_JOB#94,TODO, INCLUSIVO,commess*,neutro
+zsl#0,t#86_JOB#95,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commesso/a,neutro
+zsl#0,t#86_JOB#96,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commessÃ,neutro
+zsl#0,t#86_JOB#97,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commessa/o,neutro
+zsl#0,t#86_JOB#98,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commesso o commessa,neutro
+zsl#0,t#86_JOB#99,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",commessa o commesso,neutro
+zsl#0,t#86_JOB#100,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoco,maschile
+zsl#0,t#86_JOB#101,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoca,femminile
+zsl#0,t#86_JOB#102,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoc*,neutro
+zsl#0,t#86_JOB#103,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoco/a,neutro
+zsl#0,t#86_JOB#104,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuocÃ,neutro
+zsl#0,t#86_JOB#105,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoca/o,neutro
+zsl#0,t#86_JOB#106,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoco o cuoca,neutro
+zsl#0,t#86_JOB#107,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",cuoca o cuoco,neutro
+zsl#0,t#86_JOB#108,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",parrucchiera,femminile
+zsl#0,t#86_JOB#109,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",parrucchiere,maschile
+zsl#0,t#86_JOB#110,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",parrucchier*,neutro
+zsl#0,t#86_JOB#111,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",parrucchiere/a,neutro
+zsl#0,t#86_JOB#112,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",parrucchiera/e,neutro
+zsl#0,t#86_JOB#113,TODO, INCLUSIVO,parrucchiere o parrucchiera,neutro
+zsl#0,t#86_JOB#114,TODO, INCLUSIVO,parrucchiera o parrucchiere,neutro
+zsl#0,t#86_JOB#115,TODO, INCLUSIVO,parrucchiere/parrucchiera,neutro
+zsl#0,t#86_JOB#116,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",truccatore,maschile
+zsl#0,t#86_JOB#117,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",truccatrice,femminile
+zsl#0,t#86_JOB#118,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",truccator*,neutro
+zsl#0,t#86_JOB#119,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",truccatore o truccatrice,neutro
+zsl#0,t#86_JOB#120,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",truccatrice o truccatore,neutro
+zsl#0,t#86_JOB#121,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",psicologo,maschile
+zsl#0,t#86_JOB#122,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",psicologa,femminile
+zsl#0,t#86_JOB#123,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",psicolog*,neutro
+zsl#0,t#86_JOB#124,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",psicologo/a,neutro
+zsl#0,t#86_JOB#125,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",psicologÃ,neutro
+zsl#0,t#86_JOB#126,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",psicologa/o,neutro
+zsl#0,t#86_JOB#127,TODO, INCLUSIVO,psicologo o psicologa,neutro
+zsl#0,t#86_JOB#128,TODO, INCLUSIVO,psicologa o psicologo,neutro
+zsl#0,t#86_JOB#129,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",traduttore,maschile
+zsl#0,t#86_JOB#130,TODO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",traduttrice,femminile
+zsl#0,t#86_JOB#131,TODO, INCLUSIVO,traduttor*,neutro
+zsl#0,t#86_JOB#132,TODO, INCLUSIVO,traduttore/traduttrice,neutro
+zsl#0,t#86_JOB#133,TODO, INCLUSIVO,traduttrice/traduttore,neutro
+zsl#0,t#86_JOB#134,TODO, INCLUSIVO,traduttore o traduttrice,neutro
+zsl#0,t#86_JOB#135,TODO, INCLUSIVO,traduttrice o traduttore,neutro
+zsl#0,t#87,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#88,INCLUSIVO," la frase contiene la parola ""società"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",,
+zsl#0,t#89,NON INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#90,NON INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#91,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#92,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#93,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#94,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#95,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#96,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#97,INCLUSIVO, INCLUSIVO,,
+zsl#0,t#98,INCLUSIVO, INCLUSIVO,,
+zsl#0,t#99,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#100,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#101,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#102,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#103,INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#104,INCLUSIVO, INCLUSIVO,,
+zsl#0,t#105,NON INCLUSIVO," la frase contiene la parola ""candidato"" che è di genere ""maschile"" e quindi la risposta è ""NON INCLUSIVO""",,
+zsl#0,t#106,NON INCLUSIVO," la frase contiene la parola ""candidata"" che è di genere ""femminile"" e quindi la risposta è ""NON INCLUSIVO""",,
+zsl#0,t#107,NON INCLUSIVO," la frase si riferisce ad un pubblico generale neutro e la risposta è quindi ""INCLUSIVO""",,
+zsl#0,t#108,NON INCLUSIVO," la frase contiene la parola ""Sei"" che è di genere ""neutro"" e quindi la risposta è ""INCLUSIVO""",,

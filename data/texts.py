@@ -6,14 +6,14 @@ TEXT_JOBS_v0 = [
 ('Descrizione del ruolo:',"INCLUSIVO"),
 ("[JOB] svolgerà un ruolo chiave nel supportare le attività quotidiane dello studio, garantendo un'efficiente gestione amministrativa e contribuendo al successo complessivo del team legale.","TODO"),
 ('Responsabilità principali:',"INCLUSIVO"),
-("Gestione dell'agenda e organizzazione degli appuntamenti per gli avvocati dello studio","NON INCLUSIVO"),
-('Accoglienza dei clienti e gestione delle comunicazioni telefoniche ed email',"NON INCLUSIVO"),
+# ("Gestione dell'agenda e organizzazione degli appuntamenti per gli avvocati dello studio","NON INCLUSIVO"),
+('Accoglienza dei clienti e gestione delle comunicazioni telefoniche ed email',"INCLUSIVO"),
 ('Preparazione e formattazione di documenti legali, lettere e relazioni',"INCLUSIVO"),
 ('Archiviazione e gestione della documentazione fisica e digitale',"INCLUSIVO"),
 ('Supporto nella preparazione di fascicoli per udienze e riunioni',"INCLUSIVO"),
-('Coordinamento con altri professionisti e studi legali',"NON INCLUSIVO"),
+# ('Coordinamento con altri professionisti e studi legali',"NON INCLUSIVO"),
 ('Gestione delle pratiche amministrative e contabili di base',"INCLUSIVO"),
-('Organizzazione di viaggi e trasferte per i professionisti dello studio',"NON INCLUSIVO"),
+# ('Organizzazione di viaggi e trasferte per i professionisti dello studio',"NON INCLUSIVO"),
 ('Requisiti:',"INCLUSIVO"),
 ('Diploma di scuola superiore, preferibilmente in ambito amministrativo o giuridico',"INCLUSIVO"),
 ('Esperienza pregressa di almeno 2-3 anni in ruolo analogo, preferibilmente in ambito legale',"INCLUSIVO"),
@@ -58,10 +58,10 @@ TEXT_JOBS_v0 = [
 ("Se sei una persona motivata, con esperienza nel settore bancario e con ottime capacità di gestione della cassa e dello sportello, inviaci il tuo curriculum vitae. ","INCLUSIVO"),
 ("Sarai contattato/a per un colloquio conoscitivo. ","INCLUSIVO"),
 ("Sarai contattato per un colloquio conoscitivo. ","NON INCLUSIVO"),
-("Sarai contattatoa per un colloquio conoscitivo. ","NON INCLUSIVO"),
+("Sarai contattata per un colloquio conoscitivo. ","NON INCLUSIVO"),
 ("Si prega di inviare il proprio curriculum vitae indicando nell'oggetto del messaggio il titolo della posizione per cui si candida.","INCLUSIVO"),
 ("Grazie per l'interesse dimostrato. ","INCLUSIVO"),
-("I candidati, nel rispetto del D.lgs. 198/2006, D.lgs 215/2003 e D.lgs 216/2003, sono invitati a leggere l'informativa sulla privacy (Regolamento UE n. 2016/679).","NON INCLUSIVO"),
+# ("I candidati, nel rispetto del D.lgs. 198/2006, D.lgs 215/2003 e D.lgs 216/2003, sono invitati a leggere l'informativa sulla privacy (Regolamento UE n. 2016/679).","NON INCLUSIVO"),
 # 
 ("Hai spirito di iniziativa? Hai passione per la ristorazione e hai maturato esperienza come [JOB]?","TODO"),
 ("Candidati subito a questa opportunità!","INCLUSIVO"),
@@ -103,7 +103,7 @@ TEXT_JOBS_v0 = [
 ("Ha ottima conoscenza/competenze con pacchetto office, in modo particolare Excel e PPT ","INCLUSIVO"),
 ("Ha ottima conoscenza della lingua inglese","INCLUSIVO"),
 #
-("La risorsa inserita si occuperà delle seguenti attività: ","INCLUSIVO"),
+("[JOB] si occuperà delle seguenti attività: ","TODO"),
 ("Gestione e smistamento corrispondenza generale: mail, telefono, chat; ","INCLUSIVO"),
 ("Gestione sale riunioni: prenotazioni e cura dell’ordine delle sale; ","INCLUSIVO"),
 ("Gestione attività di segreteria generale: a supporto di colleghi e responsabili; ","INCLUSIVO"),
@@ -111,18 +111,71 @@ TEXT_JOBS_v0 = [
 ("Gestione trasferte e viaggi; ","INCLUSIVO"),
 ("Coordinamento eventi interni: riunioni interne, meeting, formazione, piccoli eventi interni; ","INCLUSIVO"),
 ("Attività varie a supporto dell'area Marketing.","INCLUSIVO"),
-# ("I candidati interessati possono inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "NON INCLUSIVO")
-# ("Le candidate interessate possono inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "NON INCLUSIVO")
-("il candidato ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD. Deve avere una buona conoscenza anche della lingua inglese ed attitudine al rapporto con il cliente interno e con i consulenti esterni.","NON INCLUSIVO"),
-("la candidata ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD. Deve avere una buona conoscenza anche della lingua inglese ed attitudine al rapporto con il cliente interno e con i consulenti esterni.","NON INCLUSIVO"),
-("Sei pronta a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","NON INCLUSIVO"),
-("Sei pronto a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","NON INCLUSIVO"),
 ]
 
+TEXT_NON_JOBS_v0 = [
+# MISC
+("se sei una persona dinamica, orientata al cliente e desiderosa di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","INCLUSIVO"),
+# ADJ
+("sei giovane, [ADJ] del settore immobiliare? ","TODO",),
+("[ADJ] a raggiungere gli obiettivi ","TODO",),
+("hai un’esperienza contabile o sei già amministratore di condominio, [ADJ] con solide competenze amministrative ed uno spirito positivo e che vuole lavorare in team?","TODO",),
+("siamo alla ricerca di una figura [ADJ] per unirsi al nostro team presso la farmacia lunghi situata a corteolona. ","TODO"),
+("[ADJ] ad inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "TODO"),
+("Sei [ADJ] a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","TODO"),
+("se sei [ADJ] a mettere al servizio del nostro studio la tua esperienza e le tue competenze contabili, inviaci il tuo curriculum e una breve presentazione motivazionale.","TODO"),
+("se sei [ADJ] a iniziare la tua carriera nel mondo immobiliare, inviaci il tuo curriculum vitae all'indirizzo e-mail info@tirreniaimmobiliare.com o fissa un appuntamento telefonando allo 090/9486682.","TODO"),
+("se sei [ADJ] a far parte della nostra squadra dedicata e professionale, inviaci il tuo curriculum vitae oppure contattami su whatsapp al numero 3385906783","TODO"),
+("se sei [ADJ] al cliente e di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","INCLUSIVO"),
+# VERBS
+# ("È stata coinvolta in progettualità di redazioni di piani industriali e strategici ","NON INCLUSIVO"),
+# ("Sarai contattato per un colloquio conoscitivo. ","NON INCLUSIVO"),
+# OTHER
+# ("Le candidate interessate possono inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "NON INCLUSIVO")
+# ("il candidato ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","NON INCLUSIVO"),
+# ("la candidata ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","NON INCLUSIVO"),
+# ("Sei pronto a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","NON INCLUSIVO"),
+# ("candidato/a ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","INCLUSIVO"),
+]
+
+TEXT_v0 = TEXT_JOBS_v0 + TEXT_NON_JOBS_v0
+
 JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()
+# ADJ
+__adj = [
+    ("esperto","maschile"),
+    ("dinamico","maschile"),
+    ("motivato","maschile"),
+    ("proattivo","maschile"),
+    ("appassionato","maschile"),
+    ("ambizioso","maschile"),
+    ("determinato","maschile"),
+    ("collaborativo","maschile"),
+    ("pronto","maschile"),
+    ("interessato","maschile"),
+    ("orientato","maschile"),
+    ("positivo","maschile"),
+    ("attivo","maschile"),
+    ("preciso","maschile"),
+]
+makeFemale = lambda x: (x[0][:-1]+'a', 'femminile')
+__adjf = list(map(makeFemale, __adj))
+makeNeutral = lambda x: (x[0]+'/a', 'neutro')
+__adjn = list(map(makeNeutral, __adj))
+makeNeutral = lambda x: (x[0][:-1]+'*', 'neutro')
+__adjn += list(map(makeNeutral, __adj))
+__adj = __adj + __adjf + __adjn
+# make combinations of them if they have the same 2nd element
+__adj2 = [(a[0] + " e " + b[0], a[1]) for a in __adj for b in __adj if a[1] == b[1] and a[0] != b[0]]
+__adj3 = [(a[0] + ", " + b[0] + " e " + c[0], a[1]) for a in __adj for b in __adj for c in __adj if a[1] == b[1] and b[1] == c[1] and a[0] != b[0] and b[0] != c[0] and a[0] != c[0]]
+ADJ_V0 = __adj #+ __adj2
+
 SUBS_JOBS_V0 = {
-        "JOB": JOBS_V0
+        "JOB": JOBS_V0,
+        "ADJ": ADJ_V0,
         }
+
+######### OLD #########
 
 TEXTS_JOBS_FROM_SEED = [
     ("""Il tuo ruolo, in quanto Consultant / Senior Consultant, ti darà la possibilità di concretizzare in prima persona iniziative per progetti strategici, condividendo la tua esperienza e le tue conoscenze con colleghi di talento, iniziando a sviluppare capacità di leadership, e individuando la migliore soluzione per i clienti, occupandoti di: Gestione e coordinamento delle risorse più junior, in termini di definizione delle tempistiche, utilizzo di specifici tool, controllo di qualità della delivery; Definizione delle metodologie ed approcci innovativi per la pianificazione e il monitoraggio delle iniziative in termini di Project Management e/o Program Management; Realizzazione e monitoraggio delle attività attraverso SAL periodici, sia interni che esterni, con i principali stakeholder; Definizione di attività di analisi del flusso documentale di progetto in termini di data entry e archiviazione; Gestione e controllo della qualità della delivery progettuale; Organizzazione delle attività di reportistica e analisi dei KPI in termini di [JOB].""", "end"),

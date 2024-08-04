@@ -6,8 +6,21 @@ LABELS = ['INCLUSIVO', 'NON INCLUSIVO']
 
 def fix_df(df:pd.DataFrame, model, show_plot=False):
     df['text_JOB_value'] = df.apply(lambda x: x['text_JOB_value'] if isinstance(x['text_JOB_value'],str) else "", axis=1)
+    df['text_ADJ_value'] = df.apply(lambda x: x['text_ADJ_value'] if isinstance(x['text_ADJ_value'],str) else "", axis=1)
 
-    df['true'] = df.apply(lambda x: ('INCLUSIVO' if x['text_JOB_label'] == 'neutro' else 'NON INCLUSIVO') if x['text_labels'] == 'TODO' else x['text_labels'], axis=1)
+    def make_label(x):
+        if x['text_labels'] != 'TODO':
+            return x['text_labels']
+        if x['text_JOB_value'] != "":
+            gend = x['text_JOB_label']
+        elif x['text_ADJ_value'] != "":
+            gend = x['text_ADJ_label']
+        else:
+            gend = 'neutro'
+        return 'INCLUSIVO' if gend == 'neutro' else 'NON INCLUSIVO'
+    
+    df['true'] = df.apply(lambda x: make_label(x), axis=1)
+
 
     def fix_cot(x):
         r:str = x['response'].upper()
