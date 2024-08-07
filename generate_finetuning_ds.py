@@ -9,7 +9,10 @@ if __name__ == '__main__':
 
     prompts = PromptGenerator.generate(PROMPTS_JOB_V0, [['zsl',],])
     data = DataGenerator.generate(TEXT_v0, SUBS_JOBS_V0)
-    # ResponseGenerator.generate(f"data/raw_data_finetune.csv", data, prompts, lambda prompt, text: "", n_pass=1)
+    try:
+        ResponseGenerator.generate(f"data/raw_data_finetune.csv", data, prompts, lambda prompt, text: "", n_pass=1)
+    except:
+        print("")
 
     df = pd.read_csv('data/raw_data_finetune.csv')
     print("reading", len(df), "rows")
@@ -46,16 +49,16 @@ if __name__ == '__main__':
 
     random.shuffle(res_dict["conversations"])
     dataset = Dataset.from_dict(res_dict)
-    split_dataset = dataset.train_test_split(test_size=0.2, seed=42)
+    split_dataset = dataset.train_test_split(test_size=0.1, seed=42)
 
     dataset_dict = DatasetDict({
-        'train': dataset,
-        # 'train': split_dataset['train'],
-        # 'test': split_dataset['test']
+        # 'train': dataset,
+        'train': split_dataset['train'],
+        'test': split_dataset['test']
     })
 
     print(dataset_dict)
     print(dataset_dict['train'][0])
     print(dataset_dict['train'][-1])
     # print(dataset_dict['train']['conversations'][:1])
-    # dataset_dict.push_to_hub("romabob/unimi-job", token="")
+    dataset_dict.push_to_hub("romabob/unimi-job", token="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")

@@ -1,6 +1,6 @@
 import pandas as pd
 
-TEXT_JOBS_v0 = [
+TEXT_v0 = [
 ('Studio Legale Rossi & Associati cerca [JOB] Legale',"TODO"),
 ('Lo Studio Legale Rossi & Associati, rinomato studio con sede nel centro di Milano specializzato in diritto societario e commerciale, è alla ricerca di una [JOB] Legale per unirsi al nostro team dinamico e in crescita.',"TODO"),
 ('Descrizione del ruolo:',"INCLUSIVO"),
@@ -82,6 +82,44 @@ TEXT_JOBS_v0 = [
 ("Part Time, 20 ore settimanali, dal lunedì alla domenica con un giorno di riposo su turnazione.","INCLUSIVO"),
 ("Si richiede disponibilità a turni spezzati.","INCLUSIVO"),
 ("Inserimento iniziale a tempo determinato, scopo assuntivo. CCNL Turismo Pubblici esercizi VI Livello da commisurare in base all'esperienza.","INCLUSIVO"),
+#
+("tnservice srl, agenzia per il lavoro (aut. min r. 0000157 del 09/11/2022) è specializzata nella selezione del personale.","INCLUSIVO"),
+("per nostro cliente specializzato nel settore turismo e viaggi stiamo cercando [JOB]","TODO"),
+("[JOB], con indispensabile esperienza pregressa presso agenzia viaggi, verrà inserita in ufficio front client in qualità di agente business travels.","TODO"),
+("la risorsa, con indispensabile esperienza pregressa presso agenzia viaggi, verrà inserita in ufficio front client in qualità di [JOB].","TODO"),
+("mansioni:","INCLUSIVO"),
+("organizzazione in completa autonomia (senza ausilio di programmi tour operator) di viaggi business per clienti.","INCLUSIVO"),
+("gestione delle prenotazioni tramite il sistema trenitalia pico","INCLUSIVO"),
+("gestione amministrativa contabile delle fatture - intrastat ecc.","INCLUSIVO"),
+("requisiti:","INCLUSIVO"),
+("utilizzo del sistema pico.","INCLUSIVO"),
+("utilizzo del sistema gds sabre.","INCLUSIVO"),
+("ottima competenza nel programma zucchetti.","INCLUSIVO"),
+("conoscenza dei sistemi web, microsoft e sistemi di prenotazione online.","INCLUSIVO"),
+("abilità e flessibilità mentale per la creazione di pacchetti viaggio.","INCLUSIVO"),
+("conoscenza delle lingue straniere.","INCLUSIVO"),
+("competenze trasversali:","INCLUSIVO"),
+("serietà, affidabilità... precisione e predisposizione al contatto con il pubblico.","INCLUSIVO"),
+("inserimento: diretto in azienda a tempo indeterminato.","INCLUSIVO"),
+("retribuzione: commisurata in base alle competenze della risorsa.","INCLUSIVO"),
+("orario: full time da lunedì al venerdì, dalle 9 alle 12.30 e dalle 14.30 alle 19.00","INCLUSIVO"),
+("luogo di lavoro: cassano dadda (mi)","INCLUSIVO"),
+("il presente annuncio è rivolto ad entrambi i sessi, ai sensi delle leggi 903/77 e 125/91 e a persone di tutte le età e tutte le nazionalità, ai sensi dei decreti legislativi 215/03 e 216/03.","INCLUSIVO"),
+("ti chiediamo di inserire nel cv l'autorizzazione al trattamento dei tuoi dati personali ai sensi del regolamento ue n. 679/2016 e della legislazione italiana vigente.","INCLUSIVO"),
+#
+("sei [JOB] con la passione di creare esperienze di intrattenimento indimenticabili? ","TODO"),
+("ti piace esibirti davanti a grandi folle, assicurando loro un'esperienza memorabile? ","INCLUSIVO"),
+("stai cercando un'opportunità per mettere in pratica le tue capacità artistiche, sviluppare nuove abilità, imparare nuovi spettacoli e acquisire una vera esperienza sul palco? ","INCLUSIVO"),
+("se è così, abbiamo l’occasione perfetta per te! ","INCLUSIVO"),
+("stiamo cercando [JOB] che si unisca al nostro team in grecia per la stagione estiva. ","TODO"),
+("con una retribuzione competitiva, un'assicurazione sanitaria e professionale completa, vitto e alloggio gratuiti e trasporto bonus, questa è un'opportunità da non perdere! ","INCLUSIVO"),
+("candidati ora con il tuo cv e la lettera di presentazione per unirti al nostro team e rendere questa estate indimenticabile. ","INCLUSIVO"),
+("località: grecia o cipro ","INCLUSIVO"),
+("tipologia di lavoro: stagionale, estivo ","INCLUSIVO"),
+("lingua: inglese (+ altre... lingue dell'ue preferite) ","INCLUSIVO"),
+("stipendio: stipendio mensile competitivo (basato su esperienza e competenze) ","INCLUSIVO"),
+("periodo: 6 - 7 mesi, stagione estiva 2024 ","INCLUSIVO"),
+("benefici: • assicurazione sanitaria e professionale completa, • alloggio fornito, • pasti forniti in pensione completa e • una tariffa di trasporto bonus! ","INCLUSIVO"),
 # FROM SEED
 ("#YourRole Il tuo ruolo, in quanto [JOB], ti darà la possibilità di concretizzare in prima persona iniziative per progetti strategici, condividendo la tua esperienza e le tue conoscenze con colleghi di talento, iniziando a sviluppare capacità di leadership, e individuando la migliore soluzione per i clienti, occupandoti di: ","TODO"),
 ("Gestione e coordinamento delle risorse più junior, in termini di definizione delle tempistiche, utilizzo di specifici tool, controllo di qualità della delivery; ","INCLUSIVO"),
@@ -111,9 +149,12 @@ TEXT_JOBS_v0 = [
 ("Gestione trasferte e viaggi; ","INCLUSIVO"),
 ("Coordinamento eventi interni: riunioni interne, meeting, formazione, piccoli eventi interni; ","INCLUSIVO"),
 ("Attività varie a supporto dell'area Marketing.","INCLUSIVO"),
-]
-
-TEXT_NON_JOBS_v0 = [
+# OTHER
+("[JOB] può inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "TODO"),
+("[JOB] ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","TODO"),
+("Sei [JOB] a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","TODO"),
+('Coordinamento con [JOB]',"TODO"),
+("Gestione dell'agenda e organizzazione degli appuntamenti per [JOB] dello studio","TODO"),
 # MISC
 ("se sei una persona dinamica, orientata al cliente e desiderosa di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","INCLUSIVO"),
 # ADJ
@@ -127,18 +168,17 @@ TEXT_NON_JOBS_v0 = [
 ("se sei [ADJ] a iniziare la tua carriera nel mondo immobiliare, inviaci il tuo curriculum vitae all'indirizzo e-mail info@tirreniaimmobiliare.com o fissa un appuntamento telefonando allo 090/9486682.","TODO"),
 ("se sei [ADJ] a far parte della nostra squadra dedicata e professionale, inviaci il tuo curriculum vitae oppure contattami su whatsapp al numero 3385906783","TODO"),
 ("se sei [ADJ] al cliente e di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","INCLUSIVO"),
-# VERBS
-# ("È stata coinvolta in progettualità di redazioni di piani industriali e strategici ","NON INCLUSIVO"),
-# ("Sarai contattato per un colloquio conoscitivo. ","NON INCLUSIVO"),
-# OTHER
-# ("Le candidate interessate possono inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "NON INCLUSIVO")
-# ("il candidato ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","NON INCLUSIVO"),
-# ("la candidata ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","NON INCLUSIVO"),
-# ("Sei pronto a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","NON INCLUSIVO"),
-# ("candidato/a ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","INCLUSIVO"),
+# VERBS 
+("È [VERB] in progettualità di redazioni di piani industriali e strategici ","TODO"),
+("Sarai [VERB] per un colloquio conoscitivo. ","TODO"),
+("fitactive, catena leader di mercato per numero di palestre aperte in italia, ricerca [JOB] per inserimento immediato nel team group trainers.","TODO"),
+("- abilitazioni riconosciute (anche marchi registrati come zumba, strong nation, cross cardio ecc..)","INCLUSIVO"),
+("- grande energia e voglia di crescere professionalmente in una realtà importante e in forte sviluppo nel mondo del fitness","INCLUSIVO"),
+("- predisposizione alla formazione e al lavoro di squadra","INCLUSIVO"),
+("per candidarti invia il tuo curriculum alla mail indicata, sarai [VERB] il prima possibile!","TODO"),
 ]
 
-TEXT_v0 = TEXT_JOBS_v0 + TEXT_NON_JOBS_v0
+#EXT_v0 = TEXT_JOBS_v0 + TEXT_NON_JOBS_v0
 
 JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()
 # ADJ
@@ -146,33 +186,46 @@ __adj = [
     ("esperto","maschile"),
     ("dinamico","maschile"),
     ("motivato","maschile"),
-    ("proattivo","maschile"),
     ("appassionato","maschile"),
     ("ambizioso","maschile"),
     ("determinato","maschile"),
-    ("collaborativo","maschile"),
     ("pronto","maschile"),
     ("interessato","maschile"),
-    ("orientato","maschile"),
-    ("positivo","maschile"),
-    ("attivo","maschile"),
-    ("preciso","maschile"),
+    # ("proattivo","maschile"),
+    # ("collaborativo","maschile"),
+    # ("orientato","maschile"),
+    # ("positivo","maschile"),
+    # ("attivo","maschile"),
+    # ("preciso","maschile"),
 ]
 makeFemale = lambda x: (x[0][:-1]+'a', 'femminile')
-__adjf = list(map(makeFemale, __adj))
 makeNeutral = lambda x: (x[0]+'/a', 'neutro')
+makeNeutral2 = lambda x: (x[0][:-1]+'*', 'neutro')
+__adjf = list(map(makeFemale, __adj))
 __adjn = list(map(makeNeutral, __adj))
-makeNeutral = lambda x: (x[0][:-1]+'*', 'neutro')
-__adjn += list(map(makeNeutral, __adj))
+__adjn += list(map(makeNeutral2, __adj))
 __adj = __adj + __adjf + __adjn
 # make combinations of them if they have the same 2nd element
 __adj2 = [(a[0] + " e " + b[0], a[1]) for a in __adj for b in __adj if a[1] == b[1] and a[0] != b[0]]
 __adj3 = [(a[0] + ", " + b[0] + " e " + c[0], a[1]) for a in __adj for b in __adj for c in __adj if a[1] == b[1] and b[1] == c[1] and a[0] != b[0] and b[0] != c[0] and a[0] != c[0]]
-ADJ_V0 = __adj #+ __adj2
+ADJ_V0 = __adj + __adj2
+
+__verbm = [
+    ("coinvolto","maschile"),
+    ("contattato","maschile"),
+    ("considerato","maschile"),
+    ("chiamato","maschile"),
+    ("ricontattato","maschile")
+]
+__verbf = list(map(makeFemale, __verbm))
+__verbn = list(map(makeNeutral, __verbm))
+__verbn2 = list(map(makeNeutral2, __verbm))
+VERBS_v0 = __verbm + __verbf + __verbn + __verbn2
 
 SUBS_JOBS_V0 = {
         "JOB": JOBS_V0,
         "ADJ": ADJ_V0,
+        "VERB": VERBS_v0,
         }
 
 ######### OLD #########
