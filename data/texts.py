@@ -228,6 +228,18 @@ SUBS_JOBS_V0 = {
         "VERB": VERBS_v0,
         }
 
+######## SEED ########
+
+def TEXT_SEED_v0() -> list[tuple(str, str)]:
+    df = pd.read_csv('data/job_description_seed_dataset_improved_context.csv')
+    _map = {
+        'YES': 'INCLUSIVO',
+        'NO': 'NON INCLUSIVO'
+    }
+    df['label'] = df.apply(lambda x: _map[x['inclusive phrasing']], axis=1)
+    return df[['text','label']].values.tolist()
+
+
 ######### OLD #########
 
 TEXTS_JOBS_FROM_SEED = [

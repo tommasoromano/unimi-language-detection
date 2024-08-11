@@ -36,9 +36,7 @@ if __name__ == '__main__':
   # Generate synthetic data and run models
   prompts = PromptGenerator.generate(PROMPTS_JOB_V0, PROMPTS_JOB_V0_KEYS)
 
-  data = DataGenerator.generate(TEXT_JOBS_v0, {
-    "JOB": JOBS_V0}
-    )
+  data = DataGenerator.generate(TEXT_v0, SUBS_JOBS_V0)
   # model = 'llama3:instruct'
   n_pass = 2
   model = 'gemma2'
