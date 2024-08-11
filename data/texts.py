@@ -230,7 +230,7 @@ SUBS_JOBS_V0 = {
 
 ######## SEED ########
 
-def TEXT_SEED_v0() -> list[tuple(str, str)]:
+def TEXT_SEED_v0():
     df = pd.read_csv('data/job_description_seed_dataset_improved_context.csv')
     _map = {
         'YES': 'INCLUSIVO',
