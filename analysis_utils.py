@@ -7,6 +7,7 @@ LABELS = ['INCLUSIVO', 'NON INCLUSIVO']
 def fix_df(df:pd.DataFrame, model, show_plot=False):
     df['text_JOB_value'] = df.apply(lambda x: x['text_JOB_value'] if isinstance(x['text_JOB_value'],str) else "", axis=1)
     df['text_ADJ_value'] = df.apply(lambda x: x['text_ADJ_value'] if isinstance(x['text_ADJ_value'],str) else "", axis=1)
+    df['text_VERB_value'] = df.apply(lambda x: x['text_VERB_value'] if isinstance(x['text_VERB_value'],str) else "", axis=1)
 
     def make_label(x):
         if x['text_labels'] != 'TODO':
@@ -15,6 +16,8 @@ def fix_df(df:pd.DataFrame, model, show_plot=False):
             gend = x['text_JOB_label']
         elif x['text_ADJ_value'] != "":
             gend = x['text_ADJ_label']
+        elif x['text_VERB_value'] != "":
+            gend = x['text_VERB_label']
         else:
             gend = 'neutro'
         return 'INCLUSIVO' if gend == 'neutro' else 'NON INCLUSIVO'
@@ -93,6 +96,8 @@ def fix_df(df:pd.DataFrame, model, show_plot=False):
     elif model == 'qwen2':
         df_fix = fix_qwen2(df)
     elif model == 'phi3-finetuned':
+        df_fix = fix_phi3_finetuned(df)
+    elif model == 'phi3':
         df_fix = fix_phi3_finetuned(df)
     else:
         raise ValueError(f"Model {model} not supported")
@@ -200,6 +205,10 @@ def metrics(df):
         'gt_neg': gt_neg,
         'pred_pos': pred_pos,
         'pred_neg': pred_neg,
+        'gt_pos%': gt_pos/total,
+        'gt_neg%': gt_neg/total,
+        'pred_pos%': pred_pos/total,
+        'pred_neg%': pred_neg/total,
         'true_positives': true_positives/total,
         'true_negatives': true_negatives/total,
         'false_positives': false_positives/total,
@@ -226,11 +235,38 @@ def plot_metrics(res_df, title):
     plt.show()
 
     sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'gt_pos%',
+        'gt_neg%',
+        'pred_pos%',
+        'pred_neg%',
+    ])], x='metric', y='value', hue='name')
+    plt.title(f"Groud Truth vs Pred{title}")
+    plt.show()
+
+    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'gt_pos%',
+        'gt_neg%',
+        'pred_pos%',
+        'pred_neg%',
+    ])], x='name', y='value', hue='metric')
+    plt.title(f"Groud Truth vs Pred{title}")
+    plt.show()
+
+    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
         'true_positives',
         'true_negatives',
         'false_positives',
         'false_negatives',
     ])], x='metric', y='value', hue='name')
+    plt.title(f"Confusion Matrix{title}")
+    plt.show()
+
+    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'true_positives',
+        'true_negatives',
+        'false_positives',
+        'false_negatives',
+    ])], x='name', y='value', hue='metric')
     plt.title(f"Confusion Matrix{title}")
     plt.show()
 
@@ -242,6 +278,18 @@ def plot_metrics(res_df, title):
         'f1',
         # 'negative_predictive_value',
     ])], x='metric', y='value', hue='name')
+    sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+    plt.title(f"Metrics{title}")
+    plt.show()
+
+    ax = sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'sensitivity',
+        'specificity',
+        'accuracy',
+        'precision',
+        'f1',
+        # 'negative_predictive_value',
+    ])], x='name', y='value', hue='metric')
     sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.title(f"Metrics{title}")
     plt.show()
