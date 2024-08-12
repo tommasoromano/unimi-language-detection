@@ -180,6 +180,7 @@ TEXT_v0 = [
 
 #EXT_v0 = TEXT_JOBS_v0 + TEXT_NON_JOBS_v0
 
+# /content/unimi-language-detection/
 JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()
 # ADJ
 __adj = [
@@ -231,6 +232,7 @@ SUBS_JOBS_V0 = {
 ######## SEED ########
 
 def TEXT_SEED_v0():
+    # /content/unimi-language-detection/
     df = pd.read_csv('data/job_description_seed_dataset_improved_context.csv')
     _map = {
         'YES': 'INCLUSIVO',

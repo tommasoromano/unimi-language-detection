@@ -5,9 +5,11 @@ import sklearn.metrics as skm
 LABELS = ['INCLUSIVO', 'NON INCLUSIVO']
 
 def fix_df(df:pd.DataFrame, model, show_plot=False):
-    df['text_JOB_value'] = df.apply(lambda x: x['text_JOB_value'] if isinstance(x['text_JOB_value'],str) else "", axis=1)
-    df['text_ADJ_value'] = df.apply(lambda x: x['text_ADJ_value'] if isinstance(x['text_ADJ_value'],str) else "", axis=1)
-    df['text_VERB_value'] = df.apply(lambda x: x['text_VERB_value'] if isinstance(x['text_VERB_value'],str) else "", axis=1)
+    df['response_text'] = df.apply(lambda x: x['response'], axis=1)
+    if 'text_JOB_value' in df.columns:
+        df['text_JOB_value'] = df.apply(lambda x: x['text_JOB_value'] if isinstance(x['text_JOB_value'],str) else "", axis=1)
+        df['text_ADJ_value'] = df.apply(lambda x: x['text_ADJ_value'] if isinstance(x['text_ADJ_value'],str) else "", axis=1)
+        df['text_VERB_value'] = df.apply(lambda x: x['text_VERB_value'] if isinstance(x['text_VERB_value'],str) else "", axis=1)
 
     def make_label(x):
         if x['text_labels'] != 'TODO':
@@ -223,6 +225,8 @@ def metrics(df):
 
 def plot_metrics(res_df, title):
 
+    return
+
     res_df_melt = res_df.melt(id_vars=['name'], var_name='metric', value_name='value')
 
     sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
@@ -292,4 +296,18 @@ def plot_metrics(res_df, title):
     ])], x='name', y='value', hue='metric')
     sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.title(f"Metrics{title}")
+    plt.show()
+
+def split_by_len(df:pd.DataFrame, groups=10):
+    df['len'] = df.apply(lambda x: len(x['text']), axis=1)
+    mn = df['len'].min()
+    mx = df['len'].max()
+    step = (mx - mn) // groups
+    df['len_label'] = df.apply(lambda x: f"{((x['len']+step)//step)*step}", axis=1)
+    return df
+
+def confusion_matrix(df):
+    cm = skm.confusion_matrix(df['true'], df['response'], labels=LABELS, normalize='true')
+    disp = skm.ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=LABELS)
+    disp.plot()
     plt.show()
