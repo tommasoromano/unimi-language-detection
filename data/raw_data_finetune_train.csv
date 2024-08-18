@@ -139,6 +139,8 @@ zsl#0,t#0_JOB#136,TODO,,addetto,maschile
 zsl#0,t#0_JOB#137,TODO,,addetta,femminile
 zsl#0,t#0_JOB#138,TODO,,addett*,neutro
 zsl#0,t#0_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#0_JOB#140,TODO,,consultant,neutro
+zsl#0,t#0_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#1_JOB#0,TODO,,giornaista,neutro
 zsl#0,t#1_JOB#1,TODO,,autista,neutro
 zsl#0,t#1_JOB#2,TODO,,dentista,neutro
@@ -279,6 +281,8 @@ zsl#0,t#1_JOB#136,TODO,,addetto,maschile
 zsl#0,t#1_JOB#137,TODO,,addetta,femminile
 zsl#0,t#1_JOB#138,TODO,,addett*,neutro
 zsl#0,t#1_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#1_JOB#140,TODO,,consultant,neutro
+zsl#0,t#1_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#2,INCLUSIVO,,,
 zsl#0,t#3_JOB#0,TODO,,giornaista,neutro
 zsl#0,t#3_JOB#1,TODO,,autista,neutro
@@ -420,6 +424,8 @@ zsl#0,t#3_JOB#136,TODO,,addetto,maschile
 zsl#0,t#3_JOB#137,TODO,,addetta,femminile
 zsl#0,t#3_JOB#138,TODO,,addett*,neutro
 zsl#0,t#3_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#3_JOB#140,TODO,,consultant,neutro
+zsl#0,t#3_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#4,INCLUSIVO,,,
 zsl#0,t#5,INCLUSIVO,,,
 zsl#0,t#6,INCLUSIVO,,,
@@ -582,291 +588,297 @@ zsl#0,t#26_JOB#136,TODO,,addetto,maschile
 zsl#0,t#26_JOB#137,TODO,,addetta,femminile
 zsl#0,t#26_JOB#138,TODO,,addett*,neutro
 zsl#0,t#26_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#26_JOB#140,TODO,,consultant,neutro
+zsl#0,t#26_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#27,INCLUSIVO,,,
 zsl#0,t#28,INCLUSIVO,,,
-zsl#0,t#29_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#29_JOB#1,TODO,,autista,neutro
-zsl#0,t#29_JOB#2,TODO,,dentista,neutro
-zsl#0,t#29_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#29_JOB#4,TODO,,consulente,neutro
-zsl#0,t#29_JOB#5,TODO,,estetista,neutro
-zsl#0,t#29_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#29_JOB#7,TODO,,contabile,neutro
-zsl#0,t#29_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#29_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#29_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#29_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#29_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#29_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#29_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#29_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#29_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#29_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#29_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#29_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#29_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#29_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#29_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#29_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#29_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#29_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#29_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#29_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#29_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#29_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#29_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#29_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#29_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#29_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#29_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#29_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#29_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#29_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#29_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#29_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#29_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#29_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#29_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#29_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#29_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#29_JOB#45,TODO,,segretario,maschile
-zsl#0,t#29_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#29_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#29_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#29_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#29_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#29_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#29_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#29_JOB#53,TODO,,direttore,maschile
-zsl#0,t#29_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#29_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#29_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#29_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#29_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#29_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#29_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#29_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#29_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#29_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#29_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#29_JOB#65,TODO,,attore,maschile
-zsl#0,t#29_JOB#66,TODO,,attrice,femminile
-zsl#0,t#29_JOB#67,TODO,,attor*,neutro
-zsl#0,t#29_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#29_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#29_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#29_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#29_JOB#72,TODO,,dottore,maschile
-zsl#0,t#29_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#29_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#29_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#29_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#29_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#29_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#29_JOB#79,TODO,,architetto,maschile
-zsl#0,t#29_JOB#80,TODO,,architetta,femminile
-zsl#0,t#29_JOB#81,TODO,,architett*,neutro
-zsl#0,t#29_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#29_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#29_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#29_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#29_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#29_JOB#87,TODO,,candidato,maschile
-zsl#0,t#29_JOB#88,TODO,,candidata,femminile
-zsl#0,t#29_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#29_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#29_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#29_JOB#92,TODO,,commessa,femminile
-zsl#0,t#29_JOB#93,TODO,,commesso,maschile
-zsl#0,t#29_JOB#94,TODO,,commess*,neutro
-zsl#0,t#29_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#29_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#29_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#29_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#29_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#29_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#29_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#29_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#29_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#29_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#29_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#29_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#29_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#29_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#29_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#29_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#29_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#29_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#29_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#29_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#29_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#29_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#29_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#29_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#29_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#29_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#29_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#29_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#29_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#29_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#29_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#29_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#29_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#29_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#29_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#29_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#29_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#29_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#29_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#29_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#29_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#29_JOB#136,TODO,,addetto,maschile
-zsl#0,t#29_JOB#137,TODO,,addetta,femminile
-zsl#0,t#29_JOB#138,TODO,,addett*,neutro
-zsl#0,t#29_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#30,INCLUSIVO,,,
+zsl#0,t#29,INCLUSIVO,,,
+zsl#0,t#30_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#30_JOB#1,TODO,,autista,neutro
+zsl#0,t#30_JOB#2,TODO,,dentista,neutro
+zsl#0,t#30_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#30_JOB#4,TODO,,consulente,neutro
+zsl#0,t#30_JOB#5,TODO,,estetista,neutro
+zsl#0,t#30_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#30_JOB#7,TODO,,contabile,neutro
+zsl#0,t#30_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#30_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#30_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#30_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#30_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#30_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#30_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#30_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#30_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#30_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#30_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#30_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#30_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#30_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#30_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#30_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#30_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#30_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#30_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#30_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#30_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#30_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#30_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#30_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#30_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#30_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#30_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#30_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#30_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#30_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#30_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#30_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#30_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#30_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#30_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#30_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#30_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#30_JOB#45,TODO,,segretario,maschile
+zsl#0,t#30_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#30_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#30_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#30_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#30_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#30_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#30_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#30_JOB#53,TODO,,direttore,maschile
+zsl#0,t#30_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#30_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#30_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#30_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#30_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#30_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#30_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#30_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#30_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#30_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#30_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#30_JOB#65,TODO,,attore,maschile
+zsl#0,t#30_JOB#66,TODO,,attrice,femminile
+zsl#0,t#30_JOB#67,TODO,,attor*,neutro
+zsl#0,t#30_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#30_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#30_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#30_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#30_JOB#72,TODO,,dottore,maschile
+zsl#0,t#30_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#30_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#30_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#30_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#30_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#30_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#30_JOB#79,TODO,,architetto,maschile
+zsl#0,t#30_JOB#80,TODO,,architetta,femminile
+zsl#0,t#30_JOB#81,TODO,,architett*,neutro
+zsl#0,t#30_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#30_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#30_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#30_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#30_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#30_JOB#87,TODO,,candidato,maschile
+zsl#0,t#30_JOB#88,TODO,,candidata,femminile
+zsl#0,t#30_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#30_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#30_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#30_JOB#92,TODO,,commessa,femminile
+zsl#0,t#30_JOB#93,TODO,,commesso,maschile
+zsl#0,t#30_JOB#94,TODO,,commess*,neutro
+zsl#0,t#30_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#30_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#30_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#30_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#30_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#30_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#30_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#30_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#30_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#30_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#30_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#30_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#30_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#30_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#30_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#30_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#30_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#30_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#30_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#30_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#30_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#30_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#30_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#30_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#30_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#30_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#30_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#30_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#30_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#30_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#30_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#30_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#30_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#30_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#30_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#30_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#30_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#30_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#30_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#30_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#30_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#30_JOB#136,TODO,,addetto,maschile
+zsl#0,t#30_JOB#137,TODO,,addetta,femminile
+zsl#0,t#30_JOB#138,TODO,,addett*,neutro
+zsl#0,t#30_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#30_JOB#140,TODO,,consultant,neutro
+zsl#0,t#30_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#31,INCLUSIVO,,,
-zsl#0,t#32_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#32_JOB#1,TODO,,autista,neutro
-zsl#0,t#32_JOB#2,TODO,,dentista,neutro
-zsl#0,t#32_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#32_JOB#4,TODO,,consulente,neutro
-zsl#0,t#32_JOB#5,TODO,,estetista,neutro
-zsl#0,t#32_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#32_JOB#7,TODO,,contabile,neutro
-zsl#0,t#32_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#32_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#32_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#32_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#32_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#32_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#32_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#32_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#32_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#32_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#32_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#32_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#32_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#32_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#32_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#32_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#32_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#32_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#32_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#32_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#32_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#32_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#32_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#32_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#32_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#32_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#32_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#32_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#32_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#32_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#32_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#32_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#32_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#32_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#32_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#32_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#32_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#32_JOB#45,TODO,,segretario,maschile
-zsl#0,t#32_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#32_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#32_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#32_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#32_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#32_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#32_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#32_JOB#53,TODO,,direttore,maschile
-zsl#0,t#32_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#32_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#32_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#32_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#32_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#32_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#32_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#32_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#32_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#32_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#32_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#32_JOB#65,TODO,,attore,maschile
-zsl#0,t#32_JOB#66,TODO,,attrice,femminile
-zsl#0,t#32_JOB#67,TODO,,attor*,neutro
-zsl#0,t#32_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#32_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#32_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#32_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#32_JOB#72,TODO,,dottore,maschile
-zsl#0,t#32_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#32_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#32_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#32_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#32_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#32_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#32_JOB#79,TODO,,architetto,maschile
-zsl#0,t#32_JOB#80,TODO,,architetta,femminile
-zsl#0,t#32_JOB#81,TODO,,architett*,neutro
-zsl#0,t#32_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#32_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#32_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#32_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#32_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#32_JOB#87,TODO,,candidato,maschile
-zsl#0,t#32_JOB#88,TODO,,candidata,femminile
-zsl#0,t#32_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#32_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#32_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#32_JOB#92,TODO,,commessa,femminile
-zsl#0,t#32_JOB#93,TODO,,commesso,maschile
-zsl#0,t#32_JOB#94,TODO,,commess*,neutro
-zsl#0,t#32_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#32_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#32_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#32_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#32_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#32_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#32_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#32_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#32_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#32_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#32_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#32_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#32_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#32_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#32_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#32_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#32_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#32_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#32_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#32_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#32_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#32_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#32_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#32_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#32_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#32_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#32_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#32_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#32_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#32_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#32_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#32_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#32_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#32_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#32_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#32_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#32_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#32_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#32_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#32_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#32_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#32_JOB#136,TODO,,addetto,maschile
-zsl#0,t#32_JOB#137,TODO,,addetta,femminile
-zsl#0,t#32_JOB#138,TODO,,addett*,neutro
-zsl#0,t#32_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#33,INCLUSIVO,,,
+zsl#0,t#32,INCLUSIVO,,,
+zsl#0,t#33_JOB#0,INCLUSIVO,,giornaista,neutro
+zsl#0,t#33_JOB#1,INCLUSIVO,,autista,neutro
+zsl#0,t#33_JOB#2,INCLUSIVO,,dentista,neutro
+zsl#0,t#33_JOB#3,INCLUSIVO,,ginnasta,neutro
+zsl#0,t#33_JOB#4,INCLUSIVO,,consulente,neutro
+zsl#0,t#33_JOB#5,INCLUSIVO,,estetista,neutro
+zsl#0,t#33_JOB#6,INCLUSIVO,,farmacista,neutro
+zsl#0,t#33_JOB#7,INCLUSIVO,,contabile,neutro
+zsl#0,t#33_JOB#8,INCLUSIVO,,nutrizionista,neutro
+zsl#0,t#33_JOB#9,INCLUSIVO,,giardiniere,neutro
+zsl#0,t#33_JOB#10,INCLUSIVO,,insegnante,neutro
+zsl#0,t#33_JOB#11,INCLUSIVO,,igienista dentale,neutro
+zsl#0,t#33_JOB#12,INCLUSIVO,,infermiere,maschile
+zsl#0,t#33_JOB#13,INCLUSIVO,,infermiera,femminile
+zsl#0,t#33_JOB#14,INCLUSIVO,,infermier*,neutro
+zsl#0,t#33_JOB#15,INCLUSIVO,,infermiere/a,neutro
+zsl#0,t#33_JOB#16,INCLUSIVO,,infermierÃ,neutro
+zsl#0,t#33_JOB#17,INCLUSIVO,,infermiera/e,neutro
+zsl#0,t#33_JOB#18,INCLUSIVO,,infermiera o infermiere,neutro
+zsl#0,t#33_JOB#19,INCLUSIVO,,infermiere o infermiera,neutro
+zsl#0,t#33_JOB#20,INCLUSIVO,,programmatore,maschile
+zsl#0,t#33_JOB#21,INCLUSIVO,,programmatrice,femminile
+zsl#0,t#33_JOB#22,INCLUSIVO,,programmatori,maschile
+zsl#0,t#33_JOB#23,INCLUSIVO,,programmatrici,femminile
+zsl#0,t#33_JOB#24,INCLUSIVO,,programmatori e programmatrici,neutro
+zsl#0,t#33_JOB#25,INCLUSIVO,,programmatori o programmatrici,neutro
+zsl#0,t#33_JOB#26,INCLUSIVO,,programmator*,neutro
+zsl#0,t#33_JOB#27,INCLUSIVO,,programmatorÃ,neutro
+zsl#0,t#33_JOB#28,INCLUSIVO,,impiegato,maschile
+zsl#0,t#33_JOB#29,INCLUSIVO,,impiegata,femminile
+zsl#0,t#33_JOB#30,INCLUSIVO,,impiegati,maschile
+zsl#0,t#33_JOB#31,INCLUSIVO,,impiegate,femminile
+zsl#0,t#33_JOB#32,INCLUSIVO,,impiegati e impiegate,neutro
+zsl#0,t#33_JOB#33,INCLUSIVO,,impiegati o impiegate,neutro
+zsl#0,t#33_JOB#34,INCLUSIVO,,impiegat*,neutro
+zsl#0,t#33_JOB#35,INCLUSIVO,,impiegato/a,neutro
+zsl#0,t#33_JOB#36,INCLUSIVO,,impiegatÃ,neutro
+zsl#0,t#33_JOB#37,INCLUSIVO,,cameriere,neutro
+zsl#0,t#33_JOB#38,INCLUSIVO,,cameriera,femminile
+zsl#0,t#33_JOB#39,INCLUSIVO,,camerier*,neutro
+zsl#0,t#33_JOB#40,INCLUSIVO,,cameriere/a,neutro
+zsl#0,t#33_JOB#41,INCLUSIVO,,camerierÃ,neutro
+zsl#0,t#33_JOB#42,INCLUSIVO,,cameriere/cameriera,neutro
+zsl#0,t#33_JOB#43,INCLUSIVO,,cameriere e cameriera,neutro
+zsl#0,t#33_JOB#44,INCLUSIVO,,cameriere o cameriera,neutro
+zsl#0,t#33_JOB#45,INCLUSIVO,,segretario,maschile
+zsl#0,t#33_JOB#46,INCLUSIVO,,segretaria,femminile
+zsl#0,t#33_JOB#47,INCLUSIVO,,segretar*,neutro
+zsl#0,t#33_JOB#48,INCLUSIVO,,segretario/a,neutro
+zsl#0,t#33_JOB#49,INCLUSIVO,,segretarÃ,neutro
+zsl#0,t#33_JOB#50,INCLUSIVO,,segretaria o segretario,neutro
+zsl#0,t#33_JOB#51,INCLUSIVO,,segretario o segretaria,neutro
+zsl#0,t#33_JOB#52,INCLUSIVO,,segretario/segretaria,neutro
+zsl#0,t#33_JOB#53,INCLUSIVO,,direttore,maschile
+zsl#0,t#33_JOB#54,INCLUSIVO,,direttrice,femminile
+zsl#0,t#33_JOB#55,INCLUSIVO,,direttor*,neutro
+zsl#0,t#33_JOB#56,INCLUSIVO,,direttorÃ,neutro
+zsl#0,t#33_JOB#57,INCLUSIVO,,direttore/direttrice,neutro
+zsl#0,t#33_JOB#58,INCLUSIVO,,direttrice o direttore,neutro
+zsl#0,t#33_JOB#59,INCLUSIVO,,direttore o direttrice,neutro
+zsl#0,t#33_JOB#60,INCLUSIVO,,ballerina,femminile
+zsl#0,t#33_JOB#61,INCLUSIVO,,ballerino,maschile
+zsl#0,t#33_JOB#62,INCLUSIVO,,ballerin*,neutro
+zsl#0,t#33_JOB#63,INCLUSIVO,,ballerino/a,neutro
+zsl#0,t#33_JOB#64,INCLUSIVO,,ballerinÃ,neutro
+zsl#0,t#33_JOB#65,INCLUSIVO,,attore,maschile
+zsl#0,t#33_JOB#66,INCLUSIVO,,attrice,femminile
+zsl#0,t#33_JOB#67,INCLUSIVO,,attor*,neutro
+zsl#0,t#33_JOB#68,INCLUSIVO,,attorÃ,neutro
+zsl#0,t#33_JOB#69,INCLUSIVO,,attore/attrice,neutro
+zsl#0,t#33_JOB#70,INCLUSIVO,,attrice o attore,neutro
+zsl#0,t#33_JOB#71,INCLUSIVO,,attore o attrice,neutro
+zsl#0,t#33_JOB#72,INCLUSIVO,,dottore,maschile
+zsl#0,t#33_JOB#73,INCLUSIVO,,dottoressa,femminile
+zsl#0,t#33_JOB#74,INCLUSIVO,,dottor*,neutro
+zsl#0,t#33_JOB#75,INCLUSIVO,,dottorÃ,neutro
+zsl#0,t#33_JOB#76,INCLUSIVO,,dottore/dottoressa,neutro
+zsl#0,t#33_JOB#77,INCLUSIVO,,dottoressa o dottore,neutro
+zsl#0,t#33_JOB#78,INCLUSIVO,,dottore o dottoressa,neutro
+zsl#0,t#33_JOB#79,INCLUSIVO,,architetto,maschile
+zsl#0,t#33_JOB#80,INCLUSIVO,,architetta,femminile
+zsl#0,t#33_JOB#81,INCLUSIVO,,architett*,neutro
+zsl#0,t#33_JOB#82,INCLUSIVO,,architettÃ,neutro
+zsl#0,t#33_JOB#83,INCLUSIVO,,architetto/architetta,neutro
+zsl#0,t#33_JOB#84,INCLUSIVO,,architetta o architetto,neutro
+zsl#0,t#33_JOB#85,INCLUSIVO,,architetto o architetta,neutro
+zsl#0,t#33_JOB#86,INCLUSIVO,,architetto/a,neutro
+zsl#0,t#33_JOB#87,INCLUSIVO,,candidato,maschile
+zsl#0,t#33_JOB#88,INCLUSIVO,,candidata,femminile
+zsl#0,t#33_JOB#89,INCLUSIVO,,candidat*,neutro
+zsl#0,t#33_JOB#90,INCLUSIVO,,candidato/a,neutro
+zsl#0,t#33_JOB#91,INCLUSIVO,,candidatÃ,neutro
+zsl#0,t#33_JOB#92,INCLUSIVO,,commessa,femminile
+zsl#0,t#33_JOB#93,INCLUSIVO,,commesso,maschile
+zsl#0,t#33_JOB#94,INCLUSIVO,,commess*,neutro
+zsl#0,t#33_JOB#95,INCLUSIVO,,commesso/a,neutro
+zsl#0,t#33_JOB#96,INCLUSIVO,,commessÃ,neutro
+zsl#0,t#33_JOB#97,INCLUSIVO,,commessa/o,neutro
+zsl#0,t#33_JOB#98,INCLUSIVO,,commesso o commessa,neutro
+zsl#0,t#33_JOB#99,INCLUSIVO,,commessa o commesso,neutro
+zsl#0,t#33_JOB#100,INCLUSIVO,,cuoco,maschile
+zsl#0,t#33_JOB#101,INCLUSIVO,,cuoca,femminile
+zsl#0,t#33_JOB#102,INCLUSIVO,,cuoc*,neutro
+zsl#0,t#33_JOB#103,INCLUSIVO,,cuoco/a,neutro
+zsl#0,t#33_JOB#104,INCLUSIVO,,cuocÃ,neutro
+zsl#0,t#33_JOB#105,INCLUSIVO,,cuoca/o,neutro
+zsl#0,t#33_JOB#106,INCLUSIVO,,cuoco o cuoca,neutro
+zsl#0,t#33_JOB#107,INCLUSIVO,,cuoca o cuoco,neutro
+zsl#0,t#33_JOB#108,INCLUSIVO,,parrucchiera,femminile
+zsl#0,t#33_JOB#109,INCLUSIVO,,parrucchiere,maschile
+zsl#0,t#33_JOB#110,INCLUSIVO,,parrucchier*,neutro
+zsl#0,t#33_JOB#111,INCLUSIVO,,parrucchiere/a,neutro
+zsl#0,t#33_JOB#112,INCLUSIVO,,parrucchiera/e,neutro
+zsl#0,t#33_JOB#113,INCLUSIVO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#33_JOB#114,INCLUSIVO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#33_JOB#115,INCLUSIVO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#33_JOB#116,INCLUSIVO,,truccatore,maschile
+zsl#0,t#33_JOB#117,INCLUSIVO,,truccatrice,femminile
+zsl#0,t#33_JOB#118,INCLUSIVO,,truccator*,neutro
+zsl#0,t#33_JOB#119,INCLUSIVO,,truccatore o truccatrice,neutro
+zsl#0,t#33_JOB#120,INCLUSIVO,,truccatrice o truccatore,neutro
+zsl#0,t#33_JOB#121,INCLUSIVO,,psicologo,maschile
+zsl#0,t#33_JOB#122,INCLUSIVO,,psicologa,femminile
+zsl#0,t#33_JOB#123,INCLUSIVO,,psicolog*,neutro
+zsl#0,t#33_JOB#124,INCLUSIVO,,psicologo/a,neutro
+zsl#0,t#33_JOB#125,INCLUSIVO,,psicologÃ,neutro
+zsl#0,t#33_JOB#126,INCLUSIVO,,psicologa/o,neutro
+zsl#0,t#33_JOB#127,INCLUSIVO,,psicologo o psicologa,neutro
+zsl#0,t#33_JOB#128,INCLUSIVO,,psicologa o psicologo,neutro
+zsl#0,t#33_JOB#129,INCLUSIVO,,traduttore,maschile
+zsl#0,t#33_JOB#130,INCLUSIVO,,traduttrice,femminile
+zsl#0,t#33_JOB#131,INCLUSIVO,,traduttor*,neutro
+zsl#0,t#33_JOB#132,INCLUSIVO,,traduttore/traduttrice,neutro
+zsl#0,t#33_JOB#133,INCLUSIVO,,traduttrice/traduttore,neutro
+zsl#0,t#33_JOB#134,INCLUSIVO,,traduttore o traduttrice,neutro
+zsl#0,t#33_JOB#135,INCLUSIVO,,traduttrice o traduttore,neutro
+zsl#0,t#33_JOB#136,INCLUSIVO,,addetto,maschile
+zsl#0,t#33_JOB#137,INCLUSIVO,,addetta,femminile
+zsl#0,t#33_JOB#138,INCLUSIVO,,addett*,neutro
+zsl#0,t#33_JOB#139,INCLUSIVO,,addetto/a,neutro
+zsl#0,t#33_JOB#140,INCLUSIVO,,consultant,neutro
+zsl#0,t#33_JOB#141,INCLUSIVO,,senior consultant,neutro
 zsl#0,t#34,INCLUSIVO,,,
 zsl#0,t#35,INCLUSIVO,,,
 zsl#0,t#36,INCLUSIVO,,,
@@ -881,590 +893,457 @@ zsl#0,t#44,INCLUSIVO,,,
 zsl#0,t#45,INCLUSIVO,,,
 zsl#0,t#46,INCLUSIVO,,,
 zsl#0,t#47,INCLUSIVO,,,
-zsl#0,t#48_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#48_JOB#1,TODO,,autista,neutro
-zsl#0,t#48_JOB#2,TODO,,dentista,neutro
-zsl#0,t#48_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#48_JOB#4,TODO,,consulente,neutro
-zsl#0,t#48_JOB#5,TODO,,estetista,neutro
-zsl#0,t#48_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#48_JOB#7,TODO,,contabile,neutro
-zsl#0,t#48_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#48_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#48_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#48_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#48_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#48_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#48_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#48_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#48_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#48_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#48_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#48_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#48_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#48_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#48_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#48_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#48_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#48_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#48_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#48_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#48_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#48_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#48_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#48_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#48_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#48_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#48_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#48_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#48_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#48_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#48_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#48_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#48_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#48_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#48_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#48_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#48_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#48_JOB#45,TODO,,segretario,maschile
-zsl#0,t#48_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#48_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#48_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#48_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#48_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#48_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#48_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#48_JOB#53,TODO,,direttore,maschile
-zsl#0,t#48_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#48_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#48_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#48_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#48_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#48_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#48_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#48_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#48_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#48_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#48_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#48_JOB#65,TODO,,attore,maschile
-zsl#0,t#48_JOB#66,TODO,,attrice,femminile
-zsl#0,t#48_JOB#67,TODO,,attor*,neutro
-zsl#0,t#48_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#48_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#48_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#48_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#48_JOB#72,TODO,,dottore,maschile
-zsl#0,t#48_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#48_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#48_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#48_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#48_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#48_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#48_JOB#79,TODO,,architetto,maschile
-zsl#0,t#48_JOB#80,TODO,,architetta,femminile
-zsl#0,t#48_JOB#81,TODO,,architett*,neutro
-zsl#0,t#48_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#48_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#48_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#48_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#48_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#48_JOB#87,TODO,,candidato,maschile
-zsl#0,t#48_JOB#88,TODO,,candidata,femminile
-zsl#0,t#48_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#48_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#48_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#48_JOB#92,TODO,,commessa,femminile
-zsl#0,t#48_JOB#93,TODO,,commesso,maschile
-zsl#0,t#48_JOB#94,TODO,,commess*,neutro
-zsl#0,t#48_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#48_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#48_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#48_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#48_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#48_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#48_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#48_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#48_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#48_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#48_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#48_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#48_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#48_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#48_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#48_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#48_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#48_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#48_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#48_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#48_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#48_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#48_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#48_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#48_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#48_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#48_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#48_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#48_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#48_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#48_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#48_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#48_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#48_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#48_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#48_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#48_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#48_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#48_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#48_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#48_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#48_JOB#136,TODO,,addetto,maschile
-zsl#0,t#48_JOB#137,TODO,,addetta,femminile
-zsl#0,t#48_JOB#138,TODO,,addett*,neutro
-zsl#0,t#48_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#48,INCLUSIVO,,,
 zsl#0,t#49,INCLUSIVO,,,
 zsl#0,t#50,INCLUSIVO,,,
 zsl#0,t#51,INCLUSIVO,,,
-zsl#0,t#52_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#52_JOB#1,TODO,,autista,neutro
-zsl#0,t#52_JOB#2,TODO,,dentista,neutro
-zsl#0,t#52_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#52_JOB#4,TODO,,consulente,neutro
-zsl#0,t#52_JOB#5,TODO,,estetista,neutro
-zsl#0,t#52_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#52_JOB#7,TODO,,contabile,neutro
-zsl#0,t#52_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#52_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#52_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#52_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#52_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#52_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#52_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#52_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#52_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#52_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#52_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#52_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#52_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#52_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#52_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#52_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#52_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#52_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#52_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#52_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#52_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#52_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#52_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#52_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#52_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#52_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#52_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#52_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#52_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#52_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#52_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#52_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#52_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#52_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#52_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#52_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#52_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#52_JOB#45,TODO,,segretario,maschile
-zsl#0,t#52_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#52_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#52_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#52_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#52_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#52_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#52_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#52_JOB#53,TODO,,direttore,maschile
-zsl#0,t#52_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#52_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#52_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#52_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#52_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#52_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#52_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#52_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#52_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#52_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#52_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#52_JOB#65,TODO,,attore,maschile
-zsl#0,t#52_JOB#66,TODO,,attrice,femminile
-zsl#0,t#52_JOB#67,TODO,,attor*,neutro
-zsl#0,t#52_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#52_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#52_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#52_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#52_JOB#72,TODO,,dottore,maschile
-zsl#0,t#52_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#52_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#52_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#52_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#52_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#52_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#52_JOB#79,TODO,,architetto,maschile
-zsl#0,t#52_JOB#80,TODO,,architetta,femminile
-zsl#0,t#52_JOB#81,TODO,,architett*,neutro
-zsl#0,t#52_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#52_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#52_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#52_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#52_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#52_JOB#87,TODO,,candidato,maschile
-zsl#0,t#52_JOB#88,TODO,,candidata,femminile
-zsl#0,t#52_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#52_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#52_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#52_JOB#92,TODO,,commessa,femminile
-zsl#0,t#52_JOB#93,TODO,,commesso,maschile
-zsl#0,t#52_JOB#94,TODO,,commess*,neutro
-zsl#0,t#52_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#52_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#52_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#52_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#52_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#52_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#52_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#52_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#52_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#52_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#52_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#52_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#52_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#52_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#52_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#52_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#52_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#52_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#52_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#52_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#52_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#52_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#52_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#52_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#52_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#52_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#52_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#52_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#52_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#52_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#52_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#52_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#52_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#52_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#52_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#52_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#52_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#52_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#52_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#52_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#52_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#52_JOB#136,TODO,,addetto,maschile
-zsl#0,t#52_JOB#137,TODO,,addetta,femminile
-zsl#0,t#52_JOB#138,TODO,,addett*,neutro
-zsl#0,t#52_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#53,INCLUSIVO,,,
+zsl#0,t#52,NON INCLUSIVO,,,
+zsl#0,t#53,NON INCLUSIVO,,,
 zsl#0,t#54,INCLUSIVO,,,
 zsl#0,t#55,INCLUSIVO,,,
-zsl#0,t#56,INCLUSIVO,,,
+zsl#0,t#56_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#56_JOB#1,TODO,,autista,neutro
+zsl#0,t#56_JOB#2,TODO,,dentista,neutro
+zsl#0,t#56_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#56_JOB#4,TODO,,consulente,neutro
+zsl#0,t#56_JOB#5,TODO,,estetista,neutro
+zsl#0,t#56_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#56_JOB#7,TODO,,contabile,neutro
+zsl#0,t#56_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#56_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#56_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#56_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#56_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#56_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#56_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#56_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#56_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#56_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#56_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#56_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#56_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#56_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#56_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#56_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#56_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#56_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#56_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#56_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#56_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#56_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#56_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#56_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#56_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#56_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#56_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#56_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#56_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#56_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#56_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#56_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#56_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#56_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#56_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#56_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#56_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#56_JOB#45,TODO,,segretario,maschile
+zsl#0,t#56_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#56_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#56_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#56_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#56_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#56_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#56_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#56_JOB#53,TODO,,direttore,maschile
+zsl#0,t#56_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#56_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#56_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#56_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#56_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#56_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#56_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#56_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#56_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#56_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#56_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#56_JOB#65,TODO,,attore,maschile
+zsl#0,t#56_JOB#66,TODO,,attrice,femminile
+zsl#0,t#56_JOB#67,TODO,,attor*,neutro
+zsl#0,t#56_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#56_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#56_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#56_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#56_JOB#72,TODO,,dottore,maschile
+zsl#0,t#56_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#56_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#56_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#56_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#56_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#56_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#56_JOB#79,TODO,,architetto,maschile
+zsl#0,t#56_JOB#80,TODO,,architetta,femminile
+zsl#0,t#56_JOB#81,TODO,,architett*,neutro
+zsl#0,t#56_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#56_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#56_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#56_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#56_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#56_JOB#87,TODO,,candidato,maschile
+zsl#0,t#56_JOB#88,TODO,,candidata,femminile
+zsl#0,t#56_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#56_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#56_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#56_JOB#92,TODO,,commessa,femminile
+zsl#0,t#56_JOB#93,TODO,,commesso,maschile
+zsl#0,t#56_JOB#94,TODO,,commess*,neutro
+zsl#0,t#56_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#56_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#56_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#56_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#56_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#56_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#56_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#56_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#56_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#56_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#56_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#56_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#56_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#56_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#56_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#56_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#56_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#56_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#56_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#56_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#56_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#56_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#56_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#56_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#56_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#56_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#56_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#56_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#56_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#56_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#56_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#56_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#56_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#56_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#56_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#56_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#56_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#56_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#56_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#56_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#56_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#56_JOB#136,TODO,,addetto,maschile
+zsl#0,t#56_JOB#137,TODO,,addetta,femminile
+zsl#0,t#56_JOB#138,TODO,,addett*,neutro
+zsl#0,t#56_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#56_JOB#140,TODO,,consultant,neutro
+zsl#0,t#56_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#57,INCLUSIVO,,,
 zsl#0,t#58,INCLUSIVO,,,
-zsl#0,t#59,INCLUSIVO,,,
+zsl#0,t#59_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#59_JOB#1,TODO,,autista,neutro
+zsl#0,t#59_JOB#2,TODO,,dentista,neutro
+zsl#0,t#59_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#59_JOB#4,TODO,,consulente,neutro
+zsl#0,t#59_JOB#5,TODO,,estetista,neutro
+zsl#0,t#59_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#59_JOB#7,TODO,,contabile,neutro
+zsl#0,t#59_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#59_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#59_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#59_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#59_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#59_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#59_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#59_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#59_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#59_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#59_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#59_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#59_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#59_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#59_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#59_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#59_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#59_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#59_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#59_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#59_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#59_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#59_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#59_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#59_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#59_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#59_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#59_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#59_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#59_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#59_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#59_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#59_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#59_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#59_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#59_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#59_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#59_JOB#45,TODO,,segretario,maschile
+zsl#0,t#59_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#59_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#59_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#59_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#59_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#59_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#59_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#59_JOB#53,TODO,,direttore,maschile
+zsl#0,t#59_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#59_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#59_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#59_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#59_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#59_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#59_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#59_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#59_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#59_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#59_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#59_JOB#65,TODO,,attore,maschile
+zsl#0,t#59_JOB#66,TODO,,attrice,femminile
+zsl#0,t#59_JOB#67,TODO,,attor*,neutro
+zsl#0,t#59_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#59_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#59_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#59_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#59_JOB#72,TODO,,dottore,maschile
+zsl#0,t#59_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#59_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#59_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#59_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#59_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#59_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#59_JOB#79,TODO,,architetto,maschile
+zsl#0,t#59_JOB#80,TODO,,architetta,femminile
+zsl#0,t#59_JOB#81,TODO,,architett*,neutro
+zsl#0,t#59_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#59_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#59_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#59_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#59_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#59_JOB#87,TODO,,candidato,maschile
+zsl#0,t#59_JOB#88,TODO,,candidata,femminile
+zsl#0,t#59_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#59_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#59_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#59_JOB#92,TODO,,commessa,femminile
+zsl#0,t#59_JOB#93,TODO,,commesso,maschile
+zsl#0,t#59_JOB#94,TODO,,commess*,neutro
+zsl#0,t#59_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#59_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#59_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#59_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#59_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#59_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#59_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#59_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#59_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#59_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#59_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#59_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#59_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#59_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#59_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#59_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#59_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#59_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#59_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#59_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#59_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#59_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#59_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#59_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#59_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#59_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#59_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#59_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#59_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#59_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#59_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#59_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#59_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#59_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#59_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#59_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#59_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#59_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#59_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#59_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#59_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#59_JOB#136,TODO,,addetto,maschile
+zsl#0,t#59_JOB#137,TODO,,addetta,femminile
+zsl#0,t#59_JOB#138,TODO,,addett*,neutro
+zsl#0,t#59_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#59_JOB#140,TODO,,consultant,neutro
+zsl#0,t#59_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#60,INCLUSIVO,,,
-zsl#0,t#61_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#61_JOB#1,TODO,,autista,neutro
-zsl#0,t#61_JOB#2,TODO,,dentista,neutro
-zsl#0,t#61_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#61_JOB#4,TODO,,consulente,neutro
-zsl#0,t#61_JOB#5,TODO,,estetista,neutro
-zsl#0,t#61_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#61_JOB#7,TODO,,contabile,neutro
-zsl#0,t#61_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#61_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#61_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#61_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#61_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#61_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#61_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#61_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#61_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#61_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#61_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#61_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#61_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#61_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#61_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#61_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#61_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#61_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#61_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#61_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#61_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#61_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#61_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#61_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#61_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#61_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#61_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#61_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#61_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#61_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#61_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#61_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#61_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#61_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#61_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#61_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#61_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#61_JOB#45,TODO,,segretario,maschile
-zsl#0,t#61_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#61_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#61_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#61_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#61_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#61_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#61_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#61_JOB#53,TODO,,direttore,maschile
-zsl#0,t#61_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#61_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#61_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#61_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#61_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#61_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#61_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#61_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#61_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#61_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#61_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#61_JOB#65,TODO,,attore,maschile
-zsl#0,t#61_JOB#66,TODO,,attrice,femminile
-zsl#0,t#61_JOB#67,TODO,,attor*,neutro
-zsl#0,t#61_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#61_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#61_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#61_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#61_JOB#72,TODO,,dottore,maschile
-zsl#0,t#61_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#61_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#61_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#61_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#61_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#61_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#61_JOB#79,TODO,,architetto,maschile
-zsl#0,t#61_JOB#80,TODO,,architetta,femminile
-zsl#0,t#61_JOB#81,TODO,,architett*,neutro
-zsl#0,t#61_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#61_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#61_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#61_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#61_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#61_JOB#87,TODO,,candidato,maschile
-zsl#0,t#61_JOB#88,TODO,,candidata,femminile
-zsl#0,t#61_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#61_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#61_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#61_JOB#92,TODO,,commessa,femminile
-zsl#0,t#61_JOB#93,TODO,,commesso,maschile
-zsl#0,t#61_JOB#94,TODO,,commess*,neutro
-zsl#0,t#61_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#61_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#61_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#61_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#61_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#61_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#61_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#61_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#61_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#61_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#61_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#61_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#61_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#61_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#61_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#61_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#61_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#61_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#61_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#61_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#61_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#61_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#61_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#61_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#61_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#61_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#61_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#61_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#61_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#61_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#61_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#61_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#61_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#61_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#61_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#61_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#61_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#61_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#61_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#61_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#61_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#61_JOB#136,TODO,,addetto,maschile
-zsl#0,t#61_JOB#137,TODO,,addetta,femminile
-zsl#0,t#61_JOB#138,TODO,,addett*,neutro
-zsl#0,t#61_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#61,INCLUSIVO,,,
 zsl#0,t#62,INCLUSIVO,,,
 zsl#0,t#63,INCLUSIVO,,,
-zsl#0,t#64,NON INCLUSIVO,,,
-zsl#0,t#65,NON INCLUSIVO,,,
+zsl#0,t#64,INCLUSIVO,,,
+zsl#0,t#65,INCLUSIVO,,,
 zsl#0,t#66,INCLUSIVO,,,
 zsl#0,t#67,INCLUSIVO,,,
 zsl#0,t#68,INCLUSIVO,,,
 zsl#0,t#69,INCLUSIVO,,,
 zsl#0,t#70,INCLUSIVO,,,
 zsl#0,t#71,INCLUSIVO,,,
-zsl#0,t#72_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#72_JOB#1,TODO,,autista,neutro
-zsl#0,t#72_JOB#2,TODO,,dentista,neutro
-zsl#0,t#72_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#72_JOB#4,TODO,,consulente,neutro
-zsl#0,t#72_JOB#5,TODO,,estetista,neutro
-zsl#0,t#72_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#72_JOB#7,TODO,,contabile,neutro
-zsl#0,t#72_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#72_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#72_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#72_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#72_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#72_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#72_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#72_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#72_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#72_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#72_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#72_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#72_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#72_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#72_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#72_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#72_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#72_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#72_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#72_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#72_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#72_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#72_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#72_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#72_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#72_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#72_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#72_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#72_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#72_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#72_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#72_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#72_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#72_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#72_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#72_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#72_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#72_JOB#45,TODO,,segretario,maschile
-zsl#0,t#72_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#72_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#72_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#72_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#72_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#72_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#72_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#72_JOB#53,TODO,,direttore,maschile
-zsl#0,t#72_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#72_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#72_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#72_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#72_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#72_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#72_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#72_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#72_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#72_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#72_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#72_JOB#65,TODO,,attore,maschile
-zsl#0,t#72_JOB#66,TODO,,attrice,femminile
-zsl#0,t#72_JOB#67,TODO,,attor*,neutro
-zsl#0,t#72_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#72_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#72_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#72_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#72_JOB#72,TODO,,dottore,maschile
-zsl#0,t#72_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#72_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#72_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#72_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#72_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#72_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#72_JOB#79,TODO,,architetto,maschile
-zsl#0,t#72_JOB#80,TODO,,architetta,femminile
-zsl#0,t#72_JOB#81,TODO,,architett*,neutro
-zsl#0,t#72_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#72_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#72_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#72_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#72_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#72_JOB#87,TODO,,candidato,maschile
-zsl#0,t#72_JOB#88,TODO,,candidata,femminile
-zsl#0,t#72_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#72_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#72_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#72_JOB#92,TODO,,commessa,femminile
-zsl#0,t#72_JOB#93,TODO,,commesso,maschile
-zsl#0,t#72_JOB#94,TODO,,commess*,neutro
-zsl#0,t#72_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#72_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#72_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#72_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#72_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#72_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#72_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#72_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#72_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#72_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#72_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#72_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#72_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#72_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#72_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#72_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#72_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#72_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#72_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#72_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#72_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#72_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#72_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#72_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#72_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#72_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#72_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#72_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#72_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#72_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#72_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#72_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#72_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#72_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#72_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#72_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#72_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#72_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#72_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#72_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#72_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#72_JOB#136,TODO,,addetto,maschile
-zsl#0,t#72_JOB#137,TODO,,addetta,femminile
-zsl#0,t#72_JOB#138,TODO,,addett*,neutro
-zsl#0,t#72_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#72,INCLUSIVO,,,
 zsl#0,t#73,INCLUSIVO,,,
 zsl#0,t#74,INCLUSIVO,,,
-zsl#0,t#75,INCLUSIVO,,,
+zsl#0,t#75_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#75_JOB#1,TODO,,autista,neutro
+zsl#0,t#75_JOB#2,TODO,,dentista,neutro
+zsl#0,t#75_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#75_JOB#4,TODO,,consulente,neutro
+zsl#0,t#75_JOB#5,TODO,,estetista,neutro
+zsl#0,t#75_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#75_JOB#7,TODO,,contabile,neutro
+zsl#0,t#75_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#75_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#75_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#75_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#75_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#75_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#75_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#75_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#75_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#75_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#75_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#75_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#75_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#75_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#75_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#75_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#75_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#75_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#75_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#75_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#75_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#75_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#75_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#75_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#75_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#75_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#75_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#75_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#75_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#75_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#75_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#75_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#75_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#75_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#75_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#75_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#75_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#75_JOB#45,TODO,,segretario,maschile
+zsl#0,t#75_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#75_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#75_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#75_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#75_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#75_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#75_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#75_JOB#53,TODO,,direttore,maschile
+zsl#0,t#75_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#75_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#75_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#75_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#75_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#75_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#75_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#75_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#75_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#75_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#75_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#75_JOB#65,TODO,,attore,maschile
+zsl#0,t#75_JOB#66,TODO,,attrice,femminile
+zsl#0,t#75_JOB#67,TODO,,attor*,neutro
+zsl#0,t#75_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#75_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#75_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#75_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#75_JOB#72,TODO,,dottore,maschile
+zsl#0,t#75_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#75_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#75_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#75_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#75_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#75_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#75_JOB#79,TODO,,architetto,maschile
+zsl#0,t#75_JOB#80,TODO,,architetta,femminile
+zsl#0,t#75_JOB#81,TODO,,architett*,neutro
+zsl#0,t#75_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#75_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#75_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#75_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#75_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#75_JOB#87,TODO,,candidato,maschile
+zsl#0,t#75_JOB#88,TODO,,candidata,femminile
+zsl#0,t#75_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#75_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#75_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#75_JOB#92,TODO,,commessa,femminile
+zsl#0,t#75_JOB#93,TODO,,commesso,maschile
+zsl#0,t#75_JOB#94,TODO,,commess*,neutro
+zsl#0,t#75_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#75_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#75_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#75_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#75_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#75_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#75_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#75_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#75_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#75_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#75_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#75_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#75_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#75_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#75_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#75_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#75_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#75_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#75_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#75_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#75_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#75_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#75_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#75_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#75_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#75_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#75_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#75_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#75_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#75_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#75_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#75_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#75_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#75_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#75_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#75_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#75_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#75_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#75_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#75_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#75_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#75_JOB#136,TODO,,addetto,maschile
+zsl#0,t#75_JOB#137,TODO,,addetta,femminile
+zsl#0,t#75_JOB#138,TODO,,addett*,neutro
+zsl#0,t#75_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#75_JOB#140,TODO,,consultant,neutro
+zsl#0,t#75_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#76,INCLUSIVO,,,
 zsl#0,t#77,INCLUSIVO,,,
 zsl#0,t#78,INCLUSIVO,,,
@@ -1608,6 +1487,8 @@ zsl#0,t#79_JOB#136,TODO,,addetto,maschile
 zsl#0,t#79_JOB#137,TODO,,addetta,femminile
 zsl#0,t#79_JOB#138,TODO,,addett*,neutro
 zsl#0,t#79_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#79_JOB#140,TODO,,consultant,neutro
+zsl#0,t#79_JOB#141,TODO,,senior consultant,neutro
 zsl#0,t#80,INCLUSIVO,,,
 zsl#0,t#81,INCLUSIVO,,,
 zsl#0,t#82,INCLUSIVO,,,
@@ -1615,3 +1496,602 @@ zsl#0,t#83,INCLUSIVO,,,
 zsl#0,t#84,INCLUSIVO,,,
 zsl#0,t#85,INCLUSIVO,,,
 zsl#0,t#86,INCLUSIVO,,,
+zsl#0,t#87,INCLUSIVO,,,
+zsl#0,t#88_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#88_JOB#1,TODO,,autista,neutro
+zsl#0,t#88_JOB#2,TODO,,dentista,neutro
+zsl#0,t#88_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#88_JOB#4,TODO,,consulente,neutro
+zsl#0,t#88_JOB#5,TODO,,estetista,neutro
+zsl#0,t#88_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#88_JOB#7,TODO,,contabile,neutro
+zsl#0,t#88_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#88_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#88_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#88_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#88_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#88_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#88_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#88_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#88_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#88_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#88_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#88_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#88_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#88_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#88_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#88_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#88_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#88_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#88_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#88_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#88_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#88_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#88_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#88_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#88_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#88_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#88_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#88_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#88_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#88_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#88_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#88_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#88_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#88_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#88_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#88_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#88_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#88_JOB#45,TODO,,segretario,maschile
+zsl#0,t#88_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#88_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#88_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#88_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#88_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#88_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#88_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#88_JOB#53,TODO,,direttore,maschile
+zsl#0,t#88_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#88_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#88_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#88_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#88_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#88_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#88_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#88_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#88_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#88_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#88_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#88_JOB#65,TODO,,attore,maschile
+zsl#0,t#88_JOB#66,TODO,,attrice,femminile
+zsl#0,t#88_JOB#67,TODO,,attor*,neutro
+zsl#0,t#88_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#88_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#88_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#88_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#88_JOB#72,TODO,,dottore,maschile
+zsl#0,t#88_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#88_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#88_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#88_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#88_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#88_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#88_JOB#79,TODO,,architetto,maschile
+zsl#0,t#88_JOB#80,TODO,,architetta,femminile
+zsl#0,t#88_JOB#81,TODO,,architett*,neutro
+zsl#0,t#88_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#88_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#88_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#88_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#88_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#88_JOB#87,TODO,,candidato,maschile
+zsl#0,t#88_JOB#88,TODO,,candidata,femminile
+zsl#0,t#88_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#88_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#88_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#88_JOB#92,TODO,,commessa,femminile
+zsl#0,t#88_JOB#93,TODO,,commesso,maschile
+zsl#0,t#88_JOB#94,TODO,,commess*,neutro
+zsl#0,t#88_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#88_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#88_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#88_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#88_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#88_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#88_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#88_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#88_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#88_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#88_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#88_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#88_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#88_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#88_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#88_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#88_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#88_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#88_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#88_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#88_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#88_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#88_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#88_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#88_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#88_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#88_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#88_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#88_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#88_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#88_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#88_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#88_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#88_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#88_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#88_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#88_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#88_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#88_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#88_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#88_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#88_JOB#136,TODO,,addetto,maschile
+zsl#0,t#88_JOB#137,TODO,,addetta,femminile
+zsl#0,t#88_JOB#138,TODO,,addett*,neutro
+zsl#0,t#88_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#88_JOB#140,TODO,,consultant,neutro
+zsl#0,t#88_JOB#141,TODO,,senior consultant,neutro
+zsl#0,t#89,INCLUSIVO,,,
+zsl#0,t#90,INCLUSIVO,,,
+zsl#0,t#91,INCLUSIVO,,,
+zsl#0,t#92,INCLUSIVO,,,
+zsl#0,t#93,INCLUSIVO,,,
+zsl#0,t#94,INCLUSIVO,,,
+zsl#0,t#95_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#95_JOB#1,TODO,,autista,neutro
+zsl#0,t#95_JOB#2,TODO,,dentista,neutro
+zsl#0,t#95_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#95_JOB#4,TODO,,consulente,neutro
+zsl#0,t#95_JOB#5,TODO,,estetista,neutro
+zsl#0,t#95_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#95_JOB#7,TODO,,contabile,neutro
+zsl#0,t#95_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#95_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#95_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#95_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#95_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#95_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#95_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#95_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#95_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#95_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#95_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#95_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#95_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#95_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#95_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#95_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#95_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#95_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#95_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#95_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#95_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#95_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#95_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#95_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#95_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#95_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#95_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#95_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#95_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#95_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#95_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#95_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#95_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#95_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#95_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#95_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#95_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#95_JOB#45,TODO,,segretario,maschile
+zsl#0,t#95_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#95_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#95_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#95_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#95_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#95_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#95_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#95_JOB#53,TODO,,direttore,maschile
+zsl#0,t#95_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#95_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#95_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#95_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#95_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#95_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#95_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#95_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#95_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#95_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#95_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#95_JOB#65,TODO,,attore,maschile
+zsl#0,t#95_JOB#66,TODO,,attrice,femminile
+zsl#0,t#95_JOB#67,TODO,,attor*,neutro
+zsl#0,t#95_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#95_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#95_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#95_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#95_JOB#72,TODO,,dottore,maschile
+zsl#0,t#95_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#95_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#95_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#95_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#95_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#95_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#95_JOB#79,TODO,,architetto,maschile
+zsl#0,t#95_JOB#80,TODO,,architetta,femminile
+zsl#0,t#95_JOB#81,TODO,,architett*,neutro
+zsl#0,t#95_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#95_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#95_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#95_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#95_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#95_JOB#87,TODO,,candidato,maschile
+zsl#0,t#95_JOB#88,TODO,,candidata,femminile
+zsl#0,t#95_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#95_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#95_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#95_JOB#92,TODO,,commessa,femminile
+zsl#0,t#95_JOB#93,TODO,,commesso,maschile
+zsl#0,t#95_JOB#94,TODO,,commess*,neutro
+zsl#0,t#95_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#95_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#95_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#95_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#95_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#95_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#95_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#95_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#95_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#95_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#95_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#95_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#95_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#95_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#95_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#95_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#95_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#95_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#95_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#95_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#95_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#95_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#95_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#95_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#95_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#95_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#95_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#95_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#95_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#95_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#95_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#95_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#95_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#95_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#95_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#95_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#95_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#95_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#95_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#95_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#95_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#95_JOB#136,TODO,,addetto,maschile
+zsl#0,t#95_JOB#137,TODO,,addetta,femminile
+zsl#0,t#95_JOB#138,TODO,,addett*,neutro
+zsl#0,t#95_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#95_JOB#140,TODO,,consultant,neutro
+zsl#0,t#95_JOB#141,TODO,,senior consultant,neutro
+zsl#0,t#96,INCLUSIVO,,,
+zsl#0,t#97,INCLUSIVO,,,
+zsl#0,t#98,INCLUSIVO,,,
+zsl#0,t#99,INCLUSIVO,,,
+zsl#0,t#100,INCLUSIVO,,,
+zsl#0,t#101,INCLUSIVO,,,
+zsl#0,t#102,INCLUSIVO,,,
+zsl#0,t#103_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#103_JOB#1,TODO,,autista,neutro
+zsl#0,t#103_JOB#2,TODO,,dentista,neutro
+zsl#0,t#103_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#103_JOB#4,TODO,,consulente,neutro
+zsl#0,t#103_JOB#5,TODO,,estetista,neutro
+zsl#0,t#103_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#103_JOB#7,TODO,,contabile,neutro
+zsl#0,t#103_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#103_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#103_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#103_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#103_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#103_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#103_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#103_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#103_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#103_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#103_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#103_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#103_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#103_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#103_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#103_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#103_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#103_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#103_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#103_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#103_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#103_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#103_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#103_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#103_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#103_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#103_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#103_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#103_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#103_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#103_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#103_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#103_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#103_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#103_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#103_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#103_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#103_JOB#45,TODO,,segretario,maschile
+zsl#0,t#103_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#103_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#103_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#103_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#103_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#103_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#103_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#103_JOB#53,TODO,,direttore,maschile
+zsl#0,t#103_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#103_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#103_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#103_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#103_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#103_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#103_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#103_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#103_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#103_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#103_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#103_JOB#65,TODO,,attore,maschile
+zsl#0,t#103_JOB#66,TODO,,attrice,femminile
+zsl#0,t#103_JOB#67,TODO,,attor*,neutro
+zsl#0,t#103_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#103_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#103_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#103_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#103_JOB#72,TODO,,dottore,maschile
+zsl#0,t#103_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#103_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#103_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#103_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#103_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#103_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#103_JOB#79,TODO,,architetto,maschile
+zsl#0,t#103_JOB#80,TODO,,architetta,femminile
+zsl#0,t#103_JOB#81,TODO,,architett*,neutro
+zsl#0,t#103_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#103_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#103_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#103_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#103_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#103_JOB#87,TODO,,candidato,maschile
+zsl#0,t#103_JOB#88,TODO,,candidata,femminile
+zsl#0,t#103_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#103_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#103_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#103_JOB#92,TODO,,commessa,femminile
+zsl#0,t#103_JOB#93,TODO,,commesso,maschile
+zsl#0,t#103_JOB#94,TODO,,commess*,neutro
+zsl#0,t#103_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#103_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#103_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#103_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#103_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#103_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#103_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#103_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#103_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#103_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#103_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#103_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#103_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#103_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#103_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#103_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#103_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#103_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#103_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#103_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#103_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#103_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#103_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#103_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#103_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#103_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#103_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#103_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#103_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#103_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#103_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#103_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#103_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#103_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#103_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#103_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#103_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#103_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#103_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#103_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#103_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#103_JOB#136,TODO,,addetto,maschile
+zsl#0,t#103_JOB#137,TODO,,addetta,femminile
+zsl#0,t#103_JOB#138,TODO,,addett*,neutro
+zsl#0,t#103_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#103_JOB#140,TODO,,consultant,neutro
+zsl#0,t#103_JOB#141,TODO,,senior consultant,neutro
+zsl#0,t#104,INCLUSIVO,,,
+zsl#0,t#105,INCLUSIVO,,,
+zsl#0,t#106,INCLUSIVO,,,
+zsl#0,t#107,INCLUSIVO,,,
+zsl#0,t#108,INCLUSIVO,,,
+zsl#0,t#109,INCLUSIVO,,,
+zsl#0,t#110,INCLUSIVO,,,
+zsl#0,t#111,INCLUSIVO,,,
+zsl#0,t#112_JOB#0,TODO,,giornaista,neutro
+zsl#0,t#112_JOB#1,TODO,,autista,neutro
+zsl#0,t#112_JOB#2,TODO,,dentista,neutro
+zsl#0,t#112_JOB#3,TODO,,ginnasta,neutro
+zsl#0,t#112_JOB#4,TODO,,consulente,neutro
+zsl#0,t#112_JOB#5,TODO,,estetista,neutro
+zsl#0,t#112_JOB#6,TODO,,farmacista,neutro
+zsl#0,t#112_JOB#7,TODO,,contabile,neutro
+zsl#0,t#112_JOB#8,TODO,,nutrizionista,neutro
+zsl#0,t#112_JOB#9,TODO,,giardiniere,neutro
+zsl#0,t#112_JOB#10,TODO,,insegnante,neutro
+zsl#0,t#112_JOB#11,TODO,,igienista dentale,neutro
+zsl#0,t#112_JOB#12,TODO,,infermiere,maschile
+zsl#0,t#112_JOB#13,TODO,,infermiera,femminile
+zsl#0,t#112_JOB#14,TODO,,infermier*,neutro
+zsl#0,t#112_JOB#15,TODO,,infermiere/a,neutro
+zsl#0,t#112_JOB#16,TODO,,infermierÃ,neutro
+zsl#0,t#112_JOB#17,TODO,,infermiera/e,neutro
+zsl#0,t#112_JOB#18,TODO,,infermiera o infermiere,neutro
+zsl#0,t#112_JOB#19,TODO,,infermiere o infermiera,neutro
+zsl#0,t#112_JOB#20,TODO,,programmatore,maschile
+zsl#0,t#112_JOB#21,TODO,,programmatrice,femminile
+zsl#0,t#112_JOB#22,TODO,,programmatori,maschile
+zsl#0,t#112_JOB#23,TODO,,programmatrici,femminile
+zsl#0,t#112_JOB#24,TODO,,programmatori e programmatrici,neutro
+zsl#0,t#112_JOB#25,TODO,,programmatori o programmatrici,neutro
+zsl#0,t#112_JOB#26,TODO,,programmator*,neutro
+zsl#0,t#112_JOB#27,TODO,,programmatorÃ,neutro
+zsl#0,t#112_JOB#28,TODO,,impiegato,maschile
+zsl#0,t#112_JOB#29,TODO,,impiegata,femminile
+zsl#0,t#112_JOB#30,TODO,,impiegati,maschile
+zsl#0,t#112_JOB#31,TODO,,impiegate,femminile
+zsl#0,t#112_JOB#32,TODO,,impiegati e impiegate,neutro
+zsl#0,t#112_JOB#33,TODO,,impiegati o impiegate,neutro
+zsl#0,t#112_JOB#34,TODO,,impiegat*,neutro
+zsl#0,t#112_JOB#35,TODO,,impiegato/a,neutro
+zsl#0,t#112_JOB#36,TODO,,impiegatÃ,neutro
+zsl#0,t#112_JOB#37,TODO,,cameriere,neutro
+zsl#0,t#112_JOB#38,TODO,,cameriera,femminile
+zsl#0,t#112_JOB#39,TODO,,camerier*,neutro
+zsl#0,t#112_JOB#40,TODO,,cameriere/a,neutro
+zsl#0,t#112_JOB#41,TODO,,camerierÃ,neutro
+zsl#0,t#112_JOB#42,TODO,,cameriere/cameriera,neutro
+zsl#0,t#112_JOB#43,TODO,,cameriere e cameriera,neutro
+zsl#0,t#112_JOB#44,TODO,,cameriere o cameriera,neutro
+zsl#0,t#112_JOB#45,TODO,,segretario,maschile
+zsl#0,t#112_JOB#46,TODO,,segretaria,femminile
+zsl#0,t#112_JOB#47,TODO,,segretar*,neutro
+zsl#0,t#112_JOB#48,TODO,,segretario/a,neutro
+zsl#0,t#112_JOB#49,TODO,,segretarÃ,neutro
+zsl#0,t#112_JOB#50,TODO,,segretaria o segretario,neutro
+zsl#0,t#112_JOB#51,TODO,,segretario o segretaria,neutro
+zsl#0,t#112_JOB#52,TODO,,segretario/segretaria,neutro
+zsl#0,t#112_JOB#53,TODO,,direttore,maschile
+zsl#0,t#112_JOB#54,TODO,,direttrice,femminile
+zsl#0,t#112_JOB#55,TODO,,direttor*,neutro
+zsl#0,t#112_JOB#56,TODO,,direttorÃ,neutro
+zsl#0,t#112_JOB#57,TODO,,direttore/direttrice,neutro
+zsl#0,t#112_JOB#58,TODO,,direttrice o direttore,neutro
+zsl#0,t#112_JOB#59,TODO,,direttore o direttrice,neutro
+zsl#0,t#112_JOB#60,TODO,,ballerina,femminile
+zsl#0,t#112_JOB#61,TODO,,ballerino,maschile
+zsl#0,t#112_JOB#62,TODO,,ballerin*,neutro
+zsl#0,t#112_JOB#63,TODO,,ballerino/a,neutro
+zsl#0,t#112_JOB#64,TODO,,ballerinÃ,neutro
+zsl#0,t#112_JOB#65,TODO,,attore,maschile
+zsl#0,t#112_JOB#66,TODO,,attrice,femminile
+zsl#0,t#112_JOB#67,TODO,,attor*,neutro
+zsl#0,t#112_JOB#68,TODO,,attorÃ,neutro
+zsl#0,t#112_JOB#69,TODO,,attore/attrice,neutro
+zsl#0,t#112_JOB#70,TODO,,attrice o attore,neutro
+zsl#0,t#112_JOB#71,TODO,,attore o attrice,neutro
+zsl#0,t#112_JOB#72,TODO,,dottore,maschile
+zsl#0,t#112_JOB#73,TODO,,dottoressa,femminile
+zsl#0,t#112_JOB#74,TODO,,dottor*,neutro
+zsl#0,t#112_JOB#75,TODO,,dottorÃ,neutro
+zsl#0,t#112_JOB#76,TODO,,dottore/dottoressa,neutro
+zsl#0,t#112_JOB#77,TODO,,dottoressa o dottore,neutro
+zsl#0,t#112_JOB#78,TODO,,dottore o dottoressa,neutro
+zsl#0,t#112_JOB#79,TODO,,architetto,maschile
+zsl#0,t#112_JOB#80,TODO,,architetta,femminile
+zsl#0,t#112_JOB#81,TODO,,architett*,neutro
+zsl#0,t#112_JOB#82,TODO,,architettÃ,neutro
+zsl#0,t#112_JOB#83,TODO,,architetto/architetta,neutro
+zsl#0,t#112_JOB#84,TODO,,architetta o architetto,neutro
+zsl#0,t#112_JOB#85,TODO,,architetto o architetta,neutro
+zsl#0,t#112_JOB#86,TODO,,architetto/a,neutro
+zsl#0,t#112_JOB#87,TODO,,candidato,maschile
+zsl#0,t#112_JOB#88,TODO,,candidata,femminile
+zsl#0,t#112_JOB#89,TODO,,candidat*,neutro
+zsl#0,t#112_JOB#90,TODO,,candidato/a,neutro
+zsl#0,t#112_JOB#91,TODO,,candidatÃ,neutro
+zsl#0,t#112_JOB#92,TODO,,commessa,femminile
+zsl#0,t#112_JOB#93,TODO,,commesso,maschile
+zsl#0,t#112_JOB#94,TODO,,commess*,neutro
+zsl#0,t#112_JOB#95,TODO,,commesso/a,neutro
+zsl#0,t#112_JOB#96,TODO,,commessÃ,neutro
+zsl#0,t#112_JOB#97,TODO,,commessa/o,neutro
+zsl#0,t#112_JOB#98,TODO,,commesso o commessa,neutro
+zsl#0,t#112_JOB#99,TODO,,commessa o commesso,neutro
+zsl#0,t#112_JOB#100,TODO,,cuoco,maschile
+zsl#0,t#112_JOB#101,TODO,,cuoca,femminile
+zsl#0,t#112_JOB#102,TODO,,cuoc*,neutro
+zsl#0,t#112_JOB#103,TODO,,cuoco/a,neutro
+zsl#0,t#112_JOB#104,TODO,,cuocÃ,neutro
+zsl#0,t#112_JOB#105,TODO,,cuoca/o,neutro
+zsl#0,t#112_JOB#106,TODO,,cuoco o cuoca,neutro
+zsl#0,t#112_JOB#107,TODO,,cuoca o cuoco,neutro
+zsl#0,t#112_JOB#108,TODO,,parrucchiera,femminile
+zsl#0,t#112_JOB#109,TODO,,parrucchiere,maschile
+zsl#0,t#112_JOB#110,TODO,,parrucchier*,neutro
+zsl#0,t#112_JOB#111,TODO,,parrucchiere/a,neutro
+zsl#0,t#112_JOB#112,TODO,,parrucchiera/e,neutro
+zsl#0,t#112_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
+zsl#0,t#112_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
+zsl#0,t#112_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
+zsl#0,t#112_JOB#116,TODO,,truccatore,maschile
+zsl#0,t#112_JOB#117,TODO,,truccatrice,femminile
+zsl#0,t#112_JOB#118,TODO,,truccator*,neutro
+zsl#0,t#112_JOB#119,TODO,,truccatore o truccatrice,neutro
+zsl#0,t#112_JOB#120,TODO,,truccatrice o truccatore,neutro
+zsl#0,t#112_JOB#121,TODO,,psicologo,maschile
+zsl#0,t#112_JOB#122,TODO,,psicologa,femminile
+zsl#0,t#112_JOB#123,TODO,,psicolog*,neutro
+zsl#0,t#112_JOB#124,TODO,,psicologo/a,neutro
+zsl#0,t#112_JOB#125,TODO,,psicologÃ,neutro
+zsl#0,t#112_JOB#126,TODO,,psicologa/o,neutro
+zsl#0,t#112_JOB#127,TODO,,psicologo o psicologa,neutro
+zsl#0,t#112_JOB#128,TODO,,psicologa o psicologo,neutro
+zsl#0,t#112_JOB#129,TODO,,traduttore,maschile
+zsl#0,t#112_JOB#130,TODO,,traduttrice,femminile
+zsl#0,t#112_JOB#131,TODO,,traduttor*,neutro
+zsl#0,t#112_JOB#132,TODO,,traduttore/traduttrice,neutro
+zsl#0,t#112_JOB#133,TODO,,traduttrice/traduttore,neutro
+zsl#0,t#112_JOB#134,TODO,,traduttore o traduttrice,neutro
+zsl#0,t#112_JOB#135,TODO,,traduttrice o traduttore,neutro
+zsl#0,t#112_JOB#136,TODO,,addetto,maschile
+zsl#0,t#112_JOB#137,TODO,,addetta,femminile
+zsl#0,t#112_JOB#138,TODO,,addett*,neutro
+zsl#0,t#112_JOB#139,TODO,,addetto/a,neutro
+zsl#0,t#112_JOB#140,TODO,,consultant,neutro
+zsl#0,t#112_JOB#141,TODO,,senior consultant,neutro
+zsl#0,t#113,INCLUSIVO,,,
+zsl#0,t#114,INCLUSIVO,,,
+zsl#0,t#115,INCLUSIVO,,,
+zsl#0,t#116,INCLUSIVO,,,
+zsl#0,t#117,INCLUSIVO,,,
+zsl#0,t#118,INCLUSIVO,,,
+zsl#0,t#119,INCLUSIVO,,,
+zsl#0,t#120,INCLUSIVO,,,
+zsl#0,t#121,INCLUSIVO,,,

@@ -78,6 +78,7 @@ if __name__ == '__main__':
             add(res_all_dict['train'], _dict['train'].to_dict())
             add(res_all_dict['test'], _dict['test'].to_dict())
         elif TEXT[1] == 'train' or TEXT[1] == 'test':
+            print('hola')
             add(res_all_dict[TEXT[1]], res_dict)
 
 
@@ -107,4 +108,4 @@ if __name__ == '__main__':
     print(dataset_dict['train'][-1])
 
     # print(dataset_dict['train']['conversations'][:1])
-    dataset_dict.push_to_hub("romabob/unimi-job", token="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")
+    # dataset_dict.push_to_hub("romabob/unimi-job", token="")

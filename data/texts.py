@@ -164,7 +164,31 @@ JOBS_SEED_SPLIT_v0_n2 = [
 ("Gestione trasferte e viaggi; ","INCLUSIVO"),
 ("Coordinamento eventi interni: riunioni interne, meeting, formazione, piccoli eventi interni; ","INCLUSIVO"),
 ("Attività varie a supporto dell'area Marketing.","INCLUSIVO"),
+]
 
+JOBS_SEED_SPLIT_v0_n3 = [
+("In base al grade di [JOB] avrai la possibilità di condividere la tua esperienza e le tue conoscenze con il team, iniziando a sviluppare capacità di leadership, e individuando la migliore soluzione occupandoti di: ","TODO"),
+("Interpretare proattivamente i bisogni del cliente, individuando metodologie e approcci coerenti ","INCLUSIVO"),
+("Sviluppare e gestire iniziative e soluzioni in modo indipendente,  riorganizzazione aziendale o di ristrutturazione del debito finanziario.  ","INCLUSIVO"),
+("Sviluppare iniziative e soluzioni in modo indipendente, raccogliendo e strutturando dati e svolgendo analisi a supporto delle decisioni di business.  ","INCLUSIVO"),
+("Valorizzare il contributo delle risorse più Junior e contribuire alla loro crescita. ","INCLUSIVO"),
+("Individuare potenziali rischi e criticità e condividerli tempestivamente con il resto del team. ","INCLUSIVO"),
+("Collaborare efficacemente in team eterogenei ed internazionali. ","INCLUSIVO"),
+("Grazie all’ufficio Learning avrai modo di seguire corsi e attività di formazione che ti permetteranno di ampliare e approfondire le tue conoscenze. ","INCLUSIVO"),
+("Il team del Talent invece, si occuperà in maniera strutturata del tuo avanzamento di carriera con KPI e obiettivi definiti, che se raggiunti, ti garantiranno la revisione del grade e degli economics.","INCLUSIVO"),
+]
+
+JOBS_SEED_SPLIT_v0_n4 = [
+("Entrando a far parte del team in qualità di [JOB], potrai occuparti di: ","TODO"),
+("Gaap Conversion & Finance Transformation : implementazione di nuovi principi contabili nonché disegno del modello contabile e di processo, definizione degli impatti di business ed organizzativi ed individuazione dei requisiti target a supporto della implementazione dei nuovi principi contabili; ","INCLUSIVO"),
+("ESG assistance : supporto nel percorso di predisposizione di bilanci di sostenibilità e progetti di adeguamento alla normativa Corporate Sustainability Reporting Directive (CSRD);  ","INCLUSIVO"),
+("Planning and Control : revisione del modello e dei processi di pianificazione e controllo anche ai fini della compliance alle normative di riferimento per le società quotate in Borsa e per gli enti di interesse pubblico; ","INCLUSIVO"),
+("Technologies change e Smart Digital Finance : sviluppo di soluzioni/piattaforme e processi di automation anche mediante l’uso di nuove tecnologie come Intelligenza Artificiale e Machine Learning ; ","INCLUSIVO"),
+("Change Management : supporto nella definizione dei nuovi ruoli e responsabilità all'interno dell'organizzazione, alla luce delle progettualità in essere; ","INCLUSIVO"),
+("individuazione delle principali novità operative e gestionali; ","INCLUSIVO"),
+("analisi dei principali fattori critici alla base del cambiamento;  ","INCLUSIVO"),
+("Project Management : predisposizione e monitoraggio del piano delle attività, coordinamento tra gli Stakeholder di Business e IT durante le fasi implementative, predisposizione documentazione progettuale per Top Management; ","INCLUSIVO"),
+("Accounting advice in ambito Deal : supporto nella predisposizione del reporting finanziario richiesto nell’ambito di progetti di transaction services o di operazioni straordinarie. ","INCLUSIVO"),
 ]
 
 JOBS_OTHER_SPLIT_v0_n0 = [
@@ -196,8 +220,8 @@ JOBS_OTHER_SPLIT_v0_n0 = [
 ("per candidarti invia il tuo curriculum alla mail indicata, sarai [VERB] il prima possibile!","TODO"),
 ]
 
-TEXT_JOB_TRAIN_v0 = JOBS_SPLIT_v0_n0 + JOBS_SPLIT_v0_n2 + JOBS_SPLIT_v0_n4 + JOBS_SEED_SPLIT_v0_n1 + JOBS_SEED_SPLIT_v0_n0 + JOBS_SEED_SPLIT_v0_n2
-TEXT_JOB_TEST_v0 = JOBS_SPLIT_v0_n3
+TEXT_JOB_TRAIN_v0 = JOBS_SPLIT_v0_n0 + JOBS_SPLIT_v0_n1 + JOBS_SPLIT_v0_n2 + JOBS_SPLIT_v0_n4 + JOBS_SEED_SPLIT_v0_n0 + JOBS_SEED_SPLIT_v0_n2 + JOBS_SEED_SPLIT_v0_n3 + JOBS_SEED_SPLIT_v0_n4
+TEXT_JOB_TEST_v0 = JOBS_SPLIT_v0_n3 + JOBS_SEED_SPLIT_v0_n1
 
 TEXT_JOB_v0 = TEXT_JOB_TRAIN_v0 + TEXT_JOB_TEST_v0 + JOBS_OTHER_SPLIT_v0_n0
 
@@ -239,7 +263,8 @@ __verbm = [
     ("contattato","maschile"),
     ("considerato","maschile"),
     ("chiamato","maschile"),
-    ("ricontattato","maschile")
+    ("ricontattato","maschile"),
+    ("assunto","maschile"),
 ]
 __verbf = list(map(makeFemale, __verbm))
 __verbn = list(map(makeNeutral, __verbm))

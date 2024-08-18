@@ -139,4 +139,6 @@ JOBS_v0 = [
 ("addetta","femminile"),
 ("addett*","neutro"),
 ("addetto/a","neutro"),
+("consultant","neutro"),
+("senior consultant","neutro")
 ]
