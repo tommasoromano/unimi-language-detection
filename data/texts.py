@@ -1,6 +1,7 @@
 import pandas as pd
+from .jobs import *
 
-TEXT_v0 = [
+JOBS_SPLIT_v0_n0 = [
 ('Studio Legale Rossi & Associati cerca [JOB] Legale',"TODO"),
 ('Lo Studio Legale Rossi & Associati, rinomato studio con sede nel centro di Milano specializzato in diritto societario e commerciale, è alla ricerca di una [JOB] Legale per unirsi al nostro team dinamico e in crescita.',"TODO"),
 ('Descrizione del ruolo:',"INCLUSIVO"),
@@ -33,7 +34,9 @@ TEXT_v0 = [
 ('Se sei [JOB] per contribuire al successo di uno studio legale in crescita, inviaci il tuo CV e una lettera di presentazione. Valuteremo attentamente tutte le candidature e contatteremo i profili più in linea con le nostre esigenze per un colloquio.',"TODO"),
 ('Lo Studio Legale Rossi & Associati è un datore di lavoro che offre pari opportunità e valorizza la diversità nel luogo di lavoro.',"INCLUSIVO"),
 ('Per candidarti, invia il tuo CV all\'indirizzo email: recruiting@rossiassociati.it con oggetto "Candidatura Segretaria Legale - [Nome e Cognome]"',"INCLUSIVO"),
-# 
+]
+
+JOBS_SPLIT_v0_n1 = [
 ('Siamo ansiosi di conoscerti e di esplorare come le tue competenze e la tua esperienza possano contribuire al nostro team!',"INCLUSIVO"),
 ("Siamo alla ricerca di [JOB] per una prestigiosa realtà del settore bancario con sede in provincia di Bergamo. ","TODO"),
 ("Requisiti richiesti: ","INCLUSIVO"),
@@ -62,7 +65,9 @@ TEXT_v0 = [
 ("Si prega di inviare il proprio curriculum vitae indicando nell'oggetto del messaggio il titolo della posizione per cui si candida.","INCLUSIVO"),
 ("Grazie per l'interesse dimostrato. ","INCLUSIVO"),
 # ("I candidati, nel rispetto del D.lgs. 198/2006, D.lgs 215/2003 e D.lgs 216/2003, sono invitati a leggere l'informativa sulla privacy (Regolamento UE n. 2016/679).","NON INCLUSIVO"),
-# 
+]
+
+JOBS_SPLIT_v0_n2 = [
 ("Hai spirito di iniziativa? Hai passione per la ristorazione e hai maturato esperienza come [JOB]?","TODO"),
 ("Candidati subito a questa opportunità!","INCLUSIVO"),
 ("OPPORTUNITÀ","INCLUSIVO"),
@@ -82,7 +87,9 @@ TEXT_v0 = [
 ("Part Time, 20 ore settimanali, dal lunedì alla domenica con un giorno di riposo su turnazione.","INCLUSIVO"),
 ("Si richiede disponibilità a turni spezzati.","INCLUSIVO"),
 ("Inserimento iniziale a tempo determinato, scopo assuntivo. CCNL Turismo Pubblici esercizi VI Livello da commisurare in base all'esperienza.","INCLUSIVO"),
-#
+]
+
+JOBS_SPLIT_v0_n3 = [
 ("tnservice srl, agenzia per il lavoro (aut. min r. 0000157 del 09/11/2022) è specializzata nella selezione del personale.","INCLUSIVO"),
 ("per nostro cliente specializzato nel settore turismo e viaggi stiamo cercando [JOB]","TODO"),
 ("[JOB], con indispensabile esperienza pregressa presso agenzia viaggi, verrà inserita in ufficio front client in qualità di agente business travels.","TODO"),
@@ -106,7 +113,9 @@ TEXT_v0 = [
 ("luogo di lavoro: cassano dadda (mi)","INCLUSIVO"),
 ("il presente annuncio è rivolto ad entrambi i sessi, ai sensi delle leggi 903/77 e 125/91 e a persone di tutte le età e tutte le nazionalità, ai sensi dei decreti legislativi 215/03 e 216/03.","INCLUSIVO"),
 ("ti chiediamo di inserire nel cv l'autorizzazione al trattamento dei tuoi dati personali ai sensi del regolamento ue n. 679/2016 e della legislazione italiana vigente.","INCLUSIVO"),
-#
+]
+
+JOBS_SPLIT_v0_n4 = [
 ("sei [JOB] con la passione di creare esperienze di intrattenimento indimenticabili? ","TODO"),
 ("ti piace esibirti davanti a grandi folle, assicurando loro un'esperienza memorabile? ","INCLUSIVO"),
 ("stai cercando un'opportunità per mettere in pratica le tue capacità artistiche, sviluppare nuove abilità, imparare nuovi spettacoli e acquisire una vera esperienza sul palco? ","INCLUSIVO"),
@@ -120,7 +129,9 @@ TEXT_v0 = [
 ("stipendio: stipendio mensile competitivo (basato su esperienza e competenze) ","INCLUSIVO"),
 ("periodo: 6 - 7 mesi, stagione estiva 2024 ","INCLUSIVO"),
 ("benefici: • assicurazione sanitaria e professionale completa, • alloggio fornito, • pasti forniti in pensione completa e • una tariffa di trasporto bonus! ","INCLUSIVO"),
-# FROM SEED
+]
+
+JOBS_SEED_SPLIT_v0_n0 = [
 ("#YourRole Il tuo ruolo, in quanto [JOB], ti darà la possibilità di concretizzare in prima persona iniziative per progetti strategici, condividendo la tua esperienza e le tue conoscenze con colleghi di talento, iniziando a sviluppare capacità di leadership, e individuando la migliore soluzione per i clienti, occupandoti di: ","TODO"),
 ("Gestione e coordinamento delle risorse più junior, in termini di definizione delle tempistiche, utilizzo di specifici tool, controllo di qualità della delivery; ","INCLUSIVO"),
 ("Definizione delle metodologie ed approcci innovativi per la pianificazione e il monitoraggio delle iniziative in termini di Project Management e/o Program Management; ","INCLUSIVO"),
@@ -128,7 +139,9 @@ TEXT_v0 = [
 ("Definizione di attività di analisi del flusso documentale di progetto in termini di data entry e archiviazione; ","INCLUSIVO"),
 ("Gestione e controllo della qualità della delivery progettuale; ","INCLUSIVO"),
 ("Organizzazione delle attività di reportistica e analisi dei KPI in termini di Risk Management e Quality Management.","INCLUSIVO"),
-#
+]
+
+JOBS_SEED_SPLIT_v0_n1 = [
 ("Il profilo ideale è [JOB] che: ","TODO"),
 ("Ha conseguito una laurea magistrale in ingegneria gestionale o in ambito economico/manageriale ","INCLUSIVO"),
 ("Ha un’esperienza pregressa maturata in società di consulenza strategico/organizzativa di almeno 3 anni, in modo particolare su clienti del mercato Retail e Fast Moving Consumer Goods ","INCLUSIVO"),
@@ -140,7 +153,9 @@ TEXT_v0 = [
 ("Ha esperienza di almeno 2 anni di gestione, coordinamento e sviluppo di risorse junior ","INCLUSIVO"),
 ("Ha ottima conoscenza/competenze con pacchetto office, in modo particolare Excel e PPT ","INCLUSIVO"),
 ("Ha ottima conoscenza della lingua inglese","INCLUSIVO"),
-#
+]
+
+JOBS_SEED_SPLIT_v0_n2 = [
 ("[JOB] si occuperà delle seguenti attività: ","TODO"),
 ("Gestione e smistamento corrispondenza generale: mail, telefono, chat; ","INCLUSIVO"),
 ("Gestione sale riunioni: prenotazioni e cura dell’ordine delle sale; ","INCLUSIVO"),
@@ -149,7 +164,10 @@ TEXT_v0 = [
 ("Gestione trasferte e viaggi; ","INCLUSIVO"),
 ("Coordinamento eventi interni: riunioni interne, meeting, formazione, piccoli eventi interni; ","INCLUSIVO"),
 ("Attività varie a supporto dell'area Marketing.","INCLUSIVO"),
-# OTHER
+
+]
+
+JOBS_OTHER_SPLIT_v0_n0 = [
 ("[JOB] può inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "TODO"),
 ("[JOB] ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","TODO"),
 ("Sei [JOB] a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","TODO"),
@@ -178,10 +196,15 @@ TEXT_v0 = [
 ("per candidarti invia il tuo curriculum alla mail indicata, sarai [VERB] il prima possibile!","TODO"),
 ]
 
+TEXT_JOB_TRAIN_v0 = JOBS_SPLIT_v0_n0 + JOBS_SPLIT_v0_n2 + JOBS_SPLIT_v0_n4 + JOBS_SEED_SPLIT_v0_n1 + JOBS_SEED_SPLIT_v0_n0 + JOBS_SEED_SPLIT_v0_n2
+TEXT_JOB_TEST_v0 = JOBS_SPLIT_v0_n3
+
+TEXT_JOB_v0 = TEXT_JOB_TRAIN_v0 + TEXT_JOB_TEST_v0 + JOBS_OTHER_SPLIT_v0_n0
+
 #EXT_v0 = TEXT_JOBS_v0 + TEXT_NON_JOBS_v0
 
 # /content/unimi-language-detection/
-JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()
+# JOBS_V0 = pd.read_csv('data/synt/jobs.csv').values.tolist()
 # ADJ
 __adj = [
     ("esperto","maschile"),
@@ -224,7 +247,7 @@ __verbn2 = list(map(makeNeutral2, __verbm))
 VERBS_v0 = __verbm + __verbf + __verbn + __verbn2
 
 SUBS_JOBS_V0 = {
-        "JOB": JOBS_V0,
+        "JOB": JOBS_v0,
         "ADJ": ADJ_V0,
         "VERB": VERBS_v0,
         }
