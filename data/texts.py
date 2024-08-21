@@ -191,6 +191,22 @@ JOBS_SEED_SPLIT_v0_n4 = [
 ("Accounting advice in ambito Deal : supporto nella predisposizione del reporting finanziario richiesto nell’ambito di progetti di transaction services o di operazioni straordinarie. ","INCLUSIVO"),
 ]
 
+ADJS_SPLIT_v0_n0 = [
+("sei giovane, [ADJ] del settore immobiliare? ","TODO",),
+("[ADJ] a raggiungere gli obiettivi ","TODO",),
+("hai un’esperienza contabile o sei già amministratore di condominio, [ADJ] con solide competenze amministrative ed uno spirito positivo e che vuole lavorare in team?","TODO",),
+("siamo alla ricerca di una figura [ADJ] per unirsi al nostro team presso la farmacia lunghi situata a corteolona. ","TODO"),
+("[ADJ] ad inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "TODO"),
+("Sei [ADJ] a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","TODO"),
+("se sei [ADJ] a mettere al servizio del nostro studio la tua esperienza e le tue competenze contabili, inviaci il tuo curriculum e una breve presentazione motivazionale.","TODO"),
+]
+
+ADJS_SPLIT_v0_n1 = [
+("se sei [ADJ] a iniziare la tua carriera nel mondo immobiliare, inviaci il tuo curriculum vitae all'indirizzo e-mail info@tirreniaimmobiliare.com o fissa un appuntamento telefonando allo 090/9486682.","TODO"),
+("se sei [ADJ] a far parte della nostra squadra dedicata e professionale, inviaci il tuo curriculum vitae oppure contattami su whatsapp al numero 3385906783","TODO"),
+("se sei [ADJ] al cliente e di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","TODO"),
+]
+
 JOBS_OTHER_SPLIT_v0_n0 = [
 ("[JOB] può inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "TODO"),
 ("[JOB] ideale ha maturato un’esperienza di almeno 5 anni sui moduli MM e PP in contesti SAP fortemente personalizzati e possiede una buona conoscenza del modulo SD.","TODO"),
@@ -199,17 +215,6 @@ JOBS_OTHER_SPLIT_v0_n0 = [
 ("Gestione dell'agenda e organizzazione degli appuntamenti per [JOB] dello studio","TODO"),
 # MISC
 ("se sei una persona dinamica, orientata al cliente e desiderosa di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","INCLUSIVO"),
-# ADJ
-("sei giovane, [ADJ] del settore immobiliare? ","TODO",),
-("[ADJ] a raggiungere gli obiettivi ","TODO",),
-("hai un’esperienza contabile o sei già amministratore di condominio, [ADJ] con solide competenze amministrative ed uno spirito positivo e che vuole lavorare in team?","TODO",),
-("siamo alla ricerca di una figura [ADJ] per unirsi al nostro team presso la farmacia lunghi situata a corteolona. ","TODO"),
-("[ADJ] ad inviare il proprio cv, con autorizzazione ai sensi del Regolamento (UE). 2016/679 e del D.Lgs., 196/2003 s.m.i.", "TODO"),
-("Sei [ADJ] a #makeanimpactthatmatters nel nostro team di Deloitte Officine Innovazione?","TODO"),
-("se sei [ADJ] a mettere al servizio del nostro studio la tua esperienza e le tue competenze contabili, inviaci il tuo curriculum e una breve presentazione motivazionale.","TODO"),
-("se sei [ADJ] a iniziare la tua carriera nel mondo immobiliare, inviaci il tuo curriculum vitae all'indirizzo e-mail info@tirreniaimmobiliare.com o fissa un appuntamento telefonando allo 090/9486682.","TODO"),
-("se sei [ADJ] a far parte della nostra squadra dedicata e professionale, inviaci il tuo curriculum vitae oppure contattami su whatsapp al numero 3385906783","TODO"),
-("se sei [ADJ] al cliente e di contribuire al benessere della comunità, potresti essere la persona giusta per noi.","INCLUSIVO"),
 # VERBS 
 ("È [VERB] in progettualità di redazioni di piani industriali e strategici ","TODO"),
 ("Sarai [VERB] per un colloquio conoscitivo. ","TODO"),
@@ -220,10 +225,10 @@ JOBS_OTHER_SPLIT_v0_n0 = [
 ("per candidarti invia il tuo curriculum alla mail indicata, sarai [VERB] il prima possibile!","TODO"),
 ]
 
-TEXT_JOB_TRAIN_v0 = JOBS_SPLIT_v0_n0 + JOBS_SPLIT_v0_n1 + JOBS_SPLIT_v0_n2 + JOBS_SPLIT_v0_n4 + JOBS_SEED_SPLIT_v0_n0 + JOBS_SEED_SPLIT_v0_n2 + JOBS_SEED_SPLIT_v0_n3 + JOBS_SEED_SPLIT_v0_n4
-TEXT_JOB_TEST_v0 = JOBS_SPLIT_v0_n3 + JOBS_SEED_SPLIT_v0_n1
+TEXT_JOB_TRAIN_v0 = JOBS_SPLIT_v0_n0 + JOBS_SPLIT_v0_n1 + JOBS_SPLIT_v0_n2 + JOBS_SPLIT_v0_n4 + JOBS_SEED_SPLIT_v0_n0 + JOBS_SEED_SPLIT_v0_n2 + JOBS_SEED_SPLIT_v0_n3 + JOBS_SEED_SPLIT_v0_n4 + ADJS_SPLIT_v0_n0 + JOBS_OTHER_SPLIT_v0_n0
+TEXT_JOB_TEST_v0 = JOBS_SPLIT_v0_n3 + JOBS_SEED_SPLIT_v0_n1 + ADJS_SPLIT_v0_n1
 
-TEXT_JOB_v0 = TEXT_JOB_TRAIN_v0 + TEXT_JOB_TEST_v0 + JOBS_OTHER_SPLIT_v0_n0
+TEXT_JOB_ALL_v0 = TEXT_JOB_TRAIN_v0 + TEXT_JOB_TEST_v0
 
 #EXT_v0 = TEXT_JOBS_v0 + TEXT_NON_JOBS_v0
 

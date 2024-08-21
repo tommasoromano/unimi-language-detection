@@ -13,15 +13,13 @@ if __name__ == '__main__':
 
     res_all_dict = {}
     res_all_dict = {
-        'train':{"act":[], "conversations":[],"split":[]},
-        'test':{"act":[], "conversations":[],"split":[]},
+        'train':{"act":[], "conversations":[]},
+        'test':{"act":[], "conversations":[]},
                 }
 
     TEXTS = [
-        (TEXT_JOB_v0,'all'),
         (TEXT_JOB_TRAIN_v0,'train'),
         (TEXT_JOB_TEST_v0,'test'),
-        (JOBS_OTHER_SPLIT_v0_n0,'other'),
     ]
 
     for TEXT in TEXTS:
@@ -36,7 +34,7 @@ if __name__ == '__main__':
         df = pd.read_csv(f'data/raw_data_finetune_{TEXT[1]}.csv')
         print("reading", len(df), "rows")
 
-        res_dict = {"act":[], "conversations":[],"split":[]}
+        res_dict = {"act":[], "conversations":[]}
 
         for act in [
             # 'LABEL',
@@ -66,20 +64,19 @@ if __name__ == '__main__':
             res = df['response'].tolist()
             res_dict["conversations"] = res_dict["conversations"] + res
             res_dict["act"] = res_dict["act"] + [act]*len(res)
-            res_dict["split"] = res_dict["split"] + [TEXT[1]]*len(res)
+            # res_dict["split"] = res_dict["split"] + [TEXT[1]]*len(res)
 
         # res_all_dict[TEXT[1]] = res_dict
         def add(original, to_add):
-            for k in ['conversations','act','split']:
+            for k in ['conversations','act']:
                 original[k] = original[k] + to_add[k]
 
-        if TEXT[1] == 'all' or TEXT[1] == 'other':
-            _dict = Dataset.from_dict(res_dict).train_test_split(test_size=0.3, seed=42)
-            add(res_all_dict['train'], _dict['train'].to_dict())
-            add(res_all_dict['test'], _dict['test'].to_dict())
-        elif TEXT[1] == 'train' or TEXT[1] == 'test':
-            print('hola')
-            add(res_all_dict[TEXT[1]], res_dict)
+        # if TEXT[1] == 'all' or TEXT[1] == 'other':
+        #     _dict = Dataset.from_dict(res_dict).train_test_split(test_size=0.3, seed=42)
+        #     add(res_all_dict['train'], _dict['train'].to_dict())
+        #     add(res_all_dict['test'], _dict['test'].to_dict())
+        # elif TEXT[1] == 'train' or TEXT[1] == 'test':
+        add(res_all_dict[TEXT[1]], res_dict)
 
 
     # random.shuffle(res_dict["conversations"])
@@ -108,4 +105,4 @@ if __name__ == '__main__':
     print(dataset_dict['train'][-1])
 
     # print(dataset_dict['train']['conversations'][:1])
-    # dataset_dict.push_to_hub("romabob/unimi-job", token="")
+    dataset_dict.push_to_hub("romabob/unimi-job", token="")

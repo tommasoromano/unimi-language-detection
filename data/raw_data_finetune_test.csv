@@ -1,599 +1,1751 @@
-prompt_id,text_id,text_labels,response,text_JOB_value,text_JOB_label
-zsl#0,t#0,INCLUSIVO,,,
-zsl#0,t#1_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#1_JOB#1,TODO,,autista,neutro
-zsl#0,t#1_JOB#2,TODO,,dentista,neutro
-zsl#0,t#1_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#1_JOB#4,TODO,,consulente,neutro
-zsl#0,t#1_JOB#5,TODO,,estetista,neutro
-zsl#0,t#1_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#1_JOB#7,TODO,,contabile,neutro
-zsl#0,t#1_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#1_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#1_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#1_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#1_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#1_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#1_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#1_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#1_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#1_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#1_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#1_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#1_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#1_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#1_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#1_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#1_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#1_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#1_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#1_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#1_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#1_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#1_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#1_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#1_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#1_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#1_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#1_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#1_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#1_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#1_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#1_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#1_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#1_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#1_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#1_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#1_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#1_JOB#45,TODO,,segretario,maschile
-zsl#0,t#1_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#1_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#1_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#1_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#1_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#1_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#1_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#1_JOB#53,TODO,,direttore,maschile
-zsl#0,t#1_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#1_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#1_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#1_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#1_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#1_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#1_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#1_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#1_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#1_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#1_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#1_JOB#65,TODO,,attore,maschile
-zsl#0,t#1_JOB#66,TODO,,attrice,femminile
-zsl#0,t#1_JOB#67,TODO,,attor*,neutro
-zsl#0,t#1_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#1_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#1_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#1_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#1_JOB#72,TODO,,dottore,maschile
-zsl#0,t#1_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#1_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#1_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#1_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#1_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#1_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#1_JOB#79,TODO,,architetto,maschile
-zsl#0,t#1_JOB#80,TODO,,architetta,femminile
-zsl#0,t#1_JOB#81,TODO,,architett*,neutro
-zsl#0,t#1_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#1_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#1_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#1_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#1_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#1_JOB#87,TODO,,candidato,maschile
-zsl#0,t#1_JOB#88,TODO,,candidata,femminile
-zsl#0,t#1_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#1_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#1_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#1_JOB#92,TODO,,commessa,femminile
-zsl#0,t#1_JOB#93,TODO,,commesso,maschile
-zsl#0,t#1_JOB#94,TODO,,commess*,neutro
-zsl#0,t#1_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#1_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#1_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#1_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#1_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#1_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#1_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#1_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#1_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#1_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#1_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#1_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#1_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#1_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#1_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#1_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#1_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#1_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#1_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#1_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#1_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#1_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#1_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#1_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#1_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#1_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#1_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#1_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#1_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#1_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#1_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#1_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#1_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#1_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#1_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#1_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#1_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#1_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#1_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#1_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#1_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#1_JOB#136,TODO,,addetto,maschile
-zsl#0,t#1_JOB#137,TODO,,addetta,femminile
-zsl#0,t#1_JOB#138,TODO,,addett*,neutro
-zsl#0,t#1_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#1_JOB#140,TODO,,consultant,neutro
-zsl#0,t#1_JOB#141,TODO,,senior consultant,neutro
-zsl#0,t#2_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#2_JOB#1,TODO,,autista,neutro
-zsl#0,t#2_JOB#2,TODO,,dentista,neutro
-zsl#0,t#2_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#2_JOB#4,TODO,,consulente,neutro
-zsl#0,t#2_JOB#5,TODO,,estetista,neutro
-zsl#0,t#2_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#2_JOB#7,TODO,,contabile,neutro
-zsl#0,t#2_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#2_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#2_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#2_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#2_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#2_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#2_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#2_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#2_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#2_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#2_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#2_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#2_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#2_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#2_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#2_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#2_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#2_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#2_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#2_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#2_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#2_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#2_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#2_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#2_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#2_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#2_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#2_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#2_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#2_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#2_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#2_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#2_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#2_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#2_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#2_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#2_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#2_JOB#45,TODO,,segretario,maschile
-zsl#0,t#2_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#2_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#2_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#2_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#2_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#2_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#2_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#2_JOB#53,TODO,,direttore,maschile
-zsl#0,t#2_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#2_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#2_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#2_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#2_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#2_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#2_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#2_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#2_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#2_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#2_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#2_JOB#65,TODO,,attore,maschile
-zsl#0,t#2_JOB#66,TODO,,attrice,femminile
-zsl#0,t#2_JOB#67,TODO,,attor*,neutro
-zsl#0,t#2_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#2_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#2_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#2_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#2_JOB#72,TODO,,dottore,maschile
-zsl#0,t#2_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#2_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#2_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#2_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#2_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#2_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#2_JOB#79,TODO,,architetto,maschile
-zsl#0,t#2_JOB#80,TODO,,architetta,femminile
-zsl#0,t#2_JOB#81,TODO,,architett*,neutro
-zsl#0,t#2_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#2_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#2_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#2_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#2_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#2_JOB#87,TODO,,candidato,maschile
-zsl#0,t#2_JOB#88,TODO,,candidata,femminile
-zsl#0,t#2_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#2_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#2_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#2_JOB#92,TODO,,commessa,femminile
-zsl#0,t#2_JOB#93,TODO,,commesso,maschile
-zsl#0,t#2_JOB#94,TODO,,commess*,neutro
-zsl#0,t#2_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#2_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#2_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#2_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#2_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#2_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#2_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#2_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#2_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#2_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#2_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#2_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#2_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#2_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#2_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#2_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#2_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#2_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#2_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#2_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#2_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#2_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#2_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#2_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#2_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#2_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#2_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#2_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#2_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#2_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#2_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#2_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#2_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#2_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#2_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#2_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#2_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#2_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#2_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#2_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#2_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#2_JOB#136,TODO,,addetto,maschile
-zsl#0,t#2_JOB#137,TODO,,addetta,femminile
-zsl#0,t#2_JOB#138,TODO,,addett*,neutro
-zsl#0,t#2_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#2_JOB#140,TODO,,consultant,neutro
-zsl#0,t#2_JOB#141,TODO,,senior consultant,neutro
-zsl#0,t#3_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#3_JOB#1,TODO,,autista,neutro
-zsl#0,t#3_JOB#2,TODO,,dentista,neutro
-zsl#0,t#3_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#3_JOB#4,TODO,,consulente,neutro
-zsl#0,t#3_JOB#5,TODO,,estetista,neutro
-zsl#0,t#3_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#3_JOB#7,TODO,,contabile,neutro
-zsl#0,t#3_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#3_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#3_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#3_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#3_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#3_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#3_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#3_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#3_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#3_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#3_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#3_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#3_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#3_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#3_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#3_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#3_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#3_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#3_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#3_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#3_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#3_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#3_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#3_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#3_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#3_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#3_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#3_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#3_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#3_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#3_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#3_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#3_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#3_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#3_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#3_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#3_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#3_JOB#45,TODO,,segretario,maschile
-zsl#0,t#3_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#3_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#3_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#3_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#3_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#3_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#3_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#3_JOB#53,TODO,,direttore,maschile
-zsl#0,t#3_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#3_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#3_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#3_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#3_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#3_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#3_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#3_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#3_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#3_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#3_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#3_JOB#65,TODO,,attore,maschile
-zsl#0,t#3_JOB#66,TODO,,attrice,femminile
-zsl#0,t#3_JOB#67,TODO,,attor*,neutro
-zsl#0,t#3_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#3_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#3_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#3_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#3_JOB#72,TODO,,dottore,maschile
-zsl#0,t#3_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#3_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#3_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#3_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#3_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#3_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#3_JOB#79,TODO,,architetto,maschile
-zsl#0,t#3_JOB#80,TODO,,architetta,femminile
-zsl#0,t#3_JOB#81,TODO,,architett*,neutro
-zsl#0,t#3_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#3_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#3_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#3_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#3_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#3_JOB#87,TODO,,candidato,maschile
-zsl#0,t#3_JOB#88,TODO,,candidata,femminile
-zsl#0,t#3_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#3_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#3_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#3_JOB#92,TODO,,commessa,femminile
-zsl#0,t#3_JOB#93,TODO,,commesso,maschile
-zsl#0,t#3_JOB#94,TODO,,commess*,neutro
-zsl#0,t#3_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#3_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#3_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#3_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#3_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#3_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#3_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#3_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#3_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#3_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#3_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#3_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#3_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#3_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#3_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#3_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#3_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#3_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#3_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#3_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#3_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#3_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#3_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#3_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#3_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#3_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#3_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#3_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#3_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#3_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#3_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#3_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#3_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#3_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#3_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#3_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#3_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#3_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#3_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#3_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#3_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#3_JOB#136,TODO,,addetto,maschile
-zsl#0,t#3_JOB#137,TODO,,addetta,femminile
-zsl#0,t#3_JOB#138,TODO,,addett*,neutro
-zsl#0,t#3_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#3_JOB#140,TODO,,consultant,neutro
-zsl#0,t#3_JOB#141,TODO,,senior consultant,neutro
-zsl#0,t#4,INCLUSIVO,,,
-zsl#0,t#5,INCLUSIVO,,,
-zsl#0,t#6,INCLUSIVO,,,
-zsl#0,t#7,INCLUSIVO,,,
-zsl#0,t#8,INCLUSIVO,,,
-zsl#0,t#9,INCLUSIVO,,,
-zsl#0,t#10,INCLUSIVO,,,
-zsl#0,t#11,INCLUSIVO,,,
-zsl#0,t#12,INCLUSIVO,,,
-zsl#0,t#13,INCLUSIVO,,,
-zsl#0,t#14,INCLUSIVO,,,
-zsl#0,t#15,INCLUSIVO,,,
-zsl#0,t#16,INCLUSIVO,,,
-zsl#0,t#17,INCLUSIVO,,,
-zsl#0,t#18,INCLUSIVO,,,
-zsl#0,t#19,INCLUSIVO,,,
-zsl#0,t#20,INCLUSIVO,,,
-zsl#0,t#21,INCLUSIVO,,,
-zsl#0,t#22,INCLUSIVO,,,
-zsl#0,t#23_JOB#0,TODO,,giornaista,neutro
-zsl#0,t#23_JOB#1,TODO,,autista,neutro
-zsl#0,t#23_JOB#2,TODO,,dentista,neutro
-zsl#0,t#23_JOB#3,TODO,,ginnasta,neutro
-zsl#0,t#23_JOB#4,TODO,,consulente,neutro
-zsl#0,t#23_JOB#5,TODO,,estetista,neutro
-zsl#0,t#23_JOB#6,TODO,,farmacista,neutro
-zsl#0,t#23_JOB#7,TODO,,contabile,neutro
-zsl#0,t#23_JOB#8,TODO,,nutrizionista,neutro
-zsl#0,t#23_JOB#9,TODO,,giardiniere,neutro
-zsl#0,t#23_JOB#10,TODO,,insegnante,neutro
-zsl#0,t#23_JOB#11,TODO,,igienista dentale,neutro
-zsl#0,t#23_JOB#12,TODO,,infermiere,maschile
-zsl#0,t#23_JOB#13,TODO,,infermiera,femminile
-zsl#0,t#23_JOB#14,TODO,,infermier*,neutro
-zsl#0,t#23_JOB#15,TODO,,infermiere/a,neutro
-zsl#0,t#23_JOB#16,TODO,,infermierÃ,neutro
-zsl#0,t#23_JOB#17,TODO,,infermiera/e,neutro
-zsl#0,t#23_JOB#18,TODO,,infermiera o infermiere,neutro
-zsl#0,t#23_JOB#19,TODO,,infermiere o infermiera,neutro
-zsl#0,t#23_JOB#20,TODO,,programmatore,maschile
-zsl#0,t#23_JOB#21,TODO,,programmatrice,femminile
-zsl#0,t#23_JOB#22,TODO,,programmatori,maschile
-zsl#0,t#23_JOB#23,TODO,,programmatrici,femminile
-zsl#0,t#23_JOB#24,TODO,,programmatori e programmatrici,neutro
-zsl#0,t#23_JOB#25,TODO,,programmatori o programmatrici,neutro
-zsl#0,t#23_JOB#26,TODO,,programmator*,neutro
-zsl#0,t#23_JOB#27,TODO,,programmatorÃ,neutro
-zsl#0,t#23_JOB#28,TODO,,impiegato,maschile
-zsl#0,t#23_JOB#29,TODO,,impiegata,femminile
-zsl#0,t#23_JOB#30,TODO,,impiegati,maschile
-zsl#0,t#23_JOB#31,TODO,,impiegate,femminile
-zsl#0,t#23_JOB#32,TODO,,impiegati e impiegate,neutro
-zsl#0,t#23_JOB#33,TODO,,impiegati o impiegate,neutro
-zsl#0,t#23_JOB#34,TODO,,impiegat*,neutro
-zsl#0,t#23_JOB#35,TODO,,impiegato/a,neutro
-zsl#0,t#23_JOB#36,TODO,,impiegatÃ,neutro
-zsl#0,t#23_JOB#37,TODO,,cameriere,neutro
-zsl#0,t#23_JOB#38,TODO,,cameriera,femminile
-zsl#0,t#23_JOB#39,TODO,,camerier*,neutro
-zsl#0,t#23_JOB#40,TODO,,cameriere/a,neutro
-zsl#0,t#23_JOB#41,TODO,,camerierÃ,neutro
-zsl#0,t#23_JOB#42,TODO,,cameriere/cameriera,neutro
-zsl#0,t#23_JOB#43,TODO,,cameriere e cameriera,neutro
-zsl#0,t#23_JOB#44,TODO,,cameriere o cameriera,neutro
-zsl#0,t#23_JOB#45,TODO,,segretario,maschile
-zsl#0,t#23_JOB#46,TODO,,segretaria,femminile
-zsl#0,t#23_JOB#47,TODO,,segretar*,neutro
-zsl#0,t#23_JOB#48,TODO,,segretario/a,neutro
-zsl#0,t#23_JOB#49,TODO,,segretarÃ,neutro
-zsl#0,t#23_JOB#50,TODO,,segretaria o segretario,neutro
-zsl#0,t#23_JOB#51,TODO,,segretario o segretaria,neutro
-zsl#0,t#23_JOB#52,TODO,,segretario/segretaria,neutro
-zsl#0,t#23_JOB#53,TODO,,direttore,maschile
-zsl#0,t#23_JOB#54,TODO,,direttrice,femminile
-zsl#0,t#23_JOB#55,TODO,,direttor*,neutro
-zsl#0,t#23_JOB#56,TODO,,direttorÃ,neutro
-zsl#0,t#23_JOB#57,TODO,,direttore/direttrice,neutro
-zsl#0,t#23_JOB#58,TODO,,direttrice o direttore,neutro
-zsl#0,t#23_JOB#59,TODO,,direttore o direttrice,neutro
-zsl#0,t#23_JOB#60,TODO,,ballerina,femminile
-zsl#0,t#23_JOB#61,TODO,,ballerino,maschile
-zsl#0,t#23_JOB#62,TODO,,ballerin*,neutro
-zsl#0,t#23_JOB#63,TODO,,ballerino/a,neutro
-zsl#0,t#23_JOB#64,TODO,,ballerinÃ,neutro
-zsl#0,t#23_JOB#65,TODO,,attore,maschile
-zsl#0,t#23_JOB#66,TODO,,attrice,femminile
-zsl#0,t#23_JOB#67,TODO,,attor*,neutro
-zsl#0,t#23_JOB#68,TODO,,attorÃ,neutro
-zsl#0,t#23_JOB#69,TODO,,attore/attrice,neutro
-zsl#0,t#23_JOB#70,TODO,,attrice o attore,neutro
-zsl#0,t#23_JOB#71,TODO,,attore o attrice,neutro
-zsl#0,t#23_JOB#72,TODO,,dottore,maschile
-zsl#0,t#23_JOB#73,TODO,,dottoressa,femminile
-zsl#0,t#23_JOB#74,TODO,,dottor*,neutro
-zsl#0,t#23_JOB#75,TODO,,dottorÃ,neutro
-zsl#0,t#23_JOB#76,TODO,,dottore/dottoressa,neutro
-zsl#0,t#23_JOB#77,TODO,,dottoressa o dottore,neutro
-zsl#0,t#23_JOB#78,TODO,,dottore o dottoressa,neutro
-zsl#0,t#23_JOB#79,TODO,,architetto,maschile
-zsl#0,t#23_JOB#80,TODO,,architetta,femminile
-zsl#0,t#23_JOB#81,TODO,,architett*,neutro
-zsl#0,t#23_JOB#82,TODO,,architettÃ,neutro
-zsl#0,t#23_JOB#83,TODO,,architetto/architetta,neutro
-zsl#0,t#23_JOB#84,TODO,,architetta o architetto,neutro
-zsl#0,t#23_JOB#85,TODO,,architetto o architetta,neutro
-zsl#0,t#23_JOB#86,TODO,,architetto/a,neutro
-zsl#0,t#23_JOB#87,TODO,,candidato,maschile
-zsl#0,t#23_JOB#88,TODO,,candidata,femminile
-zsl#0,t#23_JOB#89,TODO,,candidat*,neutro
-zsl#0,t#23_JOB#90,TODO,,candidato/a,neutro
-zsl#0,t#23_JOB#91,TODO,,candidatÃ,neutro
-zsl#0,t#23_JOB#92,TODO,,commessa,femminile
-zsl#0,t#23_JOB#93,TODO,,commesso,maschile
-zsl#0,t#23_JOB#94,TODO,,commess*,neutro
-zsl#0,t#23_JOB#95,TODO,,commesso/a,neutro
-zsl#0,t#23_JOB#96,TODO,,commessÃ,neutro
-zsl#0,t#23_JOB#97,TODO,,commessa/o,neutro
-zsl#0,t#23_JOB#98,TODO,,commesso o commessa,neutro
-zsl#0,t#23_JOB#99,TODO,,commessa o commesso,neutro
-zsl#0,t#23_JOB#100,TODO,,cuoco,maschile
-zsl#0,t#23_JOB#101,TODO,,cuoca,femminile
-zsl#0,t#23_JOB#102,TODO,,cuoc*,neutro
-zsl#0,t#23_JOB#103,TODO,,cuoco/a,neutro
-zsl#0,t#23_JOB#104,TODO,,cuocÃ,neutro
-zsl#0,t#23_JOB#105,TODO,,cuoca/o,neutro
-zsl#0,t#23_JOB#106,TODO,,cuoco o cuoca,neutro
-zsl#0,t#23_JOB#107,TODO,,cuoca o cuoco,neutro
-zsl#0,t#23_JOB#108,TODO,,parrucchiera,femminile
-zsl#0,t#23_JOB#109,TODO,,parrucchiere,maschile
-zsl#0,t#23_JOB#110,TODO,,parrucchier*,neutro
-zsl#0,t#23_JOB#111,TODO,,parrucchiere/a,neutro
-zsl#0,t#23_JOB#112,TODO,,parrucchiera/e,neutro
-zsl#0,t#23_JOB#113,TODO,,parrucchiere o parrucchiera,neutro
-zsl#0,t#23_JOB#114,TODO,,parrucchiera o parrucchiere,neutro
-zsl#0,t#23_JOB#115,TODO,,parrucchiere/parrucchiera,neutro
-zsl#0,t#23_JOB#116,TODO,,truccatore,maschile
-zsl#0,t#23_JOB#117,TODO,,truccatrice,femminile
-zsl#0,t#23_JOB#118,TODO,,truccator*,neutro
-zsl#0,t#23_JOB#119,TODO,,truccatore o truccatrice,neutro
-zsl#0,t#23_JOB#120,TODO,,truccatrice o truccatore,neutro
-zsl#0,t#23_JOB#121,TODO,,psicologo,maschile
-zsl#0,t#23_JOB#122,TODO,,psicologa,femminile
-zsl#0,t#23_JOB#123,TODO,,psicolog*,neutro
-zsl#0,t#23_JOB#124,TODO,,psicologo/a,neutro
-zsl#0,t#23_JOB#125,TODO,,psicologÃ,neutro
-zsl#0,t#23_JOB#126,TODO,,psicologa/o,neutro
-zsl#0,t#23_JOB#127,TODO,,psicologo o psicologa,neutro
-zsl#0,t#23_JOB#128,TODO,,psicologa o psicologo,neutro
-zsl#0,t#23_JOB#129,TODO,,traduttore,maschile
-zsl#0,t#23_JOB#130,TODO,,traduttrice,femminile
-zsl#0,t#23_JOB#131,TODO,,traduttor*,neutro
-zsl#0,t#23_JOB#132,TODO,,traduttore/traduttrice,neutro
-zsl#0,t#23_JOB#133,TODO,,traduttrice/traduttore,neutro
-zsl#0,t#23_JOB#134,TODO,,traduttore o traduttrice,neutro
-zsl#0,t#23_JOB#135,TODO,,traduttrice o traduttore,neutro
-zsl#0,t#23_JOB#136,TODO,,addetto,maschile
-zsl#0,t#23_JOB#137,TODO,,addetta,femminile
-zsl#0,t#23_JOB#138,TODO,,addett*,neutro
-zsl#0,t#23_JOB#139,TODO,,addetto/a,neutro
-zsl#0,t#23_JOB#140,TODO,,consultant,neutro
-zsl#0,t#23_JOB#141,TODO,,senior consultant,neutro
-zsl#0,t#24,INCLUSIVO,,,
-zsl#0,t#25,INCLUSIVO,,,
-zsl#0,t#26,NON INCLUSIVO,,,
-zsl#0,t#27,NON INCLUSIVO,,,
-zsl#0,t#28,INCLUSIVO,,,
-zsl#0,t#29,INCLUSIVO,,,
-zsl#0,t#30,INCLUSIVO,,,
-zsl#0,t#31,INCLUSIVO,,,
-zsl#0,t#32,INCLUSIVO,,,
-zsl#0,t#33,INCLUSIVO,,,
+prompt_id,text_id,text_labels,response,text_ADJ_value,text_JOB_value,text_ADJ_label,text_JOB_label
+zsl#0,t#0,INCLUSIVO,,,,,
+zsl#0,t#1_JOB#0,TODO,,,giornaista,,neutro
+zsl#0,t#1_JOB#1,TODO,,,autista,,neutro
+zsl#0,t#1_JOB#2,TODO,,,dentista,,neutro
+zsl#0,t#1_JOB#3,TODO,,,ginnasta,,neutro
+zsl#0,t#1_JOB#4,TODO,,,consulente,,neutro
+zsl#0,t#1_JOB#5,TODO,,,estetista,,neutro
+zsl#0,t#1_JOB#6,TODO,,,farmacista,,neutro
+zsl#0,t#1_JOB#7,TODO,,,contabile,,neutro
+zsl#0,t#1_JOB#8,TODO,,,nutrizionista,,neutro
+zsl#0,t#1_JOB#9,TODO,,,giardiniere,,neutro
+zsl#0,t#1_JOB#10,TODO,,,insegnante,,neutro
+zsl#0,t#1_JOB#11,TODO,,,igienista dentale,,neutro
+zsl#0,t#1_JOB#12,TODO,,,infermiere,,maschile
+zsl#0,t#1_JOB#13,TODO,,,infermiera,,femminile
+zsl#0,t#1_JOB#14,TODO,,,infermier*,,neutro
+zsl#0,t#1_JOB#15,TODO,,,infermiere/a,,neutro
+zsl#0,t#1_JOB#16,TODO,,,infermierÃ,,neutro
+zsl#0,t#1_JOB#17,TODO,,,infermiera/e,,neutro
+zsl#0,t#1_JOB#18,TODO,,,infermiera o infermiere,,neutro
+zsl#0,t#1_JOB#19,TODO,,,infermiere o infermiera,,neutro
+zsl#0,t#1_JOB#20,TODO,,,programmatore,,maschile
+zsl#0,t#1_JOB#21,TODO,,,programmatrice,,femminile
+zsl#0,t#1_JOB#22,TODO,,,programmatori,,maschile
+zsl#0,t#1_JOB#23,TODO,,,programmatrici,,femminile
+zsl#0,t#1_JOB#24,TODO,,,programmatori e programmatrici,,neutro
+zsl#0,t#1_JOB#25,TODO,,,programmatori o programmatrici,,neutro
+zsl#0,t#1_JOB#26,TODO,,,programmator*,,neutro
+zsl#0,t#1_JOB#27,TODO,,,programmatorÃ,,neutro
+zsl#0,t#1_JOB#28,TODO,,,impiegato,,maschile
+zsl#0,t#1_JOB#29,TODO,,,impiegata,,femminile
+zsl#0,t#1_JOB#30,TODO,,,impiegati,,maschile
+zsl#0,t#1_JOB#31,TODO,,,impiegate,,femminile
+zsl#0,t#1_JOB#32,TODO,,,impiegati e impiegate,,neutro
+zsl#0,t#1_JOB#33,TODO,,,impiegati o impiegate,,neutro
+zsl#0,t#1_JOB#34,TODO,,,impiegat*,,neutro
+zsl#0,t#1_JOB#35,TODO,,,impiegato/a,,neutro
+zsl#0,t#1_JOB#36,TODO,,,impiegatÃ,,neutro
+zsl#0,t#1_JOB#37,TODO,,,cameriere,,neutro
+zsl#0,t#1_JOB#38,TODO,,,cameriera,,femminile
+zsl#0,t#1_JOB#39,TODO,,,camerier*,,neutro
+zsl#0,t#1_JOB#40,TODO,,,cameriere/a,,neutro
+zsl#0,t#1_JOB#41,TODO,,,camerierÃ,,neutro
+zsl#0,t#1_JOB#42,TODO,,,cameriere/cameriera,,neutro
+zsl#0,t#1_JOB#43,TODO,,,cameriere e cameriera,,neutro
+zsl#0,t#1_JOB#44,TODO,,,cameriere o cameriera,,neutro
+zsl#0,t#1_JOB#45,TODO,,,segretario,,maschile
+zsl#0,t#1_JOB#46,TODO,,,segretaria,,femminile
+zsl#0,t#1_JOB#47,TODO,,,segretar*,,neutro
+zsl#0,t#1_JOB#48,TODO,,,segretario/a,,neutro
+zsl#0,t#1_JOB#49,TODO,,,segretarÃ,,neutro
+zsl#0,t#1_JOB#50,TODO,,,segretaria o segretario,,neutro
+zsl#0,t#1_JOB#51,TODO,,,segretario o segretaria,,neutro
+zsl#0,t#1_JOB#52,TODO,,,segretario/segretaria,,neutro
+zsl#0,t#1_JOB#53,TODO,,,direttore,,maschile
+zsl#0,t#1_JOB#54,TODO,,,direttrice,,femminile
+zsl#0,t#1_JOB#55,TODO,,,direttor*,,neutro
+zsl#0,t#1_JOB#56,TODO,,,direttorÃ,,neutro
+zsl#0,t#1_JOB#57,TODO,,,direttore/direttrice,,neutro
+zsl#0,t#1_JOB#58,TODO,,,direttrice o direttore,,neutro
+zsl#0,t#1_JOB#59,TODO,,,direttore o direttrice,,neutro
+zsl#0,t#1_JOB#60,TODO,,,ballerina,,femminile
+zsl#0,t#1_JOB#61,TODO,,,ballerino,,maschile
+zsl#0,t#1_JOB#62,TODO,,,ballerin*,,neutro
+zsl#0,t#1_JOB#63,TODO,,,ballerino/a,,neutro
+zsl#0,t#1_JOB#64,TODO,,,ballerinÃ,,neutro
+zsl#0,t#1_JOB#65,TODO,,,attore,,maschile
+zsl#0,t#1_JOB#66,TODO,,,attrice,,femminile
+zsl#0,t#1_JOB#67,TODO,,,attor*,,neutro
+zsl#0,t#1_JOB#68,TODO,,,attorÃ,,neutro
+zsl#0,t#1_JOB#69,TODO,,,attore/attrice,,neutro
+zsl#0,t#1_JOB#70,TODO,,,attrice o attore,,neutro
+zsl#0,t#1_JOB#71,TODO,,,attore o attrice,,neutro
+zsl#0,t#1_JOB#72,TODO,,,dottore,,maschile
+zsl#0,t#1_JOB#73,TODO,,,dottoressa,,femminile
+zsl#0,t#1_JOB#74,TODO,,,dottor*,,neutro
+zsl#0,t#1_JOB#75,TODO,,,dottorÃ,,neutro
+zsl#0,t#1_JOB#76,TODO,,,dottore/dottoressa,,neutro
+zsl#0,t#1_JOB#77,TODO,,,dottoressa o dottore,,neutro
+zsl#0,t#1_JOB#78,TODO,,,dottore o dottoressa,,neutro
+zsl#0,t#1_JOB#79,TODO,,,architetto,,maschile
+zsl#0,t#1_JOB#80,TODO,,,architetta,,femminile
+zsl#0,t#1_JOB#81,TODO,,,architett*,,neutro
+zsl#0,t#1_JOB#82,TODO,,,architettÃ,,neutro
+zsl#0,t#1_JOB#83,TODO,,,architetto/architetta,,neutro
+zsl#0,t#1_JOB#84,TODO,,,architetta o architetto,,neutro
+zsl#0,t#1_JOB#85,TODO,,,architetto o architetta,,neutro
+zsl#0,t#1_JOB#86,TODO,,,architetto/a,,neutro
+zsl#0,t#1_JOB#87,TODO,,,candidato,,maschile
+zsl#0,t#1_JOB#88,TODO,,,candidata,,femminile
+zsl#0,t#1_JOB#89,TODO,,,candidat*,,neutro
+zsl#0,t#1_JOB#90,TODO,,,candidato/a,,neutro
+zsl#0,t#1_JOB#91,TODO,,,candidatÃ,,neutro
+zsl#0,t#1_JOB#92,TODO,,,commessa,,femminile
+zsl#0,t#1_JOB#93,TODO,,,commesso,,maschile
+zsl#0,t#1_JOB#94,TODO,,,commess*,,neutro
+zsl#0,t#1_JOB#95,TODO,,,commesso/a,,neutro
+zsl#0,t#1_JOB#96,TODO,,,commessÃ,,neutro
+zsl#0,t#1_JOB#97,TODO,,,commessa/o,,neutro
+zsl#0,t#1_JOB#98,TODO,,,commesso o commessa,,neutro
+zsl#0,t#1_JOB#99,TODO,,,commessa o commesso,,neutro
+zsl#0,t#1_JOB#100,TODO,,,cuoco,,maschile
+zsl#0,t#1_JOB#101,TODO,,,cuoca,,femminile
+zsl#0,t#1_JOB#102,TODO,,,cuoc*,,neutro
+zsl#0,t#1_JOB#103,TODO,,,cuoco/a,,neutro
+zsl#0,t#1_JOB#104,TODO,,,cuocÃ,,neutro
+zsl#0,t#1_JOB#105,TODO,,,cuoca/o,,neutro
+zsl#0,t#1_JOB#106,TODO,,,cuoco o cuoca,,neutro
+zsl#0,t#1_JOB#107,TODO,,,cuoca o cuoco,,neutro
+zsl#0,t#1_JOB#108,TODO,,,parrucchiera,,femminile
+zsl#0,t#1_JOB#109,TODO,,,parrucchiere,,maschile
+zsl#0,t#1_JOB#110,TODO,,,parrucchier*,,neutro
+zsl#0,t#1_JOB#111,TODO,,,parrucchiere/a,,neutro
+zsl#0,t#1_JOB#112,TODO,,,parrucchiera/e,,neutro
+zsl#0,t#1_JOB#113,TODO,,,parrucchiere o parrucchiera,,neutro
+zsl#0,t#1_JOB#114,TODO,,,parrucchiera o parrucchiere,,neutro
+zsl#0,t#1_JOB#115,TODO,,,parrucchiere/parrucchiera,,neutro
+zsl#0,t#1_JOB#116,TODO,,,truccatore,,maschile
+zsl#0,t#1_JOB#117,TODO,,,truccatrice,,femminile
+zsl#0,t#1_JOB#118,TODO,,,truccator*,,neutro
+zsl#0,t#1_JOB#119,TODO,,,truccatore o truccatrice,,neutro
+zsl#0,t#1_JOB#120,TODO,,,truccatrice o truccatore,,neutro
+zsl#0,t#1_JOB#121,TODO,,,psicologo,,maschile
+zsl#0,t#1_JOB#122,TODO,,,psicologa,,femminile
+zsl#0,t#1_JOB#123,TODO,,,psicolog*,,neutro
+zsl#0,t#1_JOB#124,TODO,,,psicologo/a,,neutro
+zsl#0,t#1_JOB#125,TODO,,,psicologÃ,,neutro
+zsl#0,t#1_JOB#126,TODO,,,psicologa/o,,neutro
+zsl#0,t#1_JOB#127,TODO,,,psicologo o psicologa,,neutro
+zsl#0,t#1_JOB#128,TODO,,,psicologa o psicologo,,neutro
+zsl#0,t#1_JOB#129,TODO,,,traduttore,,maschile
+zsl#0,t#1_JOB#130,TODO,,,traduttrice,,femminile
+zsl#0,t#1_JOB#131,TODO,,,traduttor*,,neutro
+zsl#0,t#1_JOB#132,TODO,,,traduttore/traduttrice,,neutro
+zsl#0,t#1_JOB#133,TODO,,,traduttrice/traduttore,,neutro
+zsl#0,t#1_JOB#134,TODO,,,traduttore o traduttrice,,neutro
+zsl#0,t#1_JOB#135,TODO,,,traduttrice o traduttore,,neutro
+zsl#0,t#1_JOB#136,TODO,,,addetto,,maschile
+zsl#0,t#1_JOB#137,TODO,,,addetta,,femminile
+zsl#0,t#1_JOB#138,TODO,,,addett*,,neutro
+zsl#0,t#1_JOB#139,TODO,,,addetto/a,,neutro
+zsl#0,t#1_JOB#140,TODO,,,consultant,,neutro
+zsl#0,t#1_JOB#141,TODO,,,senior consultant,,neutro
+zsl#0,t#2_JOB#0,TODO,,,giornaista,,neutro
+zsl#0,t#2_JOB#1,TODO,,,autista,,neutro
+zsl#0,t#2_JOB#2,TODO,,,dentista,,neutro
+zsl#0,t#2_JOB#3,TODO,,,ginnasta,,neutro
+zsl#0,t#2_JOB#4,TODO,,,consulente,,neutro
+zsl#0,t#2_JOB#5,TODO,,,estetista,,neutro
+zsl#0,t#2_JOB#6,TODO,,,farmacista,,neutro
+zsl#0,t#2_JOB#7,TODO,,,contabile,,neutro
+zsl#0,t#2_JOB#8,TODO,,,nutrizionista,,neutro
+zsl#0,t#2_JOB#9,TODO,,,giardiniere,,neutro
+zsl#0,t#2_JOB#10,TODO,,,insegnante,,neutro
+zsl#0,t#2_JOB#11,TODO,,,igienista dentale,,neutro
+zsl#0,t#2_JOB#12,TODO,,,infermiere,,maschile
+zsl#0,t#2_JOB#13,TODO,,,infermiera,,femminile
+zsl#0,t#2_JOB#14,TODO,,,infermier*,,neutro
+zsl#0,t#2_JOB#15,TODO,,,infermiere/a,,neutro
+zsl#0,t#2_JOB#16,TODO,,,infermierÃ,,neutro
+zsl#0,t#2_JOB#17,TODO,,,infermiera/e,,neutro
+zsl#0,t#2_JOB#18,TODO,,,infermiera o infermiere,,neutro
+zsl#0,t#2_JOB#19,TODO,,,infermiere o infermiera,,neutro
+zsl#0,t#2_JOB#20,TODO,,,programmatore,,maschile
+zsl#0,t#2_JOB#21,TODO,,,programmatrice,,femminile
+zsl#0,t#2_JOB#22,TODO,,,programmatori,,maschile
+zsl#0,t#2_JOB#23,TODO,,,programmatrici,,femminile
+zsl#0,t#2_JOB#24,TODO,,,programmatori e programmatrici,,neutro
+zsl#0,t#2_JOB#25,TODO,,,programmatori o programmatrici,,neutro
+zsl#0,t#2_JOB#26,TODO,,,programmator*,,neutro
+zsl#0,t#2_JOB#27,TODO,,,programmatorÃ,,neutro
+zsl#0,t#2_JOB#28,TODO,,,impiegato,,maschile
+zsl#0,t#2_JOB#29,TODO,,,impiegata,,femminile
+zsl#0,t#2_JOB#30,TODO,,,impiegati,,maschile
+zsl#0,t#2_JOB#31,TODO,,,impiegate,,femminile
+zsl#0,t#2_JOB#32,TODO,,,impiegati e impiegate,,neutro
+zsl#0,t#2_JOB#33,TODO,,,impiegati o impiegate,,neutro
+zsl#0,t#2_JOB#34,TODO,,,impiegat*,,neutro
+zsl#0,t#2_JOB#35,TODO,,,impiegato/a,,neutro
+zsl#0,t#2_JOB#36,TODO,,,impiegatÃ,,neutro
+zsl#0,t#2_JOB#37,TODO,,,cameriere,,neutro
+zsl#0,t#2_JOB#38,TODO,,,cameriera,,femminile
+zsl#0,t#2_JOB#39,TODO,,,camerier*,,neutro
+zsl#0,t#2_JOB#40,TODO,,,cameriere/a,,neutro
+zsl#0,t#2_JOB#41,TODO,,,camerierÃ,,neutro
+zsl#0,t#2_JOB#42,TODO,,,cameriere/cameriera,,neutro
+zsl#0,t#2_JOB#43,TODO,,,cameriere e cameriera,,neutro
+zsl#0,t#2_JOB#44,TODO,,,cameriere o cameriera,,neutro
+zsl#0,t#2_JOB#45,TODO,,,segretario,,maschile
+zsl#0,t#2_JOB#46,TODO,,,segretaria,,femminile
+zsl#0,t#2_JOB#47,TODO,,,segretar*,,neutro
+zsl#0,t#2_JOB#48,TODO,,,segretario/a,,neutro
+zsl#0,t#2_JOB#49,TODO,,,segretarÃ,,neutro
+zsl#0,t#2_JOB#50,TODO,,,segretaria o segretario,,neutro
+zsl#0,t#2_JOB#51,TODO,,,segretario o segretaria,,neutro
+zsl#0,t#2_JOB#52,TODO,,,segretario/segretaria,,neutro
+zsl#0,t#2_JOB#53,TODO,,,direttore,,maschile
+zsl#0,t#2_JOB#54,TODO,,,direttrice,,femminile
+zsl#0,t#2_JOB#55,TODO,,,direttor*,,neutro
+zsl#0,t#2_JOB#56,TODO,,,direttorÃ,,neutro
+zsl#0,t#2_JOB#57,TODO,,,direttore/direttrice,,neutro
+zsl#0,t#2_JOB#58,TODO,,,direttrice o direttore,,neutro
+zsl#0,t#2_JOB#59,TODO,,,direttore o direttrice,,neutro
+zsl#0,t#2_JOB#60,TODO,,,ballerina,,femminile
+zsl#0,t#2_JOB#61,TODO,,,ballerino,,maschile
+zsl#0,t#2_JOB#62,TODO,,,ballerin*,,neutro
+zsl#0,t#2_JOB#63,TODO,,,ballerino/a,,neutro
+zsl#0,t#2_JOB#64,TODO,,,ballerinÃ,,neutro
+zsl#0,t#2_JOB#65,TODO,,,attore,,maschile
+zsl#0,t#2_JOB#66,TODO,,,attrice,,femminile
+zsl#0,t#2_JOB#67,TODO,,,attor*,,neutro
+zsl#0,t#2_JOB#68,TODO,,,attorÃ,,neutro
+zsl#0,t#2_JOB#69,TODO,,,attore/attrice,,neutro
+zsl#0,t#2_JOB#70,TODO,,,attrice o attore,,neutro
+zsl#0,t#2_JOB#71,TODO,,,attore o attrice,,neutro
+zsl#0,t#2_JOB#72,TODO,,,dottore,,maschile
+zsl#0,t#2_JOB#73,TODO,,,dottoressa,,femminile
+zsl#0,t#2_JOB#74,TODO,,,dottor*,,neutro
+zsl#0,t#2_JOB#75,TODO,,,dottorÃ,,neutro
+zsl#0,t#2_JOB#76,TODO,,,dottore/dottoressa,,neutro
+zsl#0,t#2_JOB#77,TODO,,,dottoressa o dottore,,neutro
+zsl#0,t#2_JOB#78,TODO,,,dottore o dottoressa,,neutro
+zsl#0,t#2_JOB#79,TODO,,,architetto,,maschile
+zsl#0,t#2_JOB#80,TODO,,,architetta,,femminile
+zsl#0,t#2_JOB#81,TODO,,,architett*,,neutro
+zsl#0,t#2_JOB#82,TODO,,,architettÃ,,neutro
+zsl#0,t#2_JOB#83,TODO,,,architetto/architetta,,neutro
+zsl#0,t#2_JOB#84,TODO,,,architetta o architetto,,neutro
+zsl#0,t#2_JOB#85,TODO,,,architetto o architetta,,neutro
+zsl#0,t#2_JOB#86,TODO,,,architetto/a,,neutro
+zsl#0,t#2_JOB#87,TODO,,,candidato,,maschile
+zsl#0,t#2_JOB#88,TODO,,,candidata,,femminile
+zsl#0,t#2_JOB#89,TODO,,,candidat*,,neutro
+zsl#0,t#2_JOB#90,TODO,,,candidato/a,,neutro
+zsl#0,t#2_JOB#91,TODO,,,candidatÃ,,neutro
+zsl#0,t#2_JOB#92,TODO,,,commessa,,femminile
+zsl#0,t#2_JOB#93,TODO,,,commesso,,maschile
+zsl#0,t#2_JOB#94,TODO,,,commess*,,neutro
+zsl#0,t#2_JOB#95,TODO,,,commesso/a,,neutro
+zsl#0,t#2_JOB#96,TODO,,,commessÃ,,neutro
+zsl#0,t#2_JOB#97,TODO,,,commessa/o,,neutro
+zsl#0,t#2_JOB#98,TODO,,,commesso o commessa,,neutro
+zsl#0,t#2_JOB#99,TODO,,,commessa o commesso,,neutro
+zsl#0,t#2_JOB#100,TODO,,,cuoco,,maschile
+zsl#0,t#2_JOB#101,TODO,,,cuoca,,femminile
+zsl#0,t#2_JOB#102,TODO,,,cuoc*,,neutro
+zsl#0,t#2_JOB#103,TODO,,,cuoco/a,,neutro
+zsl#0,t#2_JOB#104,TODO,,,cuocÃ,,neutro
+zsl#0,t#2_JOB#105,TODO,,,cuoca/o,,neutro
+zsl#0,t#2_JOB#106,TODO,,,cuoco o cuoca,,neutro
+zsl#0,t#2_JOB#107,TODO,,,cuoca o cuoco,,neutro
+zsl#0,t#2_JOB#108,TODO,,,parrucchiera,,femminile
+zsl#0,t#2_JOB#109,TODO,,,parrucchiere,,maschile
+zsl#0,t#2_JOB#110,TODO,,,parrucchier*,,neutro
+zsl#0,t#2_JOB#111,TODO,,,parrucchiere/a,,neutro
+zsl#0,t#2_JOB#112,TODO,,,parrucchiera/e,,neutro
+zsl#0,t#2_JOB#113,TODO,,,parrucchiere o parrucchiera,,neutro
+zsl#0,t#2_JOB#114,TODO,,,parrucchiera o parrucchiere,,neutro
+zsl#0,t#2_JOB#115,TODO,,,parrucchiere/parrucchiera,,neutro
+zsl#0,t#2_JOB#116,TODO,,,truccatore,,maschile
+zsl#0,t#2_JOB#117,TODO,,,truccatrice,,femminile
+zsl#0,t#2_JOB#118,TODO,,,truccator*,,neutro
+zsl#0,t#2_JOB#119,TODO,,,truccatore o truccatrice,,neutro
+zsl#0,t#2_JOB#120,TODO,,,truccatrice o truccatore,,neutro
+zsl#0,t#2_JOB#121,TODO,,,psicologo,,maschile
+zsl#0,t#2_JOB#122,TODO,,,psicologa,,femminile
+zsl#0,t#2_JOB#123,TODO,,,psicolog*,,neutro
+zsl#0,t#2_JOB#124,TODO,,,psicologo/a,,neutro
+zsl#0,t#2_JOB#125,TODO,,,psicologÃ,,neutro
+zsl#0,t#2_JOB#126,TODO,,,psicologa/o,,neutro
+zsl#0,t#2_JOB#127,TODO,,,psicologo o psicologa,,neutro
+zsl#0,t#2_JOB#128,TODO,,,psicologa o psicologo,,neutro
+zsl#0,t#2_JOB#129,TODO,,,traduttore,,maschile
+zsl#0,t#2_JOB#130,TODO,,,traduttrice,,femminile
+zsl#0,t#2_JOB#131,TODO,,,traduttor*,,neutro
+zsl#0,t#2_JOB#132,TODO,,,traduttore/traduttrice,,neutro
+zsl#0,t#2_JOB#133,TODO,,,traduttrice/traduttore,,neutro
+zsl#0,t#2_JOB#134,TODO,,,traduttore o traduttrice,,neutro
+zsl#0,t#2_JOB#135,TODO,,,traduttrice o traduttore,,neutro
+zsl#0,t#2_JOB#136,TODO,,,addetto,,maschile
+zsl#0,t#2_JOB#137,TODO,,,addetta,,femminile
+zsl#0,t#2_JOB#138,TODO,,,addett*,,neutro
+zsl#0,t#2_JOB#139,TODO,,,addetto/a,,neutro
+zsl#0,t#2_JOB#140,TODO,,,consultant,,neutro
+zsl#0,t#2_JOB#141,TODO,,,senior consultant,,neutro
+zsl#0,t#3_JOB#0,TODO,,,giornaista,,neutro
+zsl#0,t#3_JOB#1,TODO,,,autista,,neutro
+zsl#0,t#3_JOB#2,TODO,,,dentista,,neutro
+zsl#0,t#3_JOB#3,TODO,,,ginnasta,,neutro
+zsl#0,t#3_JOB#4,TODO,,,consulente,,neutro
+zsl#0,t#3_JOB#5,TODO,,,estetista,,neutro
+zsl#0,t#3_JOB#6,TODO,,,farmacista,,neutro
+zsl#0,t#3_JOB#7,TODO,,,contabile,,neutro
+zsl#0,t#3_JOB#8,TODO,,,nutrizionista,,neutro
+zsl#0,t#3_JOB#9,TODO,,,giardiniere,,neutro
+zsl#0,t#3_JOB#10,TODO,,,insegnante,,neutro
+zsl#0,t#3_JOB#11,TODO,,,igienista dentale,,neutro
+zsl#0,t#3_JOB#12,TODO,,,infermiere,,maschile
+zsl#0,t#3_JOB#13,TODO,,,infermiera,,femminile
+zsl#0,t#3_JOB#14,TODO,,,infermier*,,neutro
+zsl#0,t#3_JOB#15,TODO,,,infermiere/a,,neutro
+zsl#0,t#3_JOB#16,TODO,,,infermierÃ,,neutro
+zsl#0,t#3_JOB#17,TODO,,,infermiera/e,,neutro
+zsl#0,t#3_JOB#18,TODO,,,infermiera o infermiere,,neutro
+zsl#0,t#3_JOB#19,TODO,,,infermiere o infermiera,,neutro
+zsl#0,t#3_JOB#20,TODO,,,programmatore,,maschile
+zsl#0,t#3_JOB#21,TODO,,,programmatrice,,femminile
+zsl#0,t#3_JOB#22,TODO,,,programmatori,,maschile
+zsl#0,t#3_JOB#23,TODO,,,programmatrici,,femminile
+zsl#0,t#3_JOB#24,TODO,,,programmatori e programmatrici,,neutro
+zsl#0,t#3_JOB#25,TODO,,,programmatori o programmatrici,,neutro
+zsl#0,t#3_JOB#26,TODO,,,programmator*,,neutro
+zsl#0,t#3_JOB#27,TODO,,,programmatorÃ,,neutro
+zsl#0,t#3_JOB#28,TODO,,,impiegato,,maschile
+zsl#0,t#3_JOB#29,TODO,,,impiegata,,femminile
+zsl#0,t#3_JOB#30,TODO,,,impiegati,,maschile
+zsl#0,t#3_JOB#31,TODO,,,impiegate,,femminile
+zsl#0,t#3_JOB#32,TODO,,,impiegati e impiegate,,neutro
+zsl#0,t#3_JOB#33,TODO,,,impiegati o impiegate,,neutro
+zsl#0,t#3_JOB#34,TODO,,,impiegat*,,neutro
+zsl#0,t#3_JOB#35,TODO,,,impiegato/a,,neutro
+zsl#0,t#3_JOB#36,TODO,,,impiegatÃ,,neutro
+zsl#0,t#3_JOB#37,TODO,,,cameriere,,neutro
+zsl#0,t#3_JOB#38,TODO,,,cameriera,,femminile
+zsl#0,t#3_JOB#39,TODO,,,camerier*,,neutro
+zsl#0,t#3_JOB#40,TODO,,,cameriere/a,,neutro
+zsl#0,t#3_JOB#41,TODO,,,camerierÃ,,neutro
+zsl#0,t#3_JOB#42,TODO,,,cameriere/cameriera,,neutro
+zsl#0,t#3_JOB#43,TODO,,,cameriere e cameriera,,neutro
+zsl#0,t#3_JOB#44,TODO,,,cameriere o cameriera,,neutro
+zsl#0,t#3_JOB#45,TODO,,,segretario,,maschile
+zsl#0,t#3_JOB#46,TODO,,,segretaria,,femminile
+zsl#0,t#3_JOB#47,TODO,,,segretar*,,neutro
+zsl#0,t#3_JOB#48,TODO,,,segretario/a,,neutro
+zsl#0,t#3_JOB#49,TODO,,,segretarÃ,,neutro
+zsl#0,t#3_JOB#50,TODO,,,segretaria o segretario,,neutro
+zsl#0,t#3_JOB#51,TODO,,,segretario o segretaria,,neutro
+zsl#0,t#3_JOB#52,TODO,,,segretario/segretaria,,neutro
+zsl#0,t#3_JOB#53,TODO,,,direttore,,maschile
+zsl#0,t#3_JOB#54,TODO,,,direttrice,,femminile
+zsl#0,t#3_JOB#55,TODO,,,direttor*,,neutro
+zsl#0,t#3_JOB#56,TODO,,,direttorÃ,,neutro
+zsl#0,t#3_JOB#57,TODO,,,direttore/direttrice,,neutro
+zsl#0,t#3_JOB#58,TODO,,,direttrice o direttore,,neutro
+zsl#0,t#3_JOB#59,TODO,,,direttore o direttrice,,neutro
+zsl#0,t#3_JOB#60,TODO,,,ballerina,,femminile
+zsl#0,t#3_JOB#61,TODO,,,ballerino,,maschile
+zsl#0,t#3_JOB#62,TODO,,,ballerin*,,neutro
+zsl#0,t#3_JOB#63,TODO,,,ballerino/a,,neutro
+zsl#0,t#3_JOB#64,TODO,,,ballerinÃ,,neutro
+zsl#0,t#3_JOB#65,TODO,,,attore,,maschile
+zsl#0,t#3_JOB#66,TODO,,,attrice,,femminile
+zsl#0,t#3_JOB#67,TODO,,,attor*,,neutro
+zsl#0,t#3_JOB#68,TODO,,,attorÃ,,neutro
+zsl#0,t#3_JOB#69,TODO,,,attore/attrice,,neutro
+zsl#0,t#3_JOB#70,TODO,,,attrice o attore,,neutro
+zsl#0,t#3_JOB#71,TODO,,,attore o attrice,,neutro
+zsl#0,t#3_JOB#72,TODO,,,dottore,,maschile
+zsl#0,t#3_JOB#73,TODO,,,dottoressa,,femminile
+zsl#0,t#3_JOB#74,TODO,,,dottor*,,neutro
+zsl#0,t#3_JOB#75,TODO,,,dottorÃ,,neutro
+zsl#0,t#3_JOB#76,TODO,,,dottore/dottoressa,,neutro
+zsl#0,t#3_JOB#77,TODO,,,dottoressa o dottore,,neutro
+zsl#0,t#3_JOB#78,TODO,,,dottore o dottoressa,,neutro
+zsl#0,t#3_JOB#79,TODO,,,architetto,,maschile
+zsl#0,t#3_JOB#80,TODO,,,architetta,,femminile
+zsl#0,t#3_JOB#81,TODO,,,architett*,,neutro
+zsl#0,t#3_JOB#82,TODO,,,architettÃ,,neutro
+zsl#0,t#3_JOB#83,TODO,,,architetto/architetta,,neutro
+zsl#0,t#3_JOB#84,TODO,,,architetta o architetto,,neutro
+zsl#0,t#3_JOB#85,TODO,,,architetto o architetta,,neutro
+zsl#0,t#3_JOB#86,TODO,,,architetto/a,,neutro
+zsl#0,t#3_JOB#87,TODO,,,candidato,,maschile
+zsl#0,t#3_JOB#88,TODO,,,candidata,,femminile
+zsl#0,t#3_JOB#89,TODO,,,candidat*,,neutro
+zsl#0,t#3_JOB#90,TODO,,,candidato/a,,neutro
+zsl#0,t#3_JOB#91,TODO,,,candidatÃ,,neutro
+zsl#0,t#3_JOB#92,TODO,,,commessa,,femminile
+zsl#0,t#3_JOB#93,TODO,,,commesso,,maschile
+zsl#0,t#3_JOB#94,TODO,,,commess*,,neutro
+zsl#0,t#3_JOB#95,TODO,,,commesso/a,,neutro
+zsl#0,t#3_JOB#96,TODO,,,commessÃ,,neutro
+zsl#0,t#3_JOB#97,TODO,,,commessa/o,,neutro
+zsl#0,t#3_JOB#98,TODO,,,commesso o commessa,,neutro
+zsl#0,t#3_JOB#99,TODO,,,commessa o commesso,,neutro
+zsl#0,t#3_JOB#100,TODO,,,cuoco,,maschile
+zsl#0,t#3_JOB#101,TODO,,,cuoca,,femminile
+zsl#0,t#3_JOB#102,TODO,,,cuoc*,,neutro
+zsl#0,t#3_JOB#103,TODO,,,cuoco/a,,neutro
+zsl#0,t#3_JOB#104,TODO,,,cuocÃ,,neutro
+zsl#0,t#3_JOB#105,TODO,,,cuoca/o,,neutro
+zsl#0,t#3_JOB#106,TODO,,,cuoco o cuoca,,neutro
+zsl#0,t#3_JOB#107,TODO,,,cuoca o cuoco,,neutro
+zsl#0,t#3_JOB#108,TODO,,,parrucchiera,,femminile
+zsl#0,t#3_JOB#109,TODO,,,parrucchiere,,maschile
+zsl#0,t#3_JOB#110,TODO,,,parrucchier*,,neutro
+zsl#0,t#3_JOB#111,TODO,,,parrucchiere/a,,neutro
+zsl#0,t#3_JOB#112,TODO,,,parrucchiera/e,,neutro
+zsl#0,t#3_JOB#113,TODO,,,parrucchiere o parrucchiera,,neutro
+zsl#0,t#3_JOB#114,TODO,,,parrucchiera o parrucchiere,,neutro
+zsl#0,t#3_JOB#115,TODO,,,parrucchiere/parrucchiera,,neutro
+zsl#0,t#3_JOB#116,TODO,,,truccatore,,maschile
+zsl#0,t#3_JOB#117,TODO,,,truccatrice,,femminile
+zsl#0,t#3_JOB#118,TODO,,,truccator*,,neutro
+zsl#0,t#3_JOB#119,TODO,,,truccatore o truccatrice,,neutro
+zsl#0,t#3_JOB#120,TODO,,,truccatrice o truccatore,,neutro
+zsl#0,t#3_JOB#121,TODO,,,psicologo,,maschile
+zsl#0,t#3_JOB#122,TODO,,,psicologa,,femminile
+zsl#0,t#3_JOB#123,TODO,,,psicolog*,,neutro
+zsl#0,t#3_JOB#124,TODO,,,psicologo/a,,neutro
+zsl#0,t#3_JOB#125,TODO,,,psicologÃ,,neutro
+zsl#0,t#3_JOB#126,TODO,,,psicologa/o,,neutro
+zsl#0,t#3_JOB#127,TODO,,,psicologo o psicologa,,neutro
+zsl#0,t#3_JOB#128,TODO,,,psicologa o psicologo,,neutro
+zsl#0,t#3_JOB#129,TODO,,,traduttore,,maschile
+zsl#0,t#3_JOB#130,TODO,,,traduttrice,,femminile
+zsl#0,t#3_JOB#131,TODO,,,traduttor*,,neutro
+zsl#0,t#3_JOB#132,TODO,,,traduttore/traduttrice,,neutro
+zsl#0,t#3_JOB#133,TODO,,,traduttrice/traduttore,,neutro
+zsl#0,t#3_JOB#134,TODO,,,traduttore o traduttrice,,neutro
+zsl#0,t#3_JOB#135,TODO,,,traduttrice o traduttore,,neutro
+zsl#0,t#3_JOB#136,TODO,,,addetto,,maschile
+zsl#0,t#3_JOB#137,TODO,,,addetta,,femminile
+zsl#0,t#3_JOB#138,TODO,,,addett*,,neutro
+zsl#0,t#3_JOB#139,TODO,,,addetto/a,,neutro
+zsl#0,t#3_JOB#140,TODO,,,consultant,,neutro
+zsl#0,t#3_JOB#141,TODO,,,senior consultant,,neutro
+zsl#0,t#4,INCLUSIVO,,,,,
+zsl#0,t#5,INCLUSIVO,,,,,
+zsl#0,t#6,INCLUSIVO,,,,,
+zsl#0,t#7,INCLUSIVO,,,,,
+zsl#0,t#8,INCLUSIVO,,,,,
+zsl#0,t#9,INCLUSIVO,,,,,
+zsl#0,t#10,INCLUSIVO,,,,,
+zsl#0,t#11,INCLUSIVO,,,,,
+zsl#0,t#12,INCLUSIVO,,,,,
+zsl#0,t#13,INCLUSIVO,,,,,
+zsl#0,t#14,INCLUSIVO,,,,,
+zsl#0,t#15,INCLUSIVO,,,,,
+zsl#0,t#16,INCLUSIVO,,,,,
+zsl#0,t#17,INCLUSIVO,,,,,
+zsl#0,t#18,INCLUSIVO,,,,,
+zsl#0,t#19,INCLUSIVO,,,,,
+zsl#0,t#20,INCLUSIVO,,,,,
+zsl#0,t#21,INCLUSIVO,,,,,
+zsl#0,t#22,INCLUSIVO,,,,,
+zsl#0,t#23_JOB#0,TODO,,,giornaista,,neutro
+zsl#0,t#23_JOB#1,TODO,,,autista,,neutro
+zsl#0,t#23_JOB#2,TODO,,,dentista,,neutro
+zsl#0,t#23_JOB#3,TODO,,,ginnasta,,neutro
+zsl#0,t#23_JOB#4,TODO,,,consulente,,neutro
+zsl#0,t#23_JOB#5,TODO,,,estetista,,neutro
+zsl#0,t#23_JOB#6,TODO,,,farmacista,,neutro
+zsl#0,t#23_JOB#7,TODO,,,contabile,,neutro
+zsl#0,t#23_JOB#8,TODO,,,nutrizionista,,neutro
+zsl#0,t#23_JOB#9,TODO,,,giardiniere,,neutro
+zsl#0,t#23_JOB#10,TODO,,,insegnante,,neutro
+zsl#0,t#23_JOB#11,TODO,,,igienista dentale,,neutro
+zsl#0,t#23_JOB#12,TODO,,,infermiere,,maschile
+zsl#0,t#23_JOB#13,TODO,,,infermiera,,femminile
+zsl#0,t#23_JOB#14,TODO,,,infermier*,,neutro
+zsl#0,t#23_JOB#15,TODO,,,infermiere/a,,neutro
+zsl#0,t#23_JOB#16,TODO,,,infermierÃ,,neutro
+zsl#0,t#23_JOB#17,TODO,,,infermiera/e,,neutro
+zsl#0,t#23_JOB#18,TODO,,,infermiera o infermiere,,neutro
+zsl#0,t#23_JOB#19,TODO,,,infermiere o infermiera,,neutro
+zsl#0,t#23_JOB#20,TODO,,,programmatore,,maschile
+zsl#0,t#23_JOB#21,TODO,,,programmatrice,,femminile
+zsl#0,t#23_JOB#22,TODO,,,programmatori,,maschile
+zsl#0,t#23_JOB#23,TODO,,,programmatrici,,femminile
+zsl#0,t#23_JOB#24,TODO,,,programmatori e programmatrici,,neutro
+zsl#0,t#23_JOB#25,TODO,,,programmatori o programmatrici,,neutro
+zsl#0,t#23_JOB#26,TODO,,,programmator*,,neutro
+zsl#0,t#23_JOB#27,TODO,,,programmatorÃ,,neutro
+zsl#0,t#23_JOB#28,TODO,,,impiegato,,maschile
+zsl#0,t#23_JOB#29,TODO,,,impiegata,,femminile
+zsl#0,t#23_JOB#30,TODO,,,impiegati,,maschile
+zsl#0,t#23_JOB#31,TODO,,,impiegate,,femminile
+zsl#0,t#23_JOB#32,TODO,,,impiegati e impiegate,,neutro
+zsl#0,t#23_JOB#33,TODO,,,impiegati o impiegate,,neutro
+zsl#0,t#23_JOB#34,TODO,,,impiegat*,,neutro
+zsl#0,t#23_JOB#35,TODO,,,impiegato/a,,neutro
+zsl#0,t#23_JOB#36,TODO,,,impiegatÃ,,neutro
+zsl#0,t#23_JOB#37,TODO,,,cameriere,,neutro
+zsl#0,t#23_JOB#38,TODO,,,cameriera,,femminile
+zsl#0,t#23_JOB#39,TODO,,,camerier*,,neutro
+zsl#0,t#23_JOB#40,TODO,,,cameriere/a,,neutro
+zsl#0,t#23_JOB#41,TODO,,,camerierÃ,,neutro
+zsl#0,t#23_JOB#42,TODO,,,cameriere/cameriera,,neutro
+zsl#0,t#23_JOB#43,TODO,,,cameriere e cameriera,,neutro
+zsl#0,t#23_JOB#44,TODO,,,cameriere o cameriera,,neutro
+zsl#0,t#23_JOB#45,TODO,,,segretario,,maschile
+zsl#0,t#23_JOB#46,TODO,,,segretaria,,femminile
+zsl#0,t#23_JOB#47,TODO,,,segretar*,,neutro
+zsl#0,t#23_JOB#48,TODO,,,segretario/a,,neutro
+zsl#0,t#23_JOB#49,TODO,,,segretarÃ,,neutro
+zsl#0,t#23_JOB#50,TODO,,,segretaria o segretario,,neutro
+zsl#0,t#23_JOB#51,TODO,,,segretario o segretaria,,neutro
+zsl#0,t#23_JOB#52,TODO,,,segretario/segretaria,,neutro
+zsl#0,t#23_JOB#53,TODO,,,direttore,,maschile
+zsl#0,t#23_JOB#54,TODO,,,direttrice,,femminile
+zsl#0,t#23_JOB#55,TODO,,,direttor*,,neutro
+zsl#0,t#23_JOB#56,TODO,,,direttorÃ,,neutro
+zsl#0,t#23_JOB#57,TODO,,,direttore/direttrice,,neutro
+zsl#0,t#23_JOB#58,TODO,,,direttrice o direttore,,neutro
+zsl#0,t#23_JOB#59,TODO,,,direttore o direttrice,,neutro
+zsl#0,t#23_JOB#60,TODO,,,ballerina,,femminile
+zsl#0,t#23_JOB#61,TODO,,,ballerino,,maschile
+zsl#0,t#23_JOB#62,TODO,,,ballerin*,,neutro
+zsl#0,t#23_JOB#63,TODO,,,ballerino/a,,neutro
+zsl#0,t#23_JOB#64,TODO,,,ballerinÃ,,neutro
+zsl#0,t#23_JOB#65,TODO,,,attore,,maschile
+zsl#0,t#23_JOB#66,TODO,,,attrice,,femminile
+zsl#0,t#23_JOB#67,TODO,,,attor*,,neutro
+zsl#0,t#23_JOB#68,TODO,,,attorÃ,,neutro
+zsl#0,t#23_JOB#69,TODO,,,attore/attrice,,neutro
+zsl#0,t#23_JOB#70,TODO,,,attrice o attore,,neutro
+zsl#0,t#23_JOB#71,TODO,,,attore o attrice,,neutro
+zsl#0,t#23_JOB#72,TODO,,,dottore,,maschile
+zsl#0,t#23_JOB#73,TODO,,,dottoressa,,femminile
+zsl#0,t#23_JOB#74,TODO,,,dottor*,,neutro
+zsl#0,t#23_JOB#75,TODO,,,dottorÃ,,neutro
+zsl#0,t#23_JOB#76,TODO,,,dottore/dottoressa,,neutro
+zsl#0,t#23_JOB#77,TODO,,,dottoressa o dottore,,neutro
+zsl#0,t#23_JOB#78,TODO,,,dottore o dottoressa,,neutro
+zsl#0,t#23_JOB#79,TODO,,,architetto,,maschile
+zsl#0,t#23_JOB#80,TODO,,,architetta,,femminile
+zsl#0,t#23_JOB#81,TODO,,,architett*,,neutro
+zsl#0,t#23_JOB#82,TODO,,,architettÃ,,neutro
+zsl#0,t#23_JOB#83,TODO,,,architetto/architetta,,neutro
+zsl#0,t#23_JOB#84,TODO,,,architetta o architetto,,neutro
+zsl#0,t#23_JOB#85,TODO,,,architetto o architetta,,neutro
+zsl#0,t#23_JOB#86,TODO,,,architetto/a,,neutro
+zsl#0,t#23_JOB#87,TODO,,,candidato,,maschile
+zsl#0,t#23_JOB#88,TODO,,,candidata,,femminile
+zsl#0,t#23_JOB#89,TODO,,,candidat*,,neutro
+zsl#0,t#23_JOB#90,TODO,,,candidato/a,,neutro
+zsl#0,t#23_JOB#91,TODO,,,candidatÃ,,neutro
+zsl#0,t#23_JOB#92,TODO,,,commessa,,femminile
+zsl#0,t#23_JOB#93,TODO,,,commesso,,maschile
+zsl#0,t#23_JOB#94,TODO,,,commess*,,neutro
+zsl#0,t#23_JOB#95,TODO,,,commesso/a,,neutro
+zsl#0,t#23_JOB#96,TODO,,,commessÃ,,neutro
+zsl#0,t#23_JOB#97,TODO,,,commessa/o,,neutro
+zsl#0,t#23_JOB#98,TODO,,,commesso o commessa,,neutro
+zsl#0,t#23_JOB#99,TODO,,,commessa o commesso,,neutro
+zsl#0,t#23_JOB#100,TODO,,,cuoco,,maschile
+zsl#0,t#23_JOB#101,TODO,,,cuoca,,femminile
+zsl#0,t#23_JOB#102,TODO,,,cuoc*,,neutro
+zsl#0,t#23_JOB#103,TODO,,,cuoco/a,,neutro
+zsl#0,t#23_JOB#104,TODO,,,cuocÃ,,neutro
+zsl#0,t#23_JOB#105,TODO,,,cuoca/o,,neutro
+zsl#0,t#23_JOB#106,TODO,,,cuoco o cuoca,,neutro
+zsl#0,t#23_JOB#107,TODO,,,cuoca o cuoco,,neutro
+zsl#0,t#23_JOB#108,TODO,,,parrucchiera,,femminile
+zsl#0,t#23_JOB#109,TODO,,,parrucchiere,,maschile
+zsl#0,t#23_JOB#110,TODO,,,parrucchier*,,neutro
+zsl#0,t#23_JOB#111,TODO,,,parrucchiere/a,,neutro
+zsl#0,t#23_JOB#112,TODO,,,parrucchiera/e,,neutro
+zsl#0,t#23_JOB#113,TODO,,,parrucchiere o parrucchiera,,neutro
+zsl#0,t#23_JOB#114,TODO,,,parrucchiera o parrucchiere,,neutro
+zsl#0,t#23_JOB#115,TODO,,,parrucchiere/parrucchiera,,neutro
+zsl#0,t#23_JOB#116,TODO,,,truccatore,,maschile
+zsl#0,t#23_JOB#117,TODO,,,truccatrice,,femminile
+zsl#0,t#23_JOB#118,TODO,,,truccator*,,neutro
+zsl#0,t#23_JOB#119,TODO,,,truccatore o truccatrice,,neutro
+zsl#0,t#23_JOB#120,TODO,,,truccatrice o truccatore,,neutro
+zsl#0,t#23_JOB#121,TODO,,,psicologo,,maschile
+zsl#0,t#23_JOB#122,TODO,,,psicologa,,femminile
+zsl#0,t#23_JOB#123,TODO,,,psicolog*,,neutro
+zsl#0,t#23_JOB#124,TODO,,,psicologo/a,,neutro
+zsl#0,t#23_JOB#125,TODO,,,psicologÃ,,neutro
+zsl#0,t#23_JOB#126,TODO,,,psicologa/o,,neutro
+zsl#0,t#23_JOB#127,TODO,,,psicologo o psicologa,,neutro
+zsl#0,t#23_JOB#128,TODO,,,psicologa o psicologo,,neutro
+zsl#0,t#23_JOB#129,TODO,,,traduttore,,maschile
+zsl#0,t#23_JOB#130,TODO,,,traduttrice,,femminile
+zsl#0,t#23_JOB#131,TODO,,,traduttor*,,neutro
+zsl#0,t#23_JOB#132,TODO,,,traduttore/traduttrice,,neutro
+zsl#0,t#23_JOB#133,TODO,,,traduttrice/traduttore,,neutro
+zsl#0,t#23_JOB#134,TODO,,,traduttore o traduttrice,,neutro
+zsl#0,t#23_JOB#135,TODO,,,traduttrice o traduttore,,neutro
+zsl#0,t#23_JOB#136,TODO,,,addetto,,maschile
+zsl#0,t#23_JOB#137,TODO,,,addetta,,femminile
+zsl#0,t#23_JOB#138,TODO,,,addett*,,neutro
+zsl#0,t#23_JOB#139,TODO,,,addetto/a,,neutro
+zsl#0,t#23_JOB#140,TODO,,,consultant,,neutro
+zsl#0,t#23_JOB#141,TODO,,,senior consultant,,neutro
+zsl#0,t#24,INCLUSIVO,,,,,
+zsl#0,t#25,INCLUSIVO,,,,,
+zsl#0,t#26,NON INCLUSIVO,,,,,
+zsl#0,t#27,NON INCLUSIVO,,,,,
+zsl#0,t#28,INCLUSIVO,,,,,
+zsl#0,t#29,INCLUSIVO,,,,,
+zsl#0,t#30,INCLUSIVO,,,,,
+zsl#0,t#31,INCLUSIVO,,,,,
+zsl#0,t#32,INCLUSIVO,,,,,
+zsl#0,t#33,INCLUSIVO,,,,,
+zsl#0,t#34_ADJ#0,TODO,,esperto,,maschile,
+zsl#0,t#34_ADJ#1,TODO,,dinamico,,maschile,
+zsl#0,t#34_ADJ#2,TODO,,motivato,,maschile,
+zsl#0,t#34_ADJ#3,TODO,,appassionato,,maschile,
+zsl#0,t#34_ADJ#4,TODO,,ambizioso,,maschile,
+zsl#0,t#34_ADJ#5,TODO,,determinato,,maschile,
+zsl#0,t#34_ADJ#6,TODO,,pronto,,maschile,
+zsl#0,t#34_ADJ#7,TODO,,interessato,,maschile,
+zsl#0,t#34_ADJ#8,TODO,,esperta,,femminile,
+zsl#0,t#34_ADJ#9,TODO,,dinamica,,femminile,
+zsl#0,t#34_ADJ#10,TODO,,motivata,,femminile,
+zsl#0,t#34_ADJ#11,TODO,,appassionata,,femminile,
+zsl#0,t#34_ADJ#12,TODO,,ambiziosa,,femminile,
+zsl#0,t#34_ADJ#13,TODO,,determinata,,femminile,
+zsl#0,t#34_ADJ#14,TODO,,pronta,,femminile,
+zsl#0,t#34_ADJ#15,TODO,,interessata,,femminile,
+zsl#0,t#34_ADJ#16,TODO,,esperto/a,,neutro,
+zsl#0,t#34_ADJ#17,TODO,,dinamico/a,,neutro,
+zsl#0,t#34_ADJ#18,TODO,,motivato/a,,neutro,
+zsl#0,t#34_ADJ#19,TODO,,appassionato/a,,neutro,
+zsl#0,t#34_ADJ#20,TODO,,ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#21,TODO,,determinato/a,,neutro,
+zsl#0,t#34_ADJ#22,TODO,,pronto/a,,neutro,
+zsl#0,t#34_ADJ#23,TODO,,interessato/a,,neutro,
+zsl#0,t#34_ADJ#24,TODO,,espert*,,neutro,
+zsl#0,t#34_ADJ#25,TODO,,dinamic*,,neutro,
+zsl#0,t#34_ADJ#26,TODO,,motivat*,,neutro,
+zsl#0,t#34_ADJ#27,TODO,,appassionat*,,neutro,
+zsl#0,t#34_ADJ#28,TODO,,ambizios*,,neutro,
+zsl#0,t#34_ADJ#29,TODO,,determinat*,,neutro,
+zsl#0,t#34_ADJ#30,TODO,,pront*,,neutro,
+zsl#0,t#34_ADJ#31,TODO,,interessat*,,neutro,
+zsl#0,t#34_ADJ#32,TODO,,esperto e dinamico,,maschile,
+zsl#0,t#34_ADJ#33,TODO,,esperto e motivato,,maschile,
+zsl#0,t#34_ADJ#34,TODO,,esperto e appassionato,,maschile,
+zsl#0,t#34_ADJ#35,TODO,,esperto e ambizioso,,maschile,
+zsl#0,t#34_ADJ#36,TODO,,esperto e determinato,,maschile,
+zsl#0,t#34_ADJ#37,TODO,,esperto e pronto,,maschile,
+zsl#0,t#34_ADJ#38,TODO,,esperto e interessato,,maschile,
+zsl#0,t#34_ADJ#39,TODO,,dinamico e esperto,,maschile,
+zsl#0,t#34_ADJ#40,TODO,,dinamico e motivato,,maschile,
+zsl#0,t#34_ADJ#41,TODO,,dinamico e appassionato,,maschile,
+zsl#0,t#34_ADJ#42,TODO,,dinamico e ambizioso,,maschile,
+zsl#0,t#34_ADJ#43,TODO,,dinamico e determinato,,maschile,
+zsl#0,t#34_ADJ#44,TODO,,dinamico e pronto,,maschile,
+zsl#0,t#34_ADJ#45,TODO,,dinamico e interessato,,maschile,
+zsl#0,t#34_ADJ#46,TODO,,motivato e esperto,,maschile,
+zsl#0,t#34_ADJ#47,TODO,,motivato e dinamico,,maschile,
+zsl#0,t#34_ADJ#48,TODO,,motivato e appassionato,,maschile,
+zsl#0,t#34_ADJ#49,TODO,,motivato e ambizioso,,maschile,
+zsl#0,t#34_ADJ#50,TODO,,motivato e determinato,,maschile,
+zsl#0,t#34_ADJ#51,TODO,,motivato e pronto,,maschile,
+zsl#0,t#34_ADJ#52,TODO,,motivato e interessato,,maschile,
+zsl#0,t#34_ADJ#53,TODO,,appassionato e esperto,,maschile,
+zsl#0,t#34_ADJ#54,TODO,,appassionato e dinamico,,maschile,
+zsl#0,t#34_ADJ#55,TODO,,appassionato e motivato,,maschile,
+zsl#0,t#34_ADJ#56,TODO,,appassionato e ambizioso,,maschile,
+zsl#0,t#34_ADJ#57,TODO,,appassionato e determinato,,maschile,
+zsl#0,t#34_ADJ#58,TODO,,appassionato e pronto,,maschile,
+zsl#0,t#34_ADJ#59,TODO,,appassionato e interessato,,maschile,
+zsl#0,t#34_ADJ#60,TODO,,ambizioso e esperto,,maschile,
+zsl#0,t#34_ADJ#61,TODO,,ambizioso e dinamico,,maschile,
+zsl#0,t#34_ADJ#62,TODO,,ambizioso e motivato,,maschile,
+zsl#0,t#34_ADJ#63,TODO,,ambizioso e appassionato,,maschile,
+zsl#0,t#34_ADJ#64,TODO,,ambizioso e determinato,,maschile,
+zsl#0,t#34_ADJ#65,TODO,,ambizioso e pronto,,maschile,
+zsl#0,t#34_ADJ#66,TODO,,ambizioso e interessato,,maschile,
+zsl#0,t#34_ADJ#67,TODO,,determinato e esperto,,maschile,
+zsl#0,t#34_ADJ#68,TODO,,determinato e dinamico,,maschile,
+zsl#0,t#34_ADJ#69,TODO,,determinato e motivato,,maschile,
+zsl#0,t#34_ADJ#70,TODO,,determinato e appassionato,,maschile,
+zsl#0,t#34_ADJ#71,TODO,,determinato e ambizioso,,maschile,
+zsl#0,t#34_ADJ#72,TODO,,determinato e pronto,,maschile,
+zsl#0,t#34_ADJ#73,TODO,,determinato e interessato,,maschile,
+zsl#0,t#34_ADJ#74,TODO,,pronto e esperto,,maschile,
+zsl#0,t#34_ADJ#75,TODO,,pronto e dinamico,,maschile,
+zsl#0,t#34_ADJ#76,TODO,,pronto e motivato,,maschile,
+zsl#0,t#34_ADJ#77,TODO,,pronto e appassionato,,maschile,
+zsl#0,t#34_ADJ#78,TODO,,pronto e ambizioso,,maschile,
+zsl#0,t#34_ADJ#79,TODO,,pronto e determinato,,maschile,
+zsl#0,t#34_ADJ#80,TODO,,pronto e interessato,,maschile,
+zsl#0,t#34_ADJ#81,TODO,,interessato e esperto,,maschile,
+zsl#0,t#34_ADJ#82,TODO,,interessato e dinamico,,maschile,
+zsl#0,t#34_ADJ#83,TODO,,interessato e motivato,,maschile,
+zsl#0,t#34_ADJ#84,TODO,,interessato e appassionato,,maschile,
+zsl#0,t#34_ADJ#85,TODO,,interessato e ambizioso,,maschile,
+zsl#0,t#34_ADJ#86,TODO,,interessato e determinato,,maschile,
+zsl#0,t#34_ADJ#87,TODO,,interessato e pronto,,maschile,
+zsl#0,t#34_ADJ#88,TODO,,esperta e dinamica,,femminile,
+zsl#0,t#34_ADJ#89,TODO,,esperta e motivata,,femminile,
+zsl#0,t#34_ADJ#90,TODO,,esperta e appassionata,,femminile,
+zsl#0,t#34_ADJ#91,TODO,,esperta e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#92,TODO,,esperta e determinata,,femminile,
+zsl#0,t#34_ADJ#93,TODO,,esperta e pronta,,femminile,
+zsl#0,t#34_ADJ#94,TODO,,esperta e interessata,,femminile,
+zsl#0,t#34_ADJ#95,TODO,,dinamica e esperta,,femminile,
+zsl#0,t#34_ADJ#96,TODO,,dinamica e motivata,,femminile,
+zsl#0,t#34_ADJ#97,TODO,,dinamica e appassionata,,femminile,
+zsl#0,t#34_ADJ#98,TODO,,dinamica e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#99,TODO,,dinamica e determinata,,femminile,
+zsl#0,t#34_ADJ#100,TODO,,dinamica e pronta,,femminile,
+zsl#0,t#34_ADJ#101,TODO,,dinamica e interessata,,femminile,
+zsl#0,t#34_ADJ#102,TODO,,motivata e esperta,,femminile,
+zsl#0,t#34_ADJ#103,TODO,,motivata e dinamica,,femminile,
+zsl#0,t#34_ADJ#104,TODO,,motivata e appassionata,,femminile,
+zsl#0,t#34_ADJ#105,TODO,,motivata e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#106,TODO,,motivata e determinata,,femminile,
+zsl#0,t#34_ADJ#107,TODO,,motivata e pronta,,femminile,
+zsl#0,t#34_ADJ#108,TODO,,motivata e interessata,,femminile,
+zsl#0,t#34_ADJ#109,TODO,,appassionata e esperta,,femminile,
+zsl#0,t#34_ADJ#110,TODO,,appassionata e dinamica,,femminile,
+zsl#0,t#34_ADJ#111,TODO,,appassionata e motivata,,femminile,
+zsl#0,t#34_ADJ#112,TODO,,appassionata e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#113,TODO,,appassionata e determinata,,femminile,
+zsl#0,t#34_ADJ#114,TODO,,appassionata e pronta,,femminile,
+zsl#0,t#34_ADJ#115,TODO,,appassionata e interessata,,femminile,
+zsl#0,t#34_ADJ#116,TODO,,ambiziosa e esperta,,femminile,
+zsl#0,t#34_ADJ#117,TODO,,ambiziosa e dinamica,,femminile,
+zsl#0,t#34_ADJ#118,TODO,,ambiziosa e motivata,,femminile,
+zsl#0,t#34_ADJ#119,TODO,,ambiziosa e appassionata,,femminile,
+zsl#0,t#34_ADJ#120,TODO,,ambiziosa e determinata,,femminile,
+zsl#0,t#34_ADJ#121,TODO,,ambiziosa e pronta,,femminile,
+zsl#0,t#34_ADJ#122,TODO,,ambiziosa e interessata,,femminile,
+zsl#0,t#34_ADJ#123,TODO,,determinata e esperta,,femminile,
+zsl#0,t#34_ADJ#124,TODO,,determinata e dinamica,,femminile,
+zsl#0,t#34_ADJ#125,TODO,,determinata e motivata,,femminile,
+zsl#0,t#34_ADJ#126,TODO,,determinata e appassionata,,femminile,
+zsl#0,t#34_ADJ#127,TODO,,determinata e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#128,TODO,,determinata e pronta,,femminile,
+zsl#0,t#34_ADJ#129,TODO,,determinata e interessata,,femminile,
+zsl#0,t#34_ADJ#130,TODO,,pronta e esperta,,femminile,
+zsl#0,t#34_ADJ#131,TODO,,pronta e dinamica,,femminile,
+zsl#0,t#34_ADJ#132,TODO,,pronta e motivata,,femminile,
+zsl#0,t#34_ADJ#133,TODO,,pronta e appassionata,,femminile,
+zsl#0,t#34_ADJ#134,TODO,,pronta e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#135,TODO,,pronta e determinata,,femminile,
+zsl#0,t#34_ADJ#136,TODO,,pronta e interessata,,femminile,
+zsl#0,t#34_ADJ#137,TODO,,interessata e esperta,,femminile,
+zsl#0,t#34_ADJ#138,TODO,,interessata e dinamica,,femminile,
+zsl#0,t#34_ADJ#139,TODO,,interessata e motivata,,femminile,
+zsl#0,t#34_ADJ#140,TODO,,interessata e appassionata,,femminile,
+zsl#0,t#34_ADJ#141,TODO,,interessata e ambiziosa,,femminile,
+zsl#0,t#34_ADJ#142,TODO,,interessata e determinata,,femminile,
+zsl#0,t#34_ADJ#143,TODO,,interessata e pronta,,femminile,
+zsl#0,t#34_ADJ#144,TODO,,esperto/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#145,TODO,,esperto/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#146,TODO,,esperto/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#147,TODO,,esperto/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#148,TODO,,esperto/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#149,TODO,,esperto/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#150,TODO,,esperto/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#151,TODO,,esperto/a e espert*,,neutro,
+zsl#0,t#34_ADJ#152,TODO,,esperto/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#153,TODO,,esperto/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#154,TODO,,esperto/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#155,TODO,,esperto/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#156,TODO,,esperto/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#157,TODO,,esperto/a e pront*,,neutro,
+zsl#0,t#34_ADJ#158,TODO,,esperto/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#159,TODO,,dinamico/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#160,TODO,,dinamico/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#161,TODO,,dinamico/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#162,TODO,,dinamico/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#163,TODO,,dinamico/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#164,TODO,,dinamico/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#165,TODO,,dinamico/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#166,TODO,,dinamico/a e espert*,,neutro,
+zsl#0,t#34_ADJ#167,TODO,,dinamico/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#168,TODO,,dinamico/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#169,TODO,,dinamico/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#170,TODO,,dinamico/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#171,TODO,,dinamico/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#172,TODO,,dinamico/a e pront*,,neutro,
+zsl#0,t#34_ADJ#173,TODO,,dinamico/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#174,TODO,,motivato/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#175,TODO,,motivato/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#176,TODO,,motivato/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#177,TODO,,motivato/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#178,TODO,,motivato/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#179,TODO,,motivato/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#180,TODO,,motivato/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#181,TODO,,motivato/a e espert*,,neutro,
+zsl#0,t#34_ADJ#182,TODO,,motivato/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#183,TODO,,motivato/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#184,TODO,,motivato/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#185,TODO,,motivato/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#186,TODO,,motivato/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#187,TODO,,motivato/a e pront*,,neutro,
+zsl#0,t#34_ADJ#188,TODO,,motivato/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#189,TODO,,appassionato/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#190,TODO,,appassionato/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#191,TODO,,appassionato/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#192,TODO,,appassionato/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#193,TODO,,appassionato/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#194,TODO,,appassionato/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#195,TODO,,appassionato/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#196,TODO,,appassionato/a e espert*,,neutro,
+zsl#0,t#34_ADJ#197,TODO,,appassionato/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#198,TODO,,appassionato/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#199,TODO,,appassionato/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#200,TODO,,appassionato/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#201,TODO,,appassionato/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#202,TODO,,appassionato/a e pront*,,neutro,
+zsl#0,t#34_ADJ#203,TODO,,appassionato/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#204,TODO,,ambizioso/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#205,TODO,,ambizioso/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#206,TODO,,ambizioso/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#207,TODO,,ambizioso/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#208,TODO,,ambizioso/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#209,TODO,,ambizioso/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#210,TODO,,ambizioso/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#211,TODO,,ambizioso/a e espert*,,neutro,
+zsl#0,t#34_ADJ#212,TODO,,ambizioso/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#213,TODO,,ambizioso/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#214,TODO,,ambizioso/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#215,TODO,,ambizioso/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#216,TODO,,ambizioso/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#217,TODO,,ambizioso/a e pront*,,neutro,
+zsl#0,t#34_ADJ#218,TODO,,ambizioso/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#219,TODO,,determinato/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#220,TODO,,determinato/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#221,TODO,,determinato/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#222,TODO,,determinato/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#223,TODO,,determinato/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#224,TODO,,determinato/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#225,TODO,,determinato/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#226,TODO,,determinato/a e espert*,,neutro,
+zsl#0,t#34_ADJ#227,TODO,,determinato/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#228,TODO,,determinato/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#229,TODO,,determinato/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#230,TODO,,determinato/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#231,TODO,,determinato/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#232,TODO,,determinato/a e pront*,,neutro,
+zsl#0,t#34_ADJ#233,TODO,,determinato/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#234,TODO,,pronto/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#235,TODO,,pronto/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#236,TODO,,pronto/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#237,TODO,,pronto/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#238,TODO,,pronto/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#239,TODO,,pronto/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#240,TODO,,pronto/a e interessato/a,,neutro,
+zsl#0,t#34_ADJ#241,TODO,,pronto/a e espert*,,neutro,
+zsl#0,t#34_ADJ#242,TODO,,pronto/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#243,TODO,,pronto/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#244,TODO,,pronto/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#245,TODO,,pronto/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#246,TODO,,pronto/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#247,TODO,,pronto/a e pront*,,neutro,
+zsl#0,t#34_ADJ#248,TODO,,pronto/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#249,TODO,,interessato/a e esperto/a,,neutro,
+zsl#0,t#34_ADJ#250,TODO,,interessato/a e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#251,TODO,,interessato/a e motivato/a,,neutro,
+zsl#0,t#34_ADJ#252,TODO,,interessato/a e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#253,TODO,,interessato/a e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#254,TODO,,interessato/a e determinato/a,,neutro,
+zsl#0,t#34_ADJ#255,TODO,,interessato/a e pronto/a,,neutro,
+zsl#0,t#34_ADJ#256,TODO,,interessato/a e espert*,,neutro,
+zsl#0,t#34_ADJ#257,TODO,,interessato/a e dinamic*,,neutro,
+zsl#0,t#34_ADJ#258,TODO,,interessato/a e motivat*,,neutro,
+zsl#0,t#34_ADJ#259,TODO,,interessato/a e appassionat*,,neutro,
+zsl#0,t#34_ADJ#260,TODO,,interessato/a e ambizios*,,neutro,
+zsl#0,t#34_ADJ#261,TODO,,interessato/a e determinat*,,neutro,
+zsl#0,t#34_ADJ#262,TODO,,interessato/a e pront*,,neutro,
+zsl#0,t#34_ADJ#263,TODO,,interessato/a e interessat*,,neutro,
+zsl#0,t#34_ADJ#264,TODO,,espert* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#265,TODO,,espert* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#266,TODO,,espert* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#267,TODO,,espert* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#268,TODO,,espert* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#269,TODO,,espert* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#270,TODO,,espert* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#271,TODO,,espert* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#272,TODO,,espert* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#273,TODO,,espert* e motivat*,,neutro,
+zsl#0,t#34_ADJ#274,TODO,,espert* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#275,TODO,,espert* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#276,TODO,,espert* e determinat*,,neutro,
+zsl#0,t#34_ADJ#277,TODO,,espert* e pront*,,neutro,
+zsl#0,t#34_ADJ#278,TODO,,espert* e interessat*,,neutro,
+zsl#0,t#34_ADJ#279,TODO,,dinamic* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#280,TODO,,dinamic* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#281,TODO,,dinamic* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#282,TODO,,dinamic* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#283,TODO,,dinamic* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#284,TODO,,dinamic* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#285,TODO,,dinamic* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#286,TODO,,dinamic* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#287,TODO,,dinamic* e espert*,,neutro,
+zsl#0,t#34_ADJ#288,TODO,,dinamic* e motivat*,,neutro,
+zsl#0,t#34_ADJ#289,TODO,,dinamic* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#290,TODO,,dinamic* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#291,TODO,,dinamic* e determinat*,,neutro,
+zsl#0,t#34_ADJ#292,TODO,,dinamic* e pront*,,neutro,
+zsl#0,t#34_ADJ#293,TODO,,dinamic* e interessat*,,neutro,
+zsl#0,t#34_ADJ#294,TODO,,motivat* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#295,TODO,,motivat* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#296,TODO,,motivat* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#297,TODO,,motivat* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#298,TODO,,motivat* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#299,TODO,,motivat* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#300,TODO,,motivat* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#301,TODO,,motivat* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#302,TODO,,motivat* e espert*,,neutro,
+zsl#0,t#34_ADJ#303,TODO,,motivat* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#304,TODO,,motivat* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#305,TODO,,motivat* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#306,TODO,,motivat* e determinat*,,neutro,
+zsl#0,t#34_ADJ#307,TODO,,motivat* e pront*,,neutro,
+zsl#0,t#34_ADJ#308,TODO,,motivat* e interessat*,,neutro,
+zsl#0,t#34_ADJ#309,TODO,,appassionat* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#310,TODO,,appassionat* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#311,TODO,,appassionat* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#312,TODO,,appassionat* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#313,TODO,,appassionat* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#314,TODO,,appassionat* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#315,TODO,,appassionat* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#316,TODO,,appassionat* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#317,TODO,,appassionat* e espert*,,neutro,
+zsl#0,t#34_ADJ#318,TODO,,appassionat* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#319,TODO,,appassionat* e motivat*,,neutro,
+zsl#0,t#34_ADJ#320,TODO,,appassionat* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#321,TODO,,appassionat* e determinat*,,neutro,
+zsl#0,t#34_ADJ#322,TODO,,appassionat* e pront*,,neutro,
+zsl#0,t#34_ADJ#323,TODO,,appassionat* e interessat*,,neutro,
+zsl#0,t#34_ADJ#324,TODO,,ambizios* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#325,TODO,,ambizios* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#326,TODO,,ambizios* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#327,TODO,,ambizios* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#328,TODO,,ambizios* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#329,TODO,,ambizios* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#330,TODO,,ambizios* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#331,TODO,,ambizios* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#332,TODO,,ambizios* e espert*,,neutro,
+zsl#0,t#34_ADJ#333,TODO,,ambizios* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#334,TODO,,ambizios* e motivat*,,neutro,
+zsl#0,t#34_ADJ#335,TODO,,ambizios* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#336,TODO,,ambizios* e determinat*,,neutro,
+zsl#0,t#34_ADJ#337,TODO,,ambizios* e pront*,,neutro,
+zsl#0,t#34_ADJ#338,TODO,,ambizios* e interessat*,,neutro,
+zsl#0,t#34_ADJ#339,TODO,,determinat* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#340,TODO,,determinat* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#341,TODO,,determinat* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#342,TODO,,determinat* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#343,TODO,,determinat* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#344,TODO,,determinat* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#345,TODO,,determinat* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#346,TODO,,determinat* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#347,TODO,,determinat* e espert*,,neutro,
+zsl#0,t#34_ADJ#348,TODO,,determinat* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#349,TODO,,determinat* e motivat*,,neutro,
+zsl#0,t#34_ADJ#350,TODO,,determinat* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#351,TODO,,determinat* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#352,TODO,,determinat* e pront*,,neutro,
+zsl#0,t#34_ADJ#353,TODO,,determinat* e interessat*,,neutro,
+zsl#0,t#34_ADJ#354,TODO,,pront* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#355,TODO,,pront* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#356,TODO,,pront* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#357,TODO,,pront* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#358,TODO,,pront* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#359,TODO,,pront* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#360,TODO,,pront* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#361,TODO,,pront* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#362,TODO,,pront* e espert*,,neutro,
+zsl#0,t#34_ADJ#363,TODO,,pront* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#364,TODO,,pront* e motivat*,,neutro,
+zsl#0,t#34_ADJ#365,TODO,,pront* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#366,TODO,,pront* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#367,TODO,,pront* e determinat*,,neutro,
+zsl#0,t#34_ADJ#368,TODO,,pront* e interessat*,,neutro,
+zsl#0,t#34_ADJ#369,TODO,,interessat* e esperto/a,,neutro,
+zsl#0,t#34_ADJ#370,TODO,,interessat* e dinamico/a,,neutro,
+zsl#0,t#34_ADJ#371,TODO,,interessat* e motivato/a,,neutro,
+zsl#0,t#34_ADJ#372,TODO,,interessat* e appassionato/a,,neutro,
+zsl#0,t#34_ADJ#373,TODO,,interessat* e ambizioso/a,,neutro,
+zsl#0,t#34_ADJ#374,TODO,,interessat* e determinato/a,,neutro,
+zsl#0,t#34_ADJ#375,TODO,,interessat* e pronto/a,,neutro,
+zsl#0,t#34_ADJ#376,TODO,,interessat* e interessato/a,,neutro,
+zsl#0,t#34_ADJ#377,TODO,,interessat* e espert*,,neutro,
+zsl#0,t#34_ADJ#378,TODO,,interessat* e dinamic*,,neutro,
+zsl#0,t#34_ADJ#379,TODO,,interessat* e motivat*,,neutro,
+zsl#0,t#34_ADJ#380,TODO,,interessat* e appassionat*,,neutro,
+zsl#0,t#34_ADJ#381,TODO,,interessat* e ambizios*,,neutro,
+zsl#0,t#34_ADJ#382,TODO,,interessat* e determinat*,,neutro,
+zsl#0,t#34_ADJ#383,TODO,,interessat* e pront*,,neutro,
+zsl#0,t#35_ADJ#0,TODO,,esperto,,maschile,
+zsl#0,t#35_ADJ#1,TODO,,dinamico,,maschile,
+zsl#0,t#35_ADJ#2,TODO,,motivato,,maschile,
+zsl#0,t#35_ADJ#3,TODO,,appassionato,,maschile,
+zsl#0,t#35_ADJ#4,TODO,,ambizioso,,maschile,
+zsl#0,t#35_ADJ#5,TODO,,determinato,,maschile,
+zsl#0,t#35_ADJ#6,TODO,,pronto,,maschile,
+zsl#0,t#35_ADJ#7,TODO,,interessato,,maschile,
+zsl#0,t#35_ADJ#8,TODO,,esperta,,femminile,
+zsl#0,t#35_ADJ#9,TODO,,dinamica,,femminile,
+zsl#0,t#35_ADJ#10,TODO,,motivata,,femminile,
+zsl#0,t#35_ADJ#11,TODO,,appassionata,,femminile,
+zsl#0,t#35_ADJ#12,TODO,,ambiziosa,,femminile,
+zsl#0,t#35_ADJ#13,TODO,,determinata,,femminile,
+zsl#0,t#35_ADJ#14,TODO,,pronta,,femminile,
+zsl#0,t#35_ADJ#15,TODO,,interessata,,femminile,
+zsl#0,t#35_ADJ#16,TODO,,esperto/a,,neutro,
+zsl#0,t#35_ADJ#17,TODO,,dinamico/a,,neutro,
+zsl#0,t#35_ADJ#18,TODO,,motivato/a,,neutro,
+zsl#0,t#35_ADJ#19,TODO,,appassionato/a,,neutro,
+zsl#0,t#35_ADJ#20,TODO,,ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#21,TODO,,determinato/a,,neutro,
+zsl#0,t#35_ADJ#22,TODO,,pronto/a,,neutro,
+zsl#0,t#35_ADJ#23,TODO,,interessato/a,,neutro,
+zsl#0,t#35_ADJ#24,TODO,,espert*,,neutro,
+zsl#0,t#35_ADJ#25,TODO,,dinamic*,,neutro,
+zsl#0,t#35_ADJ#26,TODO,,motivat*,,neutro,
+zsl#0,t#35_ADJ#27,TODO,,appassionat*,,neutro,
+zsl#0,t#35_ADJ#28,TODO,,ambizios*,,neutro,
+zsl#0,t#35_ADJ#29,TODO,,determinat*,,neutro,
+zsl#0,t#35_ADJ#30,TODO,,pront*,,neutro,
+zsl#0,t#35_ADJ#31,TODO,,interessat*,,neutro,
+zsl#0,t#35_ADJ#32,TODO,,esperto e dinamico,,maschile,
+zsl#0,t#35_ADJ#33,TODO,,esperto e motivato,,maschile,
+zsl#0,t#35_ADJ#34,TODO,,esperto e appassionato,,maschile,
+zsl#0,t#35_ADJ#35,TODO,,esperto e ambizioso,,maschile,
+zsl#0,t#35_ADJ#36,TODO,,esperto e determinato,,maschile,
+zsl#0,t#35_ADJ#37,TODO,,esperto e pronto,,maschile,
+zsl#0,t#35_ADJ#38,TODO,,esperto e interessato,,maschile,
+zsl#0,t#35_ADJ#39,TODO,,dinamico e esperto,,maschile,
+zsl#0,t#35_ADJ#40,TODO,,dinamico e motivato,,maschile,
+zsl#0,t#35_ADJ#41,TODO,,dinamico e appassionato,,maschile,
+zsl#0,t#35_ADJ#42,TODO,,dinamico e ambizioso,,maschile,
+zsl#0,t#35_ADJ#43,TODO,,dinamico e determinato,,maschile,
+zsl#0,t#35_ADJ#44,TODO,,dinamico e pronto,,maschile,
+zsl#0,t#35_ADJ#45,TODO,,dinamico e interessato,,maschile,
+zsl#0,t#35_ADJ#46,TODO,,motivato e esperto,,maschile,
+zsl#0,t#35_ADJ#47,TODO,,motivato e dinamico,,maschile,
+zsl#0,t#35_ADJ#48,TODO,,motivato e appassionato,,maschile,
+zsl#0,t#35_ADJ#49,TODO,,motivato e ambizioso,,maschile,
+zsl#0,t#35_ADJ#50,TODO,,motivato e determinato,,maschile,
+zsl#0,t#35_ADJ#51,TODO,,motivato e pronto,,maschile,
+zsl#0,t#35_ADJ#52,TODO,,motivato e interessato,,maschile,
+zsl#0,t#35_ADJ#53,TODO,,appassionato e esperto,,maschile,
+zsl#0,t#35_ADJ#54,TODO,,appassionato e dinamico,,maschile,
+zsl#0,t#35_ADJ#55,TODO,,appassionato e motivato,,maschile,
+zsl#0,t#35_ADJ#56,TODO,,appassionato e ambizioso,,maschile,
+zsl#0,t#35_ADJ#57,TODO,,appassionato e determinato,,maschile,
+zsl#0,t#35_ADJ#58,TODO,,appassionato e pronto,,maschile,
+zsl#0,t#35_ADJ#59,TODO,,appassionato e interessato,,maschile,
+zsl#0,t#35_ADJ#60,TODO,,ambizioso e esperto,,maschile,
+zsl#0,t#35_ADJ#61,TODO,,ambizioso e dinamico,,maschile,
+zsl#0,t#35_ADJ#62,TODO,,ambizioso e motivato,,maschile,
+zsl#0,t#35_ADJ#63,TODO,,ambizioso e appassionato,,maschile,
+zsl#0,t#35_ADJ#64,TODO,,ambizioso e determinato,,maschile,
+zsl#0,t#35_ADJ#65,TODO,,ambizioso e pronto,,maschile,
+zsl#0,t#35_ADJ#66,TODO,,ambizioso e interessato,,maschile,
+zsl#0,t#35_ADJ#67,TODO,,determinato e esperto,,maschile,
+zsl#0,t#35_ADJ#68,TODO,,determinato e dinamico,,maschile,
+zsl#0,t#35_ADJ#69,TODO,,determinato e motivato,,maschile,
+zsl#0,t#35_ADJ#70,TODO,,determinato e appassionato,,maschile,
+zsl#0,t#35_ADJ#71,TODO,,determinato e ambizioso,,maschile,
+zsl#0,t#35_ADJ#72,TODO,,determinato e pronto,,maschile,
+zsl#0,t#35_ADJ#73,TODO,,determinato e interessato,,maschile,
+zsl#0,t#35_ADJ#74,TODO,,pronto e esperto,,maschile,
+zsl#0,t#35_ADJ#75,TODO,,pronto e dinamico,,maschile,
+zsl#0,t#35_ADJ#76,TODO,,pronto e motivato,,maschile,
+zsl#0,t#35_ADJ#77,TODO,,pronto e appassionato,,maschile,
+zsl#0,t#35_ADJ#78,TODO,,pronto e ambizioso,,maschile,
+zsl#0,t#35_ADJ#79,TODO,,pronto e determinato,,maschile,
+zsl#0,t#35_ADJ#80,TODO,,pronto e interessato,,maschile,
+zsl#0,t#35_ADJ#81,TODO,,interessato e esperto,,maschile,
+zsl#0,t#35_ADJ#82,TODO,,interessato e dinamico,,maschile,
+zsl#0,t#35_ADJ#83,TODO,,interessato e motivato,,maschile,
+zsl#0,t#35_ADJ#84,TODO,,interessato e appassionato,,maschile,
+zsl#0,t#35_ADJ#85,TODO,,interessato e ambizioso,,maschile,
+zsl#0,t#35_ADJ#86,TODO,,interessato e determinato,,maschile,
+zsl#0,t#35_ADJ#87,TODO,,interessato e pronto,,maschile,
+zsl#0,t#35_ADJ#88,TODO,,esperta e dinamica,,femminile,
+zsl#0,t#35_ADJ#89,TODO,,esperta e motivata,,femminile,
+zsl#0,t#35_ADJ#90,TODO,,esperta e appassionata,,femminile,
+zsl#0,t#35_ADJ#91,TODO,,esperta e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#92,TODO,,esperta e determinata,,femminile,
+zsl#0,t#35_ADJ#93,TODO,,esperta e pronta,,femminile,
+zsl#0,t#35_ADJ#94,TODO,,esperta e interessata,,femminile,
+zsl#0,t#35_ADJ#95,TODO,,dinamica e esperta,,femminile,
+zsl#0,t#35_ADJ#96,TODO,,dinamica e motivata,,femminile,
+zsl#0,t#35_ADJ#97,TODO,,dinamica e appassionata,,femminile,
+zsl#0,t#35_ADJ#98,TODO,,dinamica e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#99,TODO,,dinamica e determinata,,femminile,
+zsl#0,t#35_ADJ#100,TODO,,dinamica e pronta,,femminile,
+zsl#0,t#35_ADJ#101,TODO,,dinamica e interessata,,femminile,
+zsl#0,t#35_ADJ#102,TODO,,motivata e esperta,,femminile,
+zsl#0,t#35_ADJ#103,TODO,,motivata e dinamica,,femminile,
+zsl#0,t#35_ADJ#104,TODO,,motivata e appassionata,,femminile,
+zsl#0,t#35_ADJ#105,TODO,,motivata e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#106,TODO,,motivata e determinata,,femminile,
+zsl#0,t#35_ADJ#107,TODO,,motivata e pronta,,femminile,
+zsl#0,t#35_ADJ#108,TODO,,motivata e interessata,,femminile,
+zsl#0,t#35_ADJ#109,TODO,,appassionata e esperta,,femminile,
+zsl#0,t#35_ADJ#110,TODO,,appassionata e dinamica,,femminile,
+zsl#0,t#35_ADJ#111,TODO,,appassionata e motivata,,femminile,
+zsl#0,t#35_ADJ#112,TODO,,appassionata e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#113,TODO,,appassionata e determinata,,femminile,
+zsl#0,t#35_ADJ#114,TODO,,appassionata e pronta,,femminile,
+zsl#0,t#35_ADJ#115,TODO,,appassionata e interessata,,femminile,
+zsl#0,t#35_ADJ#116,TODO,,ambiziosa e esperta,,femminile,
+zsl#0,t#35_ADJ#117,TODO,,ambiziosa e dinamica,,femminile,
+zsl#0,t#35_ADJ#118,TODO,,ambiziosa e motivata,,femminile,
+zsl#0,t#35_ADJ#119,TODO,,ambiziosa e appassionata,,femminile,
+zsl#0,t#35_ADJ#120,TODO,,ambiziosa e determinata,,femminile,
+zsl#0,t#35_ADJ#121,TODO,,ambiziosa e pronta,,femminile,
+zsl#0,t#35_ADJ#122,TODO,,ambiziosa e interessata,,femminile,
+zsl#0,t#35_ADJ#123,TODO,,determinata e esperta,,femminile,
+zsl#0,t#35_ADJ#124,TODO,,determinata e dinamica,,femminile,
+zsl#0,t#35_ADJ#125,TODO,,determinata e motivata,,femminile,
+zsl#0,t#35_ADJ#126,TODO,,determinata e appassionata,,femminile,
+zsl#0,t#35_ADJ#127,TODO,,determinata e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#128,TODO,,determinata e pronta,,femminile,
+zsl#0,t#35_ADJ#129,TODO,,determinata e interessata,,femminile,
+zsl#0,t#35_ADJ#130,TODO,,pronta e esperta,,femminile,
+zsl#0,t#35_ADJ#131,TODO,,pronta e dinamica,,femminile,
+zsl#0,t#35_ADJ#132,TODO,,pronta e motivata,,femminile,
+zsl#0,t#35_ADJ#133,TODO,,pronta e appassionata,,femminile,
+zsl#0,t#35_ADJ#134,TODO,,pronta e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#135,TODO,,pronta e determinata,,femminile,
+zsl#0,t#35_ADJ#136,TODO,,pronta e interessata,,femminile,
+zsl#0,t#35_ADJ#137,TODO,,interessata e esperta,,femminile,
+zsl#0,t#35_ADJ#138,TODO,,interessata e dinamica,,femminile,
+zsl#0,t#35_ADJ#139,TODO,,interessata e motivata,,femminile,
+zsl#0,t#35_ADJ#140,TODO,,interessata e appassionata,,femminile,
+zsl#0,t#35_ADJ#141,TODO,,interessata e ambiziosa,,femminile,
+zsl#0,t#35_ADJ#142,TODO,,interessata e determinata,,femminile,
+zsl#0,t#35_ADJ#143,TODO,,interessata e pronta,,femminile,
+zsl#0,t#35_ADJ#144,TODO,,esperto/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#145,TODO,,esperto/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#146,TODO,,esperto/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#147,TODO,,esperto/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#148,TODO,,esperto/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#149,TODO,,esperto/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#150,TODO,,esperto/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#151,TODO,,esperto/a e espert*,,neutro,
+zsl#0,t#35_ADJ#152,TODO,,esperto/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#153,TODO,,esperto/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#154,TODO,,esperto/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#155,TODO,,esperto/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#156,TODO,,esperto/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#157,TODO,,esperto/a e pront*,,neutro,
+zsl#0,t#35_ADJ#158,TODO,,esperto/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#159,TODO,,dinamico/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#160,TODO,,dinamico/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#161,TODO,,dinamico/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#162,TODO,,dinamico/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#163,TODO,,dinamico/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#164,TODO,,dinamico/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#165,TODO,,dinamico/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#166,TODO,,dinamico/a e espert*,,neutro,
+zsl#0,t#35_ADJ#167,TODO,,dinamico/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#168,TODO,,dinamico/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#169,TODO,,dinamico/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#170,TODO,,dinamico/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#171,TODO,,dinamico/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#172,TODO,,dinamico/a e pront*,,neutro,
+zsl#0,t#35_ADJ#173,TODO,,dinamico/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#174,TODO,,motivato/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#175,TODO,,motivato/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#176,TODO,,motivato/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#177,TODO,,motivato/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#178,TODO,,motivato/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#179,TODO,,motivato/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#180,TODO,,motivato/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#181,TODO,,motivato/a e espert*,,neutro,
+zsl#0,t#35_ADJ#182,TODO,,motivato/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#183,TODO,,motivato/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#184,TODO,,motivato/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#185,TODO,,motivato/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#186,TODO,,motivato/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#187,TODO,,motivato/a e pront*,,neutro,
+zsl#0,t#35_ADJ#188,TODO,,motivato/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#189,TODO,,appassionato/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#190,TODO,,appassionato/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#191,TODO,,appassionato/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#192,TODO,,appassionato/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#193,TODO,,appassionato/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#194,TODO,,appassionato/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#195,TODO,,appassionato/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#196,TODO,,appassionato/a e espert*,,neutro,
+zsl#0,t#35_ADJ#197,TODO,,appassionato/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#198,TODO,,appassionato/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#199,TODO,,appassionato/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#200,TODO,,appassionato/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#201,TODO,,appassionato/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#202,TODO,,appassionato/a e pront*,,neutro,
+zsl#0,t#35_ADJ#203,TODO,,appassionato/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#204,TODO,,ambizioso/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#205,TODO,,ambizioso/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#206,TODO,,ambizioso/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#207,TODO,,ambizioso/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#208,TODO,,ambizioso/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#209,TODO,,ambizioso/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#210,TODO,,ambizioso/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#211,TODO,,ambizioso/a e espert*,,neutro,
+zsl#0,t#35_ADJ#212,TODO,,ambizioso/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#213,TODO,,ambizioso/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#214,TODO,,ambizioso/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#215,TODO,,ambizioso/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#216,TODO,,ambizioso/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#217,TODO,,ambizioso/a e pront*,,neutro,
+zsl#0,t#35_ADJ#218,TODO,,ambizioso/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#219,TODO,,determinato/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#220,TODO,,determinato/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#221,TODO,,determinato/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#222,TODO,,determinato/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#223,TODO,,determinato/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#224,TODO,,determinato/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#225,TODO,,determinato/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#226,TODO,,determinato/a e espert*,,neutro,
+zsl#0,t#35_ADJ#227,TODO,,determinato/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#228,TODO,,determinato/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#229,TODO,,determinato/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#230,TODO,,determinato/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#231,TODO,,determinato/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#232,TODO,,determinato/a e pront*,,neutro,
+zsl#0,t#35_ADJ#233,TODO,,determinato/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#234,TODO,,pronto/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#235,TODO,,pronto/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#236,TODO,,pronto/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#237,TODO,,pronto/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#238,TODO,,pronto/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#239,TODO,,pronto/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#240,TODO,,pronto/a e interessato/a,,neutro,
+zsl#0,t#35_ADJ#241,TODO,,pronto/a e espert*,,neutro,
+zsl#0,t#35_ADJ#242,TODO,,pronto/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#243,TODO,,pronto/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#244,TODO,,pronto/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#245,TODO,,pronto/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#246,TODO,,pronto/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#247,TODO,,pronto/a e pront*,,neutro,
+zsl#0,t#35_ADJ#248,TODO,,pronto/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#249,TODO,,interessato/a e esperto/a,,neutro,
+zsl#0,t#35_ADJ#250,TODO,,interessato/a e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#251,TODO,,interessato/a e motivato/a,,neutro,
+zsl#0,t#35_ADJ#252,TODO,,interessato/a e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#253,TODO,,interessato/a e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#254,TODO,,interessato/a e determinato/a,,neutro,
+zsl#0,t#35_ADJ#255,TODO,,interessato/a e pronto/a,,neutro,
+zsl#0,t#35_ADJ#256,TODO,,interessato/a e espert*,,neutro,
+zsl#0,t#35_ADJ#257,TODO,,interessato/a e dinamic*,,neutro,
+zsl#0,t#35_ADJ#258,TODO,,interessato/a e motivat*,,neutro,
+zsl#0,t#35_ADJ#259,TODO,,interessato/a e appassionat*,,neutro,
+zsl#0,t#35_ADJ#260,TODO,,interessato/a e ambizios*,,neutro,
+zsl#0,t#35_ADJ#261,TODO,,interessato/a e determinat*,,neutro,
+zsl#0,t#35_ADJ#262,TODO,,interessato/a e pront*,,neutro,
+zsl#0,t#35_ADJ#263,TODO,,interessato/a e interessat*,,neutro,
+zsl#0,t#35_ADJ#264,TODO,,espert* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#265,TODO,,espert* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#266,TODO,,espert* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#267,TODO,,espert* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#268,TODO,,espert* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#269,TODO,,espert* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#270,TODO,,espert* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#271,TODO,,espert* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#272,TODO,,espert* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#273,TODO,,espert* e motivat*,,neutro,
+zsl#0,t#35_ADJ#274,TODO,,espert* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#275,TODO,,espert* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#276,TODO,,espert* e determinat*,,neutro,
+zsl#0,t#35_ADJ#277,TODO,,espert* e pront*,,neutro,
+zsl#0,t#35_ADJ#278,TODO,,espert* e interessat*,,neutro,
+zsl#0,t#35_ADJ#279,TODO,,dinamic* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#280,TODO,,dinamic* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#281,TODO,,dinamic* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#282,TODO,,dinamic* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#283,TODO,,dinamic* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#284,TODO,,dinamic* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#285,TODO,,dinamic* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#286,TODO,,dinamic* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#287,TODO,,dinamic* e espert*,,neutro,
+zsl#0,t#35_ADJ#288,TODO,,dinamic* e motivat*,,neutro,
+zsl#0,t#35_ADJ#289,TODO,,dinamic* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#290,TODO,,dinamic* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#291,TODO,,dinamic* e determinat*,,neutro,
+zsl#0,t#35_ADJ#292,TODO,,dinamic* e pront*,,neutro,
+zsl#0,t#35_ADJ#293,TODO,,dinamic* e interessat*,,neutro,
+zsl#0,t#35_ADJ#294,TODO,,motivat* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#295,TODO,,motivat* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#296,TODO,,motivat* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#297,TODO,,motivat* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#298,TODO,,motivat* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#299,TODO,,motivat* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#300,TODO,,motivat* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#301,TODO,,motivat* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#302,TODO,,motivat* e espert*,,neutro,
+zsl#0,t#35_ADJ#303,TODO,,motivat* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#304,TODO,,motivat* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#305,TODO,,motivat* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#306,TODO,,motivat* e determinat*,,neutro,
+zsl#0,t#35_ADJ#307,TODO,,motivat* e pront*,,neutro,
+zsl#0,t#35_ADJ#308,TODO,,motivat* e interessat*,,neutro,
+zsl#0,t#35_ADJ#309,TODO,,appassionat* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#310,TODO,,appassionat* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#311,TODO,,appassionat* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#312,TODO,,appassionat* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#313,TODO,,appassionat* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#314,TODO,,appassionat* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#315,TODO,,appassionat* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#316,TODO,,appassionat* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#317,TODO,,appassionat* e espert*,,neutro,
+zsl#0,t#35_ADJ#318,TODO,,appassionat* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#319,TODO,,appassionat* e motivat*,,neutro,
+zsl#0,t#35_ADJ#320,TODO,,appassionat* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#321,TODO,,appassionat* e determinat*,,neutro,
+zsl#0,t#35_ADJ#322,TODO,,appassionat* e pront*,,neutro,
+zsl#0,t#35_ADJ#323,TODO,,appassionat* e interessat*,,neutro,
+zsl#0,t#35_ADJ#324,TODO,,ambizios* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#325,TODO,,ambizios* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#326,TODO,,ambizios* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#327,TODO,,ambizios* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#328,TODO,,ambizios* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#329,TODO,,ambizios* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#330,TODO,,ambizios* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#331,TODO,,ambizios* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#332,TODO,,ambizios* e espert*,,neutro,
+zsl#0,t#35_ADJ#333,TODO,,ambizios* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#334,TODO,,ambizios* e motivat*,,neutro,
+zsl#0,t#35_ADJ#335,TODO,,ambizios* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#336,TODO,,ambizios* e determinat*,,neutro,
+zsl#0,t#35_ADJ#337,TODO,,ambizios* e pront*,,neutro,
+zsl#0,t#35_ADJ#338,TODO,,ambizios* e interessat*,,neutro,
+zsl#0,t#35_ADJ#339,TODO,,determinat* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#340,TODO,,determinat* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#341,TODO,,determinat* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#342,TODO,,determinat* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#343,TODO,,determinat* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#344,TODO,,determinat* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#345,TODO,,determinat* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#346,TODO,,determinat* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#347,TODO,,determinat* e espert*,,neutro,
+zsl#0,t#35_ADJ#348,TODO,,determinat* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#349,TODO,,determinat* e motivat*,,neutro,
+zsl#0,t#35_ADJ#350,TODO,,determinat* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#351,TODO,,determinat* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#352,TODO,,determinat* e pront*,,neutro,
+zsl#0,t#35_ADJ#353,TODO,,determinat* e interessat*,,neutro,
+zsl#0,t#35_ADJ#354,TODO,,pront* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#355,TODO,,pront* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#356,TODO,,pront* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#357,TODO,,pront* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#358,TODO,,pront* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#359,TODO,,pront* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#360,TODO,,pront* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#361,TODO,,pront* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#362,TODO,,pront* e espert*,,neutro,
+zsl#0,t#35_ADJ#363,TODO,,pront* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#364,TODO,,pront* e motivat*,,neutro,
+zsl#0,t#35_ADJ#365,TODO,,pront* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#366,TODO,,pront* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#367,TODO,,pront* e determinat*,,neutro,
+zsl#0,t#35_ADJ#368,TODO,,pront* e interessat*,,neutro,
+zsl#0,t#35_ADJ#369,TODO,,interessat* e esperto/a,,neutro,
+zsl#0,t#35_ADJ#370,TODO,,interessat* e dinamico/a,,neutro,
+zsl#0,t#35_ADJ#371,TODO,,interessat* e motivato/a,,neutro,
+zsl#0,t#35_ADJ#372,TODO,,interessat* e appassionato/a,,neutro,
+zsl#0,t#35_ADJ#373,TODO,,interessat* e ambizioso/a,,neutro,
+zsl#0,t#35_ADJ#374,TODO,,interessat* e determinato/a,,neutro,
+zsl#0,t#35_ADJ#375,TODO,,interessat* e pronto/a,,neutro,
+zsl#0,t#35_ADJ#376,TODO,,interessat* e interessato/a,,neutro,
+zsl#0,t#35_ADJ#377,TODO,,interessat* e espert*,,neutro,
+zsl#0,t#35_ADJ#378,TODO,,interessat* e dinamic*,,neutro,
+zsl#0,t#35_ADJ#379,TODO,,interessat* e motivat*,,neutro,
+zsl#0,t#35_ADJ#380,TODO,,interessat* e appassionat*,,neutro,
+zsl#0,t#35_ADJ#381,TODO,,interessat* e ambizios*,,neutro,
+zsl#0,t#35_ADJ#382,TODO,,interessat* e determinat*,,neutro,
+zsl#0,t#35_ADJ#383,TODO,,interessat* e pront*,,neutro,
+zsl#0,t#36_ADJ#0,TODO,,esperto,,maschile,
+zsl#0,t#36_ADJ#1,TODO,,dinamico,,maschile,
+zsl#0,t#36_ADJ#2,TODO,,motivato,,maschile,
+zsl#0,t#36_ADJ#3,TODO,,appassionato,,maschile,
+zsl#0,t#36_ADJ#4,TODO,,ambizioso,,maschile,
+zsl#0,t#36_ADJ#5,TODO,,determinato,,maschile,
+zsl#0,t#36_ADJ#6,TODO,,pronto,,maschile,
+zsl#0,t#36_ADJ#7,TODO,,interessato,,maschile,
+zsl#0,t#36_ADJ#8,TODO,,esperta,,femminile,
+zsl#0,t#36_ADJ#9,TODO,,dinamica,,femminile,
+zsl#0,t#36_ADJ#10,TODO,,motivata,,femminile,
+zsl#0,t#36_ADJ#11,TODO,,appassionata,,femminile,
+zsl#0,t#36_ADJ#12,TODO,,ambiziosa,,femminile,
+zsl#0,t#36_ADJ#13,TODO,,determinata,,femminile,
+zsl#0,t#36_ADJ#14,TODO,,pronta,,femminile,
+zsl#0,t#36_ADJ#15,TODO,,interessata,,femminile,
+zsl#0,t#36_ADJ#16,TODO,,esperto/a,,neutro,
+zsl#0,t#36_ADJ#17,TODO,,dinamico/a,,neutro,
+zsl#0,t#36_ADJ#18,TODO,,motivato/a,,neutro,
+zsl#0,t#36_ADJ#19,TODO,,appassionato/a,,neutro,
+zsl#0,t#36_ADJ#20,TODO,,ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#21,TODO,,determinato/a,,neutro,
+zsl#0,t#36_ADJ#22,TODO,,pronto/a,,neutro,
+zsl#0,t#36_ADJ#23,TODO,,interessato/a,,neutro,
+zsl#0,t#36_ADJ#24,TODO,,espert*,,neutro,
+zsl#0,t#36_ADJ#25,TODO,,dinamic*,,neutro,
+zsl#0,t#36_ADJ#26,TODO,,motivat*,,neutro,
+zsl#0,t#36_ADJ#27,TODO,,appassionat*,,neutro,
+zsl#0,t#36_ADJ#28,TODO,,ambizios*,,neutro,
+zsl#0,t#36_ADJ#29,TODO,,determinat*,,neutro,
+zsl#0,t#36_ADJ#30,TODO,,pront*,,neutro,
+zsl#0,t#36_ADJ#31,TODO,,interessat*,,neutro,
+zsl#0,t#36_ADJ#32,TODO,,esperto e dinamico,,maschile,
+zsl#0,t#36_ADJ#33,TODO,,esperto e motivato,,maschile,
+zsl#0,t#36_ADJ#34,TODO,,esperto e appassionato,,maschile,
+zsl#0,t#36_ADJ#35,TODO,,esperto e ambizioso,,maschile,
+zsl#0,t#36_ADJ#36,TODO,,esperto e determinato,,maschile,
+zsl#0,t#36_ADJ#37,TODO,,esperto e pronto,,maschile,
+zsl#0,t#36_ADJ#38,TODO,,esperto e interessato,,maschile,
+zsl#0,t#36_ADJ#39,TODO,,dinamico e esperto,,maschile,
+zsl#0,t#36_ADJ#40,TODO,,dinamico e motivato,,maschile,
+zsl#0,t#36_ADJ#41,TODO,,dinamico e appassionato,,maschile,
+zsl#0,t#36_ADJ#42,TODO,,dinamico e ambizioso,,maschile,
+zsl#0,t#36_ADJ#43,TODO,,dinamico e determinato,,maschile,
+zsl#0,t#36_ADJ#44,TODO,,dinamico e pronto,,maschile,
+zsl#0,t#36_ADJ#45,TODO,,dinamico e interessato,,maschile,
+zsl#0,t#36_ADJ#46,TODO,,motivato e esperto,,maschile,
+zsl#0,t#36_ADJ#47,TODO,,motivato e dinamico,,maschile,
+zsl#0,t#36_ADJ#48,TODO,,motivato e appassionato,,maschile,
+zsl#0,t#36_ADJ#49,TODO,,motivato e ambizioso,,maschile,
+zsl#0,t#36_ADJ#50,TODO,,motivato e determinato,,maschile,
+zsl#0,t#36_ADJ#51,TODO,,motivato e pronto,,maschile,
+zsl#0,t#36_ADJ#52,TODO,,motivato e interessato,,maschile,
+zsl#0,t#36_ADJ#53,TODO,,appassionato e esperto,,maschile,
+zsl#0,t#36_ADJ#54,TODO,,appassionato e dinamico,,maschile,
+zsl#0,t#36_ADJ#55,TODO,,appassionato e motivato,,maschile,
+zsl#0,t#36_ADJ#56,TODO,,appassionato e ambizioso,,maschile,
+zsl#0,t#36_ADJ#57,TODO,,appassionato e determinato,,maschile,
+zsl#0,t#36_ADJ#58,TODO,,appassionato e pronto,,maschile,
+zsl#0,t#36_ADJ#59,TODO,,appassionato e interessato,,maschile,
+zsl#0,t#36_ADJ#60,TODO,,ambizioso e esperto,,maschile,
+zsl#0,t#36_ADJ#61,TODO,,ambizioso e dinamico,,maschile,
+zsl#0,t#36_ADJ#62,TODO,,ambizioso e motivato,,maschile,
+zsl#0,t#36_ADJ#63,TODO,,ambizioso e appassionato,,maschile,
+zsl#0,t#36_ADJ#64,TODO,,ambizioso e determinato,,maschile,
+zsl#0,t#36_ADJ#65,TODO,,ambizioso e pronto,,maschile,
+zsl#0,t#36_ADJ#66,TODO,,ambizioso e interessato,,maschile,
+zsl#0,t#36_ADJ#67,TODO,,determinato e esperto,,maschile,
+zsl#0,t#36_ADJ#68,TODO,,determinato e dinamico,,maschile,
+zsl#0,t#36_ADJ#69,TODO,,determinato e motivato,,maschile,
+zsl#0,t#36_ADJ#70,TODO,,determinato e appassionato,,maschile,
+zsl#0,t#36_ADJ#71,TODO,,determinato e ambizioso,,maschile,
+zsl#0,t#36_ADJ#72,TODO,,determinato e pronto,,maschile,
+zsl#0,t#36_ADJ#73,TODO,,determinato e interessato,,maschile,
+zsl#0,t#36_ADJ#74,TODO,,pronto e esperto,,maschile,
+zsl#0,t#36_ADJ#75,TODO,,pronto e dinamico,,maschile,
+zsl#0,t#36_ADJ#76,TODO,,pronto e motivato,,maschile,
+zsl#0,t#36_ADJ#77,TODO,,pronto e appassionato,,maschile,
+zsl#0,t#36_ADJ#78,TODO,,pronto e ambizioso,,maschile,
+zsl#0,t#36_ADJ#79,TODO,,pronto e determinato,,maschile,
+zsl#0,t#36_ADJ#80,TODO,,pronto e interessato,,maschile,
+zsl#0,t#36_ADJ#81,TODO,,interessato e esperto,,maschile,
+zsl#0,t#36_ADJ#82,TODO,,interessato e dinamico,,maschile,
+zsl#0,t#36_ADJ#83,TODO,,interessato e motivato,,maschile,
+zsl#0,t#36_ADJ#84,TODO,,interessato e appassionato,,maschile,
+zsl#0,t#36_ADJ#85,TODO,,interessato e ambizioso,,maschile,
+zsl#0,t#36_ADJ#86,TODO,,interessato e determinato,,maschile,
+zsl#0,t#36_ADJ#87,TODO,,interessato e pronto,,maschile,
+zsl#0,t#36_ADJ#88,TODO,,esperta e dinamica,,femminile,
+zsl#0,t#36_ADJ#89,TODO,,esperta e motivata,,femminile,
+zsl#0,t#36_ADJ#90,TODO,,esperta e appassionata,,femminile,
+zsl#0,t#36_ADJ#91,TODO,,esperta e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#92,TODO,,esperta e determinata,,femminile,
+zsl#0,t#36_ADJ#93,TODO,,esperta e pronta,,femminile,
+zsl#0,t#36_ADJ#94,TODO,,esperta e interessata,,femminile,
+zsl#0,t#36_ADJ#95,TODO,,dinamica e esperta,,femminile,
+zsl#0,t#36_ADJ#96,TODO,,dinamica e motivata,,femminile,
+zsl#0,t#36_ADJ#97,TODO,,dinamica e appassionata,,femminile,
+zsl#0,t#36_ADJ#98,TODO,,dinamica e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#99,TODO,,dinamica e determinata,,femminile,
+zsl#0,t#36_ADJ#100,TODO,,dinamica e pronta,,femminile,
+zsl#0,t#36_ADJ#101,TODO,,dinamica e interessata,,femminile,
+zsl#0,t#36_ADJ#102,TODO,,motivata e esperta,,femminile,
+zsl#0,t#36_ADJ#103,TODO,,motivata e dinamica,,femminile,
+zsl#0,t#36_ADJ#104,TODO,,motivata e appassionata,,femminile,
+zsl#0,t#36_ADJ#105,TODO,,motivata e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#106,TODO,,motivata e determinata,,femminile,
+zsl#0,t#36_ADJ#107,TODO,,motivata e pronta,,femminile,
+zsl#0,t#36_ADJ#108,TODO,,motivata e interessata,,femminile,
+zsl#0,t#36_ADJ#109,TODO,,appassionata e esperta,,femminile,
+zsl#0,t#36_ADJ#110,TODO,,appassionata e dinamica,,femminile,
+zsl#0,t#36_ADJ#111,TODO,,appassionata e motivata,,femminile,
+zsl#0,t#36_ADJ#112,TODO,,appassionata e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#113,TODO,,appassionata e determinata,,femminile,
+zsl#0,t#36_ADJ#114,TODO,,appassionata e pronta,,femminile,
+zsl#0,t#36_ADJ#115,TODO,,appassionata e interessata,,femminile,
+zsl#0,t#36_ADJ#116,TODO,,ambiziosa e esperta,,femminile,
+zsl#0,t#36_ADJ#117,TODO,,ambiziosa e dinamica,,femminile,
+zsl#0,t#36_ADJ#118,TODO,,ambiziosa e motivata,,femminile,
+zsl#0,t#36_ADJ#119,TODO,,ambiziosa e appassionata,,femminile,
+zsl#0,t#36_ADJ#120,TODO,,ambiziosa e determinata,,femminile,
+zsl#0,t#36_ADJ#121,TODO,,ambiziosa e pronta,,femminile,
+zsl#0,t#36_ADJ#122,TODO,,ambiziosa e interessata,,femminile,
+zsl#0,t#36_ADJ#123,TODO,,determinata e esperta,,femminile,
+zsl#0,t#36_ADJ#124,TODO,,determinata e dinamica,,femminile,
+zsl#0,t#36_ADJ#125,TODO,,determinata e motivata,,femminile,
+zsl#0,t#36_ADJ#126,TODO,,determinata e appassionata,,femminile,
+zsl#0,t#36_ADJ#127,TODO,,determinata e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#128,TODO,,determinata e pronta,,femminile,
+zsl#0,t#36_ADJ#129,TODO,,determinata e interessata,,femminile,
+zsl#0,t#36_ADJ#130,TODO,,pronta e esperta,,femminile,
+zsl#0,t#36_ADJ#131,TODO,,pronta e dinamica,,femminile,
+zsl#0,t#36_ADJ#132,TODO,,pronta e motivata,,femminile,
+zsl#0,t#36_ADJ#133,TODO,,pronta e appassionata,,femminile,
+zsl#0,t#36_ADJ#134,TODO,,pronta e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#135,TODO,,pronta e determinata,,femminile,
+zsl#0,t#36_ADJ#136,TODO,,pronta e interessata,,femminile,
+zsl#0,t#36_ADJ#137,TODO,,interessata e esperta,,femminile,
+zsl#0,t#36_ADJ#138,TODO,,interessata e dinamica,,femminile,
+zsl#0,t#36_ADJ#139,TODO,,interessata e motivata,,femminile,
+zsl#0,t#36_ADJ#140,TODO,,interessata e appassionata,,femminile,
+zsl#0,t#36_ADJ#141,TODO,,interessata e ambiziosa,,femminile,
+zsl#0,t#36_ADJ#142,TODO,,interessata e determinata,,femminile,
+zsl#0,t#36_ADJ#143,TODO,,interessata e pronta,,femminile,
+zsl#0,t#36_ADJ#144,TODO,,esperto/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#145,TODO,,esperto/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#146,TODO,,esperto/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#147,TODO,,esperto/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#148,TODO,,esperto/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#149,TODO,,esperto/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#150,TODO,,esperto/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#151,TODO,,esperto/a e espert*,,neutro,
+zsl#0,t#36_ADJ#152,TODO,,esperto/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#153,TODO,,esperto/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#154,TODO,,esperto/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#155,TODO,,esperto/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#156,TODO,,esperto/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#157,TODO,,esperto/a e pront*,,neutro,
+zsl#0,t#36_ADJ#158,TODO,,esperto/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#159,TODO,,dinamico/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#160,TODO,,dinamico/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#161,TODO,,dinamico/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#162,TODO,,dinamico/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#163,TODO,,dinamico/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#164,TODO,,dinamico/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#165,TODO,,dinamico/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#166,TODO,,dinamico/a e espert*,,neutro,
+zsl#0,t#36_ADJ#167,TODO,,dinamico/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#168,TODO,,dinamico/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#169,TODO,,dinamico/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#170,TODO,,dinamico/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#171,TODO,,dinamico/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#172,TODO,,dinamico/a e pront*,,neutro,
+zsl#0,t#36_ADJ#173,TODO,,dinamico/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#174,TODO,,motivato/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#175,TODO,,motivato/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#176,TODO,,motivato/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#177,TODO,,motivato/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#178,TODO,,motivato/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#179,TODO,,motivato/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#180,TODO,,motivato/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#181,TODO,,motivato/a e espert*,,neutro,
+zsl#0,t#36_ADJ#182,TODO,,motivato/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#183,TODO,,motivato/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#184,TODO,,motivato/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#185,TODO,,motivato/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#186,TODO,,motivato/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#187,TODO,,motivato/a e pront*,,neutro,
+zsl#0,t#36_ADJ#188,TODO,,motivato/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#189,TODO,,appassionato/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#190,TODO,,appassionato/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#191,TODO,,appassionato/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#192,TODO,,appassionato/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#193,TODO,,appassionato/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#194,TODO,,appassionato/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#195,TODO,,appassionato/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#196,TODO,,appassionato/a e espert*,,neutro,
+zsl#0,t#36_ADJ#197,TODO,,appassionato/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#198,TODO,,appassionato/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#199,TODO,,appassionato/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#200,TODO,,appassionato/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#201,TODO,,appassionato/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#202,TODO,,appassionato/a e pront*,,neutro,
+zsl#0,t#36_ADJ#203,TODO,,appassionato/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#204,TODO,,ambizioso/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#205,TODO,,ambizioso/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#206,TODO,,ambizioso/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#207,TODO,,ambizioso/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#208,TODO,,ambizioso/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#209,TODO,,ambizioso/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#210,TODO,,ambizioso/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#211,TODO,,ambizioso/a e espert*,,neutro,
+zsl#0,t#36_ADJ#212,TODO,,ambizioso/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#213,TODO,,ambizioso/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#214,TODO,,ambizioso/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#215,TODO,,ambizioso/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#216,TODO,,ambizioso/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#217,TODO,,ambizioso/a e pront*,,neutro,
+zsl#0,t#36_ADJ#218,TODO,,ambizioso/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#219,TODO,,determinato/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#220,TODO,,determinato/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#221,TODO,,determinato/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#222,TODO,,determinato/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#223,TODO,,determinato/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#224,TODO,,determinato/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#225,TODO,,determinato/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#226,TODO,,determinato/a e espert*,,neutro,
+zsl#0,t#36_ADJ#227,TODO,,determinato/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#228,TODO,,determinato/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#229,TODO,,determinato/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#230,TODO,,determinato/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#231,TODO,,determinato/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#232,TODO,,determinato/a e pront*,,neutro,
+zsl#0,t#36_ADJ#233,TODO,,determinato/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#234,TODO,,pronto/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#235,TODO,,pronto/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#236,TODO,,pronto/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#237,TODO,,pronto/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#238,TODO,,pronto/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#239,TODO,,pronto/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#240,TODO,,pronto/a e interessato/a,,neutro,
+zsl#0,t#36_ADJ#241,TODO,,pronto/a e espert*,,neutro,
+zsl#0,t#36_ADJ#242,TODO,,pronto/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#243,TODO,,pronto/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#244,TODO,,pronto/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#245,TODO,,pronto/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#246,TODO,,pronto/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#247,TODO,,pronto/a e pront*,,neutro,
+zsl#0,t#36_ADJ#248,TODO,,pronto/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#249,TODO,,interessato/a e esperto/a,,neutro,
+zsl#0,t#36_ADJ#250,TODO,,interessato/a e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#251,TODO,,interessato/a e motivato/a,,neutro,
+zsl#0,t#36_ADJ#252,TODO,,interessato/a e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#253,TODO,,interessato/a e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#254,TODO,,interessato/a e determinato/a,,neutro,
+zsl#0,t#36_ADJ#255,TODO,,interessato/a e pronto/a,,neutro,
+zsl#0,t#36_ADJ#256,TODO,,interessato/a e espert*,,neutro,
+zsl#0,t#36_ADJ#257,TODO,,interessato/a e dinamic*,,neutro,
+zsl#0,t#36_ADJ#258,TODO,,interessato/a e motivat*,,neutro,
+zsl#0,t#36_ADJ#259,TODO,,interessato/a e appassionat*,,neutro,
+zsl#0,t#36_ADJ#260,TODO,,interessato/a e ambizios*,,neutro,
+zsl#0,t#36_ADJ#261,TODO,,interessato/a e determinat*,,neutro,
+zsl#0,t#36_ADJ#262,TODO,,interessato/a e pront*,,neutro,
+zsl#0,t#36_ADJ#263,TODO,,interessato/a e interessat*,,neutro,
+zsl#0,t#36_ADJ#264,TODO,,espert* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#265,TODO,,espert* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#266,TODO,,espert* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#267,TODO,,espert* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#268,TODO,,espert* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#269,TODO,,espert* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#270,TODO,,espert* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#271,TODO,,espert* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#272,TODO,,espert* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#273,TODO,,espert* e motivat*,,neutro,
+zsl#0,t#36_ADJ#274,TODO,,espert* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#275,TODO,,espert* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#276,TODO,,espert* e determinat*,,neutro,
+zsl#0,t#36_ADJ#277,TODO,,espert* e pront*,,neutro,
+zsl#0,t#36_ADJ#278,TODO,,espert* e interessat*,,neutro,
+zsl#0,t#36_ADJ#279,TODO,,dinamic* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#280,TODO,,dinamic* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#281,TODO,,dinamic* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#282,TODO,,dinamic* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#283,TODO,,dinamic* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#284,TODO,,dinamic* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#285,TODO,,dinamic* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#286,TODO,,dinamic* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#287,TODO,,dinamic* e espert*,,neutro,
+zsl#0,t#36_ADJ#288,TODO,,dinamic* e motivat*,,neutro,
+zsl#0,t#36_ADJ#289,TODO,,dinamic* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#290,TODO,,dinamic* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#291,TODO,,dinamic* e determinat*,,neutro,
+zsl#0,t#36_ADJ#292,TODO,,dinamic* e pront*,,neutro,
+zsl#0,t#36_ADJ#293,TODO,,dinamic* e interessat*,,neutro,
+zsl#0,t#36_ADJ#294,TODO,,motivat* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#295,TODO,,motivat* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#296,TODO,,motivat* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#297,TODO,,motivat* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#298,TODO,,motivat* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#299,TODO,,motivat* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#300,TODO,,motivat* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#301,TODO,,motivat* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#302,TODO,,motivat* e espert*,,neutro,
+zsl#0,t#36_ADJ#303,TODO,,motivat* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#304,TODO,,motivat* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#305,TODO,,motivat* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#306,TODO,,motivat* e determinat*,,neutro,
+zsl#0,t#36_ADJ#307,TODO,,motivat* e pront*,,neutro,
+zsl#0,t#36_ADJ#308,TODO,,motivat* e interessat*,,neutro,
+zsl#0,t#36_ADJ#309,TODO,,appassionat* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#310,TODO,,appassionat* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#311,TODO,,appassionat* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#312,TODO,,appassionat* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#313,TODO,,appassionat* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#314,TODO,,appassionat* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#315,TODO,,appassionat* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#316,TODO,,appassionat* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#317,TODO,,appassionat* e espert*,,neutro,
+zsl#0,t#36_ADJ#318,TODO,,appassionat* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#319,TODO,,appassionat* e motivat*,,neutro,
+zsl#0,t#36_ADJ#320,TODO,,appassionat* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#321,TODO,,appassionat* e determinat*,,neutro,
+zsl#0,t#36_ADJ#322,TODO,,appassionat* e pront*,,neutro,
+zsl#0,t#36_ADJ#323,TODO,,appassionat* e interessat*,,neutro,
+zsl#0,t#36_ADJ#324,TODO,,ambizios* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#325,TODO,,ambizios* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#326,TODO,,ambizios* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#327,TODO,,ambizios* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#328,TODO,,ambizios* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#329,TODO,,ambizios* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#330,TODO,,ambizios* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#331,TODO,,ambizios* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#332,TODO,,ambizios* e espert*,,neutro,
+zsl#0,t#36_ADJ#333,TODO,,ambizios* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#334,TODO,,ambizios* e motivat*,,neutro,
+zsl#0,t#36_ADJ#335,TODO,,ambizios* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#336,TODO,,ambizios* e determinat*,,neutro,
+zsl#0,t#36_ADJ#337,TODO,,ambizios* e pront*,,neutro,
+zsl#0,t#36_ADJ#338,TODO,,ambizios* e interessat*,,neutro,
+zsl#0,t#36_ADJ#339,TODO,,determinat* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#340,TODO,,determinat* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#341,TODO,,determinat* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#342,TODO,,determinat* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#343,TODO,,determinat* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#344,TODO,,determinat* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#345,TODO,,determinat* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#346,TODO,,determinat* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#347,TODO,,determinat* e espert*,,neutro,
+zsl#0,t#36_ADJ#348,TODO,,determinat* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#349,TODO,,determinat* e motivat*,,neutro,
+zsl#0,t#36_ADJ#350,TODO,,determinat* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#351,TODO,,determinat* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#352,TODO,,determinat* e pront*,,neutro,
+zsl#0,t#36_ADJ#353,TODO,,determinat* e interessat*,,neutro,
+zsl#0,t#36_ADJ#354,TODO,,pront* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#355,TODO,,pront* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#356,TODO,,pront* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#357,TODO,,pront* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#358,TODO,,pront* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#359,TODO,,pront* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#360,TODO,,pront* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#361,TODO,,pront* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#362,TODO,,pront* e espert*,,neutro,
+zsl#0,t#36_ADJ#363,TODO,,pront* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#364,TODO,,pront* e motivat*,,neutro,
+zsl#0,t#36_ADJ#365,TODO,,pront* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#366,TODO,,pront* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#367,TODO,,pront* e determinat*,,neutro,
+zsl#0,t#36_ADJ#368,TODO,,pront* e interessat*,,neutro,
+zsl#0,t#36_ADJ#369,TODO,,interessat* e esperto/a,,neutro,
+zsl#0,t#36_ADJ#370,TODO,,interessat* e dinamico/a,,neutro,
+zsl#0,t#36_ADJ#371,TODO,,interessat* e motivato/a,,neutro,
+zsl#0,t#36_ADJ#372,TODO,,interessat* e appassionato/a,,neutro,
+zsl#0,t#36_ADJ#373,TODO,,interessat* e ambizioso/a,,neutro,
+zsl#0,t#36_ADJ#374,TODO,,interessat* e determinato/a,,neutro,
+zsl#0,t#36_ADJ#375,TODO,,interessat* e pronto/a,,neutro,
+zsl#0,t#36_ADJ#376,TODO,,interessat* e interessato/a,,neutro,
+zsl#0,t#36_ADJ#377,TODO,,interessat* e espert*,,neutro,
+zsl#0,t#36_ADJ#378,TODO,,interessat* e dinamic*,,neutro,
+zsl#0,t#36_ADJ#379,TODO,,interessat* e motivat*,,neutro,
+zsl#0,t#36_ADJ#380,TODO,,interessat* e appassionat*,,neutro,
+zsl#0,t#36_ADJ#381,TODO,,interessat* e ambizios*,,neutro,
+zsl#0,t#36_ADJ#382,TODO,,interessat* e determinat*,,neutro,
+zsl#0,t#36_ADJ#383,TODO,,interessat* e pront*,,neutro,
