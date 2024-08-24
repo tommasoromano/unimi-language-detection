@@ -244,6 +244,7 @@ __adj = [
     ("determinato","maschile"),
     ("pronto","maschile"),
     ("interessato","maschile"),
+    # ("specializzato","maschile")
     # ("proattivo","maschile"),
     # ("collaborativo","maschile"),
     # ("orientato","maschile"),

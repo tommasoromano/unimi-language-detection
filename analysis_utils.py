@@ -9,7 +9,7 @@ def fix_df(df:pd.DataFrame, model, show_plot=False):
     if 'text_JOB_value' in df.columns:
         df['text_JOB_value'] = df.apply(lambda x: x['text_JOB_value'] if isinstance(x['text_JOB_value'],str) else "", axis=1)
         df['text_ADJ_value'] = df.apply(lambda x: x['text_ADJ_value'] if isinstance(x['text_ADJ_value'],str) else "", axis=1)
-        df['text_VERB_value'] = df.apply(lambda x: x['text_VERB_value'] if isinstance(x['text_VERB_value'],str) else "", axis=1)
+        if 'text_VERB_value' in df.columns: df['text_VERB_value'] = df.apply(lambda x: x['text_VERB_value'] if isinstance(x['text_VERB_value'],str) else "", axis=1)
 
     def make_label(x):
         if x['text_labels'] != 'TODO':
@@ -159,18 +159,15 @@ def contains(df, ls:list[str], invert=False):
 
 def metrics(df):
     total = len(df)
-    gt_pos = len(df[df['true'] == 'INCLUSIVO'])
-    gt_neg = len(df[df['true'] == 'NON INCLUSIVO'])
+    gt_pos = max(1,len(df[df['true'] == 'INCLUSIVO']))
+    gt_neg = max(1,len(df[df['true'] == 'NON INCLUSIVO']))
     pred_pos = len(df[df['response'] == 'INCLUSIVO'])
     pred_neg = len(df[df['response'] == 'NON INCLUSIVO'])
     true_positives = len(df[(df['true'] == 'INCLUSIVO') & (df['response'] == 'INCLUSIVO')])
     true_negatives = len(df[(df['true'] == 'NON INCLUSIVO') & (df['response'] == 'NON INCLUSIVO')])
     false_positives = len(df[(df['true'] == 'NON INCLUSIVO') & (df['response'] == 'INCLUSIVO')])
     false_negatives = len(df[(df['true'] == 'INCLUSIVO') & (df['response'] == 'NON INCLUSIVO')])
-    # print(f"TP: {len(true_positives)}")
-    # print(f"TN: {len(true_negatives)}")
-    # print(f"FP: {len(false_positives)}")
-    # print(f"FN: {len(false_negatives)}")
+
     try:
         sensitivity = true_positives / (true_positives + false_negatives)
     except:
@@ -195,12 +192,7 @@ def metrics(df):
         negative_predictive_value = true_negatives / (true_negatives + false_negatives)
     except:
         negative_predictive_value = None
-    # print(f"Sensitivity: {sensitivity}")
-    # print(f"Specificity: {specificity}")
-    # print(f"Accuracy: {accuracy}")
-    # print(f"Precision: {precision}")
-    # print(f"F1: {f1}")
-    # print(f"Negative Predictive Value: {negative_predictive_value}")
+        
     return {
         'total': total,
         'gt_pos': gt_pos,
@@ -211,6 +203,8 @@ def metrics(df):
         'gt_neg%': gt_neg/total,
         'pred_pos%': pred_pos/total,
         'pred_neg%': pred_neg/total,
+        'pred/gt_pos%': (pred_pos)/gt_pos,
+        'pred/gt_neg%': (pred_neg)/gt_neg,
         'true_positives': true_positives/total,
         'true_negatives': true_negatives/total,
         'false_positives': false_positives/total,
@@ -224,10 +218,14 @@ def metrics(df):
     }
 
 def plot_metrics(res_df, title):
-
-    return
-
     res_df_melt = res_df.melt(id_vars=['name'], var_name='metric', value_name='value')
+    return
+    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
+        'pred/gt_pos%',
+        'pred/gt_neg%',
+    ])], x='metric', y='value', hue='name')
+    plt.title(f"Groud Truth vs Pred{title}")
+    plt.show()
 
     sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
         'gt_pos',
@@ -311,3 +309,35 @@ def confusion_matrix(df):
     disp = skm.ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=LABELS)
     disp.plot()
     plt.show()
+
+def analyze_len(df):
+    res_df = None
+    for ln in df['len_label'].unique():
+    #for ln in df['len'].unique():
+        _metrics = metrics(df[df['len_label'] == ln])
+        #_metrics = metrics(df_len[df_len['len'] == ln])
+        _metrics['name'] = ln
+        if res_df is None:
+            res_df = pd.DataFrame(_metrics, index=[0])
+        else:
+            res_df = pd.concat([res_df, pd.DataFrame(_metrics, index=[0])])
+
+    res_df.dropna()
+    res_df['name'] = res_df.apply(lambda x: int(x['name']), axis=1)
+    res_df = res_df.sort_values('name', ascending=False)
+    plt.plot(res_df['name'],res_df['precision'])
+    plt.show()
+
+def metrics_of_dfs(dfs:tuple[pd.DataFrame,str]):
+    all = metrics(dfs[0][0])
+    all['name'] = dfs[0][1]
+    res_df = pd.DataFrame(all, index=[0])
+
+    for df, nm in dfs[1:]:
+        if len(df) == 0:
+            continue
+        _metrics = metrics(df)
+        _metrics['name'] = nm
+        res_df = pd.concat([res_df, pd.DataFrame(_metrics, index=[0])])
+
+    return res_df

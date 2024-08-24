@@ -21,4 +21,3 @@ def sc_df_finetuned_seed(remove_reinference=False):
 
     df_fix = fix_df(df, model, show_plot=False)
     return df_fix
-
