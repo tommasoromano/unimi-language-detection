@@ -7,8 +7,23 @@ from datasets import Dataset, DatasetDict
 
 if __name__ == '__main__':
 
-    def generate_diff_len(texts:list[tuple[str,str]],):
-        return texts
+    def text_maker(texts:list[tuple[str,str]], n_chars):
+        res = []
+        new_text = ""
+        new_label = "INCLUSIVO"
+        for text,label in texts:
+            if label == "TODO":
+                new_label = label
+            new_text += "\n" + text
+            if len(new_text) > n_chars:
+                res.append((new_text,new_label))
+                new_text = ""
+                new_label = "INCLUSIVO"
+        if new_text != "":
+            res.append((new_text,new_label))
+            new_text = ""
+            new_label = "INCLUSIVO"
+        return res
 
 
     res_all_dict = {}

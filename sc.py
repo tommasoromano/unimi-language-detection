@@ -4,6 +4,24 @@ from data.prompts import *
 from data.texts import *
 from analysis_utils import *
 
+def text_maker(texts:list[tuple[str,str]], n_chars):
+    res = []
+    new_text = ""
+    new_label = "INCLUSIVO"
+    for text,label in texts:
+        if label == "TODO":
+            new_label = label
+        new_text += "\n" + text
+        if len(new_text) > n_chars:
+            res.append((new_text,new_label))
+            new_text = ""
+            new_label = "INCLUSIVO"
+    if new_text != "":
+        res.append((new_text,new_label))
+        new_text = ""
+        new_label = "INCLUSIVO"
+    return res
+
 def sc_df_finetuned_seed(remove_reinference=False):
     model ='phi3-finetuned'
     df = pd.read_csv(f'results/{model}-seed-eval-v0.csv')
@@ -21,3 +39,16 @@ def sc_df_finetuned_seed(remove_reinference=False):
 
     df_fix = fix_df(df, model, show_plot=False)
     return df_fix
+
+def sc_make_test_data():
+    def texts():
+        res = TEXT_JOB_TEST_v0.copy()
+        for ls in [
+            JOBS_SPLIT_v0_n3,
+            JOBS_SEED_SPLIT_v0_n1,
+        ]:
+            res += text_maker(ls, 400)
+            res += text_maker(ls, 800)
+            res += text_maker(ls, 16000000)
+        return res
+    return DataGenerator.generate(texts(), SUBS_JOBS_V0)
