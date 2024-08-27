@@ -65,11 +65,11 @@ if __name__ == '__main__':
     'llama3:instruct',
     'mistral',
     'gemma2',
-    'phi3',
+    'phi3:medium',
     ]:
     print(model)
     model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
-    ResponseGenerator.generate(f"results/{model}_{SEED}split-long-v0.csv", 
+    ResponseGenerator.generate(f"results/{model.split(':')[0]}_{SEED}split-long-v0.csv", 
                                data, 
                                prompts,
                                lambda prompt, text: PROMPTS_JOB_V0_F(prompt, text, model_f), 
