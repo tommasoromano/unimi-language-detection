@@ -34,8 +34,8 @@ if __name__ == '__main__':
       print(d)
     exit()
 
-  SEED = ""
   SEED = "seed-"
+  SEED = ""
 
   # Generate synthetic data and run models
   prompts = PromptGenerator.generate(
