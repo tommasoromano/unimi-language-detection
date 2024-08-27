@@ -57,11 +57,12 @@ if __name__ == '__main__':
   model = 'gemma2'
   model = 'mistral'
   model = 'qwen2'
-  model = 'llama3.1'
+  model = 'llama3'
   model = 'phi3'
   for model in [
     # 'qwen2',
-    'llama3.1',
+    # 'llama3.1',
+    'llama3:instruct',
     'mistral',
     'gemma2',
     'phi3',
