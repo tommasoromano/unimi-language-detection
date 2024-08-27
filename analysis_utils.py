@@ -2,6 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sklearn.metrics as skm
+from nlp_synt_data import *
+from sc import *
+from data.texts import *
 LABELS = ['INCLUSIVO', 'NON INCLUSIVO']
 
 def fix_df(df:pd.DataFrame, model, show_plot=False):

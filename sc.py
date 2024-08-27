@@ -40,15 +40,16 @@ def sc_df_finetuned_seed(remove_reinference=False):
     df_fix = fix_df(df, model, show_plot=False)
     return df_fix
 
+def sc_test_texts():
+    res = TEXT_JOB_TEST_v0.copy()
+    for ls in [
+        JOBS_SPLIT_v0_n3,
+        JOBS_SEED_SPLIT_v0_n1,
+    ]:
+        res += text_maker(ls, 400)
+        res += text_maker(ls, 800)
+        res += text_maker(ls, 16000000)
+    return res
+    
 def sc_make_test_data():
-    def texts():
-        res = TEXT_JOB_TEST_v0.copy()
-        for ls in [
-            JOBS_SPLIT_v0_n3,
-            JOBS_SEED_SPLIT_v0_n1,
-        ]:
-            res += text_maker(ls, 400)
-            res += text_maker(ls, 800)
-            res += text_maker(ls, 16000000)
-        return res
-    return DataGenerator.generate(texts(), SUBS_JOBS_V0)
+    return DataGenerator.generate(sc_test_texts(), SUBS_JOBS_V0)
