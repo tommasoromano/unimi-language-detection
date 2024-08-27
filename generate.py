@@ -60,8 +60,11 @@ if __name__ == '__main__':
   model = 'llama3.1'
   model = 'phi3'
   for model in [
+    # 'qwen2',
+    'llama3.1',
+    'mistral',
+    'gemma2',
     'phi3',
-    # 'gemma2',
     ]:
     print(model)
     model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
