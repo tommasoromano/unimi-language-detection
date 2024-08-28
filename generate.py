@@ -54,18 +54,14 @@ if __name__ == '__main__':
 
   # model = 'llama3:instruct'
   n_pass = 1
-  model = 'gemma2'
-  model = 'mistral'
-  model = 'qwen2'
-  model = 'llama3'
-  model = 'phi3'
+
   for model in [
-    # 'qwen2',
     # 'llama3.1',
     'llama3:instruct',
     'mistral',
     'gemma2',
-    'phi3:medium',
+    'qwen2',
+    # 'phi3:medium',
     ]:
     print(model)
     model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
