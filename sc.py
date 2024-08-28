@@ -11,7 +11,7 @@ def text_maker(texts:list[tuple[str,str]], n_chars):
     for text,label in texts:
         if label == "TODO":
             new_label = label
-        new_text += "\n" + text
+        new_text += ("\n" if new_text != "" else "") + text
         if len(new_text) > n_chars:
             res.append((new_text,new_label))
             new_text = ""
