@@ -3,28 +3,30 @@ import pandas as pd
 PROMPTS_JOB_V0 = {
   'zsl': [
     """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO".""",
+    """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed assegnare al testo il label "NON INCLUSIVO" o "INCLUSIVO".
+    Queste sono le indicazioni che devi seguire:
+    - se il testo presenta nomi, aggettivi, pronomi o verbi che si riferiscono a un genere specifico, rispondi con "NON INCLUSIVO"
+    - se il testo si riferisce a entrambi i generi, rispondi con "INCLUSIVO"
+    - se il testo si riferisce a nessun genere specifico, rispondi con "INCLUSIVO"
+    Rispondi solamente con "NON INCLUSIVO" o "INCLUSIVO" al seguente testo.""",
   ],
+  #  ' 1) LEGGE ED ANALIZZA ANNUNCI DI LAVORO IN ITALIANO\n\n2) IDENTIFICA SE IL TESTO CONTIENE NOMI DI PROFESSIONI\n\n3) DETERMINA SE LA FRASE SI STA RIFERENDO A ENTRAMBI I GENERI\n\n4) RISPONDE SOLO CON "NON INCLUSIVO" O "INCLUSIVO"\n\nPER POTER ESEGUIRE CORRETTAMENTE IL MIO COMPITO, DEVO ANALIZZARE LA STRUTTURA SINTATTICA ED I TERMINI UTILIZZATI NELL\'ANNUNCIO DI LAVORO. AD ESEMPIO:\n\n- ANNUNCIO 1: "CERCIAMO UN PROGETTISTA PER IL NOSTRO TEAM." (NON INCLUSIVO)\n- ANNUNCIO 2: "STIAMO A CACCIA DI UN\'ASSISTENTE MARKETING PER PROMUOVERE I NOSTRI PRODOTTI." (NON INCLUSIVO)\n- ANNUNCIO 3: "CERCHIAMO UNA PERSONA QUALIFICATA PER OCCUPARE IL RUOLO DI COORDINATORE LOGISTICO, SIA PER UOMINI CHE PER DONNE." (INCLUSIVO)\n- ANNUNCIO 4: "ABBIAMO APERTO UN POSTO PER INFERMIERA NEI NOSTRI OSPEDALI E CI ASPETTIAMO PROFESSIONISTE QUALIFICATE." (INCLUSIVO)',
   'fsl': [
-    '''Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO". Esempi:
-    Frase: Requisiti:
-    Risposta: INCLUSIVO
-    
-    Frase: Studio Legale Rossi & Associati cerca programmatrice
-    Risposta: NON INCLUSIVO
-    
-    Frase: Archiviazione e gestione della documentazione fisica e digitale
-    Risposta: INCLUSIVO
-    
-    Frase: Cerchiamo un programmatore
-    Risposta: NON INCLUSIVO
-    
-    Frase: Cerchiamo un programmatore/programmatrice
-    Risposta: INCLUSIVO
-    
-    Frase: Offriamo:
-    Risposta: INCLUSIVO
-    
-    Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO"''',
+    """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO".
+    Qui ci sono alcuni esempi di risposte corrette:
+    - "INCLUSIVO" per "Cerchiamo addett*"
+    - "INCLUSIVO" per "Offriamo"
+    - "NON INCLUSIVO" per "Siamo alla ricerca di impiegato per una prestigiosa realtà del settore bancario con sede in provincia di Bergamo."
+    - "NON INCLUSIVO" per "Cerchiamo un programmatore"
+    - "INCLUSIVO" per "Requisiti:"
+    - "INCLUSIVO" per "Hai spirito di iniziativa? Hai passione per la ristorazione e hai maturato esperienza come cuoco/a?"
+    - "INCLUSIVO" per "Ottima conoscenza del pacchetto Office e dei principali software gestionali',
+    - "NON INCLUSIVO" per "Sei esperta"
+    - "INCLUSIVO" per "Descrizione del ruolo:"
+    - "NON INCLUSIVO" per "sei giovane, appassionato del settore immobiliare?"
+    - "NON INCLUSIVO" per "Sarai contattato per un colloquio conoscitivo."
+    - "INCLUSIVO" per "Capacità di lavorare in modo autonomo e in team"
+    Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO" al seguente testo.""",
   ],
   'cot': [
     '''Frase: Studio Legale Rossi & Associati cerca programmatrice
@@ -93,7 +95,7 @@ PROMPTS_JOB_V0 = {
   ]
 }
 
-PROMPTS_JOB_V0_KEYS = [['zsl',],['fsl',],['cot',],]
+PROMPTS_JOB_V0_KEYS = [['zsl',],['fsl',]]#,['cot',],]
 PROMPTS_JOB_V0_KEYS_FINETUNING = [['zsl',],]
 def PROMPTS_JOB_V0_F(prompt, text, model_func):
   messages = [
