@@ -34,18 +34,17 @@ if __name__ == '__main__':
       print(d)
     exit()
 
-  SEED = "seed-"
-  SEED = ""
+  SEED = False
 
   # Generate synthetic data and run models
   prompts = PromptGenerator.generate(
     PROMPTS_JOB_V0, 
-    # PROMPTS_JOB_V0_KEYS,
-    [['zsl',],],
+    PROMPTS_JOB_V0_KEYS,
+    # [['zsl',],],
     )
 
   # data = DataGenerator.generate(TEXT_v0, SUBS_JOBS_V0)
-  if SEED != "":
+  if SEED:
     data = DataGenerator.generate(
       TEXT_SEED_v0(), 
       SUBS_JOBS_V0)
@@ -65,7 +64,7 @@ if __name__ == '__main__':
     ]:
     print(model)
     model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
-    ResponseGenerator.generate(f"results/{model.split(':')[0]}_{SEED}split-long-v0.csv", 
+    ResponseGenerator.generate(sc_csv_name(model, False, SEED), 
                                data, 
                                prompts,
                                lambda prompt, text: PROMPTS_JOB_V0_F(prompt, text, model_f), 

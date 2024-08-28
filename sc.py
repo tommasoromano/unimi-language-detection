@@ -55,7 +55,7 @@ def sc_make_test_data():
     return DataGenerator.generate(sc_test_texts(), SUBS_JOBS_V0)
 
 def sc_csv_name(model, finetuned, seed):
-    s = f"results/{model}-"
+    s = f"results/{model.split(':')[0]}-"
     s += "finetuned-" if finetuned else ""
     s += "seed-" if seed else ""
     s += "split-long-v0.csv"
