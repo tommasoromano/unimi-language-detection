@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="faFGbYDfc-yJfE558ecA">
-    <mxGraphModel dx="1468" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2417" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,6 +378,86 @@
         </mxCell>
         <mxCell id="7Tq9BGAHgtOxUq2Agoqu-64" value="Evaluation&lt;div&gt;(data, prompts, ...)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1880" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-68" target="7Tq9BGAHgtOxUq2Agoqu-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1340" />
+              <mxPoint x="360" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-68" value="Evaluation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-69" target="7Tq9BGAHgtOxUq2Agoqu-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1540" />
+              <mxPoint x="360" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-69" value="Evaluation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-70" value="Comparison" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-71" target="7Tq9BGAHgtOxUq2Agoqu-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-71" value="Inference&lt;div&gt;(pretrained models)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-72" target="7Tq9BGAHgtOxUq2Agoqu-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-72" value="Finetunding" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-73" target="7Tq9BGAHgtOxUq2Agoqu-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-73" value="Inference&lt;div&gt;(finetuned models)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-74" target="7Tq9BGAHgtOxUq2Agoqu-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1410" />
+              <mxPoint x="-40" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sourcePerimeterSpacing=10;targetPerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-74" target="7Tq9BGAHgtOxUq2Agoqu-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1430" />
+              <mxPoint x="-40" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-74" value="Datasets Generation&lt;div&gt;(train, test)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-75" target="7Tq9BGAHgtOxUq2Agoqu-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;sourcePerimeterSpacing=10;" edge="1" parent="1" source="7Tq9BGAHgtOxUq2Agoqu-75" target="7Tq9BGAHgtOxUq2Agoqu-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="1550" />
+              <mxPoint x="-50" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Tq9BGAHgtOxUq2Agoqu-75" value="HuggingFace" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/huggingface-2.svg;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1500" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

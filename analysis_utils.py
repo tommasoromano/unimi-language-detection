@@ -146,9 +146,9 @@ def metrics(df):
     false_negatives = len(df[(df['true'] == 'INCLUSIVO') & (df['response'] == 'NON INCLUSIVO')])
 
     try:
-        sensitivity = true_positives / (true_positives + false_negatives)
+        recall = true_positives / (true_positives + false_negatives)
     except:
-        sensitivity = None
+        recall = None
     try:
         specificity = true_negatives / (true_negatives + false_positives)
     except:
@@ -162,7 +162,7 @@ def metrics(df):
     except:
         precision = None
     try:
-        f1 = 2 * (precision * sensitivity) / (precision + sensitivity)
+        f1 = 2 * (precision * recall) / (precision + recall)
     except:
         f1 = None
     try:
@@ -182,11 +182,11 @@ def metrics(df):
         'pred_neg%': pred_neg/total,
         'pred/gt_pos%': (pred_pos)/gt_pos,
         'pred/gt_neg%': (pred_neg)/gt_neg,
-        'true_positives': true_positives/total,
-        'true_negatives': true_negatives/total,
-        'false_positives': false_positives/total,
-        'false_negatives': false_negatives/total,
-        'sensitivity': sensitivity,
+        'true_positives': true_positives/gt_pos,
+        'true_negatives': true_negatives/gt_neg,
+        'false_positives': false_positives/gt_neg,
+        'false_negatives': false_negatives/gt_pos,
+        'recall': recall,
         'specificity': specificity,
         'accuracy': accuracy,
         'precision': precision,
@@ -250,7 +250,7 @@ def plot_metrics(res_df, title):
     plt.show()
 
     ax = sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'sensitivity',
+        'recall',
         'specificity',
         'accuracy',
         'precision',
@@ -262,7 +262,7 @@ def plot_metrics(res_df, title):
     plt.show()
 
     ax = sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'sensitivity',
+        'recall',
         'specificity',
         'accuracy',
         'precision',
@@ -281,10 +281,38 @@ def make_df_len(df:pd.DataFrame, groups=10):
     df['len_group'] = df.apply(lambda x: f"{((x['len']+step)//step)*step}", axis=1)
     return df
 
+def make_df_multi_metrics(df_metrics, metrics=[]):
+    df_metrics = df_metrics.copy()
+    if len(metrics) != 0:
+        df_metrics = df_metrics[["name"] + metrics]
+    res_df_melt = df_metrics.melt(id_vars=['name'], var_name='metric', value_name='value')
+    return res_df_melt
+
 def confusion_matrix(df, true_col='true', pred_col='response'):
-    cm = skm.confusion_matrix(df['true'], df['response'], labels=LABELS, normalize='true')
+    cm = skm.confusion_matrix(df[true_col], df[pred_col], labels=LABELS, normalize='true')
     disp = skm.ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=LABELS)
     disp.plot()
+    plt.show()
+
+def plot_compare_matrix(df_metrics):
+    df = make_df_multi_metrics(df_metrics, [
+        'true_positives',
+        'true_negatives',
+        'false_positives',
+        'false_negatives',
+    ])
+    sns.barplot(data=df, x='metric', y='value', hue='name')
+    plt.title(f"Confusion Matrix Comparison")
+    plt.show()
+
+def plot_compare_performance_models(df_metrics):
+    df = make_df_multi_metrics(df_metrics, [
+        'precision',
+        'recall',
+        'f1',
+    ])
+    sns.barplot(data=df, x='metric', y='value', hue='name')
+    plt.title(f"Performance of Models")
     plt.show()
 
 def fix_df_len_metrics(df_metrics):
@@ -316,13 +344,6 @@ def plot_len_groups(dfs):
 
     sns.countplot(data=res_df, x='len_group', hue="model")
     plt.show()
-
-def make_df_multi_metrics(df_metrics, metrics=[]):
-    df_metrics = df_metrics.copy()
-    if len(metrics) != 0:
-        df_metrics = df_metrics[["name"] + metrics]
-    res_df_melt = df_metrics.melt(id_vars=['name'], var_name='metric', value_name='value')
-    return res_df_melt
 
 def plot_multi_metrics(df_metrics, metrics=[]):
     df_metrics = make_df_multi_metrics(df_metrics, metrics)
