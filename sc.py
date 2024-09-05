@@ -56,7 +56,7 @@ def sc_make_test_data():
 
 def sc_csv_name(model, finetuned, seed):
     s = f"results/{model.split(':')[0]}-"
-    s += "finetuned-" if finetuned else ""
+    s += "finetuned-" if finetuned and 'finetuned' not in model else ""
     s += "seed-" if seed else ""
     s += "split-long-v0.csv"
     return s

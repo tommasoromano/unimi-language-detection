@@ -194,85 +194,6 @@ def metrics(df):
         'negative_predictive_value': negative_predictive_value
     }
 
-def plot_metrics(res_df, title):
-    res_df_melt = res_df.melt(id_vars=['name'], var_name='metric', value_name='value')
-    return
-    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'pred/gt_pos%',
-        'pred/gt_neg%',
-    ])], x='metric', y='value', hue='name')
-    plt.title(f"Groud Truth vs Pred{title}")
-    plt.show()
-
-    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'gt_pos',
-        'gt_neg',
-        'pred_pos',
-        'pred_neg',
-    ])], x='metric', y='value', hue='name')
-    plt.title(f"Groud Truth vs Pred{title}")
-    plt.show()
-
-    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'gt_pos%',
-        'gt_neg%',
-        'pred_pos%',
-        'pred_neg%',
-    ])], x='metric', y='value', hue='name')
-    plt.title(f"Groud Truth vs Pred{title}")
-    plt.show()
-
-    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'gt_pos%',
-        'gt_neg%',
-        'pred_pos%',
-        'pred_neg%',
-    ])], x='name', y='value', hue='metric')
-    plt.title(f"Groud Truth vs Pred{title}")
-    plt.show()
-
-    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'true_positives',
-        'true_negatives',
-        'false_positives',
-        'false_negatives',
-    ])], x='metric', y='value', hue='name')
-    plt.title(f"Confusion Matrix{title}")
-    plt.show()
-
-    sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'true_positives',
-        'true_negatives',
-        'false_positives',
-        'false_negatives',
-    ])], x='name', y='value', hue='metric')
-    plt.title(f"Confusion Matrix{title}")
-    plt.show()
-
-    ax = sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'recall',
-        'specificity',
-        'accuracy',
-        'precision',
-        'f1',
-        # 'negative_predictive_value',
-    ])], x='metric', y='value', hue='name')
-    sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
-    plt.title(f"Metrics{title}")
-    plt.show()
-
-    ax = sns.barplot(data=res_df_melt[res_df_melt['metric'].isin([
-        'recall',
-        'specificity',
-        'accuracy',
-        'precision',
-        'f1',
-        # 'negative_predictive_value',
-    ])], x='name', y='value', hue='metric')
-    sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
-    plt.title(f"Metrics{title}")
-    plt.show()
-
 def make_df_len(df:pd.DataFrame, groups=10):
     # df['len'] = df.apply(lambda x: len(x['text']), axis=1)
     mn = 0 # df['len'].min()
@@ -281,75 +202,12 @@ def make_df_len(df:pd.DataFrame, groups=10):
     df['len_group'] = df.apply(lambda x: f"{((x['len']+step)//step)*step}", axis=1)
     return df
 
-def make_df_multi_metrics(df_metrics, metrics=[]):
+def make_df_multi_metrics(df_metrics:pd.DataFrame, metrics=[]):
     df_metrics = df_metrics.copy()
     if len(metrics) != 0:
         df_metrics = df_metrics[["name"] + metrics]
     res_df_melt = df_metrics.melt(id_vars=['name'], var_name='metric', value_name='value')
     return res_df_melt
-
-def confusion_matrix(df, true_col='true', pred_col='response'):
-    cm = skm.confusion_matrix(df[true_col], df[pred_col], labels=LABELS, normalize='true')
-    disp = skm.ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=LABELS)
-    disp.plot()
-    plt.show()
-
-def plot_compare_matrix(df_metrics):
-    df = make_df_multi_metrics(df_metrics, [
-        'true_positives',
-        'true_negatives',
-        'false_positives',
-        'false_negatives',
-    ])
-    sns.barplot(data=df, x='metric', y='value', hue='name')
-    plt.title(f"Confusion Matrix Comparison")
-    plt.show()
-
-def plot_compare_performance_models(df_metrics):
-    df = make_df_multi_metrics(df_metrics, [
-        'precision',
-        'recall',
-        'f1',
-    ])
-    sns.barplot(data=df, x='metric', y='value', hue='name')
-    plt.title(f"Performance of Models")
-    plt.show()
-
-def fix_df_len_metrics(df_metrics):
-    df_metrics = df_metrics.copy()
-    df_metrics = df_metrics[df_metrics["name"].str.contains("_")]
-    df_metrics["len_group"] = df_metrics.apply(lambda x: int(x['name'].split("_")[1]), axis=1)
-    df_metrics["model"] = df_metrics.apply(lambda x: x['name'].split("_")[0], axis=1)
-    return df_metrics
-
-def plot_len_metrics(df_metrics, metric_col):
-    sns.relplot(
-        data=df_metrics[["model","len_group",metric_col]], kind="line",
-        x="len_group", y=metric_col, hue="model", markers=True, dashes=False,
-    )
-    plt.show()
-
-def plot_len_groups(dfs):
-    res_df = dfs[0][0].copy()
-    res_df["model"] = dfs[0][1]
-
-    for df, nm in dfs[1:]:
-        if len(df) == 0:
-            continue
-        _df = df.copy()
-        _df["model"] = nm
-        res_df = pd.concat([res_df, _df])
-    
-    res_df.reset_index(drop=True, inplace=True)
-
-    sns.countplot(data=res_df, x='len_group', hue="model")
-    plt.show()
-
-def plot_multi_metrics(df_metrics, metrics=[]):
-    df_metrics = make_df_multi_metrics(df_metrics, metrics)
-    sns.barplot(data=df_metrics, x='value', y='name', hue='metric')
-    plt.show()
-
 
 def metrics_of_dfs(dfs:list[tuple[pd.DataFrame,str]]):
     all = metrics(dfs[0][0])
@@ -365,6 +223,163 @@ def metrics_of_dfs(dfs:list[tuple[pd.DataFrame,str]]):
     
     res_df.reset_index(drop=True, inplace=True)
     return res_df
+
+def make_all_dfs(
+        models:list[str]=[
+    "phi3-finetuned",
+    "llama3",
+    "mistral",
+    "gemma2",
+    "qwen2",
+    ],
+    is_seed:bool=False,
+):
+    dfs_all = []
+    dfs_by_len = []
+    dfs_by_prompt = []
+    dfs_by_pl = []
+    # df = pd.read_csv(f'results/{model}_split-long-v0.csv')
+    for model in models:
+        print(model)
+        try:
+            df = pd.read_csv(sc_csv_name(model, False, is_seed))
+            df = fix_df(df)
+            # df = count_contains(df, "response", "INCLUSIVO", True)
+            # df = simple_fix_response(df)
+            df = fix_df_model_response(df, model)
+            # confusion_matrix(df)
+            df = make_df_len(df)
+            dfs_all.append((df,model))
+            for p in df['prompt_id'].unique():
+                df_ = df[df['prompt_id'] == p]
+                dfs_by_prompt.append((df_,f"{model}_{p}"))
+            for l in df['len_group'].unique():
+                df_ = df[df['len_group'] == l]
+                dfs_by_len.append((df_,f"{model}_{l}"))
+            for p in df['prompt_id'].unique():
+                df_ = df[df['prompt_id'] == p]
+                for l in df['len_group'].unique():
+                    df__ = df_[df_['len_group'] == l]
+                    dfs_by_pl.append((df__,f"{model}_{p}_{l}"))
+        except Exception as e:
+            print(model, e)
+    return dfs_all ,dfs_by_len ,dfs_by_prompt ,dfs_by_pl 
+
+def get_best_prompt(
+        dfs:list[tuple[pd.DataFrame,str]],
+        metric='precision',
+        ):
+    df_metrics = metrics_of_dfs(dfs).sort_values(metric, ascending=False)
+    res = dict()
+    for row in df_metrics.iterrows():
+        nm = row[1]['name']
+        model = nm.split('_')[0]
+        prompt = nm.split('_')[1]
+        performance = row[1][metric]
+        if model not in res:
+            res[model] = (prompt, 0)
+        if performance > res[model][1]:
+            res[model] = (prompt, performance)
+    return res
+
+def confusion_matrix(df, true_col='true', pred_col='response'):
+    cm = skm.confusion_matrix(df[true_col], df[pred_col], labels=LABELS, normalize='true')
+    disp = skm.ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=LABELS)
+    disp.plot()
+    plt.show()
+
+def merge_dfs(dfs:list[tuple[pd.DataFrame,str]]):
+    res_df = dfs[0][0].copy()
+    res_df["model"] = dfs[0][1]
+
+    for df, nm in dfs[1:]:
+        if len(df) == 0:
+            continue
+        _df = df.copy()
+        _df["model"] = nm
+        res_df = pd.concat([res_df, _df])
+    
+    res_df.reset_index(drop=True, inplace=True)
+    return res_df
+
+def plot_compare_matrix(dfs:list[tuple[pd.DataFrame,str]]):
+    df_metrics = metrics_of_dfs(dfs)
+    df = make_df_multi_metrics(df_metrics, [
+        'true_positives',
+        'true_negatives',
+        'false_positives',
+        'false_negatives',
+    ])
+    sns.barplot(data=df, x='metric', y='value', hue='name')
+    plt.title(f"Confusion Matrix Comparison")
+    plt.show()
+
+def heatmap_of_performance(
+        dfs:list[tuple[pd.DataFrame,str]],
+        title="Models"
+        ):
+    df = metrics_of_dfs(dfs)[[
+        'name',
+        'true_positives',
+        'true_negatives',
+        'false_positives',
+        'false_negatives',
+        'recall',
+        'specificity',
+        'accuracy',
+        'precision',
+        'f1',
+    ]]
+    df.set_index('name', inplace=True)
+    # df = df.T
+
+    # Create a heatmap
+    plt.figure(figsize=(8, max(6,0.2*len(dfs))))
+    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5)
+
+    # Add title and labels
+    plt.title('Precision, Recall, and F1 Score Heatmap')
+    plt.xlabel('Metric')
+    plt.ylabel('Model')
+
+    # Ensure the plot doesn't get cut off
+    plt.tight_layout()
+    plt.title("Heatmap Performance of "+title)
+    plt.show()
+
+def plot_len_metrics(
+        dfs:list[tuple[pd.DataFrame,str]], 
+        metric_col,
+        split_pos,
+        title="Models"
+        ):
+    df_metrics = metrics_of_dfs(dfs)
+    df_metrics['len_group'] = df_metrics.apply(lambda x: int(x['name'].split('_')[split_pos]), axis=1)
+    df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != split_pos]), axis=1)
+    sns.relplot(
+        data=df_metrics[["name","len_group",metric_col]], kind="line",
+        x="len_group", y=metric_col, hue="name", markers=True, dashes=False,
+    )
+    plt.title(f"Performance by Length of {title}")
+    plt.show()
+
+def plot_labels_by_model(df:pd.DataFrame,title=""):
+    sns.countplot(data=df, x="true", hue="model")
+    plt.title("Labels Count" + title)
+    plt.show()
+
+def plot_len_groups(df, title=""):
+    df = df.copy()
+    df['len_group'] = df.apply(lambda x: int(x['len_group']), axis=1)
+    df = df.sort_values(by='len_group', ascending=True)
+    sns.countplot(data=df, x='len_group', hue="model")
+    plt.title("Distributions of Lengths" + title)
+    plt.show()
+
+def plot_multi_metrics(df_metrics, metrics=[]):
+    df_metrics = make_df_multi_metrics(df_metrics, metrics)
+    sns.barplot(data=df_metrics, x='value', y='name', hue='metric')
+    plt.show()
 
 def count_contains(df, col, val, filter=False):
     print(len(df), "has", len(df[df[col].str.contains(val)]), "valid with", val, "in", col)
