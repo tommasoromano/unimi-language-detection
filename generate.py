@@ -34,7 +34,7 @@ if __name__ == '__main__':
       print(d)
     exit()
 
-  SEED = True
+  SEED = False
 
   # Generate synthetic data and run models
   prompts = PromptGenerator.generate(
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     'mistral',
     'gemma2',
     'qwen2',
-    # 'phi3:medium',
+    'phi3:mini',
     ]:
     print(model)
     model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']

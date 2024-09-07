@@ -10,6 +10,12 @@ PROMPTS_JOB_V0 = {
     - se il testo si riferisce a nessun genere specifico, rispondi con "INCLUSIVO"
     Rispondi solamente con "NON INCLUSIVO" o "INCLUSIVO" al seguente testo.""",
   ],
+  'zslcot': [
+    """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. 
+    Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. 
+    La risposta finale deve contenere solamente il label "NON INCLUSIVO" o "INCLUSIVO".
+    Pensa passo dopo passo e rispondi con attenzione al seguente testo.""",
+  ],
   #  ' 1) LEGGE ED ANALIZZA ANNUNCI DI LAVORO IN ITALIANO\n\n2) IDENTIFICA SE IL TESTO CONTIENE NOMI DI PROFESSIONI\n\n3) DETERMINA SE LA FRASE SI STA RIFERENDO A ENTRAMBI I GENERI\n\n4) RISPONDE SOLO CON "NON INCLUSIVO" O "INCLUSIVO"\n\nPER POTER ESEGUIRE CORRETTAMENTE IL MIO COMPITO, DEVO ANALIZZARE LA STRUTTURA SINTATTICA ED I TERMINI UTILIZZATI NELL\'ANNUNCIO DI LAVORO. AD ESEMPIO:\n\n- ANNUNCIO 1: "CERCIAMO UN PROGETTISTA PER IL NOSTRO TEAM." (NON INCLUSIVO)\n- ANNUNCIO 2: "STIAMO A CACCIA DI UN\'ASSISTENTE MARKETING PER PROMUOVERE I NOSTRI PRODOTTI." (NON INCLUSIVO)\n- ANNUNCIO 3: "CERCHIAMO UNA PERSONA QUALIFICATA PER OCCUPARE IL RUOLO DI COORDINATORE LOGISTICO, SIA PER UOMINI CHE PER DONNE." (INCLUSIVO)\n- ANNUNCIO 4: "ABBIAMO APERTO UN POSTO PER INFERMIERA NEI NOSTRI OSPEDALI E CI ASPETTIAMO PROFESSIONISTE QUALIFICATE." (INCLUSIVO)',
   'fsl': [
     """Sei un assistente che legge ed analizza delle frasi di annunci di lavoro in italiano. Il tuo obbiettivo è analizzare ed identificare se il testo contiene nomi di professioni e se la frase si sta riferendo ad entrambi i generi. Rispondi solamente con il label "NON INCLUSIVO" o "INCLUSIVO".
@@ -95,7 +101,7 @@ PROMPTS_JOB_V0 = {
   ]
 }
 
-PROMPTS_JOB_V0_KEYS = [['zsl',],['fsl',]]#,['cot',],]
+PROMPTS_JOB_V0_KEYS = [['zsl',],['zslcot',],['fsl',]]#,['cot',],]
 PROMPTS_JOB_V0_KEYS_FINETUNING = [['zsl',],]
 def PROMPTS_JOB_V0_F(prompt, text, model_func):
   messages = [
