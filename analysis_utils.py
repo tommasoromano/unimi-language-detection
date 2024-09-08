@@ -38,44 +38,45 @@ def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
 
     def fix(x):
         r = x['response']
-        if r.startswith('NON INCLUS'):
+        if r.startswith('NON INCLU'):
             return 'NON INCLUSIVO'
-        elif r.startswith('INCLUS'):
+        elif r.startswith('INCLU'):
             return 'INCLUSIVO'
-        if r.startswith(' NON INCLUS'):
+        if r.startswith(' NON INCLU'):
             return 'NON INCLUSIVO'
-        elif r.startswith(' INCLUS'):
+        elif r.startswith(' INCLU'):
             return 'INCLUSIVO'
         if '"NON INCLUSIVO"' in r:
             return 'NON INCLUSIVO'
         elif '"INCLUSIVO"' in r:
             return 'INCLUSIVO'
-        if 'NON È INCLUS' in r:
+        if 'NON È INCLU' in r:
             return 'NON INCLUSIVO'
-        elif 'È NON INCLUS' in r:
+        elif 'È NON INCLU' in r:
             return 'NON INCLUSIVO'
-        elif 'È INCLUS' in r:
+        if ': INCLU' in r:
+            return 'INCLUSIVO'
+        elif ': NON INCLU' in r:
+            return 'NON INCLUSIVO'
+        if '\n\nINCLU' in r:
+            return 'INCLUSIVO'
+        elif '\n\nNON INCLU' in r:
+            return 'NON INCLUSIVO'
+        if '**INCLU' in r:
+            return 'INCLUSIVO'
+        elif '**NON INCLU' in r:
+            return 'NON INCLUSIVO'
+        if '** INCLU' in r:
+            return 'INCLUSIVO'
+        elif '** NON INCLU' in r:
+            return 'NON INCLUSIVO'
+        elif 'È INCLU' in r:
             return 'INCLUSIVO'
         if "ENTRAMBI" in r:
             return 'INCLUSIVO'
         return None
 
     df_fix = df.copy()
-    # f = lambda x: x['response']
-    # if model == 'gemma2':
-    #     f = fix_gemma2
-    # elif model == 'mistral':
-    #     f = fix_mistral
-    # elif model == 'llama3':
-    #     f = fix_llama
-    # elif model == 'qwen2':
-    #     df_fix = fix_qwen2(df)
-    # elif model == 'phi3-finetuned':
-    #     df_fix = fix_phi3_finetuned(df)
-    # elif model == 'phi3':
-    #     df_fix = fix_phi3_finetuned(df)
-    # else:
-    #     raise ValueError(f"Model {model} not supported")
     
     df_fix['response'] = df.apply(lambda x: fix(x), axis=1)
     df_fix.dropna(subset=['response'], inplace=True)
@@ -226,6 +227,7 @@ def metrics_of_dfs(dfs:list[tuple[pd.DataFrame,str]]):
 
 def make_all_dfs(
         models:list[str]=[
+            "phi3",
     "phi3-finetuned",
     "llama3",
     "mistral",
@@ -345,6 +347,37 @@ def heatmap_of_performance(
     # Ensure the plot doesn't get cut off
     plt.tight_layout()
     plt.title("Heatmap Performance of "+title)
+    plt.show()
+
+def heatmap_of_prompts(
+        dfs:list[tuple[pd.DataFrame,str]],
+        metric_col="precision",
+        title="Models"
+        ):
+    df_metrics = metrics_of_dfs(dfs)
+    df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
+    df_metrics['prompt'] = df_metrics.apply(lambda x: x['name'].split('_')[1], axis=1)
+    df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 1]), axis=1)
+    df = df_metrics.pivot(index='name', columns='prompt', values=metric_col)
+    plt.figure(figsize=(8, max(6,0.2*len(dfs))))
+    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5)
+    plt.title("Heatmap Performance by Prompt of "+title)
+    plt.show()
+
+def plot_prompts(
+        dfs:list[tuple[pd.DataFrame,str]], 
+        metric_col="precision",
+        title="Models"
+        ):
+    df_metrics = metrics_of_dfs(dfs)
+    df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
+    df_metrics['prompt'] = df_metrics.apply(lambda x: x['name'].split('_')[1], axis=1)
+    df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 1]), axis=1)
+    sns.barplot(
+        data=df_metrics[["name","prompt",metric_col]],
+        x="prompt", y=metric_col, hue="name",
+    )
+    plt.title(f"Performance by Prompt of {title}")
     plt.show()
 
 def plot_len_metrics(
