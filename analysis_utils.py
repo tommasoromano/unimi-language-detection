@@ -227,8 +227,8 @@ def metrics_of_dfs(dfs:list[tuple[pd.DataFrame,str]]):
 
 def make_all_dfs(
         models:list[str]=[
-            "phi3",
     "phi3-finetuned",
+            "phi3",
     "llama3",
     "mistral",
     "gemma2",
@@ -337,7 +337,7 @@ def heatmap_of_performance(
 
     # Create a heatmap
     plt.figure(figsize=(8, max(6,0.2*len(dfs))))
-    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5)
+    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5, fmt=".3f")
 
     # Add title and labels
     plt.title('Precision, Recall, and F1 Score Heatmap')
@@ -346,7 +346,7 @@ def heatmap_of_performance(
 
     # Ensure the plot doesn't get cut off
     plt.tight_layout()
-    plt.title("Heatmap Performance of "+title)
+    plt.title("Heatmap Performance"+title)
     plt.show()
 
 def heatmap_of_prompts(
@@ -360,8 +360,8 @@ def heatmap_of_prompts(
     df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 1]), axis=1)
     df = df_metrics.pivot(index='name', columns='prompt', values=metric_col)
     plt.figure(figsize=(8, max(6,0.2*len(dfs))))
-    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5)
-    plt.title("Heatmap Performance by Prompt of "+title)
+    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5, fmt=".3f")
+    plt.title("Heatmap Performance by Prompt"+title)
     plt.show()
 
 def plot_prompts(
@@ -373,12 +373,13 @@ def plot_prompts(
     df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
     df_metrics['prompt'] = df_metrics.apply(lambda x: x['name'].split('_')[1], axis=1)
     df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 1]), axis=1)
-    sns.barplot(
-        data=df_metrics[["name","prompt",metric_col]],
-        x="prompt", y=metric_col, hue="name",
-    )
-    plt.title(f"Performance by Prompt of {title}")
-    plt.show()
+    # sns.barplot(
+    #     data=df_metrics[["name","prompt",metric_col]],
+    #     x="prompt", y=metric_col, hue="name",
+    # )
+    # plt.title(f"Performance by Prompt{title}")
+    # plt.show()
+    print(df_metrics[['name','prompt','precision','accuracy','f1','recall','specificity']])
 
 def plot_len_metrics(
         dfs:list[tuple[pd.DataFrame,str]], 
@@ -422,3 +423,75 @@ def count_contains(df, col, val, filter=False):
 def simple_fix_response(df):
     df['response'] = df.apply(lambda x: "NON INCLUSIVO" if "NON INCLUSIVO" in x['response'] else "INCLUSIVO", axis=1)
     return df
+
+# https://artificialanalysis.ai/
+
+tokens_per_second = {
+    "phi3-finetuned": 72,
+    "gemma2": 126,
+    "llama3": 106,
+    "mistral": 104,
+    "phi3": 72,
+    "qwen2": 56,
+}
+
+input_prices_1M_tokens = {
+    "phi3-finetuned": 0.14,
+    "gemma2": 0.2,
+    "llama3": 0.15,
+    "mistral": 0.15,
+    "phi3": 0.14,
+    "qwen2": 0.35,
+}
+
+output_prices_1M_tokens = {
+    "phi3-finetuned": 0.14,
+    "gemma2": 0.2,
+    "llama3": 0.2,
+    "mistral": 0.2,
+    "phi3": 0.14,
+    "qwen2": 0.4,
+}
+
+models_precision = {
+    "phi3-finetuned": 0.99,
+    "gemma2": 0.79,
+    "llama3": 0.73,
+    "mistral": 0.72,
+    "phi3": 0.71,
+    "qwen2": 0.74,
+}
+
+# 3:1 ratio
+prices_1M_tokens = {
+    k: 3*input_prices_1M_tokens[k] + output_prices_1M_tokens[k]
+    for k in input_prices_1M_tokens
+}
+
+def plot_general_costs(
+        
+):
+    df = pd.DataFrame({
+        'model': list(prices_1M_tokens.keys()),
+        'price': list(prices_1M_tokens.values()),
+        'speed': list(tokens_per_second.values()),
+        'precision': list(models_precision.values()),
+    })
+    df = df.sort_values(by='price', ascending=True)
+    sns.barplot(data=df, x='model', y='price')
+    plt.title("Prices per 1M tokens")
+    plt.show()
+    df = df.sort_values(by='speed', ascending=False)
+    sns.barplot(data=df, x='model', y='speed')
+    plt.title("Output tokens per second")
+    plt.show()
+    ax = sns.scatterplot(data=df, x='speed', y='price', hue='model')
+    plt.title("Price vs Speed")
+    ax.fill_between([90, 135], 0.5, 1.0, color='green', alpha=0.1)
+    ax.fill_between([50, 90], 1.0, 1.5, color='red', alpha=0.1)
+    plt.show()
+    ax = sns.scatterplot(data=df, x='precision', y='price', hue='model')
+    plt.title("Price vs Precision")
+    ax.fill_between([0.85, 1.0], 0.5, 1.0, color='green', alpha=0.1)
+    ax.fill_between([0.7, 0.85], 1.0, 1.5, color='red', alpha=0.1)
+    plt.show()
