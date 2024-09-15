@@ -1,4 +1,5 @@
 import ollama
+from openai import OpenAI
 import pandas as pd
 import os
 from nlp_synt_data import *
@@ -54,19 +55,37 @@ if __name__ == '__main__':
   # model = 'llama3:instruct'
   n_pass = 1
 
+  client = OpenAI(
+      # This is the default and can be omitted
+      api_key="",
+  )
+
+  # df_fix_text = pd.read_csv(sc_csv_name('gpt-4o-minii', False, SEED))
+
   for model in [
     # 'llama3.1',
-    'llama3:instruct',
-    'mistral',
-    'gemma2',
-    'qwen2',
-    'phi3:mini',
+    # 'llama3:instruct',
+    # 'mistral',
+    # 'gemma2',
+    # 'qwen2',
+    # 'phi3:mini',
+    "gpt-4o-mini",
     ]:
     print(model)
-    model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
+    # model_f = lambda messages: ollama.chat(model=model, messages=messages)['message']['content']
+    model_f = lambda messages: client.chat.completions.create(
+      model=model,
+      messages=messages
+    ).choices[0].message.content
+
+    # def fn(prompt, text):
+    #   idx = [i for i,d in enumerate(sc_make_test_data()) if d.text == text][0]
+    #   response = df_fix_text.iloc[idx]['response']
+    #   return response
     ResponseGenerator.generate(sc_csv_name(model, False, SEED), 
                                data, 
                                prompts,
                                lambda prompt, text: PROMPTS_JOB_V0_F(prompt, text, model_f), 
+                              #  fn,
                                n_pass=n_pass,
                                )

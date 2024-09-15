@@ -36,6 +36,21 @@ def fix_df(df:pd.DataFrame):
 
 def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
 
+    # plot a barplot of top 10 responses by count and a column of the remaining responses
+    top = 10
+    res = df['response'].value_counts()
+    res = res.reset_index()
+    res.columns = ['response','count']
+    res = res.sort_values(by='count', ascending=False)
+    res['%'] = res['count'] / len(df)
+    res = res.reset_index(drop=True)
+    res = res.head(top)
+    res = pd.concat([res,pd.DataFrame({'response':['OTHER'],'count':[len(df)-res['count'].sum()],'%':[(len(df)-res['count'].sum())/len(df)]})])
+    # print(res)
+    sns.barplot(data=res, y='response', x='%')
+    plt.title(f"Top {top} responses - {model}")
+    plt.show()
+
     def fix(x):
         r = x['response']
         if r.startswith('NON INCLU'):
@@ -228,6 +243,7 @@ def metrics_of_dfs(dfs:list[tuple[pd.DataFrame,str]]):
 def make_all_dfs(
         models:list[str]=[
     "phi3-finetuned",
+    "gpt-4o-mini",
             "phi3",
     "llama3",
     "mistral",
@@ -428,6 +444,7 @@ def simple_fix_response(df):
 
 tokens_per_second = {
     "phi3-finetuned": 72,
+    "gpt-4o-mini": 144,
     "gemma2": 126,
     "llama3": 106,
     "mistral": 104,
@@ -437,6 +454,7 @@ tokens_per_second = {
 
 input_prices_1M_tokens = {
     "phi3-finetuned": 0.14,
+    "gpt-4o-mini": 0.15,
     "gemma2": 0.2,
     "llama3": 0.15,
     "mistral": 0.15,
@@ -446,6 +464,7 @@ input_prices_1M_tokens = {
 
 output_prices_1M_tokens = {
     "phi3-finetuned": 0.14,
+    "gpt-4o-mini": 0.6,
     "gemma2": 0.2,
     "llama3": 0.2,
     "mistral": 0.2,
@@ -455,6 +474,7 @@ output_prices_1M_tokens = {
 
 models_precision = {
     "phi3-finetuned": 0.99,
+    "gpt-4o-mini": 0.8,
     "gemma2": 0.79,
     "llama3": 0.73,
     "mistral": 0.72,
@@ -480,17 +500,19 @@ def plot_general_costs(
     df = df.sort_values(by='price', ascending=True)
     sns.barplot(data=df, x='model', y='price')
     plt.title("Prices per 1M tokens")
+    plt.xticks(rotation=45, ha='right')
     plt.show()
     df = df.sort_values(by='speed', ascending=False)
     sns.barplot(data=df, x='model', y='speed')
     plt.title("Output tokens per second")
+    plt.xticks(rotation=45, ha='right')
     plt.show()
-    ax = sns.scatterplot(data=df, x='speed', y='price', hue='model')
+    ax = sns.scatterplot(data=df, x='speed', y='price', hue='model', style="model")
     plt.title("Price vs Speed")
     ax.fill_between([90, 135], 0.5, 1.0, color='green', alpha=0.1)
     ax.fill_between([50, 90], 1.0, 1.5, color='red', alpha=0.1)
     plt.show()
-    ax = sns.scatterplot(data=df, x='precision', y='price', hue='model')
+    ax = sns.scatterplot(data=df, x='precision', y='price', hue='model', style="model")
     plt.title("Price vs Precision")
     ax.fill_between([0.85, 1.0], 0.5, 1.0, color='green', alpha=0.1)
     ax.fill_between([0.7, 0.85], 1.0, 1.5, color='red', alpha=0.1)
