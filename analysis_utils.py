@@ -182,9 +182,13 @@ def metrics(df):
     except:
         f1 = None
     try:
-        negative_predictive_value = true_negatives / (true_negatives + false_negatives)
+        negative_rate = true_negatives / (true_negatives + false_negatives)
     except:
-        negative_predictive_value = None
+        negative_rate = None
+    try:
+        false_positive_rate = false_positives / (false_positives + true_negatives)
+    except:
+        false_positive_rate = None
         
     return {
         'total': total,
@@ -205,9 +209,11 @@ def metrics(df):
         'recall': recall,
         'specificity': specificity,
         'accuracy': accuracy,
+        'bACC': (recall + specificity) / 2 if recall is not None and specificity is not None else (recall or specificity),
         'precision': precision,
         'f1': f1,
-        'negative_predictive_value': negative_predictive_value
+        'negative_rate': negative_rate,
+        'false_positive_rate': false_positive_rate,
     }
 
 def make_df_len(df:pd.DataFrame, groups=10):
@@ -283,9 +289,11 @@ def make_all_dfs(
             print(model, e)
     return dfs_all ,dfs_by_len ,dfs_by_prompt ,dfs_by_pl 
 
+DEFAULT_METRIC = "bACC"
+
 def get_best_prompt(
         dfs:list[tuple[pd.DataFrame,str]],
-        metric='precision',
+        metric=DEFAULT_METRIC,
         ):
     df_metrics = metrics_of_dfs(dfs).sort_values(metric, ascending=False)
     res = dict()
@@ -345,6 +353,7 @@ def heatmap_of_performance(
         'recall',
         'specificity',
         'accuracy',
+        'bACC',
         'precision',
         'f1',
     ]]
@@ -367,11 +376,11 @@ def heatmap_of_performance(
 
 def heatmap_of_prompts(
         dfs:list[tuple[pd.DataFrame,str]],
-        metric_col="precision",
+        metric_col=DEFAULT_METRIC,
         title="Models"
         ):
     df_metrics = metrics_of_dfs(dfs)
-    df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
+    # df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
     df_metrics['prompt'] = df_metrics.apply(lambda x: x['name'].split('_')[1], axis=1)
     df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 1]), axis=1)
     df = df_metrics.pivot(index='name', columns='prompt', values=metric_col)
@@ -380,27 +389,10 @@ def heatmap_of_prompts(
     plt.title("Heatmap Performance by Prompt"+title)
     plt.show()
 
-def plot_prompts(
-        dfs:list[tuple[pd.DataFrame,str]], 
-        metric_col="precision",
-        title="Models"
-        ):
-    df_metrics = metrics_of_dfs(dfs)
-    df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
-    df_metrics['prompt'] = df_metrics.apply(lambda x: x['name'].split('_')[1], axis=1)
-    df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 1]), axis=1)
-    # sns.barplot(
-    #     data=df_metrics[["name","prompt",metric_col]],
-    #     x="prompt", y=metric_col, hue="name",
-    # )
-    # plt.title(f"Performance by Prompt{title}")
-    # plt.show()
-    print(df_metrics[['name','prompt','precision','accuracy','f1','recall','specificity']])
-
 def plot_len_metrics(
         dfs:list[tuple[pd.DataFrame,str]], 
-        metric_col,
         split_pos,
+        metric_col=DEFAULT_METRIC,
         title="Models"
         ):
     df_metrics = metrics_of_dfs(dfs)
@@ -408,13 +400,14 @@ def plot_len_metrics(
     df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != split_pos]), axis=1)
     sns.relplot(
         data=df_metrics[["name","len_group",metric_col]], kind="line",
-        x="len_group", y=metric_col, hue="name", markers=True, dashes=False,
+        x="len_group", y=metric_col, hue="name", style="name", markers=True, dashes=False,
+        palette="tab10",
     )
     plt.title(f"Performance by Length of {title}")
     plt.show()
 
 def plot_labels_by_model(df:pd.DataFrame,title=""):
-    sns.countplot(data=df, x="true", hue="model")
+    sns.countplot(data=df, x="true", hue="model", palette="tab10",)
     plt.title("Labels Count" + title)
     plt.show()
 
@@ -422,7 +415,7 @@ def plot_len_groups(df, title=""):
     df = df.copy()
     df['len_group'] = df.apply(lambda x: int(x['len_group']), axis=1)
     df = df.sort_values(by='len_group', ascending=True)
-    sns.countplot(data=df, x='len_group', hue="model")
+    sns.countplot(data=df, x='len_group', hue="model", palette="tab10",)
     plt.title("Distributions of Lengths" + title)
     plt.show()
 
@@ -439,6 +432,57 @@ def count_contains(df, col, val, filter=False):
 def simple_fix_response(df):
     df['response'] = df.apply(lambda x: "NON INCLUSIVO" if "NON INCLUSIVO" in x['response'] else "INCLUSIVO", axis=1)
     return df
+
+def heatmap_of_chars(
+        dfs:list[tuple[pd.DataFrame,str]],
+        metric_col=DEFAULT_METRIC,
+        title="Models"
+        ):
+    # df_metrics = df_metrics[~df_metrics['name'].str.contains('finetuned')]
+    def fn(x):
+        v = x['text_JOB_value']
+        l = x['text_JOB_label']
+        if l == 'neutro':
+            return 'neutro'
+        elif "*" in v:
+            return 'star'
+        elif "Ã" in v:
+            return 'Ã'
+        elif "/" in v:
+            return '/'
+        elif " o " in v:
+            return ' o '
+        elif " e " in v:
+            return ' e '
+        else:
+            return l
+    _dfs = []
+    for df, nm in dfs:
+        # _df = df.copy()
+        # _df['name'] = _df.apply(lambda x: fn(x), axis=1)
+        _dfs.append((df[df['text_JOB_label'] == 'neutro'], nm+"_job-neutro"))
+        _dfs.append((df[df['text_JOB_label'] == 'maschile'], nm+"_job-maschile"))
+        _dfs.append((df[df['text_JOB_label'] == 'femminile'], nm+"_job-femminile"))
+        _dfs.append((df[df['text_ADJ_label'] == 'neutro'], nm+"_adj-neutro"))
+        _dfs.append((df[df['text_ADJ_label'] == 'maschile'], nm+"_adj-maschile"))
+        _dfs.append((df[df['text_ADJ_label'] == 'femminile'], nm+"_adj-femminile"))
+        _dfs.append((df[(df['text_JOB_value'] == '') & (df['text_ADJ_value'] == '')], nm+"_others"))
+        # _dfs.append((df[df['text_ADJ_label'].str.len() > 0], nm+"_adjs"))
+        df_job = df[df['text_JOB_value'].str.len() > 0]
+        _dfs.append((df_job[df_job['text_JOB_value'].str.contains("\*")], nm+"_star"))
+        _dfs.append((df_job[df_job['text_JOB_value'].str.contains("Ã")], nm+"_Ã"))
+        _dfs.append((df_job[df_job['text_JOB_value'].str.contains("/")], nm+"_slash"))
+        _dfs.append((df_job[(df_job['text_JOB_value'].str.contains(" o ")) | (df_job['text_JOB_value'].str.contains(" e "))], nm+"_cong"))
+        # _dfs.append((df_job[df_job['text_JOB_value'].str.contains(" e ")], nm+"_e"))
+    df_metrics = metrics_of_dfs(_dfs)
+    df_metrics['chars'] = df_metrics.apply(lambda x: x['name'].split('_')[2], axis=1)
+    df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != 2]), axis=1)
+    df = df_metrics.pivot(columns='name', index='chars', values=metric_col)
+    plt.figure(figsize=(8, max(6,0.2*len(dfs))))
+    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5, fmt=".3f")
+    # plt.xticks(rotation=45, ha='right')
+    plt.title("Heatmap Performance by Words"+title)
+    plt.show()
 
 # https://artificialanalysis.ai/
 
@@ -472,9 +516,9 @@ output_prices_1M_tokens = {
     "qwen2": 0.4,
 }
 
-models_precision = {
+models_quality = {
     "phi3-finetuned": 0.99,
-    "gpt-4o-mini": 0.8,
+    "gpt-4o-mini": 0.85,
     "gemma2": 0.79,
     "llama3": 0.73,
     "mistral": 0.72,
@@ -495,7 +539,7 @@ def plot_general_costs(
         'model': list(prices_1M_tokens.keys()),
         'price': list(prices_1M_tokens.values()),
         'speed': list(tokens_per_second.values()),
-        'precision': list(models_precision.values()),
+        'quality': list(models_quality.values()),
     })
     df = df.sort_values(by='price', ascending=True)
     sns.barplot(data=df, x='model', y='price')
@@ -507,13 +551,14 @@ def plot_general_costs(
     plt.title("Output tokens per second")
     plt.xticks(rotation=45, ha='right')
     plt.show()
-    ax = sns.scatterplot(data=df, x='speed', y='price', hue='model', style="model")
+    ax = sns.scatterplot(data=df, x='speed', y='price', hue='model', style="model", s=100)
     plt.title("Price vs Speed")
-    ax.fill_between([90, 135], 0.5, 1.0, color='green', alpha=0.1)
-    ax.fill_between([50, 90], 1.0, 1.5, color='red', alpha=0.1)
+    ax.fill_between([100, 150], 0.5, 1.0, color='green', alpha=0.1)
+    ax.fill_between([50, 100], 1.0, 1.5, color='red', alpha=0.1)
+    plt.legend(loc = "upper center")
     plt.show()
-    ax = sns.scatterplot(data=df, x='precision', y='price', hue='model', style="model")
-    plt.title("Price vs Precision")
+    ax = sns.scatterplot(data=df, x='quality', y='price', hue='model', style="model", s=100)
+    plt.title("Price vs Quality")
     ax.fill_between([0.85, 1.0], 0.5, 1.0, color='green', alpha=0.1)
     ax.fill_between([0.7, 0.85], 1.0, 1.5, color='red', alpha=0.1)
     plt.show()
