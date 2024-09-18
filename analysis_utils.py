@@ -39,17 +39,18 @@ def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
     # plot a barplot of top 10 responses by count and a column of the remaining responses
     # _df = df[df['prompt_id'] != 'zslcot#0']
     _df = df.copy()
+    _df['answer'] = _df.apply(lambda x: f"{x['response'][:50].replace('\n','')}...", axis=1)
     top = 10
-    res = _df['response'].value_counts()
+    res = _df['answer'].value_counts()
     res = res.reset_index()
-    res.columns = ['response','count']
+    res.columns = ['answer','count']
     res = res.sort_values(by='count', ascending=False)
     res['%'] = res['count'] / len(_df)
     res = res.reset_index(drop=True)
     res = res.head(top)
-    res = pd.concat([res,pd.DataFrame({'response':['OTHER'],'count':[len(_df)-res['count'].sum()],'%':[(len(_df)-res['count'].sum())/len(_df)]})])
+    res = pd.concat([res,pd.DataFrame({'answer':['OTHER'],'count':[len(_df)-res['count'].sum()],'%':[(len(_df)-res['count'].sum())/len(_df)]})])
     # print(res)
-    sns.barplot(data=res, y='response', x='%')
+    sns.barplot(data=res, y='answer', x='%')
     plt.title(f"Top {top} responses - {model}")
     plt.show()
 
