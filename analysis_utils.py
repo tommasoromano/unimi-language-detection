@@ -37,15 +37,17 @@ def fix_df(df:pd.DataFrame):
 def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
 
     # plot a barplot of top 10 responses by count and a column of the remaining responses
+    # _df = df[df['prompt_id'] != 'zslcot#0']
+    _df = df.copy()
     top = 10
-    res = df['response'].value_counts()
+    res = _df['response'].value_counts()
     res = res.reset_index()
     res.columns = ['response','count']
     res = res.sort_values(by='count', ascending=False)
-    res['%'] = res['count'] / len(df)
+    res['%'] = res['count'] / len(_df)
     res = res.reset_index(drop=True)
     res = res.head(top)
-    res = pd.concat([res,pd.DataFrame({'response':['OTHER'],'count':[len(df)-res['count'].sum()],'%':[(len(df)-res['count'].sum())/len(df)]})])
+    res = pd.concat([res,pd.DataFrame({'response':['OTHER'],'count':[len(_df)-res['count'].sum()],'%':[(len(_df)-res['count'].sum())/len(_df)]})])
     # print(res)
     sns.barplot(data=res, y='response', x='%')
     plt.title(f"Top {top} responses - {model}")
@@ -517,13 +519,13 @@ output_prices_1M_tokens = {
 }
 
 models_quality = {
-    "phi3-finetuned": 0.99,
-    "gpt-4o-mini": 0.85,
-    "gemma2": 0.79,
-    "llama3": 0.73,
-    "mistral": 0.72,
-    "phi3": 0.71,
-    "qwen2": 0.74,
+    "phi3-finetuned": 0.991,
+    "gpt-4o-mini": 0.888,
+    "gemma2": 0.598,
+    "llama3": 0.563,
+    "mistral": 0.520,
+    "phi3": 0.508,
+    "qwen2": 0.580,
 }
 
 # 3:1 ratio
@@ -559,6 +561,7 @@ def plot_general_costs(
     plt.show()
     ax = sns.scatterplot(data=df, x='quality', y='price', hue='model', style="model", s=100)
     plt.title("Price vs Quality")
-    ax.fill_between([0.85, 1.0], 0.5, 1.0, color='green', alpha=0.1)
-    ax.fill_between([0.7, 0.85], 1.0, 1.5, color='red', alpha=0.1)
+    ax.fill_between([0.75, 1.0], 0.5, 1.0, color='green', alpha=0.1)
+    ax.fill_between([0.5, 0.75], 1.0, 1.5, color='red', alpha=0.1)
+    plt.legend(loc = "upper right")
     plt.show()
