@@ -37,22 +37,23 @@ def fix_df(df:pd.DataFrame):
 def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
 
     # plot a barplot of top 10 responses by count and a column of the remaining responses
-    # _df = df[df['prompt_id'] != 'zslcot#0']
-    _df = df.copy()
-    _df['answer'] = _df.apply(lambda x: f"{x['response'][:50].replace('\n','')}...", axis=1)
-    top = 10
-    res = _df['answer'].value_counts()
-    res = res.reset_index()
-    res.columns = ['answer','count']
-    res = res.sort_values(by='count', ascending=False)
-    res['%'] = res['count'] / len(_df)
-    res = res.reset_index(drop=True)
-    res = res.head(top)
-    res = pd.concat([res,pd.DataFrame({'answer':['OTHER'],'count':[len(_df)-res['count'].sum()],'%':[(len(_df)-res['count'].sum())/len(_df)]})])
-    # print(res)
-    sns.barplot(data=res, y='answer', x='%')
-    plt.title(f"Top {top} responses - {model}")
-    plt.show()
+    if show_plot:
+        # _df = df[df['prompt_id'] != 'zslcot#0']
+        _df = df.copy()
+        _df['answer'] = _df.apply(lambda x: f"{x['response'][:50].replace('\n','')}...", axis=1)
+        top = 10
+        res = _df['answer'].value_counts()
+        res = res.reset_index()
+        res.columns = ['answer','count']
+        res = res.sort_values(by='count', ascending=False)
+        res['%'] = res['count'] / len(_df)
+        res = res.reset_index(drop=True)
+        res = res.head(top)
+        res = pd.concat([res,pd.DataFrame({'answer':['OTHER'],'count':[len(_df)-res['count'].sum()],'%':[(len(_df)-res['count'].sum())/len(_df)]})])
+        # print(res)
+        sns.barplot(data=res, y='answer', x='%')
+        plt.title(f"Top {top} responses - {model}")
+        plt.show()
 
     def fix(x):
         r = x['response']
@@ -100,27 +101,59 @@ def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
     df_fix.dropna(subset=['response'], inplace=True)
 
     print(f"Fixed {round((len(df)-len(df_fix))/len(df),2)}, {len(df) - len(df_fix)} rows")
-
-    if show_plot:
-
-        # res = pd.DataFrame({'count':[],'fixed':[],'raw%':[],'fixed%':[],'prompt_id':[],'true':[]})
-        res = pd.DataFrame({'count':[],'%':[],'df':[],'prompt_id':[],'true':[]})
-        for p in df['prompt_id'].unique():
-            for t in df['true'].unique():
-                # r = len(df[(df['prompt_id'] == p) & (df['true'] == t)])
-                # d = len(df_fix[(df_fix['prompt_id'] == p) & (df_fix['true'] == t)])
-                # res = pd.concat([res,pd.DataFrame({'raw':[r],'fixed':[d],'raw%':[round(r/r,2)],'fixed%':[round(d/r,2)],'prompt_id':[p],'true':[t]})])
-                r = len(df[(df['prompt_id'] == p) & (df['true'] == t)])
-                d = len(df_fix[(df_fix['prompt_id'] == p) & (df_fix['true'] == t)])
-                res = pd.concat([res,pd.DataFrame({'count':[r],'%':[round(r/r,2)],'df':'raw','prompt_id':[p],'true':[t]})])
-                res = pd.concat([res,pd.DataFrame({'count':[d],'%':[round(d/r,2)],'df':'fixed','prompt_id':[p],'true':[t]})])
-
-        print(res)
-        sns.barplot(data=res, x='prompt_id', y='%', hue='df')
-        plt.title(f"Raw vs Fixed - {model}")
-        plt.show()
     
     return df_fix
+
+def fix_df_target(df:pd.DataFrame):
+    df = df.copy()
+    def fn(x):
+        for col in ['text_JOB_value','text_ADJ_value','text_VERB_value']:
+            if col in x and x[col] != "":
+                return x[col].upper()
+        return "NO_TARGET"
+    df['true_target'] = df.apply(lambda x: fn(x), axis=1)
+    def fn(x):
+        if x['true_target'] == "NO_TARGET":
+            return ""
+        if x['true_target'].upper() in x['response_original'].upper():
+            return x['true_target'].upper()
+        return "FAILED_TARGET"
+    df['response_target'] = df.apply(lambda x: fn(x), axis=1)
+    def fn(x):
+        if x['true_target'] == "NO_TARGET":
+            return -1
+        r = x['text'].upper().replace('\n',' ')
+        wrds = r.split(' ')
+        for i,w in enumerate(wrds):
+            if x['true_target'].upper() in w:
+                return i
+        # return x['response_original'].upper().find(x['true_target'].upper())
+        return -2
+    df['target_distance'] = df.apply(lambda x: fn(x), axis=1)
+    def fn(x):
+        if x['true_target'] == "NO_TARGET":
+            return -1
+        r = x['text'].upper().replace('\n',' ')
+        wrds = r.split(' ')
+        for i,w in enumerate(wrds):
+            if x['true_target'].upper() in w:
+                return i/len(wrds)
+        # return x['response_original'].upper().find(x['true_target'].upper())
+        return -2
+    df['target_position'] = df.apply(lambda x: fn(x), axis=1)
+    def fn(x):
+        if x['target_position'] < 0:
+            return "NOTARGET"
+        elif x['target_position'] < 0.25:
+            return "start"
+        elif x['target_position'] < 0.5:
+            return "middle-start"
+        elif x['target_position'] < 0.75:
+            return "middle-end"
+        else:
+            return "end"
+    df['target_position_group'] = df.apply(lambda x: fn(x), axis=1)
+    return df
 
 NEUTRALS = [
 'giornaista',
@@ -153,16 +186,19 @@ def contains(df, ls:list[str], invert=False):
             _df = _df[_df['text_JOB_value'].str.contains(s)]
     return _df
 
-def metrics(df):
+def metrics(df,
+            true_col='true',
+            pred_col='response',
+            ):
     total = len(df)
-    gt_pos = max(1,len(df[df['true'] == 'INCLUSIVO']))
-    gt_neg = max(1,len(df[df['true'] == 'NON INCLUSIVO']))
-    pred_pos = len(df[df['response'] == 'INCLUSIVO'])
-    pred_neg = len(df[df['response'] == 'NON INCLUSIVO'])
-    true_positives = len(df[(df['true'] == 'INCLUSIVO') & (df['response'] == 'INCLUSIVO')])
-    true_negatives = len(df[(df['true'] == 'NON INCLUSIVO') & (df['response'] == 'NON INCLUSIVO')])
-    false_positives = len(df[(df['true'] == 'NON INCLUSIVO') & (df['response'] == 'INCLUSIVO')])
-    false_negatives = len(df[(df['true'] == 'INCLUSIVO') & (df['response'] == 'NON INCLUSIVO')])
+    gt_pos = max(1,len(df[df[true_col] == 'INCLUSIVO']))
+    gt_neg = max(1,len(df[df[true_col] == 'NON INCLUSIVO']))
+    pred_pos = len(df[df[pred_col] == 'INCLUSIVO'])
+    pred_neg = len(df[df[pred_col] == 'NON INCLUSIVO'])
+    true_positives = len(df[(df[true_col] == 'INCLUSIVO') & (df[pred_col] == 'INCLUSIVO')])
+    true_negatives = len(df[(df[true_col] == 'NON INCLUSIVO') & (df[pred_col] == 'NON INCLUSIVO')])
+    false_positives = len(df[(df[true_col] == 'NON INCLUSIVO') & (df[pred_col] == 'INCLUSIVO')])
+    false_negatives = len(df[(df[true_col] == 'INCLUSIVO') & (df[pred_col] == 'NON INCLUSIVO')])
 
     try:
         recall = true_positives / (true_positives + false_negatives)
@@ -265,6 +301,7 @@ def make_all_dfs(
     dfs_by_len = []
     dfs_by_prompt = []
     dfs_by_pl = []
+    dfs_by_promptargetpos = []
     # df = pd.read_csv(f'results/{model}_split-long-v0.csv')
     for model in models:
         print(model)
@@ -274,6 +311,7 @@ def make_all_dfs(
             # df = count_contains(df, "response", "INCLUSIVO", True)
             # df = simple_fix_response(df)
             df = fix_df_model_response(df, model)
+            df = fix_df_target(df)
             # confusion_matrix(df)
             df = make_df_len(df)
             dfs_all.append((df,model))
@@ -288,9 +326,14 @@ def make_all_dfs(
                 for l in df['len_group'].unique():
                     df__ = df_[df_['len_group'] == l]
                     dfs_by_pl.append((df__,f"{model}_{p}_{l}"))
+            for p in df['prompt_id'].unique():
+                df_ = df[df['prompt_id'] == p]
+                for t in df['target_position_group'].unique():
+                    df__ = df_[df_['target_position_group'] == t]
+                    dfs_by_promptargetpos.append((df__,f"{model}_{p}_{t}"))
         except Exception as e:
             print(model, e)
-    return dfs_all ,dfs_by_len ,dfs_by_prompt ,dfs_by_pl 
+    return dfs_all ,dfs_by_len ,dfs_by_prompt ,dfs_by_pl , dfs_by_promptargetpos
 
 DEFAULT_METRIC = "bACC"
 
@@ -472,7 +515,7 @@ def heatmap_of_chars(
         _dfs.append((df[(df['text_JOB_value'] == '') & (df['text_ADJ_value'] == '')], nm+"_others"))
         # _dfs.append((df[df['text_ADJ_label'].str.len() > 0], nm+"_adjs"))
         df_job = df[df['text_JOB_value'].str.len() > 0]
-        _dfs.append((df_job[df_job['text_JOB_value'].str.contains("\*")], nm+"_star"))
+        _dfs.append((df_job[df_job['text_JOB_value'].str.contains("*", regex=False)], nm+"_star"))
         _dfs.append((df_job[df_job['text_JOB_value'].str.contains("Ã")], nm+"_Ã"))
         _dfs.append((df_job[df_job['text_JOB_value'].str.contains("/")], nm+"_slash"))
         _dfs.append((df_job[(df_job['text_JOB_value'].str.contains(" o ")) | (df_job['text_JOB_value'].str.contains(" e "))], nm+"_cong"))
@@ -485,6 +528,80 @@ def heatmap_of_chars(
     sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5, fmt=".3f")
     # plt.xticks(rotation=45, ha='right')
     plt.title("Heatmap Performance by Words"+title)
+    plt.show()
+
+def plot_targets(
+        dfs:list[tuple[pd.DataFrame,str]],
+        title="Models"
+        ):
+    
+    res_df = pd.DataFrame({'model':[],'prompt':[],'right':[]})
+    for df, nm in dfs:
+        model = nm.split('_')[0]
+        prompt = nm.split('_')[1]
+        len_all = len(df)
+        df_no_target = df[df['true_target'] == "NO_TARGET"]
+        df_with_target = df[df['true_target'] != "NO_TARGET"]
+        df_failed_target = df_with_target[df_with_target['response_target'] == "FAILED_TARGET"]
+        df_right_target = df_with_target[df_with_target['response_target'] != "FAILED_TARGET"]
+        # res_df = pd.concat([res_df,pd.DataFrame({'name':[nm],'type':['without'],
+        #                                          'count':[len(df_no_target)],'%':[len(df_no_target)/len_all]})])
+        # res_df = pd.concat([res_df,pd.DataFrame({'name':[nm],'type':['with'],
+        #                                         'count':[len(df_with_target)],'%':[len(df_with_target)/len_all]})])
+        # res_df = pd.concat([res_df,pd.DataFrame({'name':[nm],'type':['wrong'],
+        #                                         'count':[len(df_failed_target)],'%':[len(df_failed_target)/len_all]})])
+        res_df = pd.concat([res_df,pd.DataFrame({'model':[model],'prompt':[prompt],'right':[len(df_right_target)/len_all]})])
+
+    # make heatmap
+    df = res_df.pivot(index='prompt', columns='model', values='right')
+    plt.figure(figsize=(12, 6))
+    sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5, fmt=".3f")
+    plt.title("Target Identification"+title)
+    plt.xticks(rotation=45, ha='right')
+    plt.show()
+
+def plot_target_distributions(df:pd.DataFrame, title=""):
+    _df = df[(df['target_distance'] >= 0) & (df['target_position'] >= 0)]
+    # sns.displot(_df, x="target_distance", kde=True)
+    # plt.title("Distance of Target from Start" + title)
+    # plt.show()
+    # sns.displot(_df, x="target_position", kde=True)
+    # plt.title("Position of Target in Text" + title)
+    # plt.show()
+
+    g = sns.jointplot(data=_df, x="len", y="target_position")
+    g.plot_joint(sns.kdeplot)
+    # g.plot_marginals(sns.kdeplot)
+    g.plot_marginals(sns.histplot, kde=True)
+    plt.show()
+
+def plot_target_metrics(
+        dfs:list[tuple[pd.DataFrame,str]], 
+        split_pos,
+        metric_col=DEFAULT_METRIC,
+        title="Models"
+        ):
+    df_metrics = metrics_of_dfs(dfs)
+    df_metrics['target_position_group'] = df_metrics.apply(lambda x: x['name'].split('_')[split_pos], axis=1)
+    df_metrics = df_metrics[df_metrics['target_position_group'] != 'NOTARGET']
+    def fn(x):
+        if x['target_position_group'] == 'start':
+            return 0
+        elif x['target_position_group'] == 'middle-start':
+            return 1
+        elif x['target_position_group'] == 'middle-end':
+            return 2
+        else:
+            return 3
+    df_metrics['target_position_group'] = df_metrics.apply(lambda x: fn(x), axis=1)
+    df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != split_pos]), axis=1)
+    df_metrics = df_metrics.sort_values(by='target_position_group', ascending=True)
+    sns.relplot(
+        data=df_metrics[["name","target_position_group",metric_col]], kind="line",
+        x="target_position_group", y=metric_col, hue="name", style="name", markers=True, dashes=False,
+        palette="tab10",
+    )
+    plt.title(f"Performance by Target Position of {title}")
     plt.show()
 
 # https://artificialanalysis.ai/
