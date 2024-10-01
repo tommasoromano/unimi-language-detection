@@ -32,6 +32,8 @@ def fix_df(df:pd.DataFrame):
     df['true'] = df.apply(lambda x: make_label(x), axis=1)
     df['len'] = df.apply(lambda x: len(x['text'].split(' ')), axis=1)
 
+    # df = df[df['text_JOB_value'].str.contains('Ã') == False]
+
     return df
 
 def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
@@ -40,7 +42,11 @@ def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
     if show_plot:
         # _df = df[df['prompt_id'] != 'zslcot#0']
         _df = df.copy()
-        _df['answer'] = _df.apply(lambda x: f"{x['response'][:50].replace('\n','')}...", axis=1)
+        def fn(x):
+            if len(x['response']) > 50:
+                return f"{x['response'][:50].replace('\n','')}..."
+            return x['response'].replace('\n','')
+        _df['answer'] = _df.apply(fn, axis=1)
         top = 10
         res = _df['answer'].value_counts()
         res = res.reset_index()
@@ -51,7 +57,8 @@ def fix_df_model_response(df:pd.DataFrame, model, show_plot=False):
         res = res.head(top)
         res = pd.concat([res,pd.DataFrame({'answer':['OTHER'],'count':[len(_df)-res['count'].sum()],'%':[(len(_df)-res['count'].sum())/len(_df)]})])
         # print(res)
-        sns.barplot(data=res, y='answer', x='%')
+        ax = sns.barplot(data=res, y='answer', x='%')
+        ax.bar_label(ax.containers[0], fmt='%.2f')
         plt.title(f"Top {top} responses - {model}")
         plt.show()
 
@@ -256,6 +263,13 @@ def metrics(df,
     }
 
 def make_df_len(df:pd.DataFrame, groups=10):
+    if isinstance(groups, list):
+        def fn(x):
+            for g in groups:
+                if int(x['len']) < g:
+                    return f"{g}"
+        df['len_group'] = df.apply(fn, axis=1)
+        return df
     # df['len'] = df.apply(lambda x: len(x['text']), axis=1)
     mn = 0 # df['len'].min()
     mx = 300 # df['len'].max()
@@ -296,6 +310,7 @@ def make_all_dfs(
     "qwen2",
     ],
     is_seed:bool=False,
+    len_groups=10,
 ):
     dfs_all = []
     dfs_by_len = []
@@ -310,10 +325,10 @@ def make_all_dfs(
             df = fix_df(df)
             # df = count_contains(df, "response", "INCLUSIVO", True)
             # df = simple_fix_response(df)
-            df = fix_df_model_response(df, model)
+            df = fix_df_model_response(df, model, show_plot=True)
             df = fix_df_target(df)
             # confusion_matrix(df)
-            df = make_df_len(df)
+            df = make_df_len(df, groups=len_groups)
             dfs_all.append((df,model))
             for p in df['prompt_id'].unique():
                 df_ = df[df['prompt_id'] == p]
@@ -407,7 +422,7 @@ def heatmap_of_performance(
     # df = df.T
 
     # Create a heatmap
-    plt.figure(figsize=(8, max(6,0.2*len(dfs))))
+    plt.figure(figsize=(max(3,1.2*len(df.columns)), max(2,0.8*len(df))))
     sns.heatmap(df, annot=True, cmap='coolwarm', linewidths=0.5, fmt=".3f")
 
     # Add title and labels
@@ -449,20 +464,25 @@ def plot_len_metrics(
         x="len_group", y=metric_col, hue="name", style="name", markers=True, dashes=False,
         palette="tab10",
     )
+    plt.grid(axis='y', color='gray', linestyle='--', linewidth=0.5)
     plt.title(f"Performance by Length of {title}")
     plt.show()
 
 def plot_labels_by_model(df:pd.DataFrame,title=""):
-    sns.countplot(data=df, x="true", hue="model", palette="tab10",)
+    ax = sns.countplot(data=df, x="true", hue="model", palette="tab10",)
+
     plt.title("Labels Count" + title)
     plt.show()
 
 def plot_len_groups(df, title=""):
     df = df.copy()
+    sns.displot(df, x="len", kde=True)
+    plt.title("Distribution of Lengths" + title)
+    plt.show()
     df['len_group'] = df.apply(lambda x: int(x['len_group']), axis=1)
     df = df.sort_values(by='len_group', ascending=True)
-    sns.countplot(data=df, x='len_group', hue="model", palette="tab10",)
-    plt.title("Distributions of Lengths" + title)
+    ax = sns.countplot(data=df, x='len_group', hue="model", palette="tab10",)
+    plt.title("Distributions of Lengths Groups" + title)
     plt.show()
 
 def plot_multi_metrics(df_metrics, metrics=[]):
@@ -492,8 +512,8 @@ def heatmap_of_chars(
             return 'neutro'
         elif "*" in v:
             return 'star'
-        elif "Ã" in v:
-            return 'Ã'
+        # elif "Ã" in v:
+        #     return 'Ã'
         elif "/" in v:
             return '/'
         elif " o " in v:
@@ -516,7 +536,7 @@ def heatmap_of_chars(
         # _dfs.append((df[df['text_ADJ_label'].str.len() > 0], nm+"_adjs"))
         df_job = df[df['text_JOB_value'].str.len() > 0]
         _dfs.append((df_job[df_job['text_JOB_value'].str.contains("*", regex=False)], nm+"_star"))
-        _dfs.append((df_job[df_job['text_JOB_value'].str.contains("Ã")], nm+"_Ã"))
+        # _dfs.append((df_job[df_job['text_JOB_value'].str.contains("Ã")], nm+"_Ã"))
         _dfs.append((df_job[df_job['text_JOB_value'].str.contains("/")], nm+"_slash"))
         _dfs.append((df_job[(df_job['text_JOB_value'].str.contains(" o ")) | (df_job['text_JOB_value'].str.contains(" e "))], nm+"_cong"))
         # _dfs.append((df_job[df_job['text_JOB_value'].str.contains(" e ")], nm+"_e"))
@@ -569,7 +589,7 @@ def plot_target_distributions(df:pd.DataFrame, title=""):
     # plt.title("Position of Target in Text" + title)
     # plt.show()
 
-    g = sns.jointplot(data=_df, x="len", y="target_position")
+    g = sns.jointplot(data=_df, x="len", y="target_position", xlim=(0, 250), ylim=(0, 1))
     g.plot_joint(sns.kdeplot)
     # g.plot_marginals(sns.kdeplot)
     g.plot_marginals(sns.histplot, kde=True)
@@ -586,23 +606,40 @@ def plot_target_metrics(
     df_metrics = df_metrics[df_metrics['target_position_group'] != 'NOTARGET']
     def fn(x):
         if x['target_position_group'] == 'start':
-            return 0
+            return 0.125
         elif x['target_position_group'] == 'middle-start':
-            return 1
+            return 0.375
         elif x['target_position_group'] == 'middle-end':
-            return 2
+            return 0.625
         else:
-            return 3
+            return 0.875
     df_metrics['target_position_group'] = df_metrics.apply(lambda x: fn(x), axis=1)
     df_metrics['name'] = df_metrics.apply(lambda x: '_'.join([s for i,s in enumerate(x['name'].split('_')) if i != split_pos]), axis=1)
     df_metrics = df_metrics.sort_values(by='target_position_group', ascending=True)
-    sns.relplot(
+    fg = sns.relplot(
         data=df_metrics[["name","target_position_group",metric_col]], kind="line",
         x="target_position_group", y=metric_col, hue="name", style="name", markers=True, dashes=False,
-        palette="tab10",
+        palette="tab10", 
+        # col_order=['start','middle-start','middle-end','end'],
     )
+    ax = fg.axes[0,0]
+    # labels = [item.get_text() for item in ax.get_xticklabels()]
+    # def fn(val):
+    #     if val == "0.125":
+    #         return "start"
+    #     elif val == "0.375":
+    #         return "middle-start"
+    #     elif val == "0.625":
+    #         return "middle-end"
+    #     else:
+    #         return "end"
+    # ax.set_xticklabels([fn(l) for l in labels])
+    ax.set_xticks([0.125,0.375,0.625,0.875])
+    ax.set_xticklabels(["start","middle-start","middle-end","end"])
+    plt.grid(axis='y', color='gray', linestyle='--', linewidth=0.5)
     plt.title(f"Performance by Target Position of {title}")
     plt.show()
+
 
 # https://artificialanalysis.ai/
 
@@ -662,12 +699,14 @@ def plot_general_costs(
         'quality': list(models_quality.values()),
     })
     df = df.sort_values(by='price', ascending=True)
-    sns.barplot(data=df, x='model', y='price')
+    ax = sns.barplot(data=df, x='model', y='price')
+    ax.bar_label(ax.containers[0])
     plt.title("Prices per 1M tokens")
     plt.xticks(rotation=45, ha='right')
     plt.show()
     df = df.sort_values(by='speed', ascending=False)
-    sns.barplot(data=df, x='model', y='speed')
+    ax = sns.barplot(data=df, x='model', y='speed')
+    ax.bar_label(ax.containers[0])
     plt.title("Output tokens per second")
     plt.xticks(rotation=45, ha='right')
     plt.show()
@@ -681,5 +720,5 @@ def plot_general_costs(
     plt.title("Price vs Quality")
     ax.fill_between([0.75, 1.0], 0.5, 1.0, color='green', alpha=0.1)
     ax.fill_between([0.5, 0.75], 1.0, 1.5, color='red', alpha=0.1)
-    plt.legend(loc = "upper right")
+    plt.legend(loc = "upper center")
     plt.show()
